@@ -27,7 +27,7 @@
         "chargeability": 1.1,
         "harvest_level": 5.0,
         "harvest_speed": 18.0,
-        "melee_damage": 15.0,
+        "melee_damage": 13.0,
         "magic_damage": 8.0,
         "attack_speed": 0.0,
         "ranged_damage": 4.0,

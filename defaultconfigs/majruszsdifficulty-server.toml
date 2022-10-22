@@ -842,7 +842,7 @@
 		#Normal Mode
 		normal = ["majruszsdifficulty:tank", "alexsmobs:farseer", "alexsmobs:voidworm", "minecraft:wither", "undergarden:masticator", "ars_nouveau:wilden_boss"]
 		#Expert Mode
-		expert = ["alexsmobs:voidworm", "alexsmobs:farseer"]
+		expert = ["alexsmobs:voidworm"]
 		#Master Mode
 		master = []
 

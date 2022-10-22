@@ -18,7 +18,9 @@ ServerEvents.recipes(event => {
             heatRequirement: 'superheated',
             ingredients: [
                 {'tag': 'forge:ingots/crimson_steel'},
-                {'tag': 'forge:ingots/netherite'},
+                {'tag': 'forge:shards/nether_star'},
+                {'tag': 'forge:shards/nether_star'},
+                {'tag': 'forge:shards/nether_star'},
                 {'item': 'silentgear:crushed_shulker_shell'},
                 {'item': 'kubejs:infernal_essence'},
                 {'item': 'kubejs:infernal_essence'},
@@ -47,9 +49,11 @@ ServerEvents.recipes(event => {
         {
             heatRequirement: 'superheated',
             ingredients: [
-                {'item': 'silentgear:nether_star_fragment'},
+                {'tag': 'forge:ingots/netherite'},
                 {'tag': 'forge:ingots/azure_silver'},
-                {'tag': 'forge:ingots/utherium'},
+                {'tag': 'forge:nuggets/utherium'},
+                {'tag': 'forge:nuggets/utherium'},
+                {'tag': 'forge:nuggets/utherium'},
                 {'tag': 'forge:dusts/ender_pearl'}
             ],
             

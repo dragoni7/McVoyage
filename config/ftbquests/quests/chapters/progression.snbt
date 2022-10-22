@@ -1798,6 +1798,7 @@
 			}]
 		}
 		{
+			title: "Eyes of the End"
 			x: 4.5d
 			y: -3.0d
 			subtitle: "Eye spies"

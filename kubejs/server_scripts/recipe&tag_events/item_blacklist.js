@@ -106,5 +106,8 @@ const blacklist = [
     'nethersdelight:iron_machete',
     'nethersdelight:golden_machete',
     'nethersdelight:diamond_machete',
-    'nethersdelight:netherite_machete'
+    'nethersdelight:netherite_machete',
+    
+    //progressive bosses
+    'progressivebosses:nether_star_shard'
 ]

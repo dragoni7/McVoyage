@@ -893,6 +893,22 @@ ServerEvents.recipes(event => {
             id:  `${id_prefix}medkit`
         },
 
+        {
+            output: Item.of('silentgear:starmetal_dust', 3),
+            old_id: 'silentgear:starmetal_dust',
+            pattern: 
+            ['ASS',
+             'BF ', 
+             '   '],
+            key: {
+                A: '#forge:dusts/azure_electrum',
+                S: '#forge:dusts/azure_silver',
+                B: '#forge:dusts/blaze_gold',
+                F: '#forge:shards/nether_star'
+            },
+            id:  `${id_prefix}starmetal_dust`
+        },
+
         // NEW RECIPES
 
         {
