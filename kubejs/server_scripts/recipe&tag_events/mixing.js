@@ -85,45 +85,18 @@ ServerEvents.recipes(event => {
             heatRequirement: 'superheated',
             ingredients: [
                 {'item': 'ae2:matter_ball'},
-                {'item': 'ae2:matter_ball'},
-                {'item': 'kubejs:infernal_essence'},
                 {'item': 'kubejs:infernal_essence'},
                 {'item': 'kubejs:boss_essence'},
-                {'item': 'kubejs:boss_essence'},
-                {'item': 'ae2:quantum_entangled_singularity'},
                 {'item': 'ae2:quantum_entangled_singularity'},
                 {'item': 'deeperdarker:heart_of_the_deep'},
-                {'item': 'deeperdarker:heart_of_the_deep'},
-                {'item': 'mekanism:pellet_antimatter'},
                 {'item': 'mekanism:pellet_antimatter'},
                 {'item': 'alexsmobs:void_worm_eye'},
                 {'item': 'majruszsdifficulty:enderium_shard'},
-                {'item': 'majruszsdifficulty:enderium_shard'},
-                {'item': 'ars_nouveau:summon_focus'},
                 {'item': 'ars_nouveau:summon_focus'}
             ],
             
             results: [{'item': 'kubejs:impossible_compound'}],
             id: `${id_prefix}impossible_compound`
-        },
-
-        {
-            heatRequirement: 'superheated',
-            ingredients: [
-                {'item': 'kubejs:infernal_essence'},
-                {'item': 'kubejs:infernal_essence'},
-                {'item': 'kubejs:infernal_essence'},
-                {'item': 'kubejs:infernal_essence'},
-                {'item': 'deeperdarker:sculk_stone'},
-                {'item': 'deeperdarker:sculk_stone'},
-                {'item': 'deeperdarker:sculk_stone'},
-                {'item': 'deeperdarker:sculk_stone'},
-                {'item': 'minecraft:sculk_sensor'},
-                {'item': 'alexsmobs:mimicream'},
-            ],
-            
-            results: [{'item': 'minecraft:echo_shard'}],
-            id: `${id_prefix}echo_shard`
         }
     ];
 

@@ -1,15 +1,19 @@
 ItemEvents.tooltip((event) => {
-    const spellBooks = [
-        'ars_nouveau:novice_spell_book',
-        'ars_nouveau:apprentice_spell_book',
-        'ars_nouveau:archmage_spell_book'
-    ]
-    const toolTips = [
+    const items = [
         {
             items: [
                 'kubejs:boss_essence'
             ],
             text: [Text.of('Dropped by slain bosses').lightPurple()]
+        },
+
+        {
+            items: [
+                'ars_nouveau:novice_spell_book',
+                'ars_nouveau:apprentice_spell_book',
+                'ars_nouveau:archmage_spell_book'
+            ],
+            text: [Text.of('Press c to open').yellow()]
         },
 
         {
@@ -66,14 +70,35 @@ ItemEvents.tooltip((event) => {
                 'meetyourfight:mossy_tooth'
             ],
             text: [Text.of('Dropped by Swampjaw').yellow()]
+        },
+
+        {
+            items: [
+                'undergarden:cloggrum_ingot',
+                'undergarden:froststeel_ingot',
+                'undergarden:forgotten_ingot',
+                'undergarden:utherium_crystal',
+                'undergarden:regalium_crystal'
+            ],
+            text: [Text.of('Found in the Undergarden').green()]
+        },
+
+        {
+            items: [
+                'undergarden:catalyst'
+            ],
+            text: [Text.of('Powerful enough to open a portal from a stonebrick frame').green()]
+        },
+
+        {
+            items: [
+                'twilightforest:borer_essence'
+            ],
+            text: [Text.of('Dropped by tower borer and ghastguards').yellow()]
         }
     ]
 
-    spellBooks.forEach((book) => {
-        event.add(book, Text.of('Press c to open').yellow());
-    })
-
-    toolTips.forEach((toolTip) => {
+    items.forEach((toolTip) => {
         event.add(toolTip.items, toolTip.text);
     })
 })

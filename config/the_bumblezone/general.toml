@@ -59,4 +59,16 @@
 	#
 	#Range: 0 ~ 1000000
 	musicDiscTimeLengthHoneyBee = 216
+	# 
+	#-----------------------------------------------------
+	#
+	# Whether the Crystalline Flower block will eat any item entity that touches the block's collision box in the world
+	#
+	crystallineFlowerConsumeItemEntities = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Whether the Crystalline Flower block will pull in and eat any experience orb that touches it in the world
+	#
+	crystallineFlowerConsumeExperienceOrbEntities = true
 

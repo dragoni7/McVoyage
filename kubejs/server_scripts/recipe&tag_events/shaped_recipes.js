@@ -639,9 +639,9 @@ ServerEvents.recipes(event => {
             output: 'mekanism:module_gravitational_modulating_unit',
             old_id: 'mekanism:module_gravitational_modulating_unit',
             pattern: 
-            ['AIA',
+            ['APA',
              'UMU', 
-             'PPP'],
+             'IPI'],
             key: {
                 A: 'mekanism:alloy_atomic',
                 I: 'kubejs:impossible_compound',
@@ -907,6 +907,39 @@ ServerEvents.recipes(event => {
                 F: '#forge:shards/nether_star'
             },
             id:  `${id_prefix}starmetal_dust`
+        },
+
+        {
+            output: 'create_mechanical_extruder:mechanical_extruder',
+            old_id: 'create_mechanical_extruder:mechanical_extruder',
+            pattern: 
+            [' R ',
+             'GCG', 
+             ' S '],
+            key: {
+                R: 'create:shaft',
+                G: '#forge:glass',
+                C: 'create:andesite_casing',
+                S: '#forge:plates/cast_iron'
+            },
+            id:  `${id_prefix}mechanical_extruder`
+        },
+
+        {
+            output: 'createsifter:sifter',
+            old_id: 'createsifter:sifter',
+            pattern: 
+            ['BCB',
+             'SGS', 
+             ' S '],
+            key: {
+                B: '#forge:ingots/brass',
+                C: 'create:andesite_casing',
+                S: '#forge:rods/wooden',
+                G: 'create:cogwheel',
+                S: '#balm:stones'
+            },
+            id:  `${id_prefix}sifter`
         },
 
         // NEW RECIPES

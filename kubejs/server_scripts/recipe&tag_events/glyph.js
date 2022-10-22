@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
             count: 1,
             input: [
                 {'item': {'item': 'minecraft:netherite_pickaxe'}},
-                {'item': {'item': 'deeperdarker:warden_carapace'}},
+                {'item': {'item': 'meetyourfight:mossy_tooth'}},
                 {'item': {'item': 'twilightforest:fiery_blood'}},
                 {'item': {'item': 'kubejs:boss_essence'}},
             ],

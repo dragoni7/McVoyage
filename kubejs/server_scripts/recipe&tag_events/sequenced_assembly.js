@@ -368,30 +368,30 @@ ServerEvents.recipes(event => {
 
         {
             ingredient: [
-                {'item': 'create:andesite_casing'}
+                {'item': 'create:brass_casing'}
             ],
             loops: 4,
             results: [{'item': 'kubejs:steel_casing'}],
             sequence: [{ 
                 'type': 'create:deploying',
                 'ingredients': [
-                    {'item': 'create:andesite_casing'},
+                    {'item': 'create:brass_casing'},
                     {'tag': 'forge:ingots/osmium'}
                 ],
                 'results': [
-                    {'item': 'create:andesite_casing'}
+                    {'item': 'create:brass_casing'}
                 ]},
                 { 
                     'type': 'create:deploying',
                     'ingredients': [
-                        {'item': 'create:andesite_casing'},
+                        {'item': 'create:brass_casing'},
                         {'tag': 'forge:ingots/steel'}
                     ],
                     'results': [
-                        {'item': 'create:andesite_casing'}
+                        {'item': 'create:brass_casing'}
                 ]},
                 ],
-            transitionalItem: {'item': 'create:andesite_casing'},
+            transitionalItem: {'item': 'create:brass_casing'},
             id: `${id_prefix}steel_casing`
         },
         

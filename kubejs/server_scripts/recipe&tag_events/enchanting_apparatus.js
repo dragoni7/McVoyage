@@ -163,15 +163,15 @@ ServerEvents.recipes(event => {
         {
             pedestalItems: [
                 {'item': {'item': 'kubejs:infernal_essence'}},
-                {'item': {'item': 'undergarden:blood_globule'}},
+                {'item': {'item': 'twilightforest:carminite'}},
                 {'item': {'item': 'kubejs:infernal_essence'}},
-                {'item': {'item': 'alexsmobs:blood_sac'}},
-                {'item': {'item': 'kubejs:boss_essence'}},
+                {'item': {'item': 'minecraft:ghast_tear'}},
+                {'item': {'item': 'kubejs:infernal_essence'}},
             ],
             reagent: [{'item': 'minecraft:glass_bottle'}],
-            output: {'item': 'twilightforest:fiery_blood'},
-            sourceCost: 500,
-            id: `${id_prefix}fiery_blood`
+            output: {'item': 'twilightforest:fiery_tiers'},
+            sourceCost: 200,
+            id: `${id_prefix}fiery_tiers`
         },
 
         {
@@ -180,12 +180,27 @@ ServerEvents.recipes(event => {
                 {'item': {'item': 'undergarden:regalium_crystal'}},
                 {'item': {'item': 'kubejs:infernal_essence'}},
                 {'item': {'item': 'twilightforest:carminite'}},
-                {'item': {'item': 'kubejs:boss_essence'}},
+                {'item': {'item': 'kubejs:infernal_essence'}},
             ],
             reagent: [{'item': 'minecraft:amethyst_shard'}],
             output: {'item': 'undergarden:utherium_crystal'},
-            sourceCost: 500,
+            sourceCost: 200,
             id: `${id_prefix}utherium_crystal`
+        },
+
+        {
+            pedestalItems: [
+                {'item': {'item': 'kubejs:infernal_essence'}},
+                {'item': {'item': 'deeperdarker:sculk_stone'}},
+                {'item': {'item': 'deeperdarker:sculk_stone'}},
+                {'item': {'item': 'deeperdarker:sculk_stone'}},
+                {'item': {'item': 'kubejs:infernal_essence'}},
+                {'item': {'item': 'alexsmobs:mimicream'}},
+            ],
+            reagent: [{'item': 'minecraft:sculk_sensor'}],
+            output: {'item': 'minecraft:echo_shard'},
+            sourceCost: 200,
+            id: `${id_prefix}echo_shard`
         }
     ];
 
