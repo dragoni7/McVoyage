@@ -1,0 +1,21 @@
+{
+    "type": "silentgear:wielder_effect",
+    "max_level": 2,
+    "name": {
+      "text": "Soul Steal"
+    },
+    "description": {
+      "text": "Grants life steal to attacks"
+    },
+    "potion_effects": {
+      "tool": [
+        {
+          "type": "piece_count",
+          "effect": "alexsmobs:soulsteal",
+          "level": [
+            1
+          ]
+        }
+      ]
+    }
+  }

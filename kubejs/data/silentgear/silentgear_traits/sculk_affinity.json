@@ -1,0 +1,24 @@
+{
+    "type": "silentgear:wielder_effect",
+    "max_level": 1,
+    "name": {
+      "text": "Sculk Affinity"
+    },
+    "description": {
+      "text": "Prevents the user from causing vibrations. Required on 4 armor pieces to activate"
+    },
+    "potion_effects": {
+      "armor": [
+        {
+          "type": "piece_count",
+          "effect": "deeperdarker:sculk_affinity",
+          "level": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  }

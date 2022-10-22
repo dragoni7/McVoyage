@@ -1,0 +1,235 @@
+[
+    {
+        "mob": ["twilightforest:alpha_yeti", "twilightforest:armored_giant", "twilightforest:hydra", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:naga", "twilightforest:quest_ram", "twilightforest:snow_queen", "twilightforest:knight_phantom"],
+        "onjoin": true,
+        "result": "default",
+        "healthadd": 100
+    },
+    {
+        "mob": ["minecraft:elder_guardian", "meetyourfight:swampjaw"],
+        "onjoin": true,
+        "result": "default",
+        "healthadd": 200
+    },
+
+    {
+        "mob": [ "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "minecraft:warden"],
+        "onjoin": true,
+        "result": "default",
+        "healthadd": 100
+    },
+    {
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "twilightforest:skeleton_druid"],
+        "dimension": "minecraft:overworld",
+        "phase": "nighttime",
+        "minlight": 0,
+        "maxlight": 6,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "twilightforest:skeleton_druid"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "minlight": 6,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["rottencreatures:burned"],
+        "dimension": "minecraft:overworld",
+        "structure": "hopo:deepslate_portal",
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": ["rottencreatures:burned"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["quark:wraith"],
+        "dimension": "minecraft:overworld",
+        "structure": "dungeoncrawl:dungeon",
+        "result": "allow"
+    },
+    {
+        "mob": ["quark:wraith"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:farseer"],
+        "dimension": "minecraft:overworld",
+        "structure": "betterstrongholds:stronghold",
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:farseer"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:skelewag"],
+        "dimension": "minecraft:overworld",
+        "structure": "betteroceanmonuments:ocean_monument",
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:skelewag"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:guster", "twilightforest:pinch_beetle"],
+        "dimension": "minecraft:overworld",
+        "structure": "betterdeserttemples:desert_temple",
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:guster", "twilightforest:pinch_beetle"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:rocky_roller"],
+        "dimension": "minecraft:overworld",
+        "structure": "idas:ancient_mines",
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:rocky_roller"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["savage_and_ravage:executioner", "savage_and_ravage:trickster", "savage_and_ravage:griefer"],
+        "dimension": "minecraft:overworld",
+        "structure": "idas:pillager_fortress",
+        "result": "allow"
+    },
+    {
+        "mob": ["savage_and_ravage:executioner", "savage_and_ravage:trickster", "savage_and_ravage:griefer"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["minecraft:zombified_piglin"],
+        "dimension": "minecraft:overworld",
+        "structure": "idas:ancient_portal",
+        "result": "allow"
+    },
+    {
+        "mob": ["minecraft:zombified_piglin"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["minecraft:vex"],
+        "dimension": "minecraft:overworld",
+        "structure": "idas:abandoned_house",
+        "result": "allow"
+    },
+    {
+        "mob": ["minecraft:vex"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["twilightforest:slime_beetle"],
+        "dimension": "minecraft:overworld",
+        "structure": "ae2:meteorite",
+        "result": "allow"
+    },
+    {
+        "mob": ["twilightforest:slime_beetle"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:skreecher", "deeperdarker:shattered"],
+        "dimension": "minecraft:overworld",
+        "structure": "minecraft:ancient_city",
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:skreecher", "deeperdarker:shattered"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:crimson_mosquito"],
+        "dimension": "minecraft:the_nether",
+        "structure": "minecraft:fortress",
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:crimson_mosquito"],
+        "dimension": "minecraft:the_nether",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["quark:forgotten"],
+        "dimension": "minecraft:overworld",
+        "structure": "dungeons_arise:shiraz_palace",
+        "result": "allow"
+    },
+    {
+        "mob": ["quark:forgotten"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["twilightforest:death_tome"],
+        "dimension": "minecraft:overworld",
+        "structure": "idas:enchanting_tower",
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": ["twilightforest:death_tome"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["neapolitan:plantain_spider"],
+        "dimension": "minecraft:overworld",
+        "structure": "idas:treetop_tavern",
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": ["neapolitan:plantain_spider"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    }
+]

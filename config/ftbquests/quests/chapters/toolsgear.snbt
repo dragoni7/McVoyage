@@ -1,0 +1,2242 @@
+{
+	id: "30CA66EF033AD8B7"
+	group: ""
+	order_index: 1
+	filename: "toolsgear"
+	title: "Tools/Gear"
+	icon: {
+		id: "silentgear:katana"
+		Count: 1b
+		tag: {
+			SGear_UUID: [I;
+				120908599
+				-2059581938
+				-1500261758
+				1941027169
+			]
+			Damage: 0
+			SGear_Data: {
+				Construction: {
+					Parts: [
+						{
+							Item: {
+								id: "silentgear:katana_blade"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Materials: [{
+										ID: "silentgear:iron"
+									}]
+								}
+							}
+							ID: "silentgear:katana_blade"
+						}
+						{
+							Item: {
+								id: "silentgear:rod"
+								Count: 1b
+								tag: {
+									Materials: [{
+										ID: "silentgear:wood"
+									}]
+								}
+							}
+							ID: "silentgear:rod"
+						}
+					]
+				}
+				Properties: {
+					ModVersion: "3.0.4"
+					Stats: {
+						"silentgear:charging_value": 0.7f
+						"silentgear:enchantment_value": 12.6f
+						"silentgear:harvest_speed": 6.0f
+						"silentgear:attack_reach": 3.0f
+						"silentgear:harvest_level": 2.0f
+						"silentgear:durability": 281.25f
+						"silentgear:melee_damage": 6.0f
+						"silentgear:magic_damage": 1.0f
+						"silentgear:rarity": 20.0f
+						"silentgear:attack_speed": -2.6f
+						"silentgear:repair_efficiency": 1.0f
+					}
+					LockStats: 0b
+					Traits: [
+						{
+							Level: 3b
+							Name: "silentgear:malleable"
+						}
+						{
+							Level: 1b
+							Name: "silentgear:magnetic"
+						}
+						{
+							Level: 2b
+							Name: "silentgear:flexible"
+						}
+					]
+				}
+				Rendering: {
+					ModelKey: "katana:katana_blade{iron},rod{wood},"
+				}
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "silentgear:blueprint_package"
+				Count: 1b
+				tag: {
+					silentlib.LootContainer: {
+						LootTable: "silentgear:starter_blueprints"
+					}
+				}
+			}
+			x: -10.0d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "Tools, Armors, and Curios"
+			description: ["Create custom gear using blueprints and a plethora of resources! Check JEI to see how to create parts with blueprints. Gear is created and upgraded via the crafting table"]
+			id: "48D70B04955F5AF7"
+			tasks: [{
+				id: "63AF044E7D4A3201"
+				type: "checkmark"
+				title: "Modular Gear"
+			}]
+			rewards: [
+				{
+					id: "7A342DEE4A83B8AC"
+					type: "item"
+					item: {
+						id: "silentgear:blueprint_book"
+						Count: 1b
+						tag: {
+							Inventory: { }
+						}
+					}
+				}
+				{
+					id: "2B9823E19D2ACFAA"
+					type: "item"
+					item: "silentgear:sword_blueprint"
+				}
+				{
+					id: "3AA5EC6ED52EC98E"
+					type: "item"
+					item: "silentgear:helmet_blueprint"
+				}
+				{
+					id: "5F83377646E0AF1B"
+					type: "item"
+					item: "silentgear:chestplate_blueprint"
+				}
+				{
+					id: "2D0D1211673E71EC"
+					type: "item"
+					item: "silentgear:leggings_blueprint"
+				}
+				{
+					id: "705D4D28B2975072"
+					type: "item"
+					item: "silentgear:boots_blueprint"
+				}
+				{
+					id: "00CA0F66F0C8D661"
+					type: "item"
+					item: "silentgear:pickaxe_blueprint"
+				}
+				{
+					id: "4893773C3DF31D53"
+					type: "item"
+					item: "silentgear:shovel_blueprint"
+				}
+				{
+					id: "1381BDF38DFCDF9D"
+					type: "item"
+					item: "silentgear:axe_blueprint"
+				}
+				{
+					id: "6F4E1114D75E7AE5"
+					type: "item"
+					item: "silentgear:rod_blueprint"
+				}
+				{
+					id: "205C0D0F757C8E6E"
+					type: "item"
+					item: "silentgear:blueprint_paper"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			subtitle: "Demon slayer"
+			description: ["Craft katannas with a katanna blueprint"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "043A0C731C33CF64"
+			tasks: [{
+				id: "096441CA895ED5B5"
+				type: "item"
+				item: "silentgear:katana_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "4DE9DFDDEFBCEA54"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 5
+				}
+				{
+					id: "718FE8A11CB1B5F9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -4.5d
+			description: ["Coatings allow you to upgrade your gear. Like upgrading diamond armor or tools with netherite"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "2DA3B397359ED09D"
+			tasks: [{
+				id: "137B33377B4D4678"
+				type: "item"
+				item: "silentgear:coating_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "1957769530831211"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: -3.5d
+			description: [
+				""
+				"Upgrades a tool by apply a material to it's tip"
+			]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "3121D5E183FB90C7"
+			tasks: [{
+				id: "7CAE6D4680633CDA"
+				type: "item"
+				item: "silentgear:tip_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "20E50FD5FCCCE412"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.5d
+			y: -4.5d
+			description: ["Enhances your tool with a grip"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "196767541C3191A7"
+			tasks: [{
+				id: "372A3182014E77AF"
+				type: "item"
+				item: "silentgear:grip_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "313B4FC2A62515FD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.5d
+			description: ["Binding for an elytra"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "79A084F4C51F72E7"
+			tasks: [{
+				id: "36ACD66E251EBC85"
+				type: "item"
+				item: "silentgear:binding_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "0C87BA3A41788816"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: -4.5d
+			description: ["Apply lining to armor to increase it's stats"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "67122B3FA9BCCB75"
+			tasks: [{
+				id: "282E73537236C156"
+				type: "item"
+				item: "silentgear:lining_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "568548D2CDE9FC6B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.5d
+			y: -3.5d
+			description: ["Cord is used in creation of bows, crossbows, fishing rods, and slingshots"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "2F5E9E10FDABD506"
+			tasks: [{
+				id: "76BBC55A4E9E457B"
+				type: "item"
+				item: "silentgear:cord_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "70D0E1081177FF54"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: -4.5d
+			description: ["Fletching is used in arrow creation"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "05104DBFA7BA9F8B"
+			tasks: [{
+				id: "7AA750B27C20B8F1"
+				type: "item"
+				item: "silentgear:fletching_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "44062F111EAA5DDD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: 2.0d
+			description: ["Katanas are slightly faster and longer than regular swords"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "51E387B8B8D4574F"
+			tasks: [{
+				id: "363192193009EAED"
+				type: "item"
+				item: "silentgear:katana_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "4E072FF1614741D3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.0d
+			description: ["Functions as sword, axe, and sickle"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "4E0AB2B647C40184"
+			tasks: [{
+				id: "048C4A1255AA7730"
+				type: "item"
+				item: "silentgear:machete_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "313170E19BD3A0EC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			description: ["Can reach farther"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "08628D35B62D797C"
+			tasks: [{
+				id: "340BF14BEC4A8FCE"
+				type: "item"
+				item: "silentgear:spear_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "40DF3C2C5A2EDCA7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.5d
+			description: ["Classic trident"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "0CAF13C71CE0D7B9"
+			tasks: [{
+				id: "08C9F4E8922207BF"
+				type: "item"
+				item: "silentgear:trident_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "06907EBA840448A3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			dependencies: ["48D70B04955F5AF7"]
+			id: "798A10102242E136"
+			tasks: [{
+				id: "3D862394CC271FD7"
+				type: "item"
+				item: "silentgear:knife_blueprint"
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: -11.5d
+			y: 2.0d
+			description: ["Fast and swift, reduces the target's invulnerability time when hit"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "5C055FC8F61F53E7"
+			tasks: [{
+				id: "7CA830C3163E6645"
+				type: "item"
+				item: "silentgear:dagger_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "15BD2CBB355D4AFE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			description: ["An aoe pickaxe"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "5275F741F68A0563"
+			tasks: [{
+				id: "5C45C0C53593ECC4"
+				type: "item"
+				item: "silentgear:hammer_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "18FFC93AEF4937BA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			description: ["An aoe shovel"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "73E31C6E04A0F8DF"
+			tasks: [{
+				id: "36C74425D2135F49"
+				type: "item"
+				item: "silentgear:excavator_blueprint"
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			description: ["Hoe, axe, and shovel in one!"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "63D82963C81CBC64"
+			tasks: [{
+				id: "5B3EFD7A12E9E080"
+				type: "item"
+				item: "silentgear:mattock_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "5D3237D527A63E6E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			description: ["Right click on a block to search for ores. Functions like a pickaxe"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "584797ECC12EDCBA"
+			tasks: [{
+				id: "0A38D9E01C0DE75B"
+				type: "item"
+				item: "silentgear:prospector_hammer_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "0A2694A112CA978F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			description: ["Efficient at cutting plants"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "6A067C5DFBC1D5EC"
+			tasks: [{
+				id: "14D6EE0EAB5662C5"
+				type: "item"
+				item: "silentgear:sickle_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "460811E5DB934A4D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			description: ["Classic shears"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "23D84AF681E6615A"
+			tasks: [{
+				id: "5B601E19E66DFD05"
+				type: "item"
+				item: "silentgear:shears_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "70AE6FA33D66ABB1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			description: ["Go fishing!"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "102CC40595D439DF"
+			tasks: [{
+				id: "7FF6AB4DA01D5420"
+				type: "item"
+				item: "silentgear:fishing_rod_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "1A39BDDB2EDFAC30"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			description: ["Classic bow"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "239A2C19B63F6643"
+			tasks: [{
+				id: "56C19C1F9B01239F"
+				type: "item"
+				item: "silentgear:bow_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "5A97C07439B73173"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			description: ["Classic crossbow"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "2BCB28A3A16A2949"
+			tasks: [{
+				id: "3CD48E17E10F0368"
+				type: "item"
+				item: "silentgear:crossbow_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "6CA970FD8605981B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			description: ["Flings pebbles"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "61678E2EA4FC04A1"
+			tasks: [{
+				id: "47457BD3FA38B4B1"
+				type: "item"
+				item: "silentgear:slingshot_blueprint"
+			}]
+			rewards: [{
+				id: "379043DD62A89A20"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.5d
+			y: 0.5d
+			description: ["Sturdy shield"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "4C10B8C760AA9AA5"
+			tasks: [{
+				id: "4AB0E9FED3478B1A"
+				type: "item"
+				item: "silentgear:shield_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "4AC1B8CBC905C942"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.5d
+			y: -2.0d
+			description: ["DIY elytras"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "1DD5FDCF5E3D5EDC"
+			tasks: [{
+				id: "1D4580BBBB783EC1"
+				type: "item"
+				item: "silentgear:elytra_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "5DE0827DB0B73814"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.5d
+			description: ["Ammo for bows and crossbows"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "32AD31BAECA8285C"
+			tasks: [{
+				id: "3F2C148D46FA57E6"
+				type: "item"
+				item: "silentgear:arrow_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "36BB4879055B5C91"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.5d
+			y: -1.0d
+			description: ["Curio ring for providing benefits. Created in combination with an adornment"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "44ADF09F6AB31090"
+			tasks: [{
+				id: "5B6BB0BCD3036C3A"
+				type: "item"
+				item: "silentgear:ring_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "727C72DBE29C6B07"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -13.5d
+			y: -1.5d
+			description: ["Curio for your arms"]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "0E0A3757E32F40FC"
+			tasks: [{
+				id: "6EB827C1FE73B42C"
+				type: "item"
+				item: "silentgear:bracelet_blueprint"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "6881FE4FDD1684CA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -16.5d
+			y: -4.0d
+			subtitle: "Metal alloying"
+			description: [
+				"The alloyer allows you to create custom alloys from ingots or dusts. Up to 4 can be combined at once. Stats are averaged"
+				"Grade your materials before alloying for the best outcome"
+			]
+			id: "0DAD085F9743ECED"
+			tasks: [{
+				id: "614F4F453D9CB8C6"
+				type: "item"
+				item: "silentgear:metal_alloyer"
+			}]
+			rewards: [
+				{
+					id: "2270049D053F90EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5714B9F94A68B788"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "148128496423563C"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "3706828D35BA4978"
+					type: "item"
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "40831CDF8C77FF00"
+					type: "item"
+					item: "create:zinc_ingot"
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: -2.5d
+			subtitle: "Gem mixing"
+			description: [
+				"The recrystalizer can make compounds from gems and dusts."
+				"Grade your materials before alloying for the best outcome"
+			]
+			id: "2F1F86B03E89BEF6"
+			tasks: [{
+				id: "48BD11DA9EEC237D"
+				type: "item"
+				item: "silentgear:recrystallizer"
+			}]
+			rewards: [
+				{
+					id: "6D905A7AD31FB7D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "635ABC8E2DD69BBE"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "783AA797D2E06EF2"
+					type: "item"
+					item: "dreamland:kunzite_point"
+				}
+				{
+					id: "0E62B1DE987CC731"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "7359EC72B6915DF3"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: -1.0d
+			subtitle: "Cloth mixing"
+			description: [
+				"Creates compounds out of cloth, slime or fibers."
+				"Grade your materials before alloying for the best outcome"
+			]
+			id: "2C2A1C13F84911F3"
+			tasks: [{
+				id: "36FA4B233A586B79"
+				type: "item"
+				item: "silentgear:refabricator"
+			}]
+			rewards: [{
+				id: "401AE161C740D041"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -16.5d
+			y: 0.5d
+			subtitle: "Reinforcement"
+			description: ["Creates metal sheets to upgrade your gear"]
+			id: "7DE8B6BDA0F64004"
+			tasks: [{
+				id: "64535A494D4AA81C"
+				type: "item"
+				item: "silentgear:metal_press"
+			}]
+			rewards: [
+				{
+					id: "0B92093AEF59B65B"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "26F1D8A2EC561B8A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -4.0d
+			subtitle: "Enhance materials with the power of starlight!"
+			description: ["Similar to material grading. The starlight charger allows gear to be charged with the use of a catalyst. Requires a multiblock structure. Hold 'w' on the item in JEI to learn more"]
+			id: "1692EFCC4723164B"
+			tasks: [{
+				id: "6E5A412FD32EA558"
+				type: "item"
+				item: "silentgear:starlight_charger"
+			}]
+			rewards: [
+				{
+					id: "4F512284A6E97A11"
+					type: "item"
+					item: "silentgear:glowing_dust"
+				}
+				{
+					id: "384A8AB969E6A24E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "498A54C7C9B3E3D3"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -2.5d
+			description: [
+				"Grades materials from E-grade to MAX-grade. Requires a grader catalyst along with the material. Higher tier catalysts provide greater benefits"
+				"Grade your materials to increase it's properties"
+			]
+			id: "74B0B1C9859045E5"
+			tasks: [{
+				id: "2014B06B1A370048"
+				type: "item"
+				item: "silentgear:material_grader"
+			}]
+			rewards: [
+				{
+					id: "52E9BE1F4E164CA6"
+					type: "item"
+					item: "silentgear:glowing_dust"
+				}
+				{
+					id: "7EFD3DA559D29091"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Repair Kit"
+			x: -15.0d
+			y: -1.0d
+			subtitle: "Repair on the go"
+			description: ["Can be filled with materials to repair gear on the fly"]
+			id: "2502103826553EE5"
+			tasks: [{
+				id: "591832BE64B3EDF0"
+				type: "item"
+				item: {
+					id: "silentgear:very_crude_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "5624C6B1C0366E21"
+				type: "item"
+				item: "delightful:green_apple_pie_slice"
+			}]
+		}
+		{
+			x: -15.0d
+			y: 0.5d
+			subtitle: "Upgrades"
+			description: ["Used to craft various upgrades for gear."]
+			id: "5DB5E376C627FEF7"
+			tasks: [
+				{
+					id: "512E477B1A7B99DA"
+					type: "item"
+					item: "silentgear:upgrade_base"
+				}
+				{
+					id: "0FAF26B4B15EE37F"
+					type: "item"
+					item: "silentgear:advanced_upgrade_base"
+				}
+			]
+			rewards: [
+				{
+					id: "6869C64426F50A9F"
+					type: "item"
+					item: "silentgear:spoon_upgrade"
+				}
+				{
+					id: "2CFE63CA21852FDD"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 2.0d
+			subtitle: "Ornaments"
+			description: ["Essential ingredient for creating ornaments"]
+			id: "3F7F317340AED35B"
+			tasks: [{
+				id: "7117227D508A8CC8"
+				type: "item"
+				item: "silentgear:bort"
+			}]
+			rewards: [{
+				id: "1FED23633533606C"
+				type: "item"
+				item: "silentgear:bort"
+				count: 3
+			}]
+		}
+		{
+			x: -15.0d
+			y: 2.0d
+			description: ["Used to create curio adornments. Combine with bort and material to create an adornment"]
+			id: "37691C076355FFC1"
+			tasks: [{
+				id: "09FFC1D9BD4A15EE"
+				type: "item"
+				item: "silentgear:jeweler_tools"
+			}]
+			rewards: [
+				{
+					id: "66C06A6EDF453B14"
+					type: "item"
+					item: "silentgear:bort"
+				}
+				{
+					id: "676933EBA0AAB2C2"
+					type: "item"
+					item: "minecraft:amethyst_shard"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			id: "56069E77A4A1997A"
+			tasks: [{
+				id: "3EC94F33362DCE92"
+				type: "item"
+				item: "silentgear:blaze_gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "4D91F948C41E5F8D"
+					type: "item"
+					item: "silentgear:blaze_gold_ingot"
+					count: 3
+				}
+				{
+					id: "0B7C08385D63CB2B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F7A4AE57F1C7DC0"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["56069E77A4A1997A"]
+			id: "030870F465D8620A"
+			tasks: [{
+				id: "53E4C93BAA4C2139"
+				type: "item"
+				item: "silentgear:crimson_steel_ingot"
+			}]
+			rewards: [
+				{
+					id: "1AB4A3B0EB730CD5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "79A8BDB96D3C5940"
+					type: "item"
+					item: "twilightforest:fiery_ingot"
+					count: 3
+				}
+				{
+					id: "59AE0AFCF0B547A3"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["030870F465D8620A"]
+			id: "7E82F772A73B70CE"
+			tasks: [{
+				id: "4AC11C1DD89379C9"
+				type: "item"
+				item: "silentgear:azure_electrum_ingot"
+			}]
+			rewards: [
+				{
+					id: "3CCC4A30AFD12D75"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E9C70DB9B67862E"
+					type: "item"
+					item: "undergarden:utherium_crystal"
+				}
+				{
+					id: "7787C338B86CD43E"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["7E82F772A73B70CE"]
+			id: "11242D45E6DB9FA2"
+			tasks: [{
+				id: "02053A9D7B8DEE61"
+				type: "item"
+				item: "silentgear:tyrian_steel_ingot"
+			}]
+			rewards: [
+				{
+					id: "70E93DF3082BFAFA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "73EDE75A4D54F702"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "53CE320ACF275E60"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			description: ["Tier 1 grader catalyst"]
+			id: "7C03394EBC4F5AED"
+			tasks: [{
+				id: "1533BE9CB3381C86"
+				type: "item"
+				item: "silentgear:glowing_dust"
+			}]
+			rewards: [{
+				id: "66BEA873E5BC2F1E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			description: ["Tier 2 grader catalyst"]
+			dependencies: ["7C03394EBC4F5AED"]
+			id: "65526EB9321D1325"
+			tasks: [{
+				id: "192B130606B030AD"
+				type: "item"
+				item: "silentgear:blazing_dust"
+			}]
+			rewards: [{
+				id: "14CA0A7DF7F4FF15"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["Tier 3 grader catalyst"]
+			dependencies: ["65526EB9321D1325"]
+			id: "120F3EF8765A09A8"
+			tasks: [{
+				id: "74770AB2EBA98455"
+				type: "item"
+				item: "silentgear:glittery_dust"
+			}]
+			rewards: [{
+				id: "394A743463699642"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			description: ["Tier 1 charging catalyst"]
+			id: "16CB3DDC6F4BFB3C"
+			tasks: [{
+				id: "0430316CE5A6EDD0"
+				type: "item"
+				item: "silentgear:blaze_gold_dust"
+			}]
+			rewards: [{
+				id: "6FB2A515ABD16B91"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["Tier 2 charging catalyst"]
+			dependencies: ["16CB3DDC6F4BFB3C"]
+			id: "00B2C94B875F5A70"
+			tasks: [{
+				id: "7246451F15DE9578"
+				type: "item"
+				item: "silentgear:azure_silver_dust"
+			}]
+			rewards: [{
+				id: "79F81367EB93D8BD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			description: ["Tier 3 charging catalyst"]
+			dependencies: ["00B2C94B875F5A70"]
+			id: "491360215A8AE1A0"
+			tasks: [{
+				id: "542DFA5E5B1607A2"
+				type: "item"
+				item: "silentgear:starmetal_dust"
+			}]
+			rewards: [{
+				id: "502C53A17409B827"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			description: ["Sculk coated"]
+			id: "523FF565B9291FD3"
+			tasks: [{
+				id: "7348B941B9192A7D"
+				type: "item"
+				item: {
+					id: "quark:echorang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1496087A9D0556AF"
+					type: "item"
+					item: "minecraft:ancient_debris"
+					count: 3
+				}
+				{
+					id: "1B94AAFD6F02AD92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "555F6587AF94C3E1"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 4.0d
+			subtitle: "Beep beep"
+			description: ["Swift on sand"]
+			id: "43F3BEF670011B0D"
+			tasks: [{
+				id: "0B70D1DF18575B02"
+				type: "item"
+				item: {
+					id: "alexsmobs:roadrunner_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1542CD863CB32EF3"
+					type: "item"
+					item: "delightful:nut_butter_and_jelly_sandwich"
+				}
+				{
+					id: "0E31A0F43B0B094A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 5.5d
+			description: ["Spary blood"]
+			id: "21DDABA441012889"
+			tasks: [{
+				id: "0D2951209CB59262"
+				type: "item"
+				item: {
+					id: "alexsmobs:blood_sprayer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2D40B96F24B467B8"
+					type: "item"
+					item: "twilightforest:fiery_blood"
+				}
+				{
+					id: "122D6FC071081FF7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 5.5d
+			description: [
+				"Open portals"
+				"Shatter reality to create portals for fast transportation"
+			]
+			id: "606DA79DF6751D78"
+			tasks: [{
+				id: "38270A1BC83909D3"
+				type: "item"
+				item: {
+					id: "alexsmobs:dimensional_carver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69042AE360B4B0F0"
+					type: "item"
+					item: "alexsmobs:void_worm_mandible"
+					count: 2
+				}
+				{
+					id: "3100447AFE399885"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "197F4A2748CDDA65"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 4.0d
+			description: ["Squid traversal"]
+			id: "59A9AFD4F403F286"
+			tasks: [{
+				id: "69DBBE933C4B96A0"
+				type: "item"
+				item: {
+					id: "alexsmobs:squid_grapple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "14F566F6ED6F6903"
+					type: "item"
+					item: "farmersdelight:squid_ink_pasta"
+				}
+				{
+					id: "6A3222C89A7741C2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 5.5d
+			description: ["Multi hitting whip"]
+			id: "0DA740B61CF6E62E"
+			tasks: [{
+				id: "728D9E6C02F34B21"
+				type: "item"
+				item: {
+					id: "alexsmobs:tendon_whip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "61FD761E8A5052B8"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+				}
+				{
+					id: "3A855D4F01E67C26"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "60F9020F25ABF802"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			description: ["Breath longer"]
+			id: "3B4DE72BCDC1D810"
+			tasks: [{
+				id: "654D46AEB1E9F0B9"
+				type: "item"
+				item: {
+					id: "alexsmobs:crocodile_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3E00CE7007F8CB83"
+					type: "item"
+					item: "aquaculture:box_turtle"
+				}
+				{
+					id: "78F0FDCAED9724B8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 5.5d
+			description: ["Roll around"]
+			id: "204D6470D46D9E49"
+			tasks: [{
+				id: "568DE986251628D8"
+				type: "item"
+				item: {
+					id: "alexsmobs:rocky_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "751F458F073B6360"
+					type: "item"
+					item: "conjurer_illager:throwable_ball"
+				}
+				{
+					id: "4ADA68D54F379650"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 4.0d
+			description: ["Advanced multi tool"]
+			id: "488B4B56815A196C"
+			tasks: [{
+				id: "4883BB7F300764B9"
+				type: "item"
+				item: "mekanism:meka_tool"
+			}]
+			rewards: [
+				{
+					id: "08D70237F682C804"
+					type: "item"
+					item: "mekanism:alloy_atomic"
+					count: 2
+				}
+				{
+					id: "45D4E4F5D41A3D7B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 5.5d
+			description: ["Build faster"]
+			id: "2F394F52C20B2845"
+			tasks: [{
+				id: "080961E16DC3FDA2"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "72EB654371E64EA5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7B829DCCF4E54A43"
+					type: "item"
+					item: "adorn:white_sofa"
+				}
+				{
+					id: "7A9B3D8B9D5D60BF"
+					type: "item"
+					item: "adorn:oak_bench"
+				}
+				{
+					id: "0F6131CCF87E5598"
+					type: "item"
+					item: "adorn:lime_table_lamp"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 4.0d
+			description: ["Amazing"]
+			id: "42E0A3513BFEF210"
+			tasks: [{
+				id: "03F6CA1023944233"
+				type: "item"
+				item: {
+					id: "twilightforest:mazebreaker_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6768F90A3ACC8737"
+					type: "item"
+					item: "twilightforest:knightmetal_ingot"
+				}
+				{
+					id: "4BE7F64BA118DB15"
+					type: "item"
+					item: "twilightforest:fiery_ingot"
+				}
+				{
+					id: "2A8E680600E3BBE6"
+					type: "item"
+					item: "twilightforest:ironwood_ingot"
+				}
+				{
+					id: "3151D040FB0366CC"
+					type: "item"
+					item: "twilightforest:carminite"
+				}
+				{
+					id: "73B986A923307181"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6DF60F1CCE33006C"
+					type: "item"
+					item: "neapolitan:chocolate_cake"
+				}
+				{
+					id: "734344C3216D9644"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 5.5d
+			description: ["Protects the user from damage by providing an extra \"health bar\" that recharges"]
+			id: "370A9C93FABB93A3"
+			tasks: [{
+				id: "0BDF2BCBA8FEC9CE"
+				type: "item"
+				item: {
+					id: "superiorshields:iron_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71B236E67D373431"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+				}
+				{
+					id: "613D2109A9CC5524"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 4.0d
+			description: ["Ethereal hands"]
+			id: "78720D929DB5C742"
+			tasks: [{
+				id: "416C796780915039"
+				type: "item"
+				item: "meetyourfight:spectres_grasp"
+			}]
+			rewards: [
+				{
+					id: "5AA2B69AF21B5539"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "296CA8A5A39E2618"
+					type: "item"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "59C57F64A06C2869"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			description: ["Get out of cave bell"]
+			id: "44027378F9196270"
+			tasks: [{
+				id: "779D79614D4428DB"
+				type: "item"
+				item: "meetyourfight:passages_toll"
+			}]
+			rewards: [
+				{
+					id: "2BC5B4A1D60B039E"
+					type: "item"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "554D8266AAC8EACC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4530B21CC0D4C54E"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			description: ["Never out of sight"]
+			id: "262DAEF8AFF895CF"
+			tasks: [{
+				id: "206062E9A67E1EAD"
+				type: "item"
+				item: "meetyourfight:spectres_eye"
+			}]
+			rewards: [
+				{
+					id: "410DDEB038E154B5"
+					type: "item"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "519B6A2BA6F896EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6ADBBCF1175972A5"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 5.5d
+			description: ["Lucky hits"]
+			id: "187D27B93A5D798B"
+			tasks: [{
+				id: "7013D559D485A228"
+				type: "item"
+				item: "meetyourfight:slicers_dice"
+			}]
+			rewards: [
+				{
+					id: "5488946354A79728"
+					type: "item"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "703FF426644798EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "782803212C3F0BF5"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			description: ["Lucky shield"]
+			id: "7A0A0F49F7EBE640"
+			tasks: [{
+				id: "60AA550DEA8684C9"
+				type: "item"
+				item: "meetyourfight:ace_of_iron"
+			}]
+			rewards: [
+				{
+					id: "347355FBD84B692C"
+					type: "item"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "3DB36D32A15D88ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C6EED460E7F75D8"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			description: ["Effective sword"]
+			id: "22DF0AD362898238"
+			tasks: [{
+				id: "0C86AA917C4D0034"
+				type: "item"
+				item: {
+					id: "meetyourfight:cocktail_cutlass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "50C04B3BFA5EB997"
+					type: "item"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "22846DE5A1AE84C7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6620F8953F9145CB"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			description: ["Strong hands"]
+			id: "66BBB533581D7B33"
+			tasks: [{
+				id: "2EFD05993156E077"
+				type: "item"
+				item: "meetyourfight:bone_raker"
+			}]
+			rewards: [
+				{
+					id: "0769C88056216535"
+					type: "item"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "0C4C2800A38DEEA2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F5D174DFA28169F"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			description: ["Make waves"]
+			id: "4B5B604C88968CAD"
+			tasks: [{
+				id: "14AA16001AC90BC6"
+				type: "item"
+				item: {
+					id: "meetyourfight:depth_star"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2F5943202D09ED24"
+					type: "item"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "2F7224F4AED40B12"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			description: ["Protective skeleton"]
+			id: "4C9F99E65B77147C"
+			tasks: [{
+				id: "6DDC54097DD79DCF"
+				type: "item"
+				item: "meetyourfight:caged_heart"
+			}]
+			rewards: [
+				{
+					id: "4BC4CDB26BF4E8F0"
+					type: "item"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "3A4B68664CF83008"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C86833F0C1FB753"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 4.0d
+			subtitle: "Creepy"
+			description: [
+				"Wall climber"
+				"Leggings that allow you to climb walls"
+			]
+			id: "4628022D6D09D101"
+			tasks: [{
+				id: "3E1A592AEFA9B4A4"
+				type: "item"
+				item: {
+					id: "alexsmobs:centipede_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "28259DFA3BF08D1F"
+					type: "item"
+					item: "neapolitan:chocolate_spider_eye"
+				}
+				{
+					id: "3732FC595FCE2CEB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: -5.5d
+			subtitle: "Magical empowerment"
+			description: [
+				"Most gear can be enchanted for enhanced effects. This includes silentgear, backpacks, shields and more!"
+				"The process of applying enchantments is now in the form of a familiar minigame."
+			]
+			id: "02EF27DA66EA22AF"
+			tasks: [{
+				id: "6E93403DD786FBA0"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [
+				{
+					id: "13CB5CB39B4745D6"
+					type: "item"
+					item: "create:experience_nugget"
+				}
+				{
+					id: "3213A25F2C8F725E"
+					type: "item"
+					item: "minecraft:book"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			description: ["Obtain netherite for crafting coating to upgrade gear"]
+			id: "2BF7E3CD3CDDDFFE"
+			tasks: [{
+				id: "602C161FF4A8092B"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "543F0EC6E71772B3"
+					type: "item"
+					item: "minecraft:ancient_debris"
+				}
+				{
+					id: "386AB2B7967B4467"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "317E28068C3EFAA0"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			description: ["Obtain reinforced echo shard for crafting coating to upgrade gear"]
+			dependencies: ["2BF7E3CD3CDDDFFE"]
+			id: "71230DAD84F47A10"
+			tasks: [{
+				id: "43F921F56DB0F827"
+				type: "item"
+				item: "deeperdarker:reinforced_echo_shard"
+			}]
+			rewards: [
+				{
+					id: "20C4B98D94A2A876"
+					type: "item"
+					item: "minecraft:sculk_sensor"
+				}
+				{
+					id: "2760815C15DCD2D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0229219D36D25800"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			description: ["Obtain enderium for crafting coating to upgrade gear"]
+			dependencies: ["71230DAD84F47A10"]
+			id: "5073E550B35E77DF"
+			tasks: [{
+				id: "4921385A3FD6D063"
+				type: "item"
+				item: "majruszsdifficulty:enderium_ingot"
+			}]
+			rewards: [
+				{
+					id: "596293C89538DB6C"
+					type: "item"
+					item: "majruszsdifficulty:enderium_shard"
+				}
+				{
+					id: "3A85FC66A43C3F4B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0B99D1621651B0E3"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			description: ["Obtain a void worm beak for crafting coating to upgrade gear"]
+			dependencies: ["5073E550B35E77DF"]
+			id: "5124A33087EB1682"
+			tasks: [{
+				id: "7319B19B4DEBA3B8"
+				type: "item"
+				item: "alexsmobs:void_worm_beak"
+			}]
+			rewards: [
+				{
+					id: "38F06F474339138F"
+					type: "item"
+					item: "alexsmobs:mosquito_larva"
+				}
+				{
+					id: "547211546C8717E3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0A1BD5F33E31ECB0"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			description: ["Power armor"]
+			id: "32217717BB20D713"
+			tasks: [
+				{
+					id: "62320957339296DE"
+					type: "item"
+					item: "mekanism:mekasuit_helmet"
+				}
+				{
+					id: "48F08762ED5BE153"
+					type: "item"
+					item: "mekanism:mekasuit_bodyarmor"
+				}
+				{
+					id: "0BDBB84BEB9EC56D"
+					type: "item"
+					item: "mekanism:mekasuit_pants"
+				}
+				{
+					id: "06E5A92DE2860212"
+					type: "item"
+					item: "mekanism:mekasuit_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "382D9EFCC4768E8C"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "452C8A9DE1751C94"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "79B8772776C9211D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			description: ["Pack leader"]
+			id: "14E93B5AA318930A"
+			tasks: [{
+				id: "26B142C3371126B7"
+				type: "item"
+				item: {
+					id: "alexsmobs:froststalker_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67B915CB2FF85CE5"
+					type: "item"
+					item: "twilightforest:ice_bomb"
+					count: 6
+				}
+				{
+					id: "6AF2F1864B6B13F8"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "65DBF983182E1435"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			description: ["Sweet shield"]
+			id: "1CA212A85C5668A2"
+			tasks: [{
+				id: "1491389C5DBEC62E"
+				type: "item"
+				item: {
+					id: "the_bumblezone:honey_crystal_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5DD99137B44AD686"
+					type: "item"
+					item: "the_bumblezone:honey_crystal_shards"
+					count: 3
+				}
+				{
+					id: "2BB5A1FAE53094B8"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "04E5D514B22DBDBA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			description: ["Fly like a bee"]
+			id: "26393C57BE15A564"
+			tasks: [{
+				id: "714C338D671D632B"
+				type: "item"
+				item: {
+					id: "the_bumblezone:bumble_bee_chestplate_1"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2450A844649704CA"
+					type: "item"
+					item: "the_bumblezone:honey_crystal_shards"
+					count: 3
+				}
+				{
+					id: "675A5372387B2624"
+					type: "item"
+					item: {
+						id: "the_bumblezone:bumble_bee_chestplate_trans_1"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3153454576645ECC"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -3.5d
+			description: [
+				"When creating gear with blueprints, synergy places an important play on stats. This mechanic can boost gear stats when crafting gear with high synergy values."
+				"Tool parts can also be switched out simply by placing a new part in a crafting grid along with your gear."
+				"For more indepth info, check the silentgear wiki"
+			]
+			dependencies: ["48D70B04955F5AF7"]
+			id: "67FC179872BBC77C"
+			tasks: [{
+				id: "1CED96647B35F266"
+				type: "checkmark"
+				title: "SilentGear tips"
+			}]
+			rewards: [{
+				id: "2020B1588868EBF6"
+				type: "item"
+				item: "silentgear:guide_book"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			description: ["Obtain pendorite. Useful for gear coatings"]
+			id: "76DB5441D2EC06A8"
+			tasks: [{
+				id: "1DB2798D7851CFD3"
+				type: "item"
+				item: "byg:pendorite_ingot"
+			}]
+			rewards: [{
+				id: "5212D35AE1EDAB39"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

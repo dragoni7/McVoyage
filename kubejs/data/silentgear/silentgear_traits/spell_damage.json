@@ -1,0 +1,33 @@
+{
+  "type": "silentgear:wielder_effect",
+  "max_level": 2,
+  "name": {
+    "text": "Spell Damage"
+  },
+  "description": {
+    "text": "Grants Spell Damage. Required on 3 or more armor pieces"
+  },
+  "potion_effects": {
+    "armor": [
+      {
+        "type": "piece_count",
+        "effect": "ars_nouveau:spell_damage",
+        "level": [
+          0,
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "tool": [
+      {
+        "type": "piece_count",
+        "effect": "ars_nouveau:spell_damage",
+        "level": [
+          1
+        ]
+      }
+    ]
+  }
+}

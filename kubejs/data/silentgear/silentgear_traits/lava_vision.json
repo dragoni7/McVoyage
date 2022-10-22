@@ -1,0 +1,33 @@
+{
+  "type": "silentgear:wielder_effect",
+  "max_level": 1,
+  "name": {
+    "text": "Lava Vision"
+  },
+  "description": {
+    "text": "Allows seeing through lava"
+  },
+  "potion_effects": {
+    "armor": [
+      {
+        "type": "piece_count",
+        "effect": "alexsmobs:lava_vision",
+        "level": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "curio": [
+      {
+        "type": "piece_count",
+        "effect": "alexsmobs:lava_vision",
+        "level": [
+          1
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1954 @@
+{
+	id: "6ABABB10F829B116"
+	group: ""
+	order_index: 0
+	filename: "progression"
+	title: "Progression"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Humble Beginnings"
+			icon: "backpacked:backpack"
+			x: -19.0d
+			y: -1.5d
+			subtitle: "welcome!"
+			description: ["Welcome to the Overworld, your home. You may want to begin preparations to fight bosses, so take these. You'll notice the world is filled with strange new creatures, structures, and biomes. Take caution and prepare for your explorations!"]
+			id: "61EEF0063893B8A9"
+			tasks: [{
+				id: "608DEBE22F66B68E"
+				type: "checkmark"
+				title: "Explore, Prepare, and Build"
+			}]
+			rewards: [
+				{
+					id: "47E60EB36D72F759"
+					type: "item"
+					item: "farmersdelight:beef_stew"
+				}
+				{
+					id: "6007B1BC33890C5B"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "629DB214E3041C7E"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73DBA61474FF01C5"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C4C3694A5F89FF8"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "29943E1A847208A9"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "506B2129A75A9DAA"
+					type: "item"
+					item: "backpacked:backpack"
+				}
+			]
+		}
+		{
+			title: "Biomes"
+			icon: "supplementaries:globe"
+			x: -19.0d
+			y: -3.5d
+			subtitle: "How to find them"
+			description: [
+				""
+				"There are many biomes to explore filled with useful and decorative resources. A natures compass can help you locate them"
+			]
+			dependencies: ["61EEF0063893B8A9"]
+			id: "7D576D6EEBCDB209"
+			tasks: [{
+				id: "3A2C3293EF7EF145"
+				type: "checkmark"
+				title: "New Biomes"
+			}]
+			rewards: [{
+				id: "41C62CBF656A0DE8"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: "minecraft:oak_door"
+			x: -16.0d
+			y: -1.5d
+			subtitle: "Everyone needs a home"
+			dependencies: ["61EEF0063893B8A9"]
+			id: "48692E734D5E7526"
+			tasks: [{
+				id: "2728345B6BD495A1"
+				type: "checkmark"
+				title: "Home Base"
+			}]
+			rewards: [
+				{
+					id: "39AFCAACCB980F3D"
+					type: "item"
+					item: "minecraft:white_bed"
+				}
+				{
+					id: "4221AE9A6EE36D4E"
+					type: "item"
+					item: "ironchests:iron_chest"
+				}
+				{
+					id: "7192F0E110EB870E"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "2AB8D2DE075C21F3"
+					type: "item"
+					item: "a_man_with_plushies:plush_box"
+				}
+				{
+					id: "7380E9364A4DC0D8"
+					type: "item"
+					item: "another_furniture:oak_table"
+				}
+				{
+					id: "478AC8488EBE5D75"
+					type: "item"
+					item: "another_furniture:oak_chair"
+				}
+			]
+		}
+		{
+			title: "Swampjaw"
+			x: -14.5d
+			y: -1.5d
+			subtitle: "Bony Fish"
+			description: ["Craft a fossil bait to summon the first boss, swamp jaw"]
+			dependencies: ["48692E734D5E7526"]
+			id: "3FEFAA19984ED7D1"
+			tasks: [{
+				id: "579A508F861615CD"
+				type: "kill"
+				title: "Defeat Swampjaw"
+				icon: "meetyourfight:fossil_bait"
+				entity: "meetyourfight:swampjaw"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7C3922E81BB9083A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0A06097D7C3E6E20"
+					type: "item"
+					item: "meetyourfight:marshy_delight"
+					count: 3
+				}
+				{
+					id: "39634880EA2012C6"
+					type: "item"
+					item: "minecraft:frogspawn"
+				}
+				{
+					id: "1CE82EC239FFE875"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "3D82B593E12537B8"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "Bellringer"
+			x: -12.5d
+			y: -1.5d
+			subtitle: "Spooky"
+			description: ["Craft a haunted bell to summon bellringer"]
+			dependencies: ["3FEFAA19984ED7D1"]
+			id: "17AB83732BB1D634"
+			tasks: [{
+				id: "787519608C40C5A5"
+				type: "kill"
+				title: "Banish Bellringer"
+				icon: "meetyourfight:haunted_bell"
+				entity: "meetyourfight:bellringer"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "75053EAF30205D52"
+					type: "item"
+					item: "minecraft:allay_spawn_egg"
+				}
+				{
+					id: "07A75A4D903ED2D8"
+					type: "item"
+					item: "meetyourfight:aether_glazed_cupcake"
+					count: 3
+				}
+				{
+					id: "6FD6416E185D1A00"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "717294214418951E"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "06FE03CD56CCADB1"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "Dame Fortuna"
+			x: -10.5d
+			y: -1.5d
+			subtitle: "Unfortunate"
+			description: ["Craft the devil's ante to summon damefortuna. Enters expert mode"]
+			dependencies: ["17AB83732BB1D634"]
+			id: "041F219F0682205B"
+			tasks: [{
+				id: "09605582F35F3F13"
+				type: "kill"
+				title: "Fortune and Glory"
+				icon: "meetyourfight:devils_ante"
+				entity: "meetyourfight:dame_fortuna"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "50C1C835A1E1BBD2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "31CA71C0B2254B9E"
+					type: "item"
+					item: "meetyourfight:velvet_fortune"
+					count: 3
+				}
+				{
+					id: "566CF9B03AD37D7F"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "buzzier_bees:strong_luck"
+						}
+					}
+				}
+				{
+					id: "38FBEA3CAA712EE0"
+					type: "gamestage"
+					title: "Expert Mode"
+					icon: {
+						id: "minecraft:netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					auto: "enabled"
+					stage: "expert_mode"
+				}
+				{
+					id: "4A8625D69E5A9B02"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "02643305AE157BF6"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 30"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "Elder Guardian"
+			x: -14.5d
+			y: 0.5d
+			subtitle: "Old Fish"
+			description: ["Find an ocean monument to take on the elder guardian and retrieve it's eye"]
+			dependencies: ["48692E734D5E7526"]
+			id: "62C787D36CD80C8E"
+			tasks: [{
+				id: "67CC3CB5282CAA52"
+				type: "kill"
+				title: "Elder"
+				icon: "majruszsdifficulty:elder_guardian_treasure_bag"
+				entity: "minecraft:elder_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "55F2EF00167DB6B9"
+					type: "item"
+					item: {
+						id: "endrem:guardian_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5422107103D0FCCF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3693156657489C91"
+					type: "item"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2821BF3C44CA9700"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4DCAC7CD8C35CEDF"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "6F6332C98684E26A"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			x: -8.5d
+			y: -1.5d
+			subtitle: "Wither no more"
+			description: [
+				"Defeat the wither and steal it's eye"
+				"*You must be in expert mode to summon the wither"
+			]
+			dependencies: ["041F219F0682205B"]
+			id: "5A171948B45D8755"
+			tasks: [{
+				id: "57DA6F26F44C698C"
+				type: "kill"
+				title: "The Wither"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6264364EC7D77894"
+					type: "item"
+					item: {
+						id: "endrem:wither_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36FC6AECF6E5F7AC"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 3
+				}
+				{
+					id: "6CBBAD95F5F984FA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3F31F5812BEC1D3F"
+					type: "item"
+					item: {
+						id: "majruszsdifficulty:wither_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B45AA6DDAA06CC6"
+					type: "advancement"
+					title: "Twilight Ready"
+					icon: "twilightforest:twilight_portal_miniature_structure"
+					team_reward: true
+					auto: "enabled"
+					advancement: "minecraft:adventure/twilight_ready"
+					criterion: ""
+				}
+				{
+					id: "59A575F71AC403FF"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -3.5d
+			subtitle: "The warden of..."
+			description: [
+				"Although difficult, defeating the warden in the deep dark will reward enriching treasure"
+				"*The deep dark biome can be found more often under mountains"
+			]
+			dependencies: ["48692E734D5E7526"]
+			id: "54030C143E159728"
+			tasks: [{
+				id: "39A1C7AEF50CFCDA"
+				type: "kill"
+				title: "The Warden"
+				icon: "majruszsdifficulty:warden_treasure_bag"
+				entity: "minecraft:warden"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "37A514E910BE535D"
+					type: "item"
+					item: {
+						id: "delightful:warden_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C0489D901565233"
+					type: "item"
+					item: "minecraft:echo_shard"
+				}
+				{
+					id: "1CA159B87F40D102"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "4F04050874B9F912"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "Portal to the Otherside"
+			x: -12.5d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "Still beating..."
+			description: [
+				"Obtain the warden's heart and use it to activate the deep dark portal"
+				"*the portal frame must be cleared of any sculk"
+			]
+			dependencies: ["54030C143E159728"]
+			id: "6DD6D6AD5F81497E"
+			tasks: [{
+				id: "16409E744D7C98EC"
+				type: "dimension"
+				icon: "deeperdarker:heart_of_the_deep"
+				dimension: "deeperdarker:otherside"
+			}]
+			rewards: [
+				{
+					id: "0945EAF7CEBFEB82"
+					type: "item"
+					item: "minecraft:sculk_sensor"
+				}
+				{
+					id: "1C1288A8F222C807"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Enter the Twilight Forest"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -5.0d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "New dimension.."
+			description: [
+				""
+				"Create a 2x2 pool of water surrounded by dirt and flowers, then throw in a diamond!"
+			]
+			dependencies: ["5A171948B45D8755"]
+			id: "1BC0A564A02DBFF3"
+			tasks: [{
+				id: "12FA0923D61A0575"
+				type: "dimension"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [
+				{
+					id: "3687F8F20E78F91D"
+					type: "item"
+					item: "twilightforest:firefly_jar"
+				}
+				{
+					id: "217C323417E61164"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "01CE0411963785BF"
+					type: "item"
+					item: "neapolitan:vanilla_cake"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			dependencies: ["1BC0A564A02DBFF3"]
+			id: "64590145C2C8B4F9"
+			tasks: [{
+				id: "6C966D3939DCEFD0"
+				type: "kill"
+				title: "The Naga"
+				icon: "twilightforest:naga_trophy"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "479C2028FB5F6F62"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "7E50CFE6C92828AC"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "20AA0987CB59F5F4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0FD72B97CA5A72BB"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "0B536AF9E1DCFF4F"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			dependencies: ["1BC0A564A02DBFF3"]
+			id: "3DAABD09DB0D42FB"
+			tasks: [{
+				id: "7E0B818F1B104AAA"
+				type: "kill"
+				title: "The Lich"
+				icon: "twilightforest:lich_trophy"
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6302377682BD6615"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "680B56568EA7834C"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "7AAD06DD852B2CE6"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+				{
+					id: "11266D35FDC008B4"
+					type: "item"
+					item: "scalinghealth:heart_crystal"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["1BC0A564A02DBFF3"]
+			id: "0CB6A2FB980AADFF"
+			tasks: [{
+				id: "7A2C42A3B54DB381"
+				type: "kill"
+				title: "Ur-Ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				entity: "twilightforest:ur_ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5909FEDB3AB1F153"
+					type: "item"
+					item: "twilightforest:carminite"
+					count: 3
+				}
+				{
+					id: "4E55CD076321BE31"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					count: 3
+				}
+				{
+					id: "2EA9A8A23242DC78"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "42CA987E7920B624"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "1263B9937EA9D998"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["1BC0A564A02DBFF3"]
+			id: "1FD01F45A3722F4F"
+			tasks: [{
+				id: "6993104666061483"
+				type: "kill"
+				title: "Minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				entity: "twilightforest:minoshroom"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "342B63DD754FCDFF"
+					type: "item"
+					item: {
+						id: "twilightforest:diamond_minotaur_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "722F87947DDE4549"
+					type: "item"
+					item: "farmersdelight:mushroom_rice"
+				}
+				{
+					id: "279B84A0A29004FD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7CF7787CB4445F89"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "689DC649A68D19DD"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["1BC0A564A02DBFF3"]
+			id: "5A8B827DEE850C2F"
+			tasks: [{
+				id: "44535CCA8DFCCCE8"
+				type: "kill"
+				title: "Hydra"
+				icon: "twilightforest:hydra_trophy"
+				entity: "twilightforest:hydra"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3BE4F9C666ADB427"
+					type: "item"
+					item: "twilightforest:hydra_chop"
+					count: 3
+				}
+				{
+					id: "15DF11E7023306A9"
+					type: "item"
+					item: {
+						id: "twilightforest:seeker_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D47C693AAD55FD1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2CF76A016F90530F"
+					type: "item"
+					item: "undergarden:catalyst"
+				}
+				{
+					id: "0381590804711491"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "1FEF03DC53A7ADA3"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 30"
+					player_command: true
+				}
+				{
+					id: "15859B5C9E7A525C"
+					type: "item"
+					item: "scalinghealth:heart_crystal"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["1BC0A564A02DBFF3"]
+			id: "46224B7B77DAEF27"
+			tasks: [{
+				id: "4BDF4E6B5CD75BD6"
+				type: "kill"
+				title: "Knight Phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				entity: "minecraft:zombie"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4280EB1C30ACCF44"
+					type: "item"
+					item: "twilightforest:knightmetal_ingot"
+				}
+				{
+					id: "576E0F3F79385D69"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "196D894003F05C2E"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "037A93D992A2B4F5"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62C6E89160B2276A"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "14AFD750B1FDE82E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2B834B09036A976E"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "0D0E9AF172BF4D72"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["1BC0A564A02DBFF3"]
+			id: "6E7521113465FB93"
+			tasks: [{
+				id: "04E88D92A98750BA"
+				type: "kill"
+				title: "Alpha Yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				entity: "twilightforest:alpha_yeti"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7B133157E4E6941C"
+					type: "item"
+					item: "twilightforest:alpha_yeti_fur"
+					count: 3
+				}
+				{
+					id: "66F04261F02B11CF"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "25FBE6CB3904D186"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "0B418D22D4E2E9FF"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "66C1E93C32CEB191"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:feather_falling"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "35C3F2E10D627757"
+					type: "item"
+					item: "neapolitan:vanilla_ice_cream"
+				}
+				{
+					id: "478BB66715EA6E5E"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "0768A469A8C9563F"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["1BC0A564A02DBFF3"]
+			id: "61AA0C89AF30FE66"
+			tasks: [{
+				id: "13DD8E022F2E9E3D"
+				type: "kill"
+				title: "Snow Queen"
+				icon: "twilightforest:snow_queen_trophy"
+				entity: "twilightforest:snow_queen"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3C4B6A4D9E95E127"
+					type: "item"
+					item: {
+						id: "twilightforest:ice_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A36567B2D3B89FB"
+					type: "item"
+					item: {
+						id: "twilightforest:ice_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6DAB5CB412E17842"
+					type: "item"
+					item: "neapolitan:vanilla_ice_cream"
+				}
+				{
+					id: "79096869D8F15009"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0F4523BC7C3E7104"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "70B4B7ABFBF2A4FB"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "The Nether"
+			icon: "minecraft:ancient_debris"
+			x: -17.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Hot place"
+			description: ["The Nether is a place you'll need to visit regularly for valuable resources"]
+			dependencies: ["48692E734D5E7526"]
+			id: "623B738874721453"
+			tasks: [{
+				id: "1A01C561D65DABB5"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "16C25EEC02488001"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+				}
+				{
+					id: "66F781C6092B5C02"
+					type: "item"
+					item: "silentgear:raw_crimson_iron"
+				}
+				{
+					id: "681123DB89B13FF9"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: -7.0d
+			description: ["Boss essence is dropped when defeating bosses. The more you defeat, the more you'll have!"]
+			id: "37FA55C81065032C"
+			tasks: [{
+				id: "246686A7653C26F4"
+				type: "item"
+				item: "kubejs:boss_essence"
+			}]
+			rewards: [
+				{
+					id: "59C6BE15F563C50D"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 5
+				}
+				{
+					id: "6AC5766C2F32D30C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1F5136936958FB1D"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "28FB96F9F8752971"
+					type: "item"
+					item: "a_man_with_plushies:plush_box"
+				}
+			]
+		}
+		{
+			x: -19.0d
+			y: -7.0d
+			description: ["Dropped from infernal-buffed mobs."]
+			id: "1554B7028583563E"
+			tasks: [{
+				id: "3B30D0BA39900C5C"
+				type: "item"
+				item: "kubejs:infernal_essence"
+			}]
+			rewards: [
+				{
+					id: "7D356C9E41808C30"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5FD9798DE1FCE9BD"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "The Undergarden"
+			icon: "undergarden:catalyst"
+			x: -0.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["Use the catalyst on a portal frame of stone brick to activate it"]
+			dependencies: ["5A8B827DEE850C2F"]
+			id: "081007A512D0D5A4"
+			tasks: [{
+				id: "7BB0DA9628967CA3"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
+			}]
+			rewards: [
+				{
+					id: "41988B2FE060B15C"
+					type: "item"
+					item: "undergarden:raw_cloggrum"
+				}
+				{
+					id: "7EE70F5E0BED7674"
+					type: "item"
+					item: "undergarden:gloomgourd_pie"
+				}
+				{
+					id: "6163B6DD90B42F4B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "04A667F2C89AF0CB"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["Summon the masticator by crafting a masticator bait"]
+			dependencies: ["081007A512D0D5A4"]
+			id: "29DFD80B3C3AD2F1"
+			tasks: [{
+				id: "4C1F10289CE09D70"
+				type: "kill"
+				title: "Masticator"
+				icon: "kubejs:masticator_bait"
+				entity: "undergarden:masticator"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "48FD495406EB3884"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "288895A622A748BF"
+					type: "item"
+					item: {
+						id: "undergarden:masticated_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 5s
+								id: "minecraft:thorns"
+							}]
+						}
+					}
+				}
+				{
+					id: "4A413B363243BD5E"
+					type: "item"
+					item: "undergarden:regalium_crystal"
+					count: 3
+				}
+				{
+					id: "293DFCDE686C43D7"
+					type: "item"
+					item: "undergarden:masticator_scales"
+					count: 3
+				}
+				{
+					id: "72B2642A38385542"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "5D582D61329CBBC7"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "The Bumblezone"
+			x: -16.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "Sticky place"
+			description: ["Visit the Bumblezone by throwing an ender pearl into a bee nest"]
+			dependencies: ["48692E734D5E7526"]
+			id: "1B00DEB159267CCB"
+			tasks: [{
+				id: "7EF084E6F77732D2"
+				type: "dimension"
+				icon: "minecraft:bee_nest"
+				dimension: "the_bumblezone:the_bumblezone"
+			}]
+			rewards: [
+				{
+					id: "2061313FBF346029"
+					type: "item"
+					item: "farmersdelight:honey_cookie"
+					count: 3
+				}
+				{
+					id: "5327D7F18398CEDF"
+					type: "item"
+					item: "dreamland:bumble_block"
+				}
+				{
+					id: "5A1D46C5A1B284B7"
+					type: "item"
+					item: {
+						id: "the_bumblezone:bumble_bee_chestplate_1"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2935FDE1C590FEB7"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			description: ["Craft an evil eye to reach the end"]
+			dependencies: ["29DFD80B3C3AD2F1"]
+			id: "730B8A008F587642"
+			tasks: [{
+				id: "321CA02DF1223171"
+				type: "item"
+				item: {
+					id: "endrem:evil_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6831345D59CA99EE"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 5
+				}
+				{
+					id: "5C895FDC1C0FC92D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0B59CBD78A03AB9B"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+				{
+					id: "4057297040704926"
+					type: "gamestage"
+					title: "Master Mode"
+					icon: {
+						id: "majruszsdifficulty:enderium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					auto: "enabled"
+					stage: "master_mode"
+				}
+				{
+					id: "31DA9413D0DBD9D7"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "5EBB5ECF660B090E"
+					type: "item"
+					item: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "123B69692D850858"
+					type: "item"
+					item: "scalinghealth:heart_crystal"
+				}
+			]
+		}
+		{
+			title: "To the End"
+			x: 5.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "Prepare for a battle"
+			description: ["Locate a end portal frame within a stronghold. You'll need 12 special eyes to open it"]
+			dependencies: ["730B8A008F587642"]
+			id: "7762572B99DD368D"
+			tasks: [{
+				id: "358A9E6129F6845E"
+				type: "dimension"
+				icon: "endrem:ancient_portal_frame"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [
+				{
+					id: "06F8BC07815BD226"
+					type: "item"
+					item: {
+						id: "mekanism:electric_bow"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "80000"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "2CC4AE2009E46D89"
+					type: "item"
+					item: "xtraarrows:netherite_slime_arrow"
+					count: 10
+				}
+				{
+					id: "0A1266A0F7A42005"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				}
+				{
+					id: "3B7B596B3C027436"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "45E8FCAC29F2286B"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "13D45B1E2A6A1521"
+					type: "gamestage"
+					title: "Master Mode"
+					icon: {
+						id: "majruszsdifficulty:enderium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					auto: "enabled"
+					stage: "master_mode"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			description: ["Defeat the Ender Dragon to explore the End"]
+			dependencies: ["7762572B99DD368D"]
+			id: "6E6C32E16EEE1ED7"
+			tasks: [{
+				id: "062762ACBAF9B97D"
+				type: "kill"
+				title: "The Great Dragon"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5753DF4D91F7E164"
+					type: "item"
+					item: "quark:dragon_scale"
+				}
+				{
+					id: "4AB7042183E474C3"
+					type: "item"
+					item: "silentgear:elytra_blueprint"
+				}
+				{
+					id: "632A56B00E512747"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "579D6D30FA096C00"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "2A0EB523611607B2"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 30"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			subtitle: "Hungering void"
+			description: ["Summon the Void Worm in the end by tossing a mysterious worm into the void"]
+			dependencies: ["7762572B99DD368D"]
+			id: "4BF2E05841674BD6"
+			tasks: [{
+				id: "04341E2B8577EC62"
+				type: "kill"
+				title: "The Great Worm"
+				icon: "alexsmobs:void_worm_eye"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "66F70423D7425CED"
+					type: "item"
+					item: "alexsmobs:void_worm_mandible"
+				}
+				{
+					id: "0A9202F0B3B48845"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+				{
+					id: "30840B614D2CC9E3"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "7EC011756B7C52D0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "6B726B352B86685A"
+					type: "item"
+					item: "majruszsdifficulty:enderium_shard"
+					count: 3
+				}
+				{
+					id: "19D9F5A0852CDC51"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "18D674B578B35E68"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			description: [
+				"Craft the wilden summon tablet to summon the Wilden Chimera"
+				"*Requires expert mode"
+			]
+			dependencies: ["081007A512D0D5A4"]
+			id: "21B93F2515332FF5"
+			tasks: [{
+				id: "2739218BA53F9CE3"
+				type: "kill"
+				title: "Wilden Chimera"
+				icon: "ars_nouveau:wilden_tribute"
+				entity: "ars_nouveau:wilden_boss"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "70FE8FFA1995EB81"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "2DDAB6AFE93E293A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5DC77FAFC08718F8"
+					type: "item"
+					item: "kubejs:infernal_essence"
+					count: 6
+				}
+				{
+					id: "2C9A6B65AF6E8000"
+					type: "command"
+					title: "Difficulty Increase"
+					icon: "scalinghealth:cursed_heart"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 3.0d
+			subtitle: "Sweet Gems"
+			description: ["Honey crystals are important components for crafting eyes of ender"]
+			dependencies: ["1B00DEB159267CCB"]
+			id: "240180FE952CA02D"
+			tasks: [{
+				id: "6E2F12686396CBA9"
+				type: "item"
+				item: "the_bumblezone:honey_crystal_shards"
+			}]
+			rewards: [
+				{
+					id: "023521748BA329A1"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+				{
+					id: "2B16AF75333B3801"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -19.0d
+			y: 2.0d
+			description: ["Mine ancient debris to obtain netherite scrap!"]
+			dependencies: ["623B738874721453"]
+			id: "154212335173B7BF"
+			tasks: [{
+				id: "0EEC00FC554D1154"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+			rewards: [
+				{
+					id: "430EAC36BB7B8982"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "279908F05A61A665"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Obtain utherium crystals for advanced crafting recipes"]
+			dependencies: ["081007A512D0D5A4"]
+			id: "1EF323B9D54EF18E"
+			tasks: [{
+				id: "5753508505C1FA74"
+				type: "item"
+				item: "undergarden:utherium_crystal"
+			}]
+			rewards: [
+				{
+					id: "7624F8C5BB5F0A2C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0D4381F1A5A40FF0"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -7.0d
+			description: ["Start an illager raid by placing down a raid banner. These banners drop from illagers carrying them on patrols"]
+			id: "7FA44323903DA8C8"
+			tasks: [{
+				id: "235A42784B98426E"
+				type: "item"
+				item: "majruszsdifficulty:pillager_treasure_bag"
+			}]
+			rewards: [
+				{
+					id: "2EA8FF235583437B"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "2C29647495A44550"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -7.0d
+			description: ["Survive the undead army!"]
+			id: "6AED3362559D03CD"
+			tasks: [{
+				id: "166BAC9562069A79"
+				type: "item"
+				item: "majruszsdifficulty:undead_army_treasure_bag"
+			}]
+			rewards: [
+				{
+					id: "3BE75C02294F751F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5C777B4A49B81DF5"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -7.0d
+			description: ["Obtain a recovery compass to locate your last death location"]
+			id: "4866B1D0882078A9"
+			tasks: [{
+				id: "71887E562391EF00"
+				type: "item"
+				item: "minecraft:recovery_compass"
+			}]
+			rewards: [{
+				id: "68DB2CC2C51AE81F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			subtitle: "Eye spies"
+			description: ["Collect all 12 special eyes to active the end portal frame"]
+			id: "54095F8E134919D7"
+			tasks: [
+				{
+					id: "2C3278AC9A004B51"
+					type: "item"
+					item: {
+						id: "endrem:corrupted_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47E55A05E47F541A"
+					type: "item"
+					item: {
+						id: "endrem:lost_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5438D1F6597E5D8E"
+					type: "item"
+					item: {
+						id: "endrem:old_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58B5A2E11143B02A"
+					type: "item"
+					item: {
+						id: "endrem:rogue_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10AAAFF84DC65DC8"
+					type: "item"
+					item: {
+						id: "endrem:cursed_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03DFDF3B66C3EBD3"
+					type: "item"
+					item: {
+						id: "endrem:evil_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17C395ED43E28C87"
+					type: "item"
+					item: {
+						id: "endrem:guardian_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34338E6EE6E32F2E"
+					type: "item"
+					item: {
+						id: "endrem:magical_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BB11F237F585782"
+					type: "item"
+					item: {
+						id: "endrem:wither_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42211CE538B27CF4"
+					type: "item"
+					item: {
+						id: "endrem:witch_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DE949046448BB5F"
+					type: "item"
+					item: {
+						id: "endrem:undead_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5933F9CE5B991632"
+					type: "item"
+					item: {
+						id: "endrem:exotic_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5C488457CF3D6F9B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "09180DE77C251846"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+	]
+}

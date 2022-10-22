@@ -1,0 +1,415 @@
+{
+	id: "4476102C94ABAA00"
+	group: ""
+	order_index: 3
+	filename: "magic"
+	title: "Magic"
+	icon: "ars_nouveau:apprentice_spell_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Magical"
+			description: ["Begin your jounery into the arcane by crafting an imbuement chamber"]
+			dependencies: ["71640FCAEC4F9461"]
+			id: "60CA9B3D31EA5592"
+			tasks: [{
+				id: "289FC806D523CD85"
+				type: "item"
+				item: "ars_nouveau:imbuement_chamber"
+			}]
+			rewards: [
+				{
+					id: "29E98533843E4A52"
+					type: "item"
+					item: "minecraft:amethyst_shard"
+				}
+				{
+					id: "1395E44102A480FC"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			subtitle: "Source??"
+			description: [
+				"Source gems are crucial in magic endevours"
+				""
+			]
+			dependencies: ["60CA9B3D31EA5592"]
+			id: "092ED5ABB7260F54"
+			tasks: [{
+				id: "74A8789DDC263D5E"
+				type: "item"
+				item: "ars_nouveau:source_gem"
+			}]
+			rewards: [
+				{
+					id: "1201241A0C0F2CC4"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+				}
+				{
+					id: "65F3BA155E716DC3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["This worn notebook will be your guide into the arcane. With this book in your inventory, you'll be able to hold 'ctrl' while overing over certain magical items to bring up their entry in the notebook"]
+			id: "71640FCAEC4F9461"
+			tasks: [{
+				id: "465528758B22585D"
+				type: "checkmark"
+				title: "Ars Nouveau"
+				icon: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "57CAEEE5E2DF31B8"
+					type: "item"
+					item: "ars_nouveau:worn_notebook"
+				}
+				{
+					id: "3496A513C0A6CCEB"
+					type: "item"
+					item: "delightful:source_berry_pie_slice"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["Allows for more complicated magical recipes"]
+			dependencies: ["092ED5ABB7260F54"]
+			id: "721D05C0ED2C8B49"
+			tasks: [
+				{
+					id: "4B43343D1DAD8654"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "100E510F3956A84A"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+			]
+			rewards: [
+				{
+					id: "1228381A8BF925CD"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 3
+				}
+				{
+					id: "757AC37BD7188D81"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			description: ["Path to soul magic"]
+			dependencies: ["721D05C0ED2C8B49"]
+			id: "0370343F28271CF1"
+			tasks: [{
+				id: "6B1B0E74D560704F"
+				type: "item"
+				item: "spirit:soul_powder"
+			}]
+			rewards: [
+				{
+					id: "7E58546D5E7782F8"
+					type: "item"
+					item: "minecraft:soul_campfire"
+				}
+				{
+					id: "70E1319691C1A224"
+					type: "item"
+					item: "spirit:soul_powder"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			description: [
+				"Soul steal is created by tossing iron into soul fire surround by soul powder blocks"
+				"JEI can help with this process"
+			]
+			dependencies: ["0370343F28271CF1"]
+			id: "32D2F4B426D7D5EA"
+			tasks: [{
+				id: "7C8069226A954F7C"
+				type: "item"
+				item: "spirit:soul_steel_ingot"
+			}]
+			rewards: [
+				{
+					id: "0127CED135929160"
+					type: "item"
+					item: "spirit:soul_powder_block"
+				}
+				{
+					id: "2D55A4C3F169F7BD"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			description: ["First step to obtaining a soul crystal"]
+			dependencies: ["0370343F28271CF1"]
+			id: "142818CC6185F3FE"
+			tasks: [{
+				id: "2E1475A307260397"
+				type: "item"
+				item: "spirit:soul_crystal_shard"
+			}]
+			rewards: [
+				{
+					id: "373B5EBE4BBB9AF7"
+					type: "item"
+					item: "spirit:soul_glass"
+				}
+				{
+					id: "25ED7DB47ECA1AE5"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "6CE15C6C32891719"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			dependencies: ["142818CC6185F3FE"]
+			id: "2EE552DFEEB2DF15"
+			tasks: [{
+				id: "7A99C2A6E8B85DF3"
+				type: "item"
+				item: "spirit:crude_soul_crystal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["First kill binds a soul to a crystal"]
+			dependencies: ["2EE552DFEEB2DF15"]
+			id: "1E511AC0D5AB95AF"
+			tasks: [{
+				id: "56522081943937C2"
+				type: "item"
+				item: "spirit:soul_crystal"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			subtitle: "Spawning mobs"
+			description: ["Complete a soul crystal and place it into a soul cage to spawn mobs!"]
+			dependencies: ["1E511AC0D5AB95AF"]
+			id: "1F930B786BE4BC2B"
+			tasks: [{
+				id: "5A893B8FDE7A250A"
+				type: "item"
+				item: "spirit:soul_cage"
+			}]
+			rewards: [
+				{
+					id: "47AC0B3BD388214B"
+					type: "item"
+					item: "spirit:crude_soul_crystal"
+				}
+				{
+					id: "067BD610E5508DDD"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "7E5B72D93D5611D0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			description: ["Farms souls for crystals more efficiently"]
+			dependencies: ["32D2F4B426D7D5EA"]
+			id: "459843DA752C94B9"
+			tasks: [{
+				id: "20FDF9C6EF39980B"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "74BDA82FA6CD63B2"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "47794C87A6512E7E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			dependencies: ["721D05C0ED2C8B49"]
+			id: "72061EAEADE50339"
+			tasks: [{
+				id: "3F62B43EDF0ABBE4"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "559304E586D5A58F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7FA216431D6FA526"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			dependencies: [
+				"721D05C0ED2C8B49"
+				"72061EAEADE50339"
+			]
+			id: "68C5301478C43A65"
+			tasks: [{
+				id: "6F17EDB4EB752E75"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "52C02DA1401703CE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43B32C4D37FDAD74"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			dependencies: [
+				"721D05C0ED2C8B49"
+				"72061EAEADE50339"
+				"68C5301478C43A65"
+			]
+			id: "50E627394885EB51"
+			tasks: [{
+				id: "4A6DF07C0BA04F19"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+			rewards: [
+				{
+					id: "50B31B43BC6AF11E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "52D420C6B618A630"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: ["Begin creating glyphs for your spell book!"]
+			dependencies: ["721D05C0ED2C8B49"]
+			id: "4D7D56419967CC1E"
+			tasks: [{
+				id: "19F21D10A5E83E07"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
+			}]
+			rewards: [
+				{
+					id: "2598680581A553A9"
+					type: "item"
+					item: "ars_nouveau:glyph_ignite"
+				}
+				{
+					id: "1F2E25C604D4DFF2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			description: ["Hamster wheel energy"]
+			dependencies: ["721D05C0ED2C8B49"]
+			id: "0B5E262305DD4BF9"
+			tasks: [{
+				id: "1D80827D7248A700"
+				type: "item"
+				item: "ars_creo:starbuncle_wheel"
+			}]
+			rewards: [
+				{
+					id: "3EF1CFA6C3E02C0A"
+					type: "item"
+					item: "create:shaft"
+					count: 3
+				}
+				{
+					id: "55DA6A841AC9DE1E"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "4283B16D96D9930F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

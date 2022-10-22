@@ -1,0 +1,29 @@
+{
+    "type": "silentgear:enchantment",
+    "max_level": 3,
+    "conditions": [
+      {
+        "type": "silentgear:gear_type",
+        "gear_type": "armor"
+      }
+    ],
+    "name": {
+      "text": "Vitality"
+    },
+    "description": {
+      "text": "Increases health"
+    },
+    "enchantments": {
+      "armor": [
+        {
+          "enchantment": "majruszsenchantments:vitality",
+          "level": [
+            1,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  }

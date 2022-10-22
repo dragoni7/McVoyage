@@ -1,0 +1,138 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "organic",
+      "cloth"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "twilightforest:arctic_fur"
+    }
+  },
+  "name": {
+    "text": "Arctic Fur"
+  },
+  "stats": {
+    "main": {
+      "durability": 131.0,
+      "armor_durability": 10.0,
+      "enchantability": 8.0,
+      "armor": 10.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 7.0,
+      "armor/leggings": 5.0,
+      "armor/boots": 2.0,
+      "armor_toughness": 8.0,
+      "magic_armor": 6.0,
+      "rarity": 60.0,
+      "chargeability": 1.0
+    },
+    "grip": {
+      "durability": {
+        "add": 50.0
+      },
+      "repair_efficiency": {
+        "add": 10.0
+      },
+      "harvest_speed": {
+        "add": 0.5
+      },
+      "attack_speed": {
+        "add": 0.15
+      },
+      "rarity": {
+        "add": 30.0
+      }
+    },
+    "lining": {
+      "armor_durability": {
+        "add": 4.0
+      },
+      "armor_toughness": {
+        "add": 1.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:flexible",
+        "level": 3
+      },
+      {
+        "name": "silentgear:bastion",
+        "level": 1
+      }
+    ],
+    "grip": [
+      {
+        "name": "silentgear:flexible",
+        "level": 3
+      }
+    ],
+    "lining": [
+      {
+        "name": "silentgear:flexible",
+        "level": 3
+      },
+      {
+        "name": "silentgear:bastion",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#E8F4FC"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#E8F4FC"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#E8F4FC"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#E8F4FC"
+      }
+    ],
+    "grip/all": [
+      {
+        "texture": "silentgear:grip_wool",
+        "color": "#E8F4FC"
+      }
+    ],
+    "grip/part": [
+      {
+        "texture": "silentgear:grip",
+        "color": "#E8F4FC"
+      }
+    ],
+    "lining/part": [
+      {
+        "texture": "silentgear:lining_cloth",
+        "color": "#E8F4FC"
+      }
+    ]
+  }
+}

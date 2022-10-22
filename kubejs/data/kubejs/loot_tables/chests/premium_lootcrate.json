@@ -1,0 +1,109 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:divine_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:divine_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:divine_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:divine_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsdifficulty:enderium_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "undergarden:utherium_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "silentgear:azure_electrum_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "silentgear:tyrian_steel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:dragon_scale"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ae2:cell_component_256k"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kubejs:azure_casing"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ae2:256k_crafting_storage"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:mysterious_worm"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "twilightforest:charm_of_keeping_3"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:totem_of_undying"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "silentgear:wielder_effect",
+  "max_level": 2,
+  "name": {
+    "text": "Mana Regeneration"
+  },
+  "description": {
+    "text": "Grants Mana Regeneration"
+  },
+  "potion_effects": {
+    "armor": [
+      {
+        "type": "piece_count",
+        "effect": "ars_nouveau:mana_regen",
+        "level": [
+          0,
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "tool": [
+      {
+        "type": "piece_count",
+        "effect": "ars_nouveau:mana_regen",
+        "level": [
+          1
+        ]
+      }
+    ]
+  }
+}

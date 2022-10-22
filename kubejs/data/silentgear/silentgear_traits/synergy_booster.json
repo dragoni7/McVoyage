@@ -1,0 +1,14 @@
+{
+    "type": "silentgear:synergy",
+    "max_level": 5,
+    "name": {
+      "text": "Synergy Booster (Just Gems)"
+    },
+    "description": {
+      "text": "Raises synergy if it is at least 80%"
+    },
+    "synergy_multi": 0.04,
+    "applicable_range": {
+      "min": 0.799
+    }
+  }

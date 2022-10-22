@@ -1,0 +1,97 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 1,
+      "categories": [
+        "organic"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "item": "alexsmobs:bone_serpent_tooth"
+      }
+    },
+    "name": {
+      "translate": "Bone Serpent Tooth"
+    },
+    "stats": {
+      "main": {
+        "durability": 208.0,
+        "armor_durability": 8.0,
+        "enchantability": 10.0,
+        "harvest_level": 2.0,
+        "harvest_speed": 4.0,
+        "melee_damage": 4.0,
+        "magic_damage": 1.0,
+        "attack_speed": 0.0,
+        "armor": 5.0,
+        "armor/helmet": 1.0,
+        "armor/chestplate": 2.0,
+        "armor/leggings": 1.0,
+        "armor/boots": 1.0,
+        "magic_armor": 1.0,
+        "ranged_damage": 1.2,
+        "ranged_speed": -0.1,
+        "projectile_speed": 0.9,
+        "projectile_accuracy": 1.0,
+        "rarity": 25.0,
+        "chargeability": 0.5
+      },
+      "rod": {
+        "melee_damage": {
+          "mul2": 0.2
+        },
+        "rarity": 16.0
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentgear:lava_vision",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.66
+            }
+          ]
+        }
+      ],
+      "rod": [
+        {
+          "name": "silentgear:chipping",
+          "level": 2
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_lc",
+          "color": "#8c8077"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#8c8077"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_lc",
+          "color": "#8c8077"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#8c8077"
+        }
+      ]
+    }
+  }

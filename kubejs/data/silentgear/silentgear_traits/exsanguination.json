@@ -1,0 +1,27 @@
+{
+    "type": "silentgear:target_effect",
+    "max_level": 1,
+    "conditions": [
+      {
+        "type": "silentgear:gear_type",
+        "gear_type": "tool"
+      }
+    ],
+    "name": {
+      "text": "Exsanguination"
+    },
+    "description": {
+      "text": "Gradually drains health"
+    },
+    "effects": {
+      "tool": {
+        "1": [
+          {
+            "effect": "alexsmobs:exsanguination",
+            "amplifier": 0,
+            "duration": 5.0
+          }
+        ]
+      }
+    }
+  }

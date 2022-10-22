@@ -1,0 +1,55 @@
+{
+    "common": [
+      {
+        "entity": "minecraft:zombie",
+        "weight": 2
+      },
+      {
+        "entity": "minecraft:skeleton",
+        "weight": 2
+      },
+      {
+        "entity": "minecraft:spider"
+      },
+      {
+        "entity": "minecraft:cave_spider"
+      },
+      {
+        "entity": "rottencreatures:swampy"
+      },
+      {
+        "entity": "rottencreatures:undead_miner"
+      },
+      {
+        "entity": "rottencreatures:frostbitten"
+      },
+      {
+        "entity": "minecraft:stray",
+        "weight": 2
+      },
+      {
+        "entity": "minecraft:wither_skeleton",
+        "weight": 2
+      },
+      {
+        "entity": "twilightforest:maze_slime"
+      }
+    ],
+    "rare": [
+      {
+        "entity": "minecraft:creeper"
+      },
+      {
+        "entity": "minecraft:enderman"
+      },
+      {
+        "entity": "minecraft:silverfish"
+      },
+      {
+        "entity": "twilightforest:troll"
+      },
+      {
+        "entity": "alexsmobs:centipede_head"
+      }
+    ]
+  }

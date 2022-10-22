@@ -1,0 +1,443 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:railway_casing",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "meetyourfight:velvet_fortune",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "meetyourfight:aether_glazed_cupcake",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kubejs:steel_casing",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mekanism:ingot_steel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "silentgear:crimson_steel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mekanism:basic_control_circuit",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mekanism:ingot_refined_obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mekanismgenerators:solar_generator",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ars_nouveau:source_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mekanism:ingot_osmium",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "byg:ametrine_gems",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:netherite_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:sculk_sensor",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:robe_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:robe_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:robe_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:robe_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:steampunk_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:steampunk_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:steampunk_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:steampunk_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:prismarine_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:prismarine_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:prismarine_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:prismarine_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:heavy_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:heavy_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:heavy_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:heavy_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ars_nouveau:wixie_shards"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ars_nouveau:whirlisprig_shards"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ars_nouveau:starbuncle_shards"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ars_scalaes:glyph_resize"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ars_scalaes:glyph_expand"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ars_scalaes:glyph_shrink"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "dreamland:midashroom"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "dreamland:hive_weaver"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "deeperdarker:warden_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "deeperdarker:warden_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "deeperdarker:warden_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "deeperdarker:warden_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "savage_and_ravage:griefer_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "savage_and_ravage:griefer_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "savage_and_ravage:griefer_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "savage_and_ravage:griefer_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "supplementaries:bubble_blower"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "meetyourfight:marshy_delight"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:shepherds_pie"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:honey_glazed_ham"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:stuffed_pumpkin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:roast_chicken"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:grilled_salmon"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:wither_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:wither_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:wither_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "immersive_armors:wither_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "twilightforest:twilight_scepter"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "twilightforest:lifedrain_scepter"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "twilightforest:charm_of_keeping_1"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "byg:pendorite_ingot"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+	id: "38F5AA5029459DEF"
+	group: ""
+	order_index: 4
+	filename: "extra"
+	title: "Cooking"
+	icon: "farmersdelight:baked_cod_stew"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Anyone Can Cook!"
+			x: -9.0d
+			y: -2.0d
+			description: ["Cooking is essential in survival. Ensuring you have a diverse diet is also as important. The more diverse unique foods you eat, the more max health you can unlock! Get to cooking!"]
+			id: "6F898D6D29E58305"
+			tasks: [{
+				id: "67335E005EFB8C92"
+				type: "checkmark"
+				title: "Anyone can cook!"
+				icon: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6A9881F75C4926D9"
+					type: "item"
+					icon: "solcarrot:food_book"
+					item: "solcarrot:food_book"
+				}
+				{
+					id: "1F877081D27C98DB"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -4.5d
+			subtitle: "Multiblock kitchen"
+			description: ["You'll need several blocks to make a proper kitchen. "]
+			dependencies: ["6F898D6D29E58305"]
+			id: "274C9043C8C04785"
+			tasks: [
+				{
+					id: "1D164D2CEE36760D"
+					type: "item"
+					item: "cookingforblockheads:white_kitchen_floor"
+				}
+				{
+					id: "5C7580EFB21724CA"
+					type: "item"
+					item: "cookingforblockheads:oven"
+				}
+				{
+					id: "470B988B83048DF6"
+					type: "item"
+					item: "cookingforblockheads:sink"
+				}
+				{
+					id: "2FED42E635E72EB8"
+					type: "item"
+					item: "cookingforblockheads:fridge"
+				}
+				{
+					id: "7A561880E8071ABD"
+					type: "item"
+					item: "cookingforblockheads:counter"
+				}
+			]
+			rewards: [
+				{
+					id: "53BC82B3D7CB803E"
+					type: "item"
+					item: "cookingforblockheads:white_kitchen_floor"
+					count: 16
+				}
+				{
+					id: "65172C812F418677"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			description: ["A stove is a block that can take campfire cooking recipes"]
+			dependencies: ["6F898D6D29E58305"]
+			id: "2FF1420E014A4B68"
+			tasks: [{
+				id: "70197268C3B7DB7C"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			rewards: [
+				{
+					id: "10C36950BDD2D0B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7CDF8551CA900944"
+					type: "item"
+					item: "createcafe:blueberry_milk_tea"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			subtitle: "Boiled"
+			description: ["A pot allows you to cook certain recipes such as stews, soups, and more!"]
+			dependencies: ["6F898D6D29E58305"]
+			id: "4E3B5504CD2F9A05"
+			tasks: [{
+				id: "3A6C1397D27A183B"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [
+				{
+					id: "507503897BB6E088"
+					type: "item"
+					item: "createcafe:strawberry_milk_tea"
+				}
+				{
+					id: "1BD7C7015D674451"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			subtitle: "Fry away"
+			description: ["A skillet can be used for campfire cooking recipes. "]
+			dependencies: ["6F898D6D29E58305"]
+			id: "1AC14DA7A2AB74BB"
+			tasks: [{
+				id: "6632138D4FA3B8C7"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "43C85B8EBE67AC82"
+					type: "item"
+					item: "farmersdelight:fried_egg"
+				}
+				{
+					id: "3E70E9FC8B35A91D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 0.0d
+			description: ["The cutting board allows you to chop up ingredients and cakes. Use a sharp knife!"]
+			dependencies: ["6F898D6D29E58305"]
+			id: "7039899395278B21"
+			tasks: [{
+				id: "0849151A19213E4D"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+			rewards: [
+				{
+					id: "2DAC148C209EC978"
+					type: "item"
+					item: {
+						id: "farmersdelight:iron_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D92827E27898037"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -4.5d
+			id: "54A49A87EF105228"
+			tasks: [{
+				id: "34508A5719B84322"
+				type: "item"
+				item: "createcafe:oreo_milk_tea"
+			}]
+			rewards: [
+				{
+					id: "23B4B352274EDF39"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "14CD7BD877B4198F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -4.5d
+			id: "4DCA443D40691EF5"
+			tasks: [{
+				id: "10E4B17B5C92728B"
+				type: "item"
+				item: "farmersdelight:hot_cocoa"
+			}]
+			rewards: [{
+				id: "4EC3EA4265B4852D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.5d
+			id: "6BAC7CEF30BB1CD3"
+			tasks: [{
+				id: "061D026DF9E321CA"
+				type: "item"
+				item: "farmersdelight:chocolate_pie"
+			}]
+			rewards: [{
+				id: "4E1A0F6DEBE19F09"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.0d
+			y: -3.0d
+			id: "7DE4B09F6D4072F7"
+			tasks: [{
+				id: "237C1A9EFB6C391F"
+				type: "item"
+				item: "farmersdelight:hamburger"
+			}]
+			rewards: [{
+				id: "066A32E1F25EF310"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.5d
+			y: -3.0d
+			id: "07310DDF27C8F1B9"
+			tasks: [{
+				id: "3B94F63DB1A02CD3"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin_block"
+			}]
+			rewards: [{
+				id: "687888A6311767FE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: -3.0d
+			id: "07450281215D5EF0"
+			tasks: [{
+				id: "70A27CE1A5612241"
+				type: "item"
+				item: "farmersdelight:shepherds_pie_block"
+			}]
+			rewards: [{
+				id: "3891B76ED67E4F06"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.0d
+			y: -1.5d
+			id: "7259E28241C7330E"
+			tasks: [{
+				id: "057F12860FA9F062"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham"
+			}]
+			rewards: [{
+				id: "70137BC1DCFB5E57"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.5d
+			y: -1.5d
+			id: "3E9513586C7BB045"
+			tasks: [{
+				id: "5A0724E614907CCF"
+				type: "item"
+				item: "farmersdelight:roasted_mutton_chops"
+			}]
+			rewards: [{
+				id: "7AE13B16D97869B6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.5d
+			id: "4F9D8EE297A14D58"
+			tasks: [{
+				id: "079FDB26C8A7F895"
+				type: "item"
+				item: "delightful:deluxe_cheeseburger"
+			}]
+			rewards: [{
+				id: "5FB7E7593D6AA774"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.0d
+			y: 0.0d
+			id: "685CCF17D24B78BC"
+			tasks: [{
+				id: "1F87F8047F81CBC6"
+				type: "item"
+				item: "delightful:ender_nectar"
+			}]
+			rewards: [{
+				id: "273B4E14595BBDF8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.5d
+			y: 0.0d
+			id: "1C7B92ADD4384E21"
+			tasks: [{
+				id: "47E84FACB961FE62"
+				type: "item"
+				item: "delightful:matcha_latte"
+			}]
+			rewards: [{
+				id: "7670D7B41A4CDBA6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.0d
+			id: "5747C2C9B465C525"
+			tasks: [{
+				id: "06BB151CF00BD085"
+				type: "item"
+				item: "delightful:crab_rangoon"
+			}]
+			rewards: [{
+				id: "76F1172921FB699E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -15.5d
+			y: -4.5d
+			id: "7369EB695D237294"
+			tasks: [{
+				id: "5F52DEC5479FD6B1"
+				type: "item"
+				item: "neapolitan:neapolitan_ice_cream"
+			}]
+			rewards: [{
+				id: "3B4282120F29218E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -15.5d
+			y: -3.0d
+			id: "10C7D634D71AAAD4"
+			tasks: [{
+				id: "43B8F04D72637769"
+				type: "item"
+				item: "delightful:salmonberry_ice_cream"
+			}]
+			rewards: [{
+				id: "4A53392E184BA63C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -15.5d
+			y: -1.5d
+			id: "3F1C17B73D085A51"
+			tasks: [{
+				id: "4CD2326CD63818B1"
+				type: "item"
+				item: "neapolitan:mint_cake"
+			}]
+			rewards: [{
+				id: "197534069BB22B18"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -15.5d
+			y: 0.0d
+			id: "44451BCC6A73B9F1"
+			tasks: [{
+				id: "0CD80A5B6D3A4D4B"
+				type: "item"
+				item: "neapolitan:adzuki_bun"
+			}]
+			rewards: [{
+				id: "6B797D2C5DD98409"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -17.0d
+			y: -4.5d
+			id: "71B6D172DA2985EE"
+			tasks: [{
+				id: "108F168EA35DCE3E"
+				type: "item"
+				item: "dreamland:ooze_pie"
+			}]
+			rewards: [{
+				id: "35BFD3E6965720D3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -17.0d
+			y: -3.0d
+			id: "3559AD7D18D11A73"
+			tasks: [{
+				id: "19A9BEAB260B4843"
+				type: "item"
+				item: "neapolitan:vanilla_milkshake"
+			}]
+			rewards: [{
+				id: "5EC78B9484B2D062"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -17.0d
+			y: -1.5d
+			id: "0F8FE03978BCB9D2"
+			tasks: [{
+				id: "28231658ACADD297"
+				type: "item"
+				item: "ars_nouveau:source_berry_roll"
+			}]
+			rewards: [{
+				id: "7F203EA44B6D9888"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -17.0d
+			y: 0.0d
+			id: "6DA4A034BE80399A"
+			tasks: [{
+				id: "298ED4246688592E"
+				type: "item"
+				item: "buzzier_bees:honey_bread"
+			}]
+			rewards: [{
+				id: "534B55D3AB609C69"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

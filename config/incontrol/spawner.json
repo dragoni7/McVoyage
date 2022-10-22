@@ -1,0 +1,343 @@
+[
+    {
+      "mob": ["deeperdarker:sculk_leech", "alexsmobs:skreecher", "deeperdarker:sculk_snapper", "deeperdarker:shattered"],
+      "persecond": 0.4,
+      "attempts": 10,
+      "amount": {
+        "minimum": 2,
+        "maximum": 5
+      },
+      "conditions": {
+        "dimension": "deeperdarker:otherside",
+        "mindist": 25,
+        "maxdist": 100,
+        "minheight": -60,
+        "maxheight": 200,
+        "maxthis": 8
+      }
+    },
+
+    {
+        "mob": ["alexsmobs:skreecher", "deeperdarker:shattered"],
+        "persecond": 0.2,
+        "attempts": 10,
+        "amount": {
+          "minimum": 2,
+          "maximum": 5
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 25,
+          "maxdist": 30,
+          "minheight": -60,
+          "maxheight": 100,
+          "maxthis": 10
+        }
+      },
+
+    {
+        "mob": ["minecraft:warden", "deeperdarker:shriek_worm"],
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+          "minimum": 1,
+          "maximum": 1
+        },
+        "conditions": {
+          "dimension": "deeperdarker:otherside",
+          "mindist": 25,
+          "maxdist": 100,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 3
+        }
+    },
+    
+    {
+        "mob": ["rottencreatures:burned"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 15,
+          "maxdist": 20,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 8
+        }
+      },
+
+      {
+        "mob": ["quark:wraith"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 10,
+          "maxdist": 25,
+          "minheight": -60,
+          "maxheight": 50,
+          "maxthis": 16
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:farseer"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 25,
+          "maxdist": 50,
+          "minheight": -60,
+          "maxheight": 40,
+          "maxthis": 16
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:skelewag"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 25,
+          "maxdist": 50,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 16
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:guster", "twilightforest:pinch_beetle"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 10,
+          "maxdist": 25,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 16
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:rocky_roller"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 10,
+          "maxdist": 25,
+          "minheight": -100,
+          "maxheight": 30,
+          "maxthis": 6
+        }
+      },
+
+      {
+        "mob": ["savage_and_ravage:executioner", "savage_and_ravage:trickster", "savage_and_ravage:griefer"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 25,
+          "maxdist": 50,
+          "minheight": 50,
+          "maxheight": 200,
+          "maxthis": 10
+        }
+      },
+
+      {
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "twilightforest:skeleton_druid"],
+        "persecond": 0.1,
+        "attempts": 18,
+        "amount": {
+          "minimum": 2,
+          "maximum": 5
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 25,
+          "maxdist": 100,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 27
+        }
+      },
+
+      {
+        "mob": ["rottencreatures:burned"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+          "minimum": 2,
+          "maximum": 5
+        },
+        "conditions": {
+          "dimension": "minecraft:the_nether",
+          "mindist": 25,
+          "maxdist": 100,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 20
+        }
+      },
+
+      {
+        "mob": ["minecraft:zombified_piglin"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+          "minimum": 2,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 10,
+          "maxdist": 30,
+          "minheight": 60,
+          "maxheight": 200,
+          "maxthis": 14
+        }
+      },
+
+      {
+        "mob": ["minecraft:vex"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+          "minimum": 2,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 10,
+          "maxdist": 25,
+          "minheight": 60,
+          "maxheight": 200,
+          "maxthis": 6
+        }
+      },
+
+      {
+        "mob": ["twilightforest:slime_beetle"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+          "minimum": 2,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 10,
+          "maxdist": 25,
+          "minheight": 40,
+          "maxheight": 200,
+          "maxthis": 6
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:crimson_mosquito"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+          "minimum": 2,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:the_nether",
+          "mindist": 10,
+          "maxdist": 25,
+          "minheight": 40,
+          "maxheight": 200,
+          "maxthis": 6
+        }
+      },
+
+      {
+        "mob": ["quark:forgotten"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+          "minimum": 2,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 10,
+          "maxdist": 25,
+          "minheight": 40,
+          "maxheight": 200,
+          "maxthis": 10
+        }
+      },
+
+      {
+        "mob": ["twilightforest:death_tome"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+          "minimum": 2,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 10,
+          "maxdist": 25,
+          "minheight": 40,
+          "maxheight": 200,
+          "maxthis": 5
+        }
+      },
+
+      {
+        "mob": ["neapolitan:plantain_spider"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+          "minimum": 2,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 10,
+          "maxdist": 25,
+          "minheight": 40,
+          "maxheight": 200,
+          "maxthis": 8
+        }
+      }
+  ]

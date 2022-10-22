@@ -1,0 +1,11 @@
+
+[General]
+	#The chance a Pumpkillager will spawn when a player breaks a pumpkin block.
+	#Range: 0.001 ~ 1.0
+	pumpkillagerSpawnChance = 0.1
+	#Whether the Pumpkillager should spawn when pumpkins are broken while the player is in creative mode.
+	enablePumpkillagerSpawnDuringCreative = false
+	#The amount of health the final boss should have.
+	#Range: 1.0 ~ 10000.0
+	finalBossMaxHealth = 300.0
+

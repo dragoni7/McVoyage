@@ -1,0 +1,149 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "organic",
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "ars_nouveau:wilden_horn"
+    }
+  },
+  "name": {
+    "text": "Wilden Horn"
+  },
+  "stats": {
+    "main": {
+      "durability": 188.0,
+      "armor_durability": 6.0,
+      "enchantability": 7.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 5.0,
+      "melee_damage": 3.0,
+      "magic_damage": 2.0,
+      "attack_speed": 0.2,
+      "armor": 7.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 4.0,
+      "armor/leggings": 2.0,
+      "armor/boots": 2.0,
+      "magic_armor": 2.0,
+      "ranged_damage": 1.8,
+      "ranged_speed": 1.5,
+      "projectile_speed": 1.1,
+      "projectile_accuracy": 1.1,
+      "rarity": 10.0,
+      "chargeability": 0.9
+    },
+    "adornment": {},
+    "rod": {
+      "melee_damage": {
+        "mul2": 0.22
+      },
+      "rarity": 10.0
+    }
+  },
+  "traits": {
+    "adornment": [
+      {
+        "name": "silentgear:strengthened",
+        "level": 2
+      }
+    ],
+    "main": [
+      {
+        "name": "silentgear:sharp",
+        "level": 1
+      },
+      {
+        "name": "silentgear:chipping",
+        "level": 1
+      },
+      {
+        "name": "silentgear:crushing",
+        "level": 2
+      },
+      {
+        "name": "silentgear:strengthened",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:or",
+            "values": [
+              {
+                "type": "silentgear:material_count",
+                "count": 3
+              },
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.35
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:flexible",
+        "level": 3
+      },
+      {
+        "name": "silentgear:reach",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#F2EACF"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#F2EACF"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#F2EACF"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#F2EACF"
+      }
+    ],
+    "adornment/all": [
+      {
+        "texture": "silentgear:adornment_generic",
+        "color": "#F2EACF"
+      },
+      {
+        "texture": "silentgear:adornment_highlight",
+        "color": "#F2EACF"
+      }
+    ],
+    "adornment/part": [
+      {
+        "texture": "silentgear:adornment",
+        "color": "#F2EACF"
+      },
+      {
+        "texture": "silentgear:adornment_highlight"
+      }
+    ]
+  }
+}

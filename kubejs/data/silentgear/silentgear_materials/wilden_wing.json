@@ -1,0 +1,115 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "organic",
+      "cloth"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "ars_nouveau:wilden_wing"
+    }
+  },
+  "name": {
+    "text": "Wilden Wing"
+  },
+  "stats": {
+    "main": {
+      "durability": 0.0,
+      "armor_durability": 12.0,
+      "enchantability": 10.0,
+      "rarity": 35.0,
+      "chargeability": 0.7,
+      "armor_durability/elytra": 17.0,
+      "armor": 6.0,
+      "armor/helmet": 1.0,
+      "armor/chestplate": 2.0,
+      "armor/leggings": 2.0,
+      "armor/boots": 1.0,
+      "magic_armor": 8.0
+    },
+    "grip": {
+      "repair_efficiency": {
+        "mul1": 0.15
+      },
+      "harvest_speed": {
+        "mul1": 0.1
+      },
+      "attack_speed": {
+        "add": 0.2
+      },
+      "rarity": {
+        "add": 10.0
+      }
+    },
+    "lining": {
+      "armor_durability": {
+        "add": 4.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:jump_boost",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "grip": [
+      {
+        "name": "silentgear:ancient",
+        "level": 1
+      }
+    ],
+    "lining": [
+      {
+        "name": "silentgear:jump_boost",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#C3B9A1"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:cloth",
+        "color": "#C3B9A1"
+      }
+    ],
+    "grip/all": [
+      {
+        "texture": "silentgear:grip_wool",
+        "color": "#C3B9A1"
+      }
+    ],
+    "grip/part": [
+      {
+        "texture": "silentgear:grip",
+        "color": "#C3B9A1"
+      }
+    ],
+    "lining/part": [
+      {
+        "texture": "silentgear:lining_cloth",
+        "color": "#C3B9A1"
+      }
+    ]
+  }
+}

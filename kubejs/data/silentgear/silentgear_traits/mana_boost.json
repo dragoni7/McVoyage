@@ -1,0 +1,32 @@
+{
+  "type": "silentgear:enchantment",
+  "max_level": 7,
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "armor"
+    }
+  ],
+  "name": {
+    "text": "Mana Boost"
+  },
+  "description": {
+    "text": "Boosts Mana"
+  },
+  "enchantments": {
+    "armor": [
+      {
+        "enchantment": "ars_nouveau:mana_boost",
+        "level": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  }
+}

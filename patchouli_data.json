@@ -1,0 +1,22 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "dreamland:dreamland_guide_book": {
+      "viewedEntries": [
+        "dreamland:mobs/larva"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:equipment/runic_chalk",
+        "ars_nouveau:enchantments/how_to_enchant",
+        "ars_nouveau:machines/enchanting_apparatus"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

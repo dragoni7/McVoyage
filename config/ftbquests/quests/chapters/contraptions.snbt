@@ -1,0 +1,1366 @@
+{
+	id: "3CBBDC703DEE8099"
+	group: ""
+	order_index: 2
+	filename: "contraptions"
+	title: "Contraptions"
+	icon: "supplementaries:cog_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -13.0d
+			y: -2.0d
+			subtitle: "Create!"
+			description: [
+				"Begin your engineering journey with Create. Factories, trains, and more can be created with the power of rotational force!"
+				"Many of Create's blocks and items come with a ponder mechanic. Simply hover over the item and hold 'w' to bring up a ponder scenes. Ponder scenes offer a helpful tutorial to learn how to use features"
+				"This questline serves as a loose guide. There are many more interesting blocks, contraptions, and items between steps!"
+			]
+			id: "2A8AA1677D3BD35B"
+			tasks: [{
+				id: "449B448B2DBDE1EE"
+				type: "checkmark"
+				icon: "create:wrench"
+			}]
+			rewards: [
+				{
+					id: "16AC4978FD723F41"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 8
+				}
+				{
+					id: "6D9A758769C5E95E"
+					type: "item"
+					item: "create:builders_tea"
+				}
+				{
+					id: "29C586B5E375BF05"
+					type: "item"
+					item: "create:shaft"
+					count: 4
+				}
+				{
+					id: "4BC096C1B456D255"
+					type: "item"
+					item: "create:cogwheel"
+					count: 3
+				}
+				{
+					id: "4B5FD5A50C5E7A5A"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "21AB2903ABE42DD8"
+					type: "item"
+					item: "create:wrench"
+				}
+				{
+					id: "15417BADDB19770C"
+					type: "item"
+					item: "create:goggles"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			subtitle: "Low tech"
+			description: ["Andesite casing is useful in many contraptions."]
+			dependencies: ["594BDFD248B4C491"]
+			id: "6C98BE2637351271"
+			tasks: [{
+				id: "43D8F444870BCE52"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [
+				{
+					id: "3296D037305AE0AF"
+					type: "item"
+					item: "quark:red_blossom_sapling"
+				}
+				{
+					id: "536FC13548698502"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 4
+				}
+				{
+					id: "394CFFB8A3DA5E7A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			subtitle: "Big crafting table"
+			description: ["Setting up mechanical crafting will help with certain recipes, autocrafting and more!"]
+			dependencies: ["6C98BE2637351271"]
+			id: "67DAA5D48410D1A0"
+			tasks: [{
+				id: "0D6427E25242CC42"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [
+				{
+					id: "35F1C9F76351A102"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 10
+				}
+				{
+					id: "40FBE5C32B0C2473"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "74CB5D82C28654AC"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			description: ["Having a method for crushing materials is crucial!"]
+			dependencies: ["67DAA5D48410D1A0"]
+			id: "0C416A63DA4C7333"
+			tasks: [{
+				id: "6902DBAE0E7A096B"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "181B73F3D6F9EE19"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "39C06F3897115C34"
+					type: "item"
+					item: "create:crushed_iron_ore"
+					count: 3
+				}
+				{
+					id: "10C4D49EA78767D3"
+					type: "item"
+					item: "create:belt_connector"
+					count: 6
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -3.0d
+			subtitle: "Better hopper"
+			description: ["Belts aid in transporting items. In combination with a funnel, you can push or pull items out of many containers!"]
+			dependencies: ["6C98BE2637351271"]
+			id: "3D6AF6B77EA63233"
+			tasks: [{
+				id: "345CD8C5752D76D5"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [
+				{
+					id: "61638A05A61C353B"
+					type: "item"
+					item: "create:shaft"
+					count: 2
+				}
+				{
+					id: "20267FC97859A29E"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "5841A90B6F639311"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			subtitle: "Hydropower"
+			description: ["One of the many ways to generate rotational force"]
+			dependencies: ["6C98BE2637351271"]
+			id: "111D38DEAC605E30"
+			tasks: [{
+				id: "78BA7B15C22726B0"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [
+				{
+					id: "54D84AED08EFBB66"
+					type: "item"
+					item: "create:water_wheel"
+				}
+				{
+					id: "1A50D3440F4E6DB9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			subtitle: "Wind power"
+			description: ["Windmills are another way to generate rotational force."]
+			dependencies: ["6C98BE2637351271"]
+			id: "458E3038F4AC908F"
+			tasks: [{
+				id: "2F6A553007DD42EC"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+			rewards: [
+				{
+					id: "7E5A4883F6566F51"
+					type: "item"
+					item: "create:sail_frame"
+					count: 4
+				}
+				{
+					id: "2BD076054EED7F73"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["Brass is a common ingredient in creating mechanical contraptions. Learn how to make some with a mixer and a blaze burner"]
+			dependencies: ["57845A44E4DF1922"]
+			id: "45708C849691148B"
+			tasks: [{
+				id: "7497F7C5CD9E16CA"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [
+				{
+					id: "67F4EEE71D0D4F24"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7349CEEE9042DA3F"
+					type: "item"
+					item: "create:brass_ingot"
+					count: 4
+				}
+				{
+					id: "224BFFC0C8F2C650"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			description: ["Brass casing aids in creating more advanced creations"]
+			dependencies: ["45708C849691148B"]
+			id: "59AB974E2BC308C0"
+			tasks: [{
+				id: "033F8108746DFE2A"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [
+				{
+					id: "02046E7D9EB3EFA9"
+					type: "item"
+					item: "create_crystal_clear:brass_clear_glass_casing"
+					count: 4
+				}
+				{
+					id: "04B38FE783DDA0E0"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "2B7E58CBF7F45557"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			subtitle: "Automated person"
+			description: ["Deployers can imitate right click interactions. Crucial for sequenced assembly"]
+			dependencies: ["45708C849691148B"]
+			id: "38FA6A587F35105E"
+			tasks: [{
+				id: "6FA0D00E4CF96767"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [
+				{
+					id: "4100310C4B5534B4"
+					type: "item"
+					item: "create:brass_hand"
+				}
+				{
+					id: "6310E8237DCF67D2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "Precise"
+			description: ["Set up sequential assembly to create precision mechanisms. Belts and deployers will help with this task"]
+			dependencies: ["45708C849691148B"]
+			id: "2EB897AB73A91F90"
+			tasks: [{
+				id: "62C8193AF0B9E10E"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [
+				{
+					id: "583ADED1C31F7EB7"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 6
+				}
+				{
+					id: "72E8DC5225F191F5"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "1A630EFF14AEBAAF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			subtitle: "It's alive"
+			description: [
+				"Infused mechanisms help create more advanced tech. Set up sequential assembly to create some."
+				"*Note, you'll need soul steal for this recipe"
+			]
+			dependencies: ["45708C849691148B"]
+			id: "27C0864DB817E104"
+			tasks: [{
+				id: "31BBC4A57A456B90"
+				type: "item"
+				item: "kubejs:infused_mechanism"
+			}]
+			rewards: [
+				{
+					id: "2AB683EE620146DE"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "789211075093C571"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["Create the metallurgic infuser to gain access to steel!"]
+			dependencies: [
+				"59AB974E2BC308C0"
+				"27C0864DB817E104"
+			]
+			id: "6B0DCDE78B5045CD"
+			tasks: [{
+				id: "543AA7DC2EDB804B"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [
+				{
+					id: "02ECD9EB9B67CB99"
+					type: "item"
+					item: "mekanism:enriched_carbon"
+				}
+				{
+					id: "614ECDE9095C73B5"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "79F9A8AC3B357B41"
+					type: "item"
+					item: "ae2:meteorite_compass"
+				}
+				{
+					id: "2F99ED4D4E4BE138"
+					type: "item"
+					item: "ae2:certus_quartz_dust"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			description: ["Cast iron is a crucial step towards steel productoin"]
+			dependencies: ["45708C849691148B"]
+			id: "3482E3F5C955AD7C"
+			tasks: [{
+				id: "3A47FB79C4E036F4"
+				type: "item"
+				item: "createdeco:cast_iron_ingot"
+			}]
+			rewards: [
+				{
+					id: "063DAEA087067B63"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 10
+				}
+				{
+					id: "484B1B447F028A1C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: ["Obtain steel, a more advanced iron"]
+			dependencies: ["6B0DCDE78B5045CD"]
+			id: "1E6214996E632697"
+			tasks: [{
+				id: "7DC9D2C728B3DEDC"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
+			rewards: [
+				{
+					id: "55A6C8D6D1D06C69"
+					type: "item"
+					item: "createdeco:cast_iron_ingot"
+					count: 4
+				}
+				{
+					id: "4348F44C3D6C84AA"
+					type: "item"
+					item: {
+						id: "delightful:steel_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5DFDA6410DA713C2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			description: ["Steel casings can create advanced, mekanism blocks"]
+			dependencies: ["1E6214996E632697"]
+			id: "5105ABCD711ABA5A"
+			tasks: [{
+				id: "364E38F9C83C5B09"
+				type: "item"
+				item: "kubejs:steel_casing"
+			}]
+			rewards: [
+				{
+					id: "1C6857A20AD3A3CD"
+					type: "item"
+					item: "mekanism:ingot_steel"
+					count: 4
+				}
+				{
+					id: "0C46437834A00500"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "770179CFC89BADC9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			description: ["Used to create refined ingots"]
+			dependencies: ["5105ABCD711ABA5A"]
+			id: "1EAA45B7C5593691"
+			tasks: [{
+				id: "02A90C9003775F08"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [
+				{
+					id: "0D3D00474840C097"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 3
+				}
+				{
+					id: "21299E2CEA26EAEF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "39EF8F7A8941F437"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["1EAA45B7C5593691"]
+			id: "58B647A7740287EF"
+			tasks: [{
+				id: "4FB89E51C5D4908E"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+			}]
+			rewards: [
+				{
+					id: "7A35D0E8E5B134E2"
+					type: "item"
+					item: "mekanism:enriched_diamond"
+				}
+				{
+					id: "20708A18059CBF66"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			description: ["Obsidian casing allows you to create even more advanced contraptions"]
+			dependencies: ["58B647A7740287EF"]
+			id: "44296E14FCE0AD45"
+			tasks: [{
+				id: "79E04746B353BACC"
+				type: "item"
+				item: "kubejs:obsidian_casing"
+			}]
+			rewards: [
+				{
+					id: "22A186674941A81D"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "79ADD6EC78819898"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["The base for circuits"]
+			dependencies: ["6B0DCDE78B5045CD"]
+			id: "1AD8138491ADEE33"
+			tasks: [{
+				id: "5050C273D7890B33"
+				type: "item"
+				item: "kubejs:control_circuit_base"
+			}]
+			rewards: [
+				{
+					id: "78C6C5B3E9CECD83"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "59125B9015CD5D06"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["1AD8138491ADEE33"]
+			id: "5B373CF914F239F7"
+			tasks: [{
+				id: "6CB855E80BE64C55"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+			rewards: [{
+				id: "6F9847DEB341ECB1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			dependencies: ["5B373CF914F239F7"]
+			id: "4A4FC78D54C117A9"
+			tasks: [{
+				id: "666306BDAF4BA739"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+			rewards: [{
+				id: "72A18BCF85D1F989"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			dependencies: ["4A4FC78D54C117A9"]
+			id: "14A810230F1E4B76"
+			tasks: [{
+				id: "0C64DB472F9F5156"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+			rewards: [{
+				id: "5F506BF389F37979"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			dependencies: ["14A810230F1E4B76"]
+			id: "73792F1B47334CF4"
+			tasks: [{
+				id: "62B712FBB8B4F9F3"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "300669D2FBCE03F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5B8D94EBEFD1BC30"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -1.0d
+			description: ["Building block of creativity"]
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "594BDFD248B4C491"
+			tasks: [{
+				id: "7D05544EF753EDD4"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [
+				{
+					id: "1565FBE0040901BA"
+					type: "item"
+					item: "minecraft:andesite"
+				}
+				{
+					id: "7E3D9B9FBDA781B2"
+					type: "item"
+					item: "minecraft:diorite"
+				}
+				{
+					id: "6A05C919309D6DD7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["6B0DCDE78B5045CD"]
+			id: "69ED56BBCDA96FEE"
+			tasks: [{
+				id: "1FD3CEDDDB251052"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+			rewards: [{
+				id: "24F63BEDD536BDB7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["69ED56BBCDA96FEE"]
+			id: "0E8900E21299CCC9"
+			tasks: [{
+				id: "2FAC2676B493BAC4"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [{
+				id: "717B0BCDD447704A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			dependencies: ["0E8900E21299CCC9"]
+			id: "7C126F02B089A6E8"
+			tasks: [{
+				id: "033C0E245D32BCC4"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+			rewards: [
+				{
+					id: "65AE41CC13747CE8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "28302D35259322C3"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			subtitle: "ae2"
+			description: ["Allows the creation of advanced processors"]
+			dependencies: ["44296E14FCE0AD45"]
+			id: "28F2B1FE46C8C48F"
+			tasks: [{
+				id: "1BCDAFEFCEAC0DFA"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+			rewards: [
+				{
+					id: "3A5BB7C6B604AF7A"
+					type: "item"
+					item: "ae2:silicon"
+					count: 4
+				}
+				{
+					id: "3C86B39112ED4403"
+					type: "item"
+					item: "ae2:quartz_cluster"
+				}
+				{
+					id: "722ED9ED2B300870"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			dependencies: ["28F2B1FE46C8C48F"]
+			id: "32B2917048AB10E1"
+			tasks: [{
+				id: "727EEF71D66D3A22"
+				type: "item"
+				item: "ae2:logic_processor"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			dependencies: ["28F2B1FE46C8C48F"]
+			id: "5FA14E864BC51CB3"
+			tasks: [{
+				id: "2ECD052706445153"
+				type: "item"
+				item: "ae2:calculation_processor"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			dependencies: ["28F2B1FE46C8C48F"]
+			id: "1B7ECB8DEC28D8CC"
+			tasks: [{
+				id: "1D6F99DC875FD026"
+				type: "item"
+				item: "ae2:engineering_processor"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			description: ["After discovering the end, you can create azure casings! The most advanced casing available"]
+			dependencies: ["58B647A7740287EF"]
+			id: "093159C3B44B28CC"
+			tasks: [{
+				id: "32553F74E99FBD08"
+				type: "item"
+				item: "kubejs:azure_casing"
+			}]
+			rewards: [
+				{
+					id: "7CB26299985D9C96"
+					type: "item"
+					item: "silentgear:azure_electrum_ingot"
+				}
+				{
+					id: "3D3500A8D5E9724C"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "29847597A94BCDDA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 9.0d
+			description: ["Brain of an AE network, a mass digital storage system. Useful for storing items and autocrafting!"]
+			dependencies: ["093159C3B44B28CC"]
+			id: "5C0F7DEF2B1BDE97"
+			tasks: [{
+				id: "55836E38C3D16644"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [
+				{
+					id: "6079E116C8F3DB2C"
+					type: "item"
+					item: {
+						id: "ae2:item_storage_cell_1k"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "7EBA37C5160637B3"
+					type: "item"
+					item: "ae2:fluix_glass_cable"
+					count: 3
+				}
+				{
+					id: "4A3260FABD07F82E"
+					type: "item"
+					item: "ae2:chest"
+				}
+				{
+					id: "6B7B52DEFBFCFDA0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			description: ["Obtain anti matter through a long multi machine process"]
+			dependencies: ["4731716A2364322E"]
+			id: "5E579F2740FAD6E3"
+			tasks: [{
+				id: "4A585C416FE95D3C"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [
+				{
+					id: "72B3A6ADCA37EBCE"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "0E457A91EA475E1E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0BEDB3ABE7CDBA48"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 11.0d
+			subtitle: "In the palm of your hand"
+			description: ["Create a singularity by compressing a large amount of items, then create an explosion with ender pearl dust"]
+			dependencies: ["05A4B8DE9639C44A"]
+			id: "230815783D6C752C"
+			tasks: [{
+				id: "04AD59A2BAAB0C3F"
+				type: "item"
+				item: "ae2:quantum_entangled_singularity"
+			}]
+			rewards: [
+				{
+					id: "2020809BD828F76C"
+					type: "item"
+					item: {
+						id: "ae2:item_storage_cell_256k"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6B213985E21F9858"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "660536E9E1A0E288"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			description: ["The matter condensor can condense items into compact forms"]
+			dependencies: ["5C0F7DEF2B1BDE97"]
+			id: "05A4B8DE9639C44A"
+			tasks: [{
+				id: "637318E377A8C638"
+				type: "item"
+				item: "ae2:condenser"
+			}]
+			rewards: [
+				{
+					id: "535957B59B2D4994"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "5CBDEE974B58B6AD"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 11.0d
+			description: ["Ball of compressed matter"]
+			dependencies: ["05A4B8DE9639C44A"]
+			id: "2C7BC477804712DF"
+			tasks: [{
+				id: "7436DB29441675D7"
+				type: "item"
+				item: "ae2:matter_ball"
+			}]
+			rewards: [
+				{
+					id: "577BCDA6570CCD04"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "43D093DCFEE53F79"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 13.0d
+			description: ["Several items that should not be combined.."]
+			dependencies: [
+				"2C7BC477804712DF"
+				"230815783D6C752C"
+			]
+			id: "6EA8360CABB027CF"
+			tasks: [{
+				id: "727EA028B494154F"
+				type: "item"
+				item: "kubejs:impossible_compound"
+			}]
+			rewards: [
+				{
+					id: "4E73B51DC356D322"
+					type: "item"
+					item: "majruszsdifficulty:ender_dragon_treasure_bag"
+				}
+				{
+					id: "40BE0CEBB1AD19AF"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "57FB937F26325DD5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 15.0d
+			subtitle: "Flight!"
+			description: ["Anti gravitational flight for mekasuits"]
+			dependencies: ["6EA8360CABB027CF"]
+			id: "0E8CC8490AD5D008"
+			tasks: [{
+				id: "4DC3B55EA749D365"
+				type: "item"
+				item: "mekanism:module_gravitational_modulating_unit"
+			}]
+			rewards: [{
+				id: "3C068F553CFF44E6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			description: ["Chemical crystalization. Capable of creating anti matter"]
+			dependencies: ["44296E14FCE0AD45"]
+			id: "4731716A2364322E"
+			tasks: [{
+				id: "3B177D99D60FAB6F"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+			rewards: [
+				{
+					id: "01746E5F71BDFD7B"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "37E2A60BD8B34C9C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			description: ["Wind power!"]
+			dependencies: ["69ED56BBCDA96FEE"]
+			id: "23CA509627099170"
+			tasks: [{
+				id: "27E8FC322E615D92"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [
+				{
+					id: "01747D9357DE3DE5"
+					type: "item"
+					item: "mekanism:energy_tablet"
+				}
+				{
+					id: "368605C5B9ACF462"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			description: ["Sun power!"]
+			dependencies: ["69ED56BBCDA96FEE"]
+			id: "795CA31D681F8E33"
+			tasks: [{
+				id: "0376A9EE7344CF3C"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+			rewards: [
+				{
+					id: "48109150447029EC"
+					type: "item"
+					item: "mekanismgenerators:solar_panel"
+				}
+				{
+					id: "163C0BBFE259FD98"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "76AA9E38EFCC28D0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: ["Locate a meteorite for it's precious certus quartz. Necessary for creating silicon"]
+			dependencies: ["6B0DCDE78B5045CD"]
+			id: "276AD11FA8E66572"
+			tasks: [{
+				id: "64A36CF5E4FECE3E"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+			rewards: [
+				{
+					id: "7BFBAAD8893E8DDC"
+					type: "item"
+					item: "ae2:chipped_budding_quartz"
+				}
+				{
+					id: "756DB545B0B5CC24"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "21FD93C7A0CEC39C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			description: ["Fluix can be created by tossing certus quartz and redstone into water, then waiting"]
+			dependencies: ["276AD11FA8E66572"]
+			id: "61BE010539DC1FB9"
+			tasks: [{
+				id: "6F3FE16EB8F41D5C"
+				type: "item"
+				item: "ae2:fluix_crystal"
+			}]
+			rewards: [
+				{
+					id: "41C167FAA6649BE3"
+					type: "item"
+					item: "ae2:fluix_crystal"
+					count: 2
+				}
+				{
+					id: "2AE6019B1C60D452"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "54FF6768168A72B0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 9.0d
+			description: ["Better fluix cables. Necessary for creating a network"]
+			dependencies: ["5C0F7DEF2B1BDE97"]
+			id: "4CBF4D89FD385818"
+			tasks: [{
+				id: "196891E9B777244C"
+				type: "item"
+				item: "ae2:fluix_smart_cable"
+			}]
+			rewards: [
+				{
+					id: "04471A1BD2779E64"
+					type: "item"
+					item: "ae2:fluix_smart_cable"
+					count: 16
+				}
+				{
+					id: "5FF4F4F34E747923"
+					type: "item"
+					item: "ae2:fluix_covered_cable"
+					count: 16
+				}
+				{
+					id: "44C26330B4AA88C3"
+					type: "item"
+					item: "ae2:fluix_glass_cable"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			subtitle: "Unlimited power"
+			description: ["Create the multiblock fusion reactor"]
+			dependencies: ["5105ABCD711ABA5A"]
+			id: "5595AF5E1030036F"
+			tasks: [{
+				id: "5D20C17A0C4CC2B8"
+				type: "item"
+				item: "mekanismgenerators:fusion_reactor_controller"
+			}]
+			rewards: [
+				{
+					id: "19C47A37E76BC20A"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "755369AC80F62324"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			description: ["Basins are used in many processing methods such as mixing and compacting!"]
+			dependencies: ["6C98BE2637351271"]
+			id: "056945ADC3A110B6"
+			tasks: [{
+				id: "41CFF240D497FFCA"
+				type: "item"
+				item: "create:basin"
+			}]
+			rewards: [{
+				id: "3826A1E209F35591"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			description: ["Generate cobblestone and other stone blocks"]
+			dependencies: ["6C98BE2637351271"]
+			id: "1A7377CDF6248CA8"
+			tasks: [{
+				id: "27A116969588809D"
+				type: "item"
+				item: "create_mechanical_extruder:mechanical_extruder"
+			}]
+			rewards: [
+				{
+					id: "5536E8C9ABEA4013"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 4
+				}
+				{
+					id: "03F33499755676AB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			subtitle: "Living furnace"
+			description: ["Use a blaze burner to capture a blaze. The heat of a blaze is able to melt down iron!"]
+			dependencies: ["6C98BE2637351271"]
+			id: "57845A44E4DF1922"
+			tasks: [{
+				id: "7E767148A276CE78"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+			rewards: [
+				{
+					id: "4329E968D26737EF"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					count: 3
+				}
+				{
+					id: "1EFB826613AE285E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 0.5d
+			subtitle: "Bee production"
+			description: ["A centrifuge and turn bee produce into useful materials! Alternately, use a create mixer"]
+			id: "48C2E3274AB3F971"
+			tasks: [{
+				id: "43C83B6F86273638"
+				type: "item"
+				item: "productivebees:centrifuge"
+			}]
+			rewards: [
+				{
+					id: "26E60B26388E668E"
+					type: "item"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:experience"
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "0777DA4AE1052D47"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					}
+				}
+			]
+		}
+	]
+}

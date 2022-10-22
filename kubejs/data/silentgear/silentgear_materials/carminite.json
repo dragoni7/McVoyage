@@ -1,0 +1,117 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "gem",
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:gems/carminite"
+    }
+  },
+  "name": {
+    "text": "Carminite"
+  },
+  "stats": {
+    "coating": {
+      "durability": {
+        "mul2": 0.075
+      },
+      "armor_durability": {
+        "mul2": 0.025
+      }
+    },
+    "adornment": {}
+  },
+  "traits": {
+    "coating": [
+      {
+        "name": "silentgear:gold_digger",
+        "level": 4,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.67
+          }
+        ]
+      },
+      {
+        "name": "silentgear:gold_digger",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:not",
+            "value": {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.67
+            }
+          }
+        ]
+      }
+    ],
+    "adornment": [
+      {
+        "name": "silentgear:reach",
+        "level": 4,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.67
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "coating/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#CC0000"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:coating_material",
+        "color": "#CC0000"
+      },
+      {
+        "texture": "silentgear:coating_jar"
+      }
+    ],
+    "adornment/all": [
+      {
+        "texture": "silentgear:adornment_generic",
+        "color": "#CC0000"
+      },
+      {
+        "texture": "silentgear:adornment_highlight",
+        "color": "#CC0000"
+      }
+    ],
+    "adornment/part": [
+      {
+        "texture": "silentgear:adornment",
+        "color": "#CC0000"
+      },
+      {
+        "texture": "silentgear:adornment_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:dust",
+        "color": "#CC0000"
+      }
+    ]
+  }
+}
