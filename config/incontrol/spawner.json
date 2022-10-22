@@ -23,15 +23,15 @@
         "attempts": 10,
         "amount": {
           "minimum": 2,
-          "maximum": 5
+          "maximum": 3
         },
         "conditions": {
           "dimension": "minecraft:overworld",
           "mindist": 25,
           "maxdist": 30,
           "minheight": -60,
-          "maxheight": 100,
-          "maxthis": 10
+          "maxheight": 30,
+          "maxthis": 6
         }
       },
 
@@ -85,7 +85,7 @@
           "maxdist": 25,
           "minheight": -60,
           "maxheight": 50,
-          "maxthis": 16
+          "maxthis": 8
         }
       },
 
@@ -103,7 +103,7 @@
           "maxdist": 50,
           "minheight": -60,
           "maxheight": 40,
-          "maxthis": 16
+          "maxthis": 8
         }
       },
 
@@ -121,7 +121,7 @@
           "maxdist": 50,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 16
+          "maxthis": 8
         }
       },
 
@@ -139,7 +139,7 @@
           "maxdist": 25,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 16
+          "maxthis": 8
         }
       },
 
@@ -175,7 +175,7 @@
           "maxdist": 50,
           "minheight": 50,
           "maxheight": 200,
-          "maxthis": 10
+          "maxthis": 8
         }
       },
 
@@ -193,7 +193,7 @@
           "maxdist": 100,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 27
+          "maxthis": 16
         }
       },
 
@@ -211,7 +211,7 @@
           "maxdist": 100,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 20
+          "maxthis": 16
         }
       },
 
@@ -263,9 +263,9 @@
           "dimension": "minecraft:overworld",
           "mindist": 10,
           "maxdist": 25,
-          "minheight": 40,
+          "minheight": 35,
           "maxheight": 200,
-          "maxthis": 6
+          "maxthis": 8
         }
       },
 
@@ -301,7 +301,7 @@
           "maxdist": 25,
           "minheight": 40,
           "maxheight": 200,
-          "maxthis": 10
+          "maxthis": 8
         }
       },
 

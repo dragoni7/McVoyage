@@ -1176,7 +1176,7 @@
 	#Allowed Values: NORMAL, EXPERT, MASTER
 	default_mode = "NORMAL"
 	#Determines whether any dimension should start Expert Mode (useful for integration with other mods).
-	any_dimension_expert = true
+	any_dimension_expert = false
 
 	#Determines what starts the Expert Mode.
 	[GameStage.ExpertMode]

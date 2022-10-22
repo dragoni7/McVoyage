@@ -101,6 +101,25 @@ ServerEvents.recipes(event => {
             
             results: [{'item': 'kubejs:impossible_compound'}],
             id: `${id_prefix}impossible_compound`
+        },
+
+        {
+            heatRequirement: 'superheated',
+            ingredients: [
+                {'item': 'kubejs:infernal_essence'},
+                {'item': 'kubejs:infernal_essence'},
+                {'item': 'kubejs:infernal_essence'},
+                {'item': 'kubejs:infernal_essence'},
+                {'item': 'deeperdarker:sculk_stone'},
+                {'item': 'deeperdarker:sculk_stone'},
+                {'item': 'deeperdarker:sculk_stone'},
+                {'item': 'deeperdarker:sculk_stone'},
+                {'item': 'minecraft:sculk_sensor'},
+                {'item': 'alexsmobs:mimicream'},
+            ],
+            
+            results: [{'item': 'minecraft:echo_shard'}],
+            id: `${id_prefix}echo_shard`
         }
     ];
 
