@@ -594,6 +594,11 @@
 					type: "item"
 					item: "neapolitan:vanilla_cake"
 				}
+				{
+					id: "634BADA632C3D0D5"
+					type: "item"
+					item: "twilightforest:magic_map"
+				}
 			]
 		}
 		{

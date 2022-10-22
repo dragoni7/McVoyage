@@ -105,14 +105,14 @@ ServerEvents.recipes(event => {
                 {'item': {'item': 'silentgear:blaze_gold_ingot'}},
                 {'item': {'item': 'silentgear:blaze_gold_ingot'}},
                 {'item': {'item': 'silentgear:blaze_gold_ingot'}},
-                {'item': {'item': 'twilightforest:carminite'}},
-                {'item': {'item': 'twilightforest:carminite'}},
-                {'item': {'item': 'twilightforest:carminite'}},
-                {'item': {'item': 'twilightforest:carminite'}}
+                {'item': {'item': 'twilightforest:ironwood_ingot'}},
+                {'item': {'item': 'twilightforest:knightmetal_ingot'}},
+                {'item': {'item': 'twilightforest:knightmetal_ingot'}},
+                {'item': {'item': 'twilightforest:ironwood_ingot'}}
             ],
             reagent: [{'item': 'minecraft:diamond'}],
             output: {'item': 'undergarden:catalyst'},
-            sourceCost: 1000,
+            sourceCost: 0,
             old_id: 'undergarden:catalyst',
             id: `${id_prefix}catalyst`
         },
@@ -169,9 +169,9 @@ ServerEvents.recipes(event => {
                 {'item': {'item': 'kubejs:infernal_essence'}},
             ],
             reagent: [{'item': 'minecraft:glass_bottle'}],
-            output: {'item': 'twilightforest:fiery_tiers'},
+            output: {'item': 'twilightforest:fiery_tears'},
             sourceCost: 200,
-            id: `${id_prefix}fiery_tiers`
+            id: `${id_prefix}fiery_tears`
         },
 
         {
