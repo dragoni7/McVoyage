@@ -76,5 +76,6 @@
   "extendedcrafting:ender_crafter": null,
   "extendedcrafting:flux_crafter": null,
   "extendedcrafting:compressor": null,
-  "fruittrees:bee": null
+  "fruittrees:bee": null,
+  "treechop:plugin": null
 }

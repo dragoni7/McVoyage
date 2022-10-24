@@ -18,8 +18,26 @@
     },
 
     {
+      "mob": ["dreamland:larva"],
+      "persecond": 0.5,
+      "attempts": 20,
+      "amount": {
+        "minimum": 3,
+        "maximum": 6
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "mindist": 25,
+        "maxdist": 100,
+        "minheight": -60,
+        "maxheight": 30,
+        "maxthis": 8
+      }
+    },
+
+    {
         "mob": ["alexsmobs:skreecher", "deeperdarker:shattered"],
-        "persecond": 0.2,
+        "persecond": 0.1,
         "attempts": 10,
         "amount": {
           "minimum": 2,
@@ -31,7 +49,7 @@
           "maxdist": 30,
           "minheight": -60,
           "maxheight": 0,
-          "maxthis": 6
+          "maxthis": 4
         }
       },
 
@@ -49,7 +67,7 @@
           "maxdist": 100,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 3
+          "maxthis": 4
         }
     },
     
@@ -283,7 +301,7 @@
           "maxdist": 25,
           "minheight": 0,
           "maxheight": 200,
-          "maxthis": 6
+          "maxthis": 5
         }
       },
 

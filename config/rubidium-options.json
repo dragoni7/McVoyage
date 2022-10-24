@@ -6,7 +6,7 @@
   },
   "advanced": {
     "arena_memory_allocator": "ASYNC",
-    "allow_direct_memory_access": true,
+    "allow_direct_memory_access": false,
     "enable_memory_tracing": false,
     "use_advanced_staging_buffers": false,
     "cpu_render_ahead_limit": 3

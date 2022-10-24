@@ -44,6 +44,11 @@
     "redstone": true,
     "fe": true
   },
+  "treechop": {
+    "plugin": true,
+    "show_tree_block_counts": true,
+    "show_num_chops_remaining": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
@@ -87,8 +92,5 @@
     "solitary_nest": true,
     "bee_attributes": true,
     "productive_bee": true
-  },
-  "fruittrees": {
-    "bee": true
   }
 }

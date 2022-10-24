@@ -44,7 +44,7 @@
 #Configurations related to item tags.
 [itemTags]
 	#List of item tags that should not be added.
-	blacklist = []
+	blacklist = ['forge:gems/opal', 'forge:gems/precious_opal']
 	#List of item tags that should be considered as defined.
 	customDefined = []
 

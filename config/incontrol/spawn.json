@@ -231,5 +231,19 @@
         "dimension": "minecraft:overworld",
         "incontrol": true,
         "result": "deny"
+    },
+
+    {
+        "mob": ["dreamland:larva"],
+        "dimension": "minecraft:overworld",
+        "biome": "dreamland:hive",
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": ["dreamland:larva"],
+        "biome": "dreamland:hive",
+        "incontrol": true,
+        "result": "deny"
     }
 ]

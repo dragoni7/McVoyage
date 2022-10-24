@@ -24,7 +24,7 @@
 	#Range: 0 ~ 100
 	"Footstep Volume Scale" = 40
 	#Enable armor rustle accents for footstep acoustics
-	"Enable Armor Accents" = true
+	"Enable Armor Accents" = false
 	#Enable rain splash accents for footstep acoustics
 	"Enable Rain Splash Accents" = true
 	#Enable water logged accents for footstep acoustics

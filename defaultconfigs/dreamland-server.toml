@@ -5,12 +5,12 @@
 	[spawning."Larva Spawn Rolls"]
 		#Larva extra spawn roll amount. Default = 2
 		#Range: > 0
-		"spawn roll" = 2
+		"spawn roll" = 1
 
 	[spawning."Ooze Spawn Rolls"]
 		#Ooze extra spawn roll amount. Default = 2
 		#Range: > 0
-		"spawn roll" = 2
+		"spawn roll" = 1
 
 	[spawning."BumbleBeast Spawn Rolls"]
 		#Bumble Beast extra spawn roll amount. Default = 2

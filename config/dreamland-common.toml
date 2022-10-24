@@ -3,7 +3,7 @@
 [general]
 	#dreamland region weight (smaller values means more common). Default = 2
 	#Range: > 0
-	weight = 1
+	weight = 2
 
 #Effects
 [misc]
@@ -16,11 +16,11 @@
 	#Range: > 0
 	"gold conversion chance" = 24
 
-["Mold block spreading"]
-	#Should mold blocks spread to blocks in the mold_spreadables tag?
-	"mold block spreads" = true
-
 ["Spore node transform block"]
 	#Should spore nodes spread mold by replacing blocks in the mold_spreadables tag?
 	"spore node spreads mold" = true
+
+["Mold block spreading"]
+	#Should mold blocks spread to blocks in the mold_spreadables tag?
+	"mold block spreads" = true
 
