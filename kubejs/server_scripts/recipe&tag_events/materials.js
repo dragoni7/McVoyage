@@ -1,4 +1,4 @@
-//priority: 1000
+//priority: 1001
 const materials = [
     {name: 'bronze', ingredients: [{'tag': 'forge:ingots/bronze'}], dust: [{'item': 'mekanism:dust_bronze'}]},
     {name: 'lapis', ingredients: [{'tag': 'forge:gems/lapis'}], dust: [{'item': 'mekanism:dust_lapis_lazuli'}]},

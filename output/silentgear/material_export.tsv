@@ -1,0 +1,513 @@
+Pack	Name	Type	ID	Parent	Traits	Tier	Durability	Armor Durability	Repair Efficiency	Repair Bonus	Enchantment Value	Charging Value	Rarity	Harvest Level	Harvest Speed	Reach Distance	Attack Damage	Magic Damage	Attack Speed	Attack Reach	Ranged Damage	Ranged Speed	Projectile Speed	Projectile Accuracy	Armor	Armor Toughness	Knockback Resistance	Magic Armor	
+silent-gear-1.19.2-3.0.5.jar	Amethyst	Adornment	silentgear:amethyst		Cursed IV	2																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Carminite	Adornment	silentcompat:carminite		Reach IV	3																							
+silent-gear-1.19.2-3.0.5.jar	Diamond	Adornment	silentgear:diamond		Bastion I	3																							
+silent-gear-1.19.2-3.0.5.jar	Dimerald	Adornment	silentgear:dimerald		Kitty Vision	3																							
+silent-gear-1.19.2-3.0.5.jar	Emerald	Adornment	silentgear:emerald		Reach II	3																							
+silent-gear-1.19.2-3.0.5.jar	Example	Adornment	silentgear:example			0																							
+silent-gear-1.19.2-3.0.5.jar	Flint	Adornment	silentgear:flint			1																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Heart of the Sea	Adornment	silentcompat:heart_of_the_sea		Swift Swim V, Bulwark II	3											+1												
+KubeJS Resource Pack [data]	Honey Crystal	Adornment	silentcompat:honey_crystal		Bastion I, Cure Poison	2																							
+silent-gear-1.19.2-3.0.5.jar	Lapis Lazuli	Adornment	silentgear:lapis_lazuli		Lucky III	2																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Nautilus Shell	Adornment	silentcompat:nautilus_shel		Dense I	3																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Nether Star	Adornment	silentcompat:nether_star		Cursed II, Mighty III, Swiftness III	3																							
+KubeJS Resource Pack [data]	Opal	Adornment	silentgear:opal		Mana Boost I	3																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Precious Opal	Adornment	silentcompat:precious_opal		Mighty II	3																							
+silent-gear-1.19.2-3.0.5.jar	Prismarine	Adornment	silentgear:prismarine		Swift Swim III	3																							
+silent-gear-1.19.2-3.0.5.jar	Quartz	Adornment	silentgear:quartz		Mighty II	2																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Soul Crystal	Adornment	silentcompat:soul_crystal		Dense III	3																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Source Gem	Adornment	silentcompat:source_gem		Swiftness I	3																							
+KubeJS Resource Pack [data]	Utherium	Adornment	silentcompat:utherium_crystal		Bastion I	3																							
+KubeJS Resource Pack [data]	Wilden Horn	Adornment	silentgear:wilden_horn		Strengthened II	2																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Blaze Fiber	Binding	silentcompat:blaze_fiber		Mana Regen, Racker	2	+5%	+5%					+11															+4	
+KubeJS Resource Pack [data]	Blaze Fiber	Binding	silentgear:blaze_fiber		Mana Regeneration II, Racker	2	+5%	+5%					+11															+4	
+SilentCompat-forge-1.19.2-1.0.0.jar	Chain	Binding	silentcompat:chains		Crude III, Dense I	0	x1.25																						
+SilentCompat-forge-1.19.2-1.0.0.jar	Elastic Tendon	Binding	silentcompat:elastic_tendon		Flexible V, Cursed II, Fleet-Footed	2			-5%																				
+KubeJS Resource Pack [data]	End Fiber	Binding	silentcompat:end_fiber		Unstable Magic, Floatstoner	4	+6%	+6%					+12															+5	
+KubeJS Resource Pack [data]	End Fiber	Binding	silentgear:end_fiber		Mana Regeneration II, Floatstoner	4	+6%	+6%					+12															+5	
+silent-gear-1.19.2-3.0.5.jar	Example	Binding	silentgear:example			0																							
+silent-gear-1.19.2-3.0.5.jar	Fine Silk	Binding	silentgear:fine_silk		Lucky I, Flexible IV	2																						+2	
+silent-gear-1.19.2-3.0.5.jar	Flax	Binding	silentgear:flax		Flexible III	1		+5%							+5%														
+silent-gear-1.19.2-3.0.5.jar	Fluffy String	Binding	silentgear:fluffy_string		Flexible III	1		+5%							-5%														
+SilentCompat-forge-1.19.2-1.0.0.jar	Fortune's Favor	Binding	silentcompat:fortunes_favor		Lucky III, Flexible II	3	+7%	+7%					+7															+7	
+SilentCompat-forge-1.19.2-1.0.0.jar	Tentacle	Binding	silentcompat:lost_tentacle		Flexible V, Fleet-Footed	1			+5%																				
+SilentCompat-forge-1.19.2-1.0.0.jar	Magebloom Fiber	Binding	silentcompat:magebloom_fiber		Terminus	1		+4%					+4															+3.5	
+KubeJS Resource Pack [data]	Magebloom Fiber	Binding	silentgear:magebloom_fiber		Mana Regeneration I, Spell Damage I, Mana Boost I, Terminus	1	+4%	+4%					+6															+3.5	
+SilentCompat-forge-1.19.2-1.0.0.jar	Phantoplasm	Binding	silentcompat:phantoplasm		Flexible III, Soft III	3	+10%	+10%					+10															+10	
+SilentCompat-forge-1.19.2-1.0.0.jar	Sculk Vine	Binding	silentcompat:sculk_vine		Accelerate I	1			+3%																				
+silent-gear-1.19.2-3.0.5.jar	Sinew	Binding	silentgear:sinew		Flexible IV	1			-5%																				
+silent-gear-1.19.2-3.0.5.jar	String	Binding	silentgear:string		Flexible I	1			+5%																				
+SilentCompat-forge-1.19.2-1.0.0.jar	Twisting Vines	Binding	silentcompat:twisting_vines		Racker	0			+3%												+10%								
+silent-gear-1.19.2-3.0.5.jar	Vine	Binding	silentgear:vine			0			+3%																				
+SilentCompat-forge-1.19.2-1.0.0.jar	Weeping Vines	Binding	silentcompat:weeping_vines		Racker	0			+2%												+20%								
+SilentCompat-forge-1.19.2-1.0.0.jar	Griefer	Coating	silentcompat:blast_proof_plating		Retaliating Blast	2	x1.5	x1.25									+1												
+silent-gear-1.19.2-3.0.5.jar	Blaze Gold	Coating	silentgear:blaze_gold		Brilliant, Soft II	3	x0.95	x0.95					+20																
+SilentCompat-forge-1.19.2-1.0.0.jar	Carminite	Coating	silentcompat:carminite		Gold Digger IV	3	x1.08	x1.08					50																
+SilentCompat-forge-1.19.2-1.0.0.jar	Ditchbulb Paste	Coating	silentcompat:ditchbulb_paste		Refractive	1																							
+KubeJS Resource Pack [data]	Enderium	Coating	silentgear:enderium		Void Ward, Synergistic II	4	x1.3, +2	x1.12					+50	↑5	x1.13		x2.33	x2.33			x2.33				+4	+6	+55		
+silent-gear-1.19.2-3.0.5.jar	Example	Coating	silentgear:example			0																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Fortune's Favor	Coating	silentcompat:fortunes_favor		Lucky III	3							+7				-2	x1.07											
+silent-gear-1.19.2-3.0.5.jar	Gold	Coating	silentgear:gold		Brilliant, Soft III	2	x0.9	x0.9					+10																
+SilentCompat-forge-1.19.2-1.0.0.jar	Goo	Coating	silentcompat:goo_ball		Gooey	1																				+0.5			
+SilentCompat-forge-1.19.2-1.0.0.jar	Komodo Spit	Coating	silentcompat:komodo_spit		Venom I	2																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Magma Cream	Coating	silentcompat:magma_cream		Bounce, Ignite	1									x1.1		+1									+0.5			
+SilentCompat-forge-1.19.2-1.0.0.jar	MimiCream	Coating	silentcompat:mimicream		Synergistic I	3											+3	+3.2			+3.2								
+SilentCompat-forge-1.19.2-1.0.0.jar	Mogmoss	Coating	silentcompat:mogmoss		Eroded III	1																							
+silent-gear-1.19.2-3.0.5.jar	Netherite	Coating	silentgear:netherite		Fireproof	4	x1.3, +2	x1.12			+5			↑4	x1.13		x1.33	x1.33			x1.33					+4	+1		
+SilentCompat-forge-1.19.2-1.0.0.jar	Pendorite	Coating	silentcompat:pendorite		Crushing II	4	x1.5, +2	x1.5			+5			↑4	x1.13		x1.33, +1	x1.33			x1.33, +1					+4	+1		
+SilentCompat-forge-1.19.2-1.0.0.jar	Phantoplasm	Coating	silentcompat:phantoplasm		Reach I	3							+10				x1.1	x1.2											
+silent-gear-1.19.2-3.0.5.jar	Prismarine	Coating	silentgear:prismarine		Aquatic V, Aquatic III	3	x1.08	x1.13																		+1	+0.25		
+SilentCompat-forge-1.19.2-1.0.0.jar	Reinforced Echo Shard	Coating	silentcompat:reinforced_echo_shard		Swift Sneak I, Vorpal	4	x1.3, +2	x1.12					+50	↑4	x1.13		x1.67	x1.67			x1.67					+5	+5		
+SilentCompat-forge-1.19.2-1.0.0.jar	Straddlite	Coating	silentcompat:straddlite		Organic I, Crackler, Knockout	3	x1.1, +1	x1.08			+5			↑3	x1.08		x1.15	x1.15			x1.15					+4	+0.5		
+SilentCompat-forge-1.19.2-1.0.0.jar	Void Worm	Coating	silentcompat:void_worm		Sturdy V, Void Ward, Adamant II, Worm Protection	5	x4.2, +10	x4.2					+50	↑5	x3		x4.2	x4.2			x4.2					+8	+8		
+SilentCompat-forge-1.19.2-1.0.0.jar	Blaze Fiber	Cord	silentcompat:blaze_fiber		Mana Regen	2	+4%						+11								+10%								
+KubeJS Resource Pack [data]	Blaze Fiber	Cord	silentgear:blaze_fiber		Mana Regeneration II	2	+4%						+11								+10%								
+SilentCompat-forge-1.19.2-1.0.0.jar	Elastic Tendon	Cord	silentcompat:elastic_tendon		Flexible III	2															+30%								
+KubeJS Resource Pack [data]	End Fiber	Cord	silentcompat:end_fiber		Unstable Magic	4	+5%						+12								+11%								
+KubeJS Resource Pack [data]	End Fiber	Cord	silentgear:end_fiber		Mana Regeneration II	4	+5%						+12								+11%								
+silent-gear-1.19.2-3.0.5.jar	Example	Cord	silentgear:example			0																							
+silent-gear-1.19.2-3.0.5.jar	Fine Silk	Cord	silentgear:fine_silk		Flexible II	2															+7%								
+silent-gear-1.19.2-3.0.5.jar	Flax	Cord	silentgear:flax			1															-10%	+20%							
+silent-gear-1.19.2-3.0.5.jar	Fluffy String	Cord	silentgear:fluffy_string			1															+5%	-5%							
+SilentCompat-forge-1.19.2-1.0.0.jar	Fortune's Favor	Cord	silentcompat:fortunes_favor		Lucky III, Flexible II	3	+7%						+7								+7%								
+SilentCompat-forge-1.19.2-1.0.0.jar	Tentacle	Cord	silentcompat:lost_tentacle		Flexible II, Aquatic III	1															+15%	+15%							
+SilentCompat-forge-1.19.2-1.0.0.jar	Magebloom Fiber	Cord	silentcompat:magebloom_fiber			1	+4%						+4								+5%								
+KubeJS Resource Pack [data]	Magebloom Fiber	Cord	silentgear:magebloom_fiber		Mana Regeneration I, Spell Damage I	1	+3%						+6								+9%								
+SilentCompat-forge-1.19.2-1.0.0.jar	Phantoplasm	Cord	silentcompat:phantoplasm		Flexible III, Soft III, Refractive	3	+10%						+10								+10%								
+silent-gear-1.19.2-3.0.5.jar	Sinew	Cord	silentgear:sinew		Flexible II	1															+20%								
+silent-gear-1.19.2-3.0.5.jar	String	Cord	silentgear:string			1																+10%							
+SilentCompat-forge-1.19.2-1.0.0.jar	Blaze Fiber	Cord	silentcompat:blaze_fiber		Mana Regen	2	+4%						+11								+10%								
+KubeJS Resource Pack [data]	Blaze Fiber	Cord	silentgear:blaze_fiber		Mana Regeneration II	2	+4%						+11								+10%								
+SilentCompat-forge-1.19.2-1.0.0.jar	Elastic Tendon	Cord	silentcompat:elastic_tendon		Flexible III	2															+30%								
+KubeJS Resource Pack [data]	End Fiber	Cord	silentcompat:end_fiber		Unstable Magic	4	+5%						+12								+11%								
+KubeJS Resource Pack [data]	End Fiber	Cord	silentgear:end_fiber		Mana Regeneration II	4	+5%						+12								+11%								
+silent-gear-1.19.2-3.0.5.jar	Example	Cord	silentgear:example			0																							
+silent-gear-1.19.2-3.0.5.jar	Fine Silk	Cord	silentgear:fine_silk		Flexible II	2															+7%								
+silent-gear-1.19.2-3.0.5.jar	Flax	Cord	silentgear:flax			1															-10%	+20%							
+silent-gear-1.19.2-3.0.5.jar	Fluffy String	Cord	silentgear:fluffy_string			1															+5%	-5%							
+SilentCompat-forge-1.19.2-1.0.0.jar	Fortune's Favor	Cord	silentcompat:fortunes_favor		Lucky III, Flexible II	3	+7%						+7								+7%								
+SilentCompat-forge-1.19.2-1.0.0.jar	Tentacle	Cord	silentcompat:lost_tentacle		Flexible II, Aquatic III	1															+15%	+15%							
+SilentCompat-forge-1.19.2-1.0.0.jar	Magebloom Fiber	Cord	silentcompat:magebloom_fiber			1	+4%						+4								+5%								
+KubeJS Resource Pack [data]	Magebloom Fiber	Cord	silentgear:magebloom_fiber		Mana Regeneration I, Spell Damage I	1	+3%						+6								+9%								
+SilentCompat-forge-1.19.2-1.0.0.jar	Phantoplasm	Cord	silentcompat:phantoplasm		Flexible III, Soft III, Refractive	3	+10%						+10								+10%								
+silent-gear-1.19.2-3.0.5.jar	Sinew	Cord	silentgear:sinew		Flexible II	1															+20%								
+silent-gear-1.19.2-3.0.5.jar	String	Cord	silentgear:string			1																+10%							
+KubeJS Resource Pack [data]	Dragon Scale	Fletching	silentcompat:dragon_scale			5																	3.5x	130%					
+SilentCompat-forge-1.19.2-1.0.0.jar	Emu Feather	Fletching	silentcompat:emu_feather			1																	0.8x	120%					
+silent-gear-1.19.2-3.0.5.jar	Example	Fletching	silentgear:example			0																							
+silent-gear-1.19.2-3.0.5.jar	Feather	Fletching	silentgear:feather			1																	0.9x	110%					
+silent-gear-1.19.2-3.0.5.jar	Leaf	Fletching	silentgear:leaves			1																	1.1x	90%					
+silent-gear-1.19.2-3.0.5.jar	Paper	Fletching	silentgear:paper			0																	1.1x	90%					
+SilentCompat-forge-1.19.2-1.0.0.jar	Roadrunner Feather	Fletching	silentcompat:roadrunner_feather			1																	1.1x	100%					
+SilentCompat-forge-1.19.2-1.0.0.jar	Steeleaf	Fletching	silentcompat:steeleaf_ingot		Organic I	2							40										1.2x	110%					
+SilentCompat-forge-1.19.2-1.0.0.jar	Tarantual Hawk Wing	Fletching	silentcompat:tarantula_hawk_wing			1																	1.5x	60%					
+SilentCompat-forge-1.19.2-1.0.0.jar	Alpha Yeti Fur	Grip	silentcompat:alpha_yeti_fur		Flexible III, Soft I	3	+100						80						+0.3										
+SilentCompat-forge-1.19.2-1.0.0.jar	Arctic Fur	Grip	silentcompat:arctic_fur		Soft II	2	+20		+5				+10		+0.2				+0.1										
+KubeJS Resource Pack [data]	Arctic Fur	Grip	silentgear:arctic_fur		Flexible III	2	+50		+10				+30		+0.5				+0.15										
+SilentCompat-forge-1.19.2-1.0.0.jar	Griefer	Grip	silentcompat:blast_proof_plating		Heavy I	2	x1.2																						
+SilentCompat-forge-1.19.2-1.0.0.jar	Blaze Fiber	Grip	silentcompat:blaze_fiber		Mana Regen, Racker	2			+17%				+9		+11%				+0.21										
+KubeJS Resource Pack [data]	Blaze Fiber	Grip	silentgear:blaze_fiber		Mana Regeneration II, Racker	2			+17%				+9		+11%				+0.21										
+KubeJS Resource Pack [data]	Capsid Alloy	Grip	silentcompat:capsid_alloy		Organic I, Ender Flu	3			+15%				+10		+15%				+0.25										
+SilentCompat-forge-1.19.2-1.0.0.jar	Cloth	Grip	silentcompat:cloth		Accelerate I	2			+20%						+15%														
+SilentCompat-forge-1.19.2-1.0.0.jar	Dried Kelp	Grip	silentcompat:dried_kelp		Soft V	1	-2		+10%																				
+KubeJS Resource Pack [data]	End Fiber	Grip	silentcompat:end_fiber		Unstable Magic, Floatstoner	4			+18%				+10		+12%				+0.22										
+KubeJS Resource Pack [data]	End Fiber	Grip	silentgear:end_fiber		Mana Regeneration II, Floatstoner	4			+18%				+10		+12%				+0.22										
+silent-gear-1.19.2-3.0.5.jar	Example	Grip	silentgear:example			0																							
+silent-gear-1.19.2-3.0.5.jar	Fine Silk Cloth	Grip	silentgear:fine_silk_cloth		Accelerate I	2			+10%						+15%														
+SilentCompat-forge-1.19.2-1.0.0.jar	Fortune's Favor	Grip	silentcompat:fortunes_favor		Flexible I, Lucky Break	3			+7%				+7		+7%		-2		+0.07										
+silent-gear-1.19.2-3.0.5.jar	Leather	Grip	silentgear:leather		Flexible III	0			+10%						+15%				+0.15										
+SilentCompat-forge-1.19.2-1.0.0.jar	Magebloom Fiber	Grip	silentcompat:magebloom_fiber		Terminus, Mana Regen	1			+15%				+4		+25%														
+KubeJS Resource Pack [data]	Magebloom Fiber	Grip	silentgear:magebloom_fiber		Mana Regeneration I, Spell Damage I, Terminus	1			+15%				+8		+10%				+0.2										
+KubeJS Resource Pack [data]	Masticated	Grip	silentcompat:masticator_scales		Flexible III	4							+15		+15%				+0.17										
+SilentCompat-forge-1.19.2-1.0.0.jar	Naga Scale	Grip	silentcompat:naga_scale		Flexible III, Ancient II	3	+44						+40		+0.5				+0.15										
+silent-gear-1.19.2-3.0.5.jar	Phantom Membrane	Grip	silentgear:phantom_membrane		Ancient II	2			+15%						+10%				+0.2										
+SilentCompat-forge-1.19.2-1.0.0.jar	Phantoplasm	Grip	silentcompat:phantoplasm		Flexible II, Soft III	3							+10		+50%				+20%										
+SilentCompat-forge-1.19.2-1.0.0.jar	Rotten Flesh	Grip	silentcompat:rotten_flesh		Hungering Strike	1	-10		-10%																				
+KubeJS Resource Pack [data]	Wilden Wing	Grip	silentgear:wilden_wing		Ancient I	2			+15%				+10		+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Wool	Grip	silentgear:wool		Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Black Wool	Grip	silentgear:wool/black	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Blue Wool	Grip	silentgear:wool/blue	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Brown Wool	Grip	silentgear:wool/brown	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Cyan Wool	Grip	silentgear:wool/cyan	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Gray Wool	Grip	silentgear:wool/gray	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Green Wool	Grip	silentgear:wool/green	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Light Blue Wool	Grip	silentgear:wool/light_blue	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Light Gray Wool	Grip	silentgear:wool/light_gray	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Lime Wool	Grip	silentgear:wool/lime	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Magenta Wool	Grip	silentgear:wool/magenta	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Orange Wool	Grip	silentgear:wool/orange	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Pink Wool	Grip	silentgear:wool/pink	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Purple Wool	Grip	silentgear:wool/purple	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Red Wool	Grip	silentgear:wool/red	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	White Wool	Grip	silentgear:wool/white	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+silent-gear-1.19.2-3.0.5.jar	Yellow Wool	Grip	silentgear:wool/yellow	silentgear:wool	Flexible II	0			+20%						+10%				+0.2										
+SilentCompat-forge-1.19.2-1.0.0.jar	Alpha Yeti Fur	Lining	silentcompat:alpha_yeti_fur		Flexible III, Yeti Strength I	3		+50																		+1	+0.2		
+SilentCompat-forge-1.19.2-1.0.0.jar	Arctic Fur	Lining	silentcompat:arctic_fur		Bastion I, Soft II	2		+4																		+1			
+KubeJS Resource Pack [data]	Arctic Fur	Lining	silentgear:arctic_fur		Flexible III, Bastion I	2		+4																		+1			
+SilentCompat-forge-1.19.2-1.0.0.jar	Griefer	Lining	silentcompat:blast_proof_plating		Heavy I, Sturdy I, Blast Protection I	2		+10																		+0.5			
+SilentCompat-forge-1.19.2-1.0.0.jar	Blaze Fiber	Lining	silentcompat:blaze_fiber		Mana Regen, Unstable Magic, Flame Ward	2																					+0.2		
+KubeJS Resource Pack [data]	Blaze Fiber	Lining	silentgear:blaze_fiber		Mana Regeneration II, Mana Boost III	2																					+0.2		
+KubeJS Resource Pack [data]	Capsid Alloy	Lining	silentcompat:capsid_alloy		Jump Boost I	3		+8	+15%																				
+SilentCompat-forge-1.19.2-1.0.0.jar	Centipede	Lining	silentcompat:centipede_leg		Flexible I, Organic III	3		+2																					
+SilentCompat-forge-1.19.2-1.0.0.jar	Cloth	Lining	silentcompat:cloth		Flexible III	2																						+1	
+SilentCompat-forge-1.19.2-1.0.0.jar	Dried Kelp	Lining	silentcompat:dried_kelp		Crude I, Swift Swim III	1			+10%																			+1	
+KubeJS Resource Pack [data]	End Fiber	Lining	silentcompat:end_fiber		Unstable Magic	4																					+0.2		
+KubeJS Resource Pack [data]	End Fiber	Lining	silentgear:end_fiber		Mana Regeneration II, Mana Boost V	4																					+0.2		
+silent-gear-1.19.2-3.0.5.jar	Example	Lining	silentgear:example			0																							
+silent-gear-1.19.2-3.0.5.jar	Fine Silk Cloth	Lining	silentgear:fine_silk_cloth		Flexible IV	2																						+2	
+SilentCompat-forge-1.19.2-1.0.0.jar	Fortune's Favor	Lining	silentcompat:fortunes_favor		Lucky III, Lucky Break	3		+7																	-2				
+KubeJS Resource Pack [data]	Froststeel	Lining	silentcompat:froststeel		Hard I, Heavy I	2	x1.1																			+4			
+SilentCompat-forge-1.19.2-1.0.0.jar	Goo	Lining	silentcompat:goo_ball		Bounce	1																				+0.5			
+silent-gear-1.19.2-3.0.5.jar	Leather	Lining	silentgear:leather		Flexible IV	0																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Magebloom Fiber	Lining	silentcompat:magebloom_fiber			1		+2%																				+4	
+KubeJS Resource Pack [data]	Magebloom Fiber	Lining	silentgear:magebloom_fiber		Mana Regeneration I, Spell Damage I, Mana Boost I	1																					+0.1		
+KubeJS Resource Pack [data]	Masticated	Lining	silentcompat:masticator_scales		Flexible II, Bounce	4		+2																					
+SilentCompat-forge-1.19.2-1.0.0.jar	Naga Scale	Lining	silentcompat:naga_scale		Flexible III	3		+10																		+0.5			
+SilentCompat-forge-1.19.2-1.0.0.jar	Ooze	Lining	silentcompat:ooze		Bounce, Heavy I	1																				+1			
+silent-gear-1.19.2-3.0.5.jar	Phantom Membrane	Lining	silentgear:phantom_membrane		Light II, Flexible III	2																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Phantoplasm	Lining	silentcompat:phantoplasm		Flexible II, Soft III, Refractive	3		+5					+10															+10	
+SilentCompat-forge-1.19.2-1.0.0.jar	Rotten Flesh	Lining	silentcompat:rotten_flesh		Soft I	1			-10%																			+1	
+silent-gear-1.19.2-3.0.5.jar	Slime	Lining	silentgear:slime		Bounce	1																				+0.5			
+KubeJS Resource Pack [data]	Wilden Wing	Lining	silentgear:wilden_wing		Jump Boost I	2		+4																					
+silent-gear-1.19.2-3.0.5.jar	Wool	Lining	silentgear:wool		Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Black Wool	Lining	silentgear:wool/black	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Blue Wool	Lining	silentgear:wool/blue	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Brown Wool	Lining	silentgear:wool/brown	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Cyan Wool	Lining	silentgear:wool/cyan	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Gray Wool	Lining	silentgear:wool/gray	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Green Wool	Lining	silentgear:wool/green	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Light Blue Wool	Lining	silentgear:wool/light_blue	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Light Gray Wool	Lining	silentgear:wool/light_gray	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Lime Wool	Lining	silentgear:wool/lime	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Magenta Wool	Lining	silentgear:wool/magenta	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Orange Wool	Lining	silentgear:wool/orange	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Pink Wool	Lining	silentgear:wool/pink	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Purple Wool	Lining	silentgear:wool/purple	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Red Wool	Lining	silentgear:wool/red	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	White Wool	Lining	silentgear:wool/white	silentgear:wool	Flexible II	0																					+0.1		
+silent-gear-1.19.2-3.0.5.jar	Yellow Wool	Lining	silentgear:wool/yellow	silentgear:wool	Flexible II	0																					+0.1		
+SilentCompat-forge-1.19.2-1.0.0.jar	Alpha Yeti Fur	Main	silentcompat:alpha_yeti_fur		Chilled II, Soft I, Yeti Strength I	3	640	20x					80												20	12		6	
+silent-gear-1.19.2-3.0.5.jar	Aluminum	Main	silentgear:aluminum		Malleable III, Soft II, Synergistic I	2	365	15x			14	0.9	25	↑2	8		2	2	0.2		2x	0.2x			14	0.5		3	
+silent-gear-1.19.2-3.0.5.jar	Aluminum Steel	Main	silentgear:aluminum_steel		Malleable IV, Synergistic II	3	660	18x		-15%	11	1	45	↑3	8		4	1.5	0.1		2x	0x			18	2		6	
+silent-gear-1.19.2-3.0.5.jar	Amethyst	Main	silentgear:amethyst		Renew I	2	210	10x			16	1.3	35	↑2	6		1	3	0		1x	0x	1x	100%	15			10	
+KubeJS Resource Pack [data]	Ametrine	Main	silentgear:ametrine		Accelerate I, Brittle II	3	624	39x					45	↑3	6		5	3	-0.1		3x	0.2x			24	12.8		6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Andesite Alloy	Main	silentcompat:andesite_alloy		Diurnal, Crude II, Magnetic I	2	160	13x					5	↑2	5		1.5	1	0		1x	0.1x	1x	100%	15			6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Arctic Fur	Main	silentcompat:arctic_fur		Bastion I, Soft III, Chilled I	2	131	10x					40												10	8		6	
+KubeJS Resource Pack [data]	Arctic Fur	Main	silentgear:arctic_fur		Flexible III, Bastion I	2	131	10x					60												10	8		6	
+KubeJS Resource Pack [data]	Azure Electrum	Main	silentgear:azure_electrum		Malleable V, Accelerate III, Light IV	4	1259	61x		50%			90	↑5	29		15	11	0		3x	0.1x	2x	150%	35	12		19	
+KubeJS Resource Pack [data]	Azure Silver	Main	silentgear:azure_silver		Malleable III, Soft II, Moonwalker IV	3	197	17x		50%	29	1.4	83	↑3	19		6	7	0		2x	0x	1.2x	110%	13			13	
+silent-gear-1.19.2-3.0.5.jar	Barrier	Main	silentgear:barrier		Adamant V, Holy V	5	1337	84x		-100%	5	0.5	111	↑0	5		1	1	0		1x	0x			20	10		10	
+silent-gear-1.19.2-3.0.5.jar	Basalt	Main	silentgear:basalt		Brittle II, Chipping III	1	137	4x			6	0.7	7	↑1	4		1		0		0x	-0.1x	1x	80%	6				
+silent-gear-1.19.2-3.0.5.jar	Bismuth	Main	silentgear:bismuth		Malleable II, Lustrous II	2	330	10x			12	0.9	35	↑2	5		2.5	3.5	0.1		1x	0x			16	2		6	
+silent-gear-1.19.2-3.0.5.jar	Bismuth Brass	Main	silentgear:bismuth_brass		Malleable II, Lustrous II	2	580	15x		15%	14	1.1	50	↑2	9		3	2	0.1		2x	0.2x			18	2		8	
+silent-gear-1.19.2-3.0.5.jar	Bismuth Steel	Main	silentgear:bismuth_steel		Malleable III, Lustrous II	3	1050	25x		-15%	14	1	60	↑3	10		4	5	-0.1		3x	0.1x			20	4		8	
+silent-gear-1.19.2-3.0.5.jar	Blackstone	Main	silentgear:blackstone		Brittle I, Jagged II, Hard II	1	151	5x			4	0.6	9	↑1	4		1		0		0x	-0.2x	1x	80%	5				
+SilentCompat-forge-1.19.2-1.0.0.jar	Griefer	Main	silentcompat:blast_proof_plating		Heavy I, Confetti! I, Sturdy II, Blast Protection II	2		15x					10												15	4		6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Blaze Fiber	Main	silentcompat:blaze_fiber		Mana Regen, Unstable Magic, Flame Ward	2	0	22x					35												6			17	
+KubeJS Resource Pack [data]	Blaze Fiber	Main	silentgear:blaze_fiber		Mana Regeneration II, Mana Boost III	2	0	22x					35												6			17	
+silent-gear-1.19.2-3.0.5.jar	Blaze Gold	Main	silentgear:blaze_gold		Brilliant, Greedy III, Malleable III	3	69	9x			24	1.2	45	↑2	15		2	5	0.1		1x	0.2x	1.2x	90%	13	1		10	
+silent-gear-1.19.2-3.0.5.jar	Bone	Main	silentgear:bone		Chipping II	1	108	4x			5	0.9	8	↑1	4		2	1	0.1		1x	0x	0.9x	100%	5			1	
+KubeJS Resource Pack [data]	Bone Serpent Tooth	Main	silentgear:bone_serpant_tooth		Lava Vision	1	208	8x					25	↑2	4		4	1	0		1.2x	-0.1x	0.9x	100%	5			1	
+silent-gear-1.19.2-3.0.5.jar	Brass	Main	silentgear:brass		Malleable II, Silky	2	240	8x		15%	13	1.2	25	↑2	7		1.5	1.5	0.1		2x	0.2x			14	1		6	
+silent-gear-1.19.2-3.0.5.jar	Bronze	Main	silentgear:bronze		Sharp I	2	300	13x		15%	12	1.1	15	↑2	6		2.5	1	0.2		2x	-0.2x			15	1		6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Brute Tusk	Main	silentcompat:brute_tusk		Chipping III, Bludgeoning II	1	128	8x			5	0.9	8	↑1	4		2	1	0.2		1x	0x	0.9x	110%	5			1	
+SilentCompat-forge-1.19.2-1.0.0.jar	Bunny Steel	Main	silentcompat:bunny_steel		Malleable V, Dodging II, Bunny Jump II	2	540	21x		20%			45	↑3	8		5	2	-0.1		2x	-0.1x			20	2		7	
+KubeJS Resource Pack [data]	Capsid Alloy	Main	silentcompat:capsid_alloy		Jump Boost I, Organic I, Ender Flu	3	1561	33x					40	↑2	8		10	3	0		1x	2x			20	8		11	
+SilentCompat-forge-1.19.2-1.0.0.jar	Carminite	Main	silentcompat:carminite			3	512	5x		25%	16	1	50	↑2	6		2	2	0		1x	-0.1x	1.1x	90%	7	4		6	
+KubeJS Resource Pack [data]	Cast Iron	Main	silentcompat:cast_iron		Blast Protection I, Hard I, Crushing II	2	560	18x					20	↑2	6		3	1	-0.05		1.1x	0.1x	1x	110%	19			6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Centipede	Main	silentcompat:centipede_leg		Nocturnal, Organic III, Flexible II	3	0	37x					30												20	6		8	
+SilentCompat-forge-1.19.2-1.0.0.jar	Certus Quartz	Main	silentcompat:certus_quartz		Rustic III, Brittle II, Swiftness I	3	512	15x					20	↑2	6		2	4	0		3x	-0.3x			15	1		4	
+SilentCompat-forge-1.19.2-1.0.0.jar	Chocolate	Main	silentcompat:chocolate		Soft III, Edible, Organic II	1	40	4x					1	↑2	8		0.5	1	0		0x	0x			4	0		0	
+KubeJS Resource Pack [data]	Cloggrum	Main	silentcompat:cloggrum		Malleable III, Sharp I, Adamant I	2	286	20x			12	0.7	40	↑2	6		3	1	0		0.5x	0.1x			15			6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Cloth	Main	silentcompat:cloth			2	0	14x			14	0.8	20												6			14	
+silent-gear-1.19.2-3.0.5.jar	Compressed Iron	Main	silentgear:compressed_iron		Malleable II, Hard III	3	1024	24x		-15%	12	0.8	40	↑3	9		4	1	-0.2		3x	0x			20	2		4	
+silent-gear-1.19.2-3.0.5.jar	Copper	Main	silentgear:copper		Soft I	2	151	12x			15	1.3	12	↑1	5		1.5	1	0.1		0.1x	0x			10			8	
+silent-gear-1.19.2-3.0.5.jar	Crimson Iron	Main	silentgear:crimson_iron		Malleable III, Hard II	3	420	27x		50%	14	0.7	31	↑3	10		3	3	-0.1		2x	-0.1x	1x	110%	18	2		6	
+KubeJS Resource Pack [data]	Crimson Steel	Main	silentgear:crimson_steel		Malleable V, Hard III, Flame Ward	4	2400	42x		50%			73	↑4	15		8	6	-0.1		3x	-0.1x	1x	130%	26	10		10	
+SilentCompat-forge-1.19.2-1.0.0.jar	Crocodile Scute	Main	silentcompat:crocodile		Turtle, Flexible I	2	0	22x			9	0.5	20												20	4		4	
+SilentCompat-forge-1.19.2-1.0.0.jar	Dark Chocolate	Main	silentcompat:dark_chocolate		Organic III, Edible, Nocturnal	3	960	19x		-15%	11	1	40	↑3	7		4	1.5	0.1		1x	0x			18	0		6	
+silent-gear-1.19.2-3.0.5.jar	Diamond	Main	silentgear:diamond		Brittle II, Lustrous I	3	1561	33x			10	0.8	70	↑3	8		3	1	0		2x	-0.2x	0.9x	110%	20	8		4	
+silent-gear-1.19.2-3.0.5.jar	Dimerald	Main	silentgear:dimerald		Brittle I, Gold Digger II	3	1776	36x			12	0.7	80	↑3	9		3	3	0.1		3x	0.1x	1x	120%	22	10		10	
+KubeJS Resource Pack [data]	Dragon Scale	Main	silentcompat:dragon_scale		Flexible V, Stellar IV, Draconic III	5	0	60x					90												43			10	
+SilentCompat-forge-1.19.2-1.0.0.jar	Dried Kelp	Main	silentcompat:dried_kelp			1	0	8x			3	0.6	5												4			2	
+silent-gear-1.19.2-3.0.5.jar	Electrum	Main	silentgear:electrum		Malleable II, Soft II	2	96	10x			25	1.5	40	↑2	14		2	5	0.3		1x	0.4x			15			11	
+silent-gear-1.19.2-3.0.5.jar	Emerald	Main	silentgear:emerald		Brittle I, Synergistic II	3	1080	24x		25%	16	1	40	↑2	10		2	2	0		1x	-0.1x	1.1x	90%	16	4		6	
+KubeJS Resource Pack [data]	End Fiber	Main	silentcompat:end_fiber		Unstable Magic, Dense III, Moonwalker II	4	0	26x					35												26	8		18	
+KubeJS Resource Pack [data]	End Fiber	Main	silentgear:end_fiber		Mana Regeneration II, Mana Boost V	4	0	26x					35												30	20		18	
+silent-gear-1.19.2-3.0.5.jar	End Stone	Main	silentgear:end_stone		Jagged III, Ancient II	1	1164	15x		-20%	10	0.9	32	↑2	7		2	3	0.1		0x	0x	1x	80%	15	1		6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Ender Pearl	Main	silentcompat:ender_pearl		Brittle V, Hard II, Moonwalker I	2		13x			10	1.2	10												10	0		8	
+silent-gear-1.19.2-3.0.5.jar	Example	Main	silentgear:example			0	100	6x			1	1	0	↑0	1		1	1	0		0x	0x			4	1		1	
+SilentCompat-forge-1.19.2-1.0.0.jar	Fiery	Main	silentcompat:fiery_ingot		Magmatic, Fireproof, Malleable IV, Fiery II	3	1024	25x					60	↑3	6		4	1	0.1		2.5x	0.15x			24	6		10	
+silent-gear-1.19.2-3.0.5.jar	Fine Silk Cloth	Main	silentgear:fine_silk_cloth		Snow Walker	2	0	14x			14	0.9	40												6			14	
+silent-gear-1.19.2-3.0.5.jar	Flint	Main	silentgear:flint		Jagged III	1	124	4x			3	0.8	6	↑1	5		2		-0.1		1x	-0.3x	1x	100%	4				
+SilentCompat-forge-1.19.2-1.0.0.jar	Fluix	Main	silentcompat:fluix		Looting, Rustic III, Brittle II	3	750	15x					30	↑2	6		2.4	4	-0.3		3x	-0.3x			15	2		4	
+KubeJS Resource Pack [data]	Fluorite	Main	silentgear:fluorite		Snow Walker, Brittle III	3	512	12x					60	↑2	9		2	3	0		4x	0x			16	2		4	
+KubeJS Resource Pack [data]	Forgotten	Main	silentcompat:forgotten		Fleet-Footed, Soft II, Featherweight	3	1867	37x			14	1.2	70	↑3	12		9	6	-0.1		1x	0x			28	8		12	
+KubeJS Resource Pack [data]	Froststeel	Main	silentcompat:froststeel		Heavy II, Chilled V, Freezing	2	575	16x			15	0.8	40	↑3	6		8	1	0		1x	-0.3x			22	16	+0.5	4	
+Gobber2-Forge-1.19.2-2.7.26.jar	Gobber	Main	gobber2:gobber		Bounce, Aquatic III	3	3800	71x					82	↑5	11		4	5	0		1.75x	0.92x	1.2x		21	10		25	
+Gobber2-Forge-1.19.2-2.7.26.jar	End Gobber	Main	gobber2:gobber_end		Light III, Malleable III, Crushing I, Venom I	5	8000	100x					121	↑7	13		4	7	0		2.7x	1x	2x	150%	34	12		22	
+Gobber2-Forge-1.19.2-2.7.26.jar	Nether Gobber	Main	gobber2:gobber_nether		Flame Ward, Chilled II	4	5200	83x					102	↑6	12		4	6	0		2x	1x	1.5x	130%	28	11		17	
+silent-gear-1.19.2-3.0.5.jar	Gold	Main	silentgear:gold		Brilliant, Malleable I, Soft III	2	32	7x			22	1.2	50	↑0	12		0	4	0		0x	0.3x	1.1x	100%	11			8	
+KubeJS Resource Pack [data]	High-Carbon Steel	Main	silentgear:high_carbon_steel		Malleable III	2	720	27x		5%	11	0.8	40	↑2	6		5.5	1	-0.2		2x	-0.2x			22	4		6	
+KubeJS Resource Pack [data]	Honey Crystal	Main	silentcompat:honey_crystal		Brittle III, Cure Poison	2	651	60x			5	0.9	50	↑2	9		2	1	0.05		2x	0.5x	1.2x	110%	20	10		2	
+silent-gear-1.19.2-3.0.5.jar	Invar	Main	silentgear:invar		Malleable III, Adamant II	2	640	20x		15%	13	1.2	50	↑2	7		3.5	3	0		2x	0x			18	2		6	
+silent-gear-1.19.2-3.0.5.jar	Iron	Main	silentgear:iron		Malleable III, Magnetic I	2	250	15x			14	0.7	20	↑2	6		2	1	0		1x	0.1x	1x	110%	15			6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Ironwood	Main	silentcompat:ironwood_ingot		Organic I, Malleable III	2	512	20x					40	↑2	6		6	1	0.1		0.5x	0.1x			16			6	
+SilentCompat-forge-1.19.2-1.0.0.jar	knightmetal	Main	silentcompat:knightly_ingot		Malleable IV, Adamant II	2	512	20x					50	↑2	7		3	1	0.2		0.5x	0x			20	4		6	
+KubeJS Resource Pack [data]	Kunzite	Main	silentgear:kunzite		Silky, Brittle II	3	768	15x					60	↑2	8		6	5	-0.2		1x	0.1x			18	2		8	
+silent-gear-1.19.2-3.0.5.jar	Lapis Lazuli	Main	silentgear:lapis_lazuli			2	200	13x			17	1.3	30	↑2	5		2	3	0		0x	-0.1x	1x	80%	15			10	
+silent-gear-1.19.2-3.0.5.jar	Lead	Main	silentgear:lead		Malleable II, Aquatic II	2	260	14x			15	0.8	40	↑2	4		2	2	-0.4		1x	-0.3x			13			4	
+silent-gear-1.19.2-3.0.5.jar	Leather	Main	silentgear:leather		Snow Walker	0	0	5x			15	0.8	11												7			8	
+silent-gear-1.19.2-3.0.5.jar	Lumium	Main	silentgear:lumium		Malleable III, Refractive	3	920	20x		15%	14	1.3	75	↑3	15		4	3	0.2		2x	0x			18	4		10	
+SilentCompat-forge-1.19.2-1.0.0.jar	Magebloom Fiber	Main	silentcompat:magebloom_fiber		Mana Regen, Freezing	1	0	25x					20												11			16	
+KubeJS Resource Pack [data]	Magebloom Fiber	Main	silentgear:magebloom_fiber		Mana Regeneration I, Spell Damage I, Mana Boost I	1	0	22x					35												10			16	
+KubeJS Resource Pack [data]	Masticated	Main	silentcompat:masticator_scales		Bounce, Bastion I, Masticator Thorns	4	0	17x					70												30			8	
+SilentCompat-forge-1.19.2-1.0.0.jar	Midnight Iron	Main	silentcompat:midnight_iron		Malleable III, Nocturnal, Magnetic I	2	260	16x					20	↑2	6		2	1	0		1x	0.1x	1x	110%	15			6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Mossy Tooth	Main	silentcompat:mossy_tooth		Knockout, Jagged V, Brittle I	3	693	25x					30	↑2	4		4.5	0	0		1.2x	0.05x			15	4		0	
+SilentCompat-forge-1.19.2-1.0.0.jar	Naga Scale	Main	silentcompat:naga_scale		Flexible III, Naga Magic	3	440	21x					60												24	2		6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Nautilus Shell	Main	silentcompat:nautilus_shel		Chipping III, Aquatic V, Ancient II	3		16x			5	1.5	20												20	2		6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Necrathene	Main	silentcompat:necrathene		Decay, Ancient IV	3	1561	39x					50	↑3	9		6	3	0		1x	0.1x			21	8		6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Neptunium	Main	silentcompat:neptunium		Malleable IV, Chilled III, Aquatic V	3	2500	75x		15%			50	↑3	3		6	5	0		1x	2x			20	8		6	
+silent-gear-1.19.2-3.0.5.jar	Netherrack	Main	silentgear:netherrack		Eroded III, Flexible II	1	142	5x		-20%	8	0.8	11	↑1	5		0.5	0.5	0		0.5x	0.1x	0.8x	100%	8			4	
+silent-gear-1.19.2-3.0.5.jar	Netherwood	Main	silentgear:netherwood		Flexible III, Jagged II	0	72	12x	50%	10%	13	0.7	4	↑0	2		0		0.2		0x	0x	1x	80%	8			6	
+silent-gear-1.19.2-3.0.5.jar	Nickel	Main	silentgear:nickel		Malleable III, Adamant I	2	380	17x			12	1	40	↑2	7		2.5	1	0.1		0.5x	0.1x			13			6	
+silent-gear-1.19.2-3.0.5.jar	Obsidian	Main	silentgear:obsidian		Jagged III, Crushing II	3	3072	37x		-50%	7	0.6	10	↑3	6		3	2	-0.4		0x	-0.4x	0.7x	70%	20	4		8	
+KubeJS Resource Pack [data]	Opal	Main	silentgear:opal		Synergy Booster (Just Gems) II, Brittle II	3	384	9x					30	↑2	8		3	5	-0.3		0x	0.3x			16	2		10	
+silent-gear-1.19.2-3.0.5.jar	Osmium	Main	silentgear:osmium		Malleable II	2	500	30x			12	1.1	35	↑2	10		4	2	0.1		1x	0x			17			4	
+silent-gear-1.19.2-3.0.5.jar	Phantom Membrane	Main	silentgear:phantom_membrane		Renew II	2	0	12x			10	0.7	35												6			8	
+KubeJS Resource Pack [data]	Plasteel	Main	silentcompat:plasteel		Vigorous, Bulwark I, Sturdy II	4	3000	36x					50	↑4	7		11	2	0		2x	1x	1x	150%	30	16	+2	5	
+silent-gear-1.19.2-3.0.5.jar	Platinum	Main	silentgear:platinum		Malleable III, Soft II	3	900	21x			14	1.2	80	↑3	12		4	4	0		1x	0x			18	2		12	
+SilentCompat-forge-1.19.2-1.0.0.jar	Precious Opal	Main	silentcompat:precious_opal		Brittle II, Lustrous I	3	384	9x					40	↑2	8		3	5	-0.3		0x	0.3x			16	2		10	
+SilentCompat-forge-1.19.2-1.0.0.jar	Purity	Main	silentcompat:purity		Cure Poison, Cure Wither, Brittle V	3	59	9x					50	↑3	8		6	6	0		3x	0.1x			20	2		8	
+silent-gear-1.19.2-3.0.5.jar	Quartz	Main	silentgear:quartz		Crushing III, Jagged II	2	330	13x			10	1.2	40	↑2	7		2		0.1		0x	0.1x	1x	100%	14			4	
+silent-gear-1.19.2-3.0.5.jar	Redstone Alloy	Main	silentgear:redstone_alloy		Malleable III, Eroded III	2	840	20x		-15%	18	0.9	45	↑2	11		2	4	0.2		1x	0.2x			17	1		8	
+silent-gear-1.19.2-3.0.5.jar	Refined Glowstone	Main	silentgear:refined_glowstone		Malleable II, Lustrous IV	3	300	18x		15%	18	0.8	45	↑2	14		5	3	0		3x	0x			19			8	
+silent-gear-1.19.2-3.0.5.jar	Refined Iron	Main	silentgear:refined_iron		Malleable IV, Stellar I	2	512	20x		-15%	15	0.8	25	↑2	7		3	2	0		2x	0x			18	2		6	
+KubeJS Resource Pack [data]	Refined Obsidian	Main	silentgear:refined_obsidian		Malleable III, Hard IV, Vitality I	4	2500	50x		-30%			70	↑4	20		9	4	0.3		3x	0.2x			25	14	+1	6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Regalium	Main	silentcompat:regalium		Mighty IV, Crushing III, Brittle I	3	1661	12x					50	↑4	9		2	4	0.2		3x	0x			20	2		6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Rocky Shell	Main	silentcompat:rocky_shell		Crushing III, Crude I	3		36x		0%	0	0.6	10												20	6		4	
+KubeJS Resource Pack [data]	Rose Quartz	Main	silentgear:rose_quartz		Lustrous III, Vengeful I, Chipping I, Brittle II	3	1024	20x					60	↑2	10		5	4	0		2x	-0.1x			15	0		10	
+SilentCompat-forge-1.19.2-1.0.0.jar	Rotten Flesh	Main	silentcompat:rotten_flesh			1	0	4x			1	0.4	5												4			2	
+silent-gear-1.19.2-3.0.5.jar	Sandstone	Main	silentgear:sandstone			1	117	6x		-10%	7	0.7	7	↑1	4		1		0.1		0x	-0.1x	1x	80%	5				
+silent-gear-1.19.2-3.0.5.jar	Red Sandstone	Main	silentgear:sandstone/red	silentgear:sandstone		1	117	6x		-10%	7	0.7	7	↑1	4		1		0.1		0x	-0.1x	1x	80%	5				
+SilentCompat-forge-1.19.2-1.0.0.jar	Sculk Alloy	Main	silentcompat:sculk_alloy		Ancient III, Swift Sneak II, Mending	4	2400	48x		-20%	20	0.8	60	↑3	15		10	6	0.1		3x	0.2x			30	8		6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Sculk Bone	Main	silentcompat:sculk_bone		Chipping II, Bludgeoning II	2	308	8x			5	0.9	16	↑1	4		3	1	0.1		1x	0x	0.9x	100%	5			3	
+silent-gear-1.19.2-3.0.5.jar	Example Sheet Metal	Main	silentgear:sheet_metal			0	100, x0	6x, x0.6			1	1	0	↑0	1		1	1	0		0x	0x			4, x0.5	1, x0.5		1	
+silent-gear-1.19.2-3.0.5.jar	Signalum	Main	silentgear:signalum		Flexible II, Lustrous IV	4	800	25x		15%	16	1.2	50	↑3	13		3	4	0		2x	0.2x			16	2		4	
+silent-gear-1.19.2-3.0.5.jar	Silver	Main	silentgear:silver		Malleable II, Soft I	2	64	9x			20	1.1	40	↑0	11		0	4	0.2		0x	0.3x			11			10	
+SilentCompat-forge-1.19.2-1.0.0.jar	Soul Steel	Main	silentcompat:soul_steel		Soul Steal	2	350	15x			15	0.8	20	↑2	8		3.5	3	0		1x	0.1x	1x	110%	19			6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Source Gem	Main	silentcompat:source_gem		Brittle I, Holy II, Lustrous I	3	1561	23x				1	20	↑2	8		2	3	0		2x	-0.4x	0.9x	100%	20	0		10	
+silent-gear-1.19.2-3.0.5.jar	Steel	Main	silentgear:steel		Malleable V	2	500	20x		15%	11	0.8	40	↑2	6		4	1	-0.2		2x	-0.2x			20	2		6	
+SilentCompat-forge-1.19.2-1.0.0.jar	Steeleaf	Main	silentcompat:steeleaf_ingot		Organic I, Malleable III, Steeleaf Magic	2	131	10x					40	↑2	8		3	2	0.2		0.6x	0.2x			20			7	
+silent-gear-1.19.2-3.0.5.jar	Stone	Main	silentgear:stone		Ancient I	1	131	5x			5	0.5	4	↑1	4		1		0		0x	-0.2x	1x	80%	5				
+silent-gear-1.19.2-3.0.5.jar	Andesite	Main	silentgear:stone/andesite	silentgear:stone	Ancient I	1	131	5x			5	0.5	4	↑1	4		1		0		0x	-0.2x	1x	80%	5				
+silent-gear-1.19.2-3.0.5.jar	Diorite	Main	silentgear:stone/diorite	silentgear:stone	Ancient I	1	131	5x			5	0.5	4	↑1	4		1		0		0x	-0.2x	1x	80%	5				
+silent-gear-1.19.2-3.0.5.jar	Granite	Main	silentgear:stone/granite	silentgear:stone	Ancient I	1	131	5x			5	0.5	4	↑1	4		1		0		0x	-0.2x	1x	80%	5				
+SilentCompat-forge-1.19.2-1.0.0.jar	Tarantual Hawk Wing	Main	silentcompat:tarantula_hawk_wing		Flexible I, Dodging I	1	0	10x					15												4			1	
+silent-gear-1.19.2-3.0.5.jar	Terracotta	Main	silentgear:terracotta		Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Black Terracotta	Main	silentgear:terracotta/black	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Blue Terracotta	Main	silentgear:terracotta/blue	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Brown Terracotta	Main	silentgear:terracotta/brown	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Cyan Terracotta	Main	silentgear:terracotta/cyan	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Gray Terracotta	Main	silentgear:terracotta/gray	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Green Terracotta	Main	silentgear:terracotta/green	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Light Blue Terracotta	Main	silentgear:terracotta/light_blue	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Light Gray Terracotta	Main	silentgear:terracotta/light_gray	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Lime Terracotta	Main	silentgear:terracotta/lime	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Magenta Terracotta	Main	silentgear:terracotta/magenta	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Orange Terracotta	Main	silentgear:terracotta/orange	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Pink Terracotta	Main	silentgear:terracotta/pink	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Purple Terracotta	Main	silentgear:terracotta/purple	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Red Terracotta	Main	silentgear:terracotta/red	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	White Terracotta	Main	silentgear:terracotta/white	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Yellow Terracotta	Main	silentgear:terracotta/yellow	silentgear:terracotta	Brittle I, Chipping II, Rustic I	1	165	11x		-10%	9	0.8	7	↑1	4		1.5		0.2		0x	-0.2x	1x	90%	9			3	
+silent-gear-1.19.2-3.0.5.jar	Tin	Main	silentgear:tin		Malleable I, Soft II	1	192	13x			12	1.1	15	↑1	5		1.5	1	0		0.5x	0x			12			2	
+silent-gear-1.19.2-3.0.5.jar	Titanium	Main	silentgear:titanium		Malleable II, Hard IV	4	1600	37x			12	1	80	↑4	8		6	1	0		1x	-0.2x			24	8		4	
+silent-gear-1.19.2-3.0.5.jar	Turtle	Main	silentgear:turtle		Turtle	2	0				9	0.5	20															4	
+KubeJS Resource Pack [data]	Tyrian Steel	Main	silentgear:tyrian_steel		Sturdy III, Vengeful III, Void Ward	4	3652	81x					109	↑5	18		13	8	0		4x	0x	1.1x	110%	43	14		20	
+silent-gear-1.19.2-3.0.5.jar	Uranium	Main	silentgear:uranium		Malleable II	3	800	20x		-15%	17	1.5	50	↑3	6		2	2	0.1		0.5x	0.1x			13	1		3	
+KubeJS Resource Pack [data]	Utherium	Main	silentcompat:utherium_crystal		Eroded I, Brittle III, Featherweight	3	1279	30x					40	↑3	7		6	2	0		3.5x	-0.2x			24	12		10	
+KubeJS Resource Pack [data]	Wilden Horn	Main	silentgear:wilden_horn		Sharp I, Chipping I, Crushing II, Strengthened I	2	188	6x					10	↑2	5		3	2	0.2		1.8x	1.5x	1.1x	110%	7			2	
+KubeJS Resource Pack [data]	Wilden Wing	Main	silentgear:wilden_wing		Jump Boost I	2	0	12x					35												6			8	
+silent-gear-1.19.2-3.0.5.jar	Wooden	Main	silentgear:wood		Flammable, Jagged I	0	59	8x		25%	15	0.6	1	↑0	2		0		0		0x	0x	1x	90%	7			2	
+silent-gear-1.19.2-3.0.5.jar	Acacia Wood	Main	silentgear:wood/acacia	silentgear:wood	Flammable, Jagged I	0	59	8x		25%	15	0.6	1	↑0	2		0		0		0x	0x	1x	90%	7			2	
+silent-gear-1.19.2-3.0.5.jar	Birch Wood	Main	silentgear:wood/birch	silentgear:wood	Flammable, Jagged I	0	59	8x		25%	15	0.6	1	↑0	2		0		0		0x	0x	1x	90%	7			2	
+silent-gear-1.19.2-3.0.5.jar	Crimson Wood	Main	silentgear:wood/crimson	silentgear:wood	Jagged I	0	59	8x		25%	15	0.6	1	↑0	2		0		0		0x	0x	1x	90%	7			2	
+silent-gear-1.19.2-3.0.5.jar	Dark Oak Wood	Main	silentgear:wood/dark_oak	silentgear:wood	Flammable, Jagged I	0	59	8x		25%	15	0.6	1	↑0	2		0		0		0x	0x	1x	90%	7			2	
+silent-gear-1.19.2-3.0.5.jar	Jungle Wood	Main	silentgear:wood/jungle	silentgear:wood	Flammable, Jagged I	0	59	8x		25%	15	0.6	1	↑0	2		0		0		0x	0x	1x	90%	7			2	
+silent-gear-1.19.2-3.0.5.jar	Oak Wood	Main	silentgear:wood/oak	silentgear:wood	Flammable, Jagged I	0	59	8x		25%	15	0.6	1	↑0	2		0		0		0x	0x	1x	90%	7			2	
+silent-gear-1.19.2-3.0.5.jar	Spruce Wood	Main	silentgear:wood/spruce	silentgear:wood	Flammable, Jagged I	0	59	8x		25%	15	0.6	1	↑0	2		0		0		0x	0x	1x	90%	7			2	
+silent-gear-1.19.2-3.0.5.jar	Warped Wood	Main	silentgear:wood/warped	silentgear:wood	Jagged I	0	59	8x		25%	15	0.6	1	↑0	2		0		0		0x	0x	1x	90%	7			2	
+silent-gear-1.19.2-3.0.5.jar	Wool	Main	silentgear:wool		Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Black Wool	Main	silentgear:wool/black	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Blue Wool	Main	silentgear:wool/blue	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Brown Wool	Main	silentgear:wool/brown	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Cyan Wool	Main	silentgear:wool/cyan	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Gray Wool	Main	silentgear:wool/gray	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Green Wool	Main	silentgear:wool/green	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Light Blue Wool	Main	silentgear:wool/light_blue	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Light Gray Wool	Main	silentgear:wool/light_gray	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Lime Wool	Main	silentgear:wool/lime	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Magenta Wool	Main	silentgear:wool/magenta	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Orange Wool	Main	silentgear:wool/orange	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Pink Wool	Main	silentgear:wool/pink	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Purple Wool	Main	silentgear:wool/purple	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Red Wool	Main	silentgear:wool/red	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	White Wool	Main	silentgear:wool/white	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Yellow Wool	Main	silentgear:wool/yellow	silentgear:wool	Snow Walker	0	0	4x			7	0.7	7												4			4	
+silent-gear-1.19.2-3.0.5.jar	Zinc	Main	silentgear:zinc		Malleable I, Soft II	1	192	10x			15	1.1	10	↑1	3		1.5	1	0		0x	0x			10			2	
+silent-gear-1.19.2-3.0.5.jar	Amethyst	Tip Upgrade	silentgear:amethyst		Silky	2	x0.75																						
+SilentCompat-forge-1.19.2-1.0.0.jar	Andesite Alloy	Tip Upgrade	silentcompat:andesite_alloy		Malleable II	2	+60	+4					+4	↑2	+1		+1					+0.2							
+KubeJS Resource Pack [data]	Azure Electrum	Tip Upgrade	silentgear:azure_electrum		Malleable III	4	+401	+11					+41		+5			+3	+0.3										
+KubeJS Resource Pack [data]	Azure Silver	Tip Upgrade	silentgear:azure_silver		Malleable II, Soft II	3	+83	+3					+31		+3			+2	+0.2										
+SilentCompat-forge-1.19.2-1.0.0.jar	Bee Stinger	Tip Upgrade	silentcompat:bee_stinger		Venom II	1	+5										+1				+1								
+silent-gear-1.19.2-3.0.5.jar	Blaze Gold	Tip Upgrade	silentgear:blaze_gold		Soft II, Fiery II	3	+32	+3					+14	↑2	+4		+1	+1											
+KubeJS Resource Pack [data]	Cast Iron	Tip Upgrade	silentcompat:cast_iron		Hard I	2	+228	+6					+8	↑2	-0.01		+1.5		-0.01			+0.1							
+silent-gear-1.19.2-3.0.5.jar	Crimson Iron	Tip Upgrade	silentgear:crimson_iron		Fiery I	3	+224	+8					+10	↑3	+2		+2												
+KubeJS Resource Pack [data]	Crimson Steel	Tip Upgrade	silentgear:crimson_steel		Magmatic	4	+448	+16					+20	↑4															
+silent-gear-1.19.2-3.0.5.jar	Diamond	Tip Upgrade	silentgear:diamond		Brittle II, Lustrous II	3	+256	+9					+20	↑3	+2		+2	+1			+0.5								
+silent-gear-1.19.2-3.0.5.jar	Dimerald	Tip Upgrade	silentgear:dimerald		Imperial II	3	+360						+25	↑3	+2		+2	+1			+0.5								
+silent-gear-1.19.2-3.0.5.jar	Emerald	Tip Upgrade	silentgear:emerald		Brittle I, Synergistic II	3	+512	+12					+20	↑2	+2		+1	+2			+1								
+silent-gear-1.19.2-3.0.5.jar	Example	Tip Upgrade	silentgear:example			0																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Gazelle Horn	Tip Upgrade	silentcompat:gazelle_horn		Fleet-Footed	2	+256						+20	↑1	+2.4		+1.5				+2								
+silent-gear-1.19.2-3.0.5.jar	Glowstone	Tip Upgrade	silentgear:glowstone		Refractive, Lustrous IV	2							+15		x1.4		+2	+2				x1.3							
+silent-gear-1.19.2-3.0.5.jar	Gold	Tip Upgrade	silentgear:gold		Malleable I, Soft III	2	+16	+1					+30		+6			+2				+0.2							
+KubeJS Resource Pack [data]	Honey Crystal	Tip Upgrade	silentcompat:honey_crystal		Brittle III, Cure Poison	2	+256	+12					+10	↑2	+2		+1				+0.5								
+silent-gear-1.19.2-3.0.5.jar	Iron	Tip Upgrade	silentgear:iron		Malleable II	2	+128	+4					+8	↑2	+1		+1					+0.2							
+silent-gear-1.19.2-3.0.5.jar	Lapis Lazuli	Tip Upgrade	silentgear:lapis_lazuli		Holy I, Lucky IV	2									x0.9			+2	+0.3										
+SilentCompat-forge-1.19.2-1.0.0.jar	Midnight Iron	Tip Upgrade	silentcompat:midnight_iron		Malleable II	2	+128	+4					+8	↑2	+1		+1					+0.2							
+SilentCompat-forge-1.19.2-1.0.0.jar	Mossy Tooth	Tip Upgrade	silentcompat:mossy_tooth		Strengthened I, Jagged I	3	x1.2										x1.1												
+SilentCompat-forge-1.19.2-1.0.0.jar	Necrathene	Tip Upgrade	silentcompat:necrathene			3	+400																						
+SilentCompat-forge-1.19.2-1.0.0.jar	Nether Star	Tip Upgrade	silentcompat:nether_star		Chipping II, Cursed II, Swiftness II	3							+10				+5				+5								
+silent-gear-1.19.2-3.0.5.jar	Quartz	Tip Upgrade	silentgear:quartz		Chipping I, Jagged III	2	+64	+64					+20	↑2	+2		+4				+1.5								
+silent-gear-1.19.2-3.0.5.jar	Redstone	Tip Upgrade	silentgear:redstone			2							+10		x1.2		+2		+0.5		+2								
+silent-gear-1.19.2-3.0.5.jar	Refined Glowstone	Tip Upgrade	silentgear:refined_glowstone		Refractive	3									+5														
+KubeJS Resource Pack [data]	Refined Obsidian	Tip Upgrade	silentgear:refined_obsidian		Vulcan	4	+600																						
+SilentCompat-forge-1.19.2-1.0.0.jar	Sculk Alloy	Tip Upgrade	silentcompat:sculk_alloy		Sturdy I	4	+500																						
+SilentCompat-forge-1.19.2-1.0.0.jar	Shark Tooth	Tip Upgrade	silentcompat:shark_tooth		Chipping II	2	+256						+20	↑2	+2.2		+2				+1								
+SilentCompat-forge-1.19.2-1.0.0.jar	Soul Crystal	Tip Upgrade	silentcompat:soul_crystal		Chipping I, Cursed I, Bulwark I	3	+356						+30	↑3	+3		+3.5				+2								
+SilentCompat-forge-1.19.2-1.0.0.jar	Soul Steel	Tip Upgrade	silentcompat:soul_steel		Flexible I, Cursed I	2	+228	+4					+8	↑2	+2		+2.5					+0.2							
+SilentCompat-forge-1.19.2-1.0.0.jar	Source Gem	Tip Upgrade	silentcompat:source_gem		Brittle II, Holy I	3	+256	+9					+5	↑3	+2			+1											
+KubeJS Resource Pack [data]	Tyrian Steel	Tip Upgrade	silentgear:tyrian_steel		Imperial III, Gold Digger III	4	+251						+30	↑5															
+KubeJS Resource Pack [data]	Utherium	Tip Upgrade	silentcompat:utherium_crystal		Eroded I, Brittle I	3	+279	+164					+40	↑3	+1		+1				+1.5	-0.1							
+silent-gear-1.19.2-3.0.5.jar	Aluminum	Tool Rod	silentgear:aluminum		Malleable III, Synergistic II	2	x1.2						30								x1.1								
+silent-gear-1.19.2-3.0.5.jar	Aluminum Steel	Tool Rod	silentgear:aluminum_steel		Malleable III, Synergistic III	3	x1.3						45		x1.1														
+SilentCompat-forge-1.19.2-1.0.0.jar	Andesite Alloy	Tool Rod	silentcompat:andesite_alloy		Crude II	2	x1.1						10				x1.1												
+SilentCompat-forge-1.19.2-1.0.0.jar	Antimatter	Tool Rod	silentcompat:anti_matter		Stellar I, Retaliating Blast	3	+300%						80		x1.2		x1.2				x1.25								
+KubeJS Resource Pack [data]	Azure Electrum	Tool Rod	silentgear:azure_electrum		Flexible II, Accelerate V	4	x0.8						67		+5								x2.5						
+KubeJS Resource Pack [data]	Azure Silver	Tool Rod	silentgear:azure_silver		trait.silentgear.bending II	3	x0.8								+3														
+silent-gear-1.19.2-3.0.5.jar	Bamboo	Tool Rod	silentgear:bamboo		Flexible III	0																							
+silent-gear-1.19.2-3.0.5.jar	Basalt	Tool Rod	silentgear:basalt		Brittle III, Chipping II	1									x1.1		x0.9												
+silent-gear-1.19.2-3.0.5.jar	Bismuth	Tool Rod	silentgear:bismuth		Malleable II	2	x1.1						35		x1.1														
+silent-gear-1.19.2-3.0.5.jar	Bismuth Brass	Tool Rod	silentgear:bismuth_brass		Malleable II	2	x0.9						50		x1.2														
+silent-gear-1.19.2-3.0.5.jar	Bismuth Steel	Tool Rod	silentgear:bismuth_steel		Malleable III	3	x1.25						60		x1.15														
+silent-gear-1.19.2-3.0.5.jar	Blackstone	Tool Rod	silentgear:blackstone		Brittle I, Jagged II, Hard I	1									x0.9														
+silent-gear-1.19.2-3.0.5.jar	Blaze Gold	Tool Rod	silentgear:blaze_gold		Flexible III	3								↑2	x1.1														
+silent-gear-1.19.2-3.0.5.jar	Blaze Rod	Tool Rod	silentgear:blaze_rod		Malleable IV, Flexible II, Reach I	3								↑2	x1.1		x1.2				x1.1								
+silent-gear-1.19.2-3.0.5.jar	Bone	Tool Rod	silentgear:bone		Flexible II	1											x1.2												
+KubeJS Resource Pack [data]	Bone Serpent Tooth	Tool Rod	silentgear:bone_serpant_tooth		Chipping II	1							16				x1.2												
+silent-gear-1.19.2-3.0.5.jar	Brass	Tool Rod	silentgear:brass		Malleable II	2	x1.05						25		x1.05														
+silent-gear-1.19.2-3.0.5.jar	Bronze	Tool Rod	silentgear:bronze		Flexible I	2											x1.05												
+SilentCompat-forge-1.19.2-1.0.0.jar	Brute Tusk	Tool Rod	silentcompat:brute_tusk		Flexible II, Bludgeoning I	1											x1.15												
+SilentCompat-forge-1.19.2-1.0.0.jar	Bunny Steel	Tool Rod	silentcompat:bunny_steel		Malleable V	2	x1.25						45																
+KubeJS Resource Pack [data]	Capsid Alloy	Tool Rod	silentcompat:capsid_alloy			3			+5%																				
+KubeJS Resource Pack [data]	Cast Iron	Tool Rod	silentcompat:cast_iron		Hard I	2	x1.2						20				x1.11												
+SilentCompat-forge-1.19.2-1.0.0.jar	Chocolate	Tool Rod	silentcompat:chocolate		Soft II	1	x0.85																						
+KubeJS Resource Pack [data]	Cloggrum	Tool Rod	silentcompat:cloggrum		Malleable III	2	x1.2						40				x1.1												
+silent-gear-1.19.2-3.0.5.jar	Compressed Iron	Tool Rod	silentgear:compressed_iron		Malleable II, Magnetic IV	3	x1.25						40																
+silent-gear-1.19.2-3.0.5.jar	Copper	Tool Rod	silentgear:copper		trait.silentgear.bending III, Soft III	2									x1.2														
+silent-gear-1.19.2-3.0.5.jar	Crimson Iron	Tool Rod	silentgear:crimson_iron		Flexible III	3											x1.1												
+KubeJS Resource Pack [data]	Crimson Steel	Tool Rod	silentgear:crimson_steel		Malleable V	4	x1.5						42		x1.2						+1								
+SilentCompat-forge-1.19.2-1.0.0.jar	Cryptic End Rod	Tool Rod	silentcompat:cryptic_end_rod		Flexible IV, Sturdy II, Refractive	3								↑3	x1.22		x1.09				x1.12								
+SilentCompat-forge-1.19.2-1.0.0.jar	Dark Chocolate	Tool Rod	silentcompat:dark_chocolate		Organic III, Soft II	3	x1.35						40		x1.05														
+silent-gear-1.19.2-3.0.5.jar	Diamond	Tool Rod	silentgear:diamond		Brittle V, Lustrous IV	3									x1.2														
+silent-gear-1.19.2-3.0.5.jar	Dimerald	Tool Rod	silentgear:dimerald		Brittle I, Ancient III	3									x1.15														
+silent-gear-1.19.2-3.0.5.jar	Electrum	Tool Rod	silentgear:electrum		Lustrous III	2							40						+0.1			x1.1							
+silent-gear-1.19.2-3.0.5.jar	Emerald	Tool Rod	silentgear:emerald		Brittle IV	3									x1.3														
+silent-gear-1.19.2-3.0.5.jar	End Rod	Tool Rod	silentgear:end_rod		Flexible IV, Sturdy II, Refractive	3								↑3	x1.2		x1.1				x1.1								
+silent-gear-1.19.2-3.0.5.jar	End Stone	Tool Rod	silentgear:end_stone		Malleable I, Ancient IV	1											+1												
+silent-gear-1.19.2-3.0.5.jar	Example	Tool Rod	silentgear:example			0																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Farseer Arm	Tool Rod	silentcompat:farseer_arm		Flexible III, Rustic III	3								↑3			x1.25				x1.15								
+SilentCompat-forge-1.19.2-1.0.0.jar	Fiery	Tool Rod	silentcompat:fiery_ingot			3	x1.23						60				x1.17												
+silent-gear-1.19.2-3.0.5.jar	Flint	Tool Rod	silentgear:flint		Brittle III, Jagged II	1																							
+KubeJS Resource Pack [data]	Forgotten	Tool Rod	silentcompat:forgotten		Soft IV	3	x1.1		x0.9				70																
+KubeJS Resource Pack [data]	Froststeel	Tool Rod	silentcompat:froststeel		Hard I, Heavy II	2	x1.1						40																
+Gobber2-Forge-1.19.2-2.7.26.jar	Gobber Rod	Tool Rod	gobber2:gobber_rod		Accelerate I, Sturdy I	3	x0.9						10		+1		+1				+0.25		+0.25						
+Gobber2-Forge-1.19.2-2.7.26.jar	End Gobber Rod	Tool Rod	gobber2:gobber_rod_end		Accelerate III, Hard II	5	x1.3						30		+3		+3				x0.7	+0.24							
+Gobber2-Forge-1.19.2-2.7.26.jar	Nether Gobber Rod	Tool Rod	gobber2:gobber_rod_nether		Fiery I, Accelerate II	4							20		+2		+2				+0.75	+0.1							
+silent-gear-1.19.2-3.0.5.jar	Gold	Tool Rod	silentgear:gold		trait.silentgear.bending IV	2									+3														
+KubeJS Resource Pack [data]	Honey Crystal	Tool Rod	silentcompat:honey_crystal		Brittle V, Cure Poison	2									x1.3														
+silent-gear-1.19.2-3.0.5.jar	Invar	Tool Rod	silentgear:invar		Malleable III	2	x1.3						50				x1.1												
+silent-gear-1.19.2-3.0.5.jar	Iron	Tool Rod	silentgear:iron		Flexible II, Magnetic III	2																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Ironwood	Tool Rod	silentcompat:ironwood_ingot		Malleable III, Organic I	2	x1.1						40				x1.05												
+SilentCompat-forge-1.19.2-1.0.0.jar	knightmetal	Tool Rod	silentcompat:knightly_ingot		Malleable IV	2	x1.2						50				x1.26												
+silent-gear-1.19.2-3.0.5.jar	Lead	Tool Rod	silentgear:lead		Soft IV	2	x1.1						40		x0.9														
+silent-gear-1.19.2-3.0.5.jar	Lumium	Tool Rod	silentgear:lumium		Malleable III, Refractive	3							75		x1.2						x1.1								
+SilentCompat-forge-1.19.2-1.0.0.jar	Midnight Iron	Tool Rod	silentcompat:midnight_iron		Magnetic III	2	x1.15						20				x1.1												
+SilentCompat-forge-1.19.2-1.0.0.jar	Mossy Tooth	Tool Rod	silentcompat:mossy_tooth		Jagged I	3	x1.3						10				x1.05												
+SilentCompat-forge-1.19.2-1.0.0.jar	Necrathene	Tool Rod	silentcompat:necrathene		Ancient I	3	x1.1						50																
+SilentCompat-forge-1.19.2-1.0.0.jar	Neptunium	Tool Rod	silentcompat:neptunium		Malleable IV, Lucky I	3	x1.25						20																
+silent-gear-1.19.2-3.0.5.jar	Netherrack	Tool Rod	silentgear:netherrack		Eroded II, trait.silentgear.bending II	1																							
+silent-gear-1.19.2-3.0.5.jar	Netherwood	Tool Rod	silentgear:netherwood		Flexible I	0									+1		+0.5												
+silent-gear-1.19.2-3.0.5.jar	Nickel	Tool Rod	silentgear:nickel		Malleable III	2	x1.2						40				x1.1												
+silent-gear-1.19.2-3.0.5.jar	Obsidian	Tool Rod	silentgear:obsidian		Brittle II, Chipping III	3									x0.9														
+silent-gear-1.19.2-3.0.5.jar	Osmium	Tool Rod	silentgear:osmium		Malleable II	2	x1.1		x1.1				35																
+KubeJS Resource Pack [data]	Plasteel	Tool Rod	silentcompat:plasteel		Bulwark I, Sturdy I	4	x1.3						20																
+SilentCompat-forge-1.19.2-1.0.0.jar	PlaStick	Tool Rod	silentcompat:plastick		Flexible III, Sturdy I	3	+100%						30																
+silent-gear-1.19.2-3.0.5.jar	Platinum	Tool Rod	silentgear:platinum		Malleable II, Soft IV	3	x0.9		x1.1				70																
+SilentCompat-forge-1.19.2-1.0.0.jar	Plutonium	Tool Rod	silentcompat:plutonium		Soft II, Vigorous	3	+250%						35		x1.4		x1.3				x1.3								
+SilentCompat-forge-1.19.2-1.0.0.jar	Polonium	Tool Rod	silentcompat:polonium		Soft III, Spoon	3	+200%						30		x1.2		x1.3				x1.2								
+silent-gear-1.19.2-3.0.5.jar	Quartz	Tool Rod	silentgear:quartz		Brittle III	2									x1.2		x1.1												
+silent-gear-1.19.2-3.0.5.jar	Redstone Alloy	Tool Rod	silentgear:redstone_alloy		Malleable III	2							45		x1.2														
+silent-gear-1.19.2-3.0.5.jar	Refined Glowstone	Tool Rod	silentgear:refined_glowstone		Malleable IV, Lustrous I	3	x0.9						45		x1.2														
+silent-gear-1.19.2-3.0.5.jar	Refined Iron	Tool Rod	silentgear:refined_iron		Malleable IV, Magnetic III	2	x1.15						25								x1.1								
+KubeJS Resource Pack [data]	Refined Obsidian	Tool Rod	silentgear:refined_obsidian		Malleable IV, Hard III	4	x1.25						70																
+SilentCompat-forge-1.19.2-1.0.0.jar	Rocky Shell	Tool Rod	silentcompat:rocky_shell		Chipping III, Crude I	3									x0.9		+1												
+silent-gear-1.19.2-3.0.5.jar	Sandstone	Tool Rod	silentgear:sandstone		Brittle I	1																							
+silent-gear-1.19.2-3.0.5.jar	Red Sandstone	Tool Rod	silentgear:sandstone/red	silentgear:sandstone	Brittle I	1																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Sculk Alloy	Tool Rod	silentcompat:sculk_alloy		Malleable V, Mending	4	x1.24						60																
+SilentCompat-forge-1.19.2-1.0.0.jar	Sculk Bone	Tool Rod	silentcompat:sculk_bone		Flexible II, Bludgeoning I	2											x1.2												
+silent-gear-1.19.2-3.0.5.jar	Signalum	Tool Rod	silentgear:signalum		Flexible IV, Lustrous II	4			x0.9				50		x1.3														
+silent-gear-1.19.2-3.0.5.jar	Silver	Tool Rod	silentgear:silver		Malleable I, Soft II	2							40		x1.1			x1.1											
+SilentCompat-forge-1.19.2-1.0.0.jar	Soul Steel	Tool Rod	silentcompat:soul_steel		Cursed I, Soul Steal	2																							
+SilentCompat-forge-1.19.2-1.0.0.jar	Source Gem	Tool Rod	silentcompat:source_gem		Brittle V, Lustrous IV	3									x1.2														
+silent-gear-1.19.2-3.0.5.jar	Steel	Tool Rod	silentgear:steel		Malleable V	2	x1.25						40																
+silent-gear-1.19.2-3.0.5.jar	Stone	Tool Rod	silentgear:stone		Brittle II, Crushing II	1									x1.1														
+silent-gear-1.19.2-3.0.5.jar	Andesite	Tool Rod	silentgear:stone/andesite	silentgear:stone	Brittle II, Crushing II	1									x1.1														
+silent-gear-1.19.2-3.0.5.jar	Diorite	Tool Rod	silentgear:stone/diorite	silentgear:stone	Brittle II, Crushing II	1									x1.1														
+silent-gear-1.19.2-3.0.5.jar	Granite	Tool Rod	silentgear:stone/granite	silentgear:stone	Brittle II, Crushing II	1									x1.1														
+silent-gear-1.19.2-3.0.5.jar	Terracotta	Tool Rod	silentgear:terracotta		Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Black Terracotta	Tool Rod	silentgear:terracotta/black	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Blue Terracotta	Tool Rod	silentgear:terracotta/blue	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Brown Terracotta	Tool Rod	silentgear:terracotta/brown	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Cyan Terracotta	Tool Rod	silentgear:terracotta/cyan	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Gray Terracotta	Tool Rod	silentgear:terracotta/gray	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Green Terracotta	Tool Rod	silentgear:terracotta/green	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Light Blue Terracotta	Tool Rod	silentgear:terracotta/light_blue	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Light Gray Terracotta	Tool Rod	silentgear:terracotta/light_gray	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Lime Terracotta	Tool Rod	silentgear:terracotta/lime	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Magenta Terracotta	Tool Rod	silentgear:terracotta/magenta	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Orange Terracotta	Tool Rod	silentgear:terracotta/orange	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Pink Terracotta	Tool Rod	silentgear:terracotta/pink	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Purple Terracotta	Tool Rod	silentgear:terracotta/purple	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Red Terracotta	Tool Rod	silentgear:terracotta/red	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	White Terracotta	Tool Rod	silentgear:terracotta/white	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Yellow Terracotta	Tool Rod	silentgear:terracotta/yellow	silentgear:terracotta	Brittle II, Crushing I	1											x1.1												
+silent-gear-1.19.2-3.0.5.jar	Tin	Tool Rod	silentgear:tin		Malleable II, Soft I	1							15						+0.2										
+silent-gear-1.19.2-3.0.5.jar	Titanium	Tool Rod	silentgear:titanium		Flexible II, Hard IV	4	x1.1						80				x1.2, +2												
+KubeJS Resource Pack [data]	Tyrian Steel	Tool Rod	silentgear:tyrian_steel		Sturdy IV	4	x1.1						100																
+silent-gear-1.19.2-3.0.5.jar	Uranium	Tool Rod	silentgear:uranium		Malleable II	3							40		x1.1							x1.1							
+SilentCompat-forge-1.19.2-1.0.0.jar	Void Worm	Tool Rod	silentcompat:void_worm		Flexible II, Hard V	5	x1.5, +5						+50				x1.5												
+KubeJS Resource Pack [data]	Wilden Horn	Tool Rod	silentgear:wilden_horn		Flexible III, Reach I	2							10				x1.22												
+KubeJS Resource Pack [data]	Wilden Spike	Tool Rod	silentgear:wilden_spike		Flexible III, Reach I	2							10				x1.22					1.5x	1.1x	110%					
+silent-gear-1.19.2-3.0.5.jar	Wooden	Tool Rod	silentgear:wood		Flexible II	0																							
+silent-gear-1.19.2-3.0.5.jar	Acacia Wood	Tool Rod	silentgear:wood/acacia	silentgear:wood	Flexible II	0																							
+silent-gear-1.19.2-3.0.5.jar	Birch Wood	Tool Rod	silentgear:wood/birch	silentgear:wood	Flexible II	0																							
+silent-gear-1.19.2-3.0.5.jar	Crimson Wood	Tool Rod	silentgear:wood/crimson	silentgear:wood	Flexible II	0																							
+silent-gear-1.19.2-3.0.5.jar	Dark Oak Wood	Tool Rod	silentgear:wood/dark_oak	silentgear:wood	Flexible II	0																							
+silent-gear-1.19.2-3.0.5.jar	Jungle Wood	Tool Rod	silentgear:wood/jungle	silentgear:wood	Flexible II	0																							
+silent-gear-1.19.2-3.0.5.jar	Oak Wood	Tool Rod	silentgear:wood/oak	silentgear:wood	Flexible II	0																							
+silent-gear-1.19.2-3.0.5.jar	Rough Wood	Tool Rod	silentgear:wood/rough		Crude III, trait.silentgear.bending V	0																							
+silent-gear-1.19.2-3.0.5.jar	Spruce Wood	Tool Rod	silentgear:wood/spruce	silentgear:wood	Flexible II	0																							
+silent-gear-1.19.2-3.0.5.jar	Warped Wood	Tool Rod	silentgear:wood/warped	silentgear:wood	Flexible II	0																							
+silent-gear-1.19.2-3.0.5.jar	Zinc	Tool Rod	silentgear:zinc		Malleable II, Soft III	1	x0.95						15				x1.05												

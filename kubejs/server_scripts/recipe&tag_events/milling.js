@@ -2,6 +2,56 @@ ServerEvents.recipes(event => {
     const id_prefix = 'kubejs:/milling/';
 
     const recipes = [
+
+        {
+            ingredients: [{'item': 'minecraft:deepslate'}],
+            time: 150,
+            results: [
+                {
+                    'count': 1,
+                    'item': 'minecraft:cobbled_deepslate'
+                },
+                {
+                    'chance': 0.1,
+                    'item': 'silentgear:bort'
+                }],
+            id: `${id_prefix}bort_from_deepslate`
+        },
+
+        {
+            ingredients: [{'item': 'alexsmobs:capsid'}],
+            time: 200,
+            results: [
+                {
+                    'count': 1,
+                    'item': 'minecraft:purple_dye'
+                },
+                {
+                    'chance': 0.05,
+                    'item': 'majruszsdifficulty:enderium_shard'
+                }],
+            id: `${id_prefix}enderium_from_capsid`
+        },
+
+        {
+            ingredients: [{'item': 'minecraft:gilded_blackstone'}],
+            time: 200,
+            results: [
+                {
+                    'count': 1,
+                    'item': 'minecraft:blackstone'
+                },
+                {
+                    'chance': 0.1,
+                    'item': 'minecraft:gold_nugget'
+                },
+                {
+                    'chance': 0.03,
+                    'item': 'mekanism:dirty_netherite_scrap'
+                }],
+            id: `${id_prefix}blackstone_gold_netherite`
+        },
+
         {
             ingredients: [{'item': 'create:crushed_iron_ore'}],
             time: 150,

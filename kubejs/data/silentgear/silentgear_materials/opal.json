@@ -53,6 +53,10 @@
         {
           "name": "silentgear:mana_boost",
           "level": 1
+        },
+        {
+          "name": "silentgear:spell_damage",
+          "level": 2
         }
       ]
     },

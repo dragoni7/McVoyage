@@ -770,11 +770,11 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -10.0d
 			y: 5.0d
 			subtitle: "ae2"
 			description: ["Allows the creation of advanced processors"]
-			dependencies: ["44296E14FCE0AD45"]
+			dependencies: ["3D64241BB6604298"]
 			id: "28F2B1FE46C8C48F"
 			tasks: [{
 				id: "1BCDAFEFCEAC0DFA"
@@ -801,7 +801,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -10.0d
 			y: 6.5d
 			dependencies: ["28F2B1FE46C8C48F"]
 			id: "32B2917048AB10E1"
@@ -812,7 +812,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -11.0d
 			y: 6.5d
 			dependencies: ["28F2B1FE46C8C48F"]
 			id: "5FA14E864BC51CB3"
@@ -823,7 +823,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -9.0d
 			y: 6.5d
 			dependencies: ["28F2B1FE46C8C48F"]
 			id: "1B7ECB8DEC28D8CC"
@@ -834,10 +834,10 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: -1.5d
 			y: 7.0d
 			description: ["After discovering the end, you can create azure casings! The most advanced casing available"]
-			dependencies: ["58B647A7740287EF"]
+			dependencies: ["44296E14FCE0AD45"]
 			id: "093159C3B44B28CC"
 			tasks: [{
 				id: "32553F74E99FBD08"
@@ -863,7 +863,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: -1.5d
 			y: 9.0d
 			description: ["Brain of an AE network, a mass digital storage system. Useful for storing items and autocrafting!"]
 			dependencies: ["093159C3B44B28CC"]
@@ -902,7 +902,7 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -3.0d
 			y: 3.0d
 			description: ["Obtain anti matter through a long multi machine process"]
 			dependencies: ["4731716A2364322E"]
@@ -931,7 +931,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -3.0d
 			y: 11.0d
 			subtitle: "In the palm of your hand"
 			description: ["Create a singularity by compressing a large amount of items, then create an explosion with ender pearl dust"]
@@ -965,7 +965,7 @@
 			]
 		}
 		{
-			x: -1.5d
+			x: -4.0d
 			y: 9.0d
 			description: ["The matter condensor can condense items into compact forms"]
 			dependencies: ["5C0F7DEF2B1BDE97"]
@@ -989,7 +989,7 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -5.0d
 			y: 11.0d
 			description: ["Ball of compressed matter"]
 			dependencies: ["05A4B8DE9639C44A"]
@@ -1013,7 +1013,7 @@
 			]
 		}
 		{
-			x: -1.5d
+			x: -4.0d
 			y: 13.0d
 			description: ["Several items that should not be combined.."]
 			dependencies: [
@@ -1045,7 +1045,7 @@
 			]
 		}
 		{
-			x: -1.5d
+			x: -4.0d
 			y: 15.0d
 			subtitle: "Flight!"
 			description: ["Anti gravitational flight for mekasuits"]
@@ -1063,7 +1063,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -1.5d
 			y: 3.0d
 			description: ["Chemical crystalization. Capable of creating anti matter"]
 			dependencies: ["44296E14FCE0AD45"]
@@ -1199,7 +1199,7 @@
 			]
 		}
 		{
-			x: 3.5d
+			x: 1.0d
 			y: 9.0d
 			description: ["Better fluix cables. Necessary for creating a network"]
 			dependencies: ["5C0F7DEF2B1BDE97"]
@@ -1361,6 +1361,314 @@
 					}
 				}
 			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			subtitle: "Power!"
+			description: ["Power is needed for most of Mekanism's blocks. There are many ways to generate power, be sure to check them all out!"]
+			dependencies: ["6B0DCDE78B5045CD"]
+			id: "411B81C7C5F5A118"
+			tasks: [{
+				id: "41CBBCFC9E849B7C"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [{
+				id: "581B144A8946D4CF"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+				count: 6
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.0d
+			subtitle: "Chemistry!"
+			description: ["The reaction chamber will allow you to make certain materials based on chemical reactions. One such material being plasteel"]
+			dependencies: ["44296E14FCE0AD45"]
+			id: "0D0C914AF974652B"
+			tasks: [{
+				id: "00B2FE333D6B9EFB"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [
+				{
+					id: "27F4A99D528D29B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3D39DA17567592BF"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 5.0d
+			subtitle: "Stronger steel"
+			description: ["Figure out how to craft plasteel, needed for higher tech recipes"]
+			dependencies: ["0D0C914AF974652B"]
+			id: "3D64241BB6604298"
+			tasks: [{
+				id: "5DB3DE44386B0EC9"
+				type: "item"
+				item: "silentcompat:plasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "016D4C92AFDFF4AC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "41906EB7252B785E"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			subtitle: "Radioactive"
+			description: ["Learn how to set up a nuclear reactor and create plutonium pellets."]
+			dependencies: ["0D0C914AF974652B"]
+			id: "2379AF99CDF55C94"
+			tasks: [{
+				id: "491520AAD2613053"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+			rewards: [
+				{
+					id: "7A49A01843BAE7EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5EE6BC71D63B1018"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: ["Learn how to make polonium pellets, needed for many high end recipes"]
+			dependencies: ["0D0C914AF974652B"]
+			id: "211FE2052F661AC1"
+			tasks: [{
+				id: "20BBF089FD7BA8C9"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+			rewards: [
+				{
+					id: "0C86114FE1D94379"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2FC0279F4A7897F8"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 8.5d
+			subtitle: "Weird blobs"
+			description: ["Begin the gobber rabbit hole..."]
+			dependencies: ["2379AF99CDF55C94"]
+			id: "10B8065DBC25BC31"
+			tasks: [{
+				id: "4DA8F569C8F947D1"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+			}]
+			rewards: [
+				{
+					id: "4226BCB515A11F1B"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "65F0E26C0590EFA1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 10.5d
+			subtitle: "Spicy blob"
+			dependencies: ["10B8065DBC25BC31"]
+			id: "4EB758EE059851F0"
+			tasks: [{
+				id: "5B4E6E618E88FF90"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+			}]
+			rewards: [
+				{
+					id: "79D26BBFC1D78978"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "061CB141AEB5D663"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 12.5d
+			subtitle: "Shimmering blob"
+			dependencies: ["4EB758EE059851F0"]
+			id: "4AA88381423629F9"
+			tasks: [{
+				id: "1F83FE5E7261875C"
+				type: "item"
+				item: "gobber2:gobber2_globette_end"
+			}]
+			rewards: [
+				{
+					id: "341EFD0F9B722398"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "51D4A4B6CBBFADA9"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 8.5d
+			dependencies: ["10B8065DBC25BC31"]
+			id: "32809B21D756473A"
+			tasks: [{
+				id: "08CFB1BE0647E4BC"
+				type: "item"
+				item: "gobber2:gobber2_glob"
+			}]
+			rewards: [
+				{
+					id: "673C67BFEF86C8EC"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "053E1CBF1AEDE106"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 10.5d
+			dependencies: ["4EB758EE059851F0"]
+			id: "3A2ABFB7BF886F0D"
+			tasks: [{
+				id: "2244AD8270C82763"
+				type: "item"
+				item: "gobber2:gobber2_glob_nether"
+			}]
+			rewards: [
+				{
+					id: "21CBF84D6AAF4DA6"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "5A8EDAFBF41BA153"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 12.5d
+			dependencies: ["4AA88381423629F9"]
+			id: "39366DD7B192EEE4"
+			tasks: [{
+				id: "4AE759EE6D0503A0"
+				type: "item"
+				item: "gobber2:gobber2_glob_end"
+			}]
+			rewards: [
+				{
+					id: "7A440FCC06CEE4B7"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "158427FBAA3D690A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 8.5d
+			dependencies: ["32809B21D756473A"]
+			id: "47ADAEFFE4621D77"
+			tasks: [{
+				id: "2E930A74620AF93E"
+				type: "item"
+				item: "gobber2:gobber2_ingot"
+			}]
+			rewards: [{
+				id: "377A410251EA920D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: 10.5d
+			dependencies: ["3A2ABFB7BF886F0D"]
+			id: "5C7120D770E6B70A"
+			tasks: [{
+				id: "185D8D318E9734D6"
+				type: "item"
+				item: "gobber2:gobber2_ingot_nether"
+			}]
+			rewards: [{
+				id: "3BF82647C2D45A9E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: 12.5d
+			dependencies: ["39366DD7B192EEE4"]
+			id: "3A10196F25D94A69"
+			tasks: [{
+				id: "7E52353485A72BA1"
+				type: "item"
+				item: "gobber2:gobber2_ingot_end"
+			}]
+			rewards: [{
+				id: "6B3F98EFAC13C694"
+				type: "xp"
+				xp: 100
+			}]
 		}
 	]
 }

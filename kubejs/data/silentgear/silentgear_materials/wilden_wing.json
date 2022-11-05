@@ -57,7 +57,7 @@
   "traits": {
     "main": [
       {
-        "name": "silentgear:jump_boost",
+        "name": "silentcompat:jump_boost",
         "level": 1,
         "conditions": [
           {
@@ -75,7 +75,7 @@
     ],
     "lining": [
       {
-        "name": "silentgear:jump_boost",
+        "name": "silentcompat:jump_boost",
         "level": 1
       }
     ]

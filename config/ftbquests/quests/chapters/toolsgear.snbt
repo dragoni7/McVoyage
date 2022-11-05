@@ -172,7 +172,7 @@
 			]
 		}
 		{
-			x: -9.5d
+			x: -10.5d
 			y: 2.0d
 			subtitle: "Demon slayer"
 			description: ["Craft katannas with a katanna blueprint"]
@@ -328,24 +328,6 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 2.0d
-			description: ["Katanas are slightly faster and longer than regular swords"]
-			dependencies: ["48D70B04955F5AF7"]
-			id: "51E387B8B8D4574F"
-			tasks: [{
-				id: "363192193009EAED"
-				type: "item"
-				item: "silentgear:katana_blueprint"
-				only_from_crafting: true
-			}]
-			rewards: [{
-				id: "4E072FF1614741D3"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			x: -11.5d
 			y: 1.0d
 			description: ["Functions as sword, axe, and sickle"]
@@ -382,8 +364,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 1.5d
+			x: -9.5d
+			y: 2.0d
 			description: ["Classic trident"]
 			dependencies: ["48D70B04955F5AF7"]
 			id: "0CAF13C71CE0D7B9"
@@ -1485,28 +1467,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "72EB654371E64EA5"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "7B829DCCF4E54A43"
-					type: "item"
-					item: "adorn:white_sofa"
-				}
-				{
-					id: "7A9B3D8B9D5D60BF"
-					type: "item"
-					item: "adorn:oak_bench"
-				}
-				{
-					id: "0F6131CCF87E5598"
-					type: "item"
-					item: "adorn:lime_table_lamp"
-				}
-			]
+			rewards: [{
+				id: "72EB654371E64EA5"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -9.0d
@@ -2234,6 +2199,39 @@
 			}]
 			rewards: [{
 				id: "5212D35AE1EDAB39"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			description: ["Craft a bed for you special friend"]
+			id: "414FE2B993FD26AF"
+			tasks: [{
+				id: "2312B27D3E8D3B6D"
+				type: "item"
+				item: "domesticationinnovation:pet_bed_white"
+			}]
+			rewards: [{
+				id: "564AD901DE823132"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			subtitle: "Radical"
+			description: ["Get some skateboard wheels to craft a skateboard"]
+			id: "7B0F20093F1D1782"
+			tasks: [{
+				id: "2E665C1476673753"
+				type: "item"
+				item: "iwannaskate:skateboard_wheels"
+			}]
+			rewards: [{
+				id: "192479EF662E9281"
 				type: "xp"
 				xp: 100
 			}]

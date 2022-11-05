@@ -1,0 +1,387 @@
+{
+	id: "61D133760866D38B"
+	group: ""
+	order_index: 5
+	filename: "material_exchange"
+	title: "Material Exchange"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Iron Block for Lootcrate"
+			x: -9.0d
+			y: -4.0d
+			id: "169CA14620C344DA"
+			tasks: [{
+				id: "1922CAE6F3DAC4ED"
+				type: "item"
+				title: "Any #forge:storage_blocks/iron"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/iron"
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5C77CF3857FA9F18"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+					count: 3
+				}
+				{
+					id: "61DFA34D4D08D99A"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "1E8D9E86379093FA"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "5F02B3F3D992AFF1"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 169CA14620C344DA"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Coal Block for Lootcrate"
+			x: -7.5d
+			y: -4.0d
+			id: "68CFA452E5007DB0"
+			tasks: [{
+				id: "19F21E6B66101730"
+				type: "item"
+				title: "Any #forge:storage_blocks/coal"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/coal"
+					}
+				}
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0F24B8ACEE5D3824"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+					count: 2
+				}
+				{
+					id: "16937DFDABEDD6AB"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "4A35B0B7679E37FE"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "42BA4C0FF0A38D1C"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 68CFA452E5007DB0"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -4.0d
+			id: "3575B65F9053C833"
+			tasks: [{
+				id: "5D501CBD847CED96"
+				type: "item"
+				title: "Copper Block for Lootcrate"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/copper"
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6A513D1DC9EAD8B2"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+					count: 3
+				}
+				{
+					id: "6E2A7FA568E7B26E"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "47A80EA3369B5C8A"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "7DED684F11E41D49"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 3575B65F9053C833"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Gold Block for Lootcrate"
+			x: -12.0d
+			y: -4.0d
+			id: "2F05729C8061F922"
+			tasks: [{
+				id: "60C939928963F2CD"
+				type: "item"
+				title: "Any #forge:storage_blocks/gold"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/gold"
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "59C8958A9617AB08"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+					count: 4
+				}
+				{
+					id: "3E0AFC5D650105E6"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "1D329520C2F0930F"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "3962F6FA14F8AC93"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 2F05729C8061F922"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Diamond Block for Lootcrate"
+			x: -13.5d
+			y: -4.0d
+			id: "0A9AEE573D239678"
+			tasks: [{
+				id: "44069D7233FD0CC2"
+				type: "item"
+				title: "Any #forge:storage_blocks/diamond"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/diamond"
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "126DA74C2E382B38"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+					count: 5
+				}
+				{
+					id: "4C5F4A79547CD0FA"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "51A826A215A900D6"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "2D215A13441DF025"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 0A9AEE573D239678"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			shape: "circle"
+			id: "4A10B97F4F7D98F0"
+			tasks: [{
+				id: "39A171A7A53C918B"
+				type: "item"
+				title: "Redstone Block for Lootcrate"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/redstone"
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "22A2EEDAF1B34A29"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+					count: 2
+				}
+				{
+					id: "605E7FFEB917C503"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "1E1BF08BB98062F1"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "1233D02F55D849C8"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 4A10B97F4F7D98F0"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			id: "63B5CD788D69E892"
+			tasks: [{
+				id: "5A34C04998592733"
+				type: "item"
+				title: "Osmium Block for LootCrate"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/osmium"
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6B57324A4F1D977C"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+					count: 3
+				}
+				{
+					id: "39F155202BA28FD4"
+					type: "xp"
+					team_reward: true
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "7C9491D9656F585C"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "7B62151844FFAF3B"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 63B5CD788D69E892"
+					player_command: false
+				}
+			]
+		}
+	]
+}

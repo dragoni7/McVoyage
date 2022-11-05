@@ -2,7 +2,7 @@
     "type": "silentgear:standard",
     "simple": true,
     "availability": {
-      "tier": 4,
+      "tier": 5,
       "categories": [
         "metal"
       ],

@@ -1,22 +1,66 @@
 {
   "type": "silentgear:wielder_effect",
-  "max_level": 2,
+  "max_level": 20,
   "name": {
     "text": "Spell Damage"
   },
   "description": {
-    "text": "Grants Spell Damage. Required on 3 or more armor pieces"
+    "text": "Grants Spell Damage. Curios can gain higher amounts"
   },
   "potion_effects": {
     "armor": [
       {
-        "type": "piece_count",
+        "type": "trait_level",
         "effect": "ars_nouveau:spell_damage",
         "level": [
-          0,
-          0,
           1,
-          2
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ],
+    "curio": [
+      {
+        "type": "trait_level",
+        "effect": "ars_nouveau:spell_damage",
+        "level": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
         ]
       }
     ],

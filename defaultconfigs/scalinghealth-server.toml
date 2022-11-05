@@ -22,7 +22,7 @@
 	#Enable player damage scaling.
 	playerDamageScaling = false
 	#Enable mob damage scaling.
-	mobDamageScaling = true
+	mobDamageScaling = false
 	#Enable difficulty system. If disabled, everything will have 0 difficulty.
 	enableDifficulty = true
 	#Enable blights. If disabled, no blights will spawn.

@@ -470,10 +470,10 @@
 			normal = 0.0
 			#Expert Mode
 			#Range: 0.0 ~ 10.0
-			expert = 0.0
+			expert = 0.1
 			#Master Mode
 			#Range: 0.0 ~ 10.0
-			master = 0.0
+			master = 0.1
 
 		[GameModifiers.MobsSpawnStronger.DamageBonusMultiplier]
 			#Normal Mode
@@ -484,7 +484,7 @@
 			expert = 0.0
 			#Master Mode
 			#Range: 0.0 ~ 10.0
-			master = 0.1
+			master = 0.0
 
 		#Multiplies health and damage bonuses at night.
 		[GameModifiers.MobsSpawnStronger.NightMultiplier]
@@ -858,12 +858,12 @@
 		is_enabled = true
 		#Chance of this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 1.0
+		chance = 0.5
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = false
 		#Minimum game stage required for that to happen.
 		#Allowed Values: NORMAL, EXPERT, MASTER
-		minimum_stage = "NORMAL"
+		minimum_stage = "MASTER"
 
 	#Spider attack may inflict poison effect.
 	[GameModifiers.SpiderPoisonAttack]

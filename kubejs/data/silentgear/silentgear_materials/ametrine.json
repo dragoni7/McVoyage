@@ -20,21 +20,27 @@
     },
     "stats": {
       "main": {
-        "durability": 512.0,
-        "armor_durability": 10.0,
+        "durability": 624.0,
+        "armor_durability": 39.0,
+        "repair_value": -0.3,
         "enchantability": 15.0,
         "rarity": 45.0,
         "chargeability": 1.3,
-        "harvest_level": 2.0,
-        "harvest_speed": 8.0,
-        "melee_damage": 4.0,
-        "magic_damage": 2.0,
-        "attack_speed": -0.3,
-        "ranged_damage": 3.0,
-        "ranged_speed": 0.2,
-        "armor": 16.0,
-        "armor_toughness": 4.0,
-        "magic_armor": 12.0
+        "harvest_level": 3.0,
+        "harvest_speed": 6.0,
+        "melee_damage": 5.0,
+        "magic_damage": 3.0,
+        "attack_speed": -0.1,
+        "ranged_damage": 1.0,
+        "ranged_speed": -0.4,
+        "projectile_speed": 0.7,
+        "projectile_accuracy": 0.7,
+        "armor": 21.0,
+        "armor_toughness": 12.8,
+        "magic_armor": 6.0
+      },
+      "adornment": {
+
       }
     },
     "traits": {
@@ -46,6 +52,16 @@
         {
           "name": "silentgear:brittle",
           "level": 2
+        }
+      ],
+      "adornment": [
+        {
+          "name": "silentgear:mana_boost",
+          "level": 1
+        },
+        {
+          "name": "silentgear:spell_damage",
+          "level": 6
         }
       ]
     },
@@ -63,6 +79,25 @@
         {
           "texture": "silentgear:metal",
           "color": "#A30052"
+        }
+      ],
+      "adornment/all": [
+        {
+          "texture": "silentgear:adornment_generic",
+          "color": "#A30052"
+        },
+        {
+          "texture": "silentgear:adornment_highlight",
+          "color": "#A30052"
+        }
+      ],
+      "adornment/part": [
+        {
+          "texture": "silentgear:adornment",
+          "color": "#A30052"
+        },
+        {
+          "texture": "silentgear:adornment_highlight"
         }
       ]
     }

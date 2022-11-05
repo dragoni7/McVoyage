@@ -30,19 +30,6 @@ ServerEvents.recipes(event => {
         },
 
         {
-            output: 'ars_nouveau:glyph_aoe',
-            count: 1,
-            input: [
-                {'item': {'item': 'minecraft:firework_star'}},
-                {'item': {'item': 'meetyourfight:phantoplasm'}},
-                {'item': {'item': 'kubejs:infernal_essence'}},
-            ],
-            exp: 5,
-            id: `${id_prefix}glyph_aoe`,
-            old_id: 'ars_nouveau:glyph_aoe'
-        },
-
-        {
             output: 'ars_nouveau:glyph_fortune',
             count: 1,
             input: [
@@ -56,34 +43,6 @@ ServerEvents.recipes(event => {
         },
 
         {
-            output: 'toomanyglyphs:glyph_amplify_two',
-            count: 1,
-            input: [
-                {'item': {'item': 'minecraft:netherite_pickaxe'}},
-                {'item': {'item': 'meetyourfight:mossy_tooth'}},
-                {'item': {'item': 'twilightforest:fiery_blood'}},
-                {'item': {'item': 'kubejs:boss_essence'}},
-            ],
-            exp: 10,
-            id: `${id_prefix}glyph_amplify_two`,
-            old_id: 'toomanyglyphs:glyph_amplify_two'
-        },
-
-        {
-            output: 'toomanyglyphs:glyph_amplify_three',
-            count: 1,
-            input: [
-                {'item': {'item': 'deeperdarker:warden_pickaxe'}},
-                {'item': {'item': 'twilightforest:alpha_yeti_fur'}},
-                {'item': {'item': 'majruszsdifficulty:enderium_shard'}},
-                {'item': {'item': 'kubejs:boss_essence'}},
-            ],
-            exp: 15,
-            id: `${id_prefix}glyph_amplify_three`,
-            old_id: 'toomanyglyphs:glyph_amplify_three'
-        },
-
-        {
             output: 'toomanyglyphs:glyph_chaining',
             count: 1,
             input: [
@@ -91,7 +50,7 @@ ServerEvents.recipes(event => {
                 {'item': {'item': 'minecraft:chain'}},
                 {'item': {'item': 'minecraft:chain'}},
                 {'item': {'item': 'silentgear:blaze_gold_block'}},
-                {'item': {'item': 'undergarden:regalium_crystal'}},
+                {'item': {'item': 'kubejs:boss_essence'}},
                 {'item': {'item': 'kubejs:infernal_essence'}},
             ],
             exp: 5,

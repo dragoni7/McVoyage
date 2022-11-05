@@ -2,32 +2,14 @@
     {
         "mob": "minecraft:wither",
         "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
-        "mob": "minecraft:wither",
-        "player": true,
         "item": "kubejs:infernal_essence",
         "itemcount": "4-8"
     },
 
     {
-        "mob": "minecraft:ender_dragon",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
-        "mob": "minecraft:elder_guardian",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
         "mob": "meetyourfight:bellringer",
         "player": true,
-        "item": ["kubejs:boss_essence", "meetyourfight:phantoplasm"]
+        "item": ["meetyourfight:phantoplasm"]
     },
 
     {
@@ -40,7 +22,7 @@
     {
         "mob": "meetyourfight:dame_fortuna",
         "player": true,
-        "item": ["kubejs:boss_essence", "meetyourfight:fortunes_favor"]
+        "item": ["meetyourfight:fortunes_favor"]
     },
 
     {
@@ -53,7 +35,7 @@
     {
         "mob": "meetyourfight:swampjaw",
         "player": true,
-        "item": ["kubejs:boss_essence", "meetyourfight:mossy_tooth"]
+        "item": ["meetyourfight:mossy_tooth"]
     },
 
     {
@@ -61,66 +43,6 @@
         "player": true,
         "item": "kubejs:infernal_essence",
         "itemcount": "3-6"
-    },
-
-    {
-        "mob": "twilightforest:alpha_yeti",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
-        "mob": "twilightforest:armored_giant",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-    
-    {
-        "mob": "twilightforest:hydra",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
-        "mob": "twilightforest:lich",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
-        "mob": "twilightforest:minoshroom",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
-        "mob": "twilightforest:naga",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
-        "mob": "twilightforest:quest_ram",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
-        "mob": "twilightforest:snow_queen",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
-        "mob": "twilightforest:ur_ghast",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
-        "mob": "twilightforest:knight_phantom",
-        "player": true,
-        "item": "kubejs:boss_essence"
     },
 
     {
@@ -130,13 +52,7 @@
     },
 
     {
-        "mob": "ars_nouveau:wilden_boss",
-        "player": true,
-        "item": "kubejs:boss_essence"
-    },
-
-    {
-        "mob": "undergarden:masticator",
+        "mob": "minecraft:ender_dragon",
         "player": true,
         "item": "kubejs:boss_essence"
     }

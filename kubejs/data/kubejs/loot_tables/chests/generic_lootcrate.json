@@ -173,13 +173,7 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "byg:ametrine_gems",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 3
-              }
-            ]
+            "name": "byg:ametrine_gems"
           },
           {
             "type": "minecraft:item",

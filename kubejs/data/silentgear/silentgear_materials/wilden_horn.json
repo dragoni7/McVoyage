@@ -53,7 +53,7 @@
   "traits": {
     "adornment": [
       {
-        "name": "silentgear:strengthened",
+        "name": "silentcompat:strengthened",
         "level": 2
       }
     ],
@@ -71,7 +71,7 @@
         "level": 2
       },
       {
-        "name": "silentgear:strengthened",
+        "name": "silentcompat:strengthened",
         "level": 1,
         "conditions": [
           {

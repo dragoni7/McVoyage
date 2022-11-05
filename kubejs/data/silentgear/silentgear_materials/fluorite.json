@@ -35,6 +35,9 @@
         "armor": 16.0,
         "armor_toughness": 2.0,
         "magic_armor": 4.0
+      },
+      "adornment": {
+
       }
     },
     "traits": {
@@ -53,6 +56,12 @@
           "name": "silentgear:brittle",
           "level": 3
         }
+      ],
+      "adornment": [
+        {
+          "name": "silentgear:spell_damage",
+          "level": 3
+        }
       ]
     },
     "model": {
@@ -69,6 +78,25 @@
         {
           "texture": "silentgear:metal",
           "color": "#45D1FF"
+        }
+      ],
+      "adornment/all": [
+        {
+          "texture": "silentgear:adornment_generic",
+          "color": "#45D1FF"
+        },
+        {
+          "texture": "silentgear:adornment_highlight",
+          "color": "#45D1FF"
+        }
+      ],
+      "adornment/part": [
+        {
+          "texture": "silentgear:adornment",
+          "color": "#45D1FF"
+        },
+        {
+          "texture": "silentgear:adornment_highlight"
         }
       ]
     }

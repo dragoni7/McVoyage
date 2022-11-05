@@ -1,11 +1,11 @@
 {
   "startingValue" : 0,
   "minValue" : 0,
-  "maxValue" : 300,
+  "maxValue" : 460,
   "changePerSecond" : 0.0,
   "mode" : {
     "type" : "average",
-    "radius" : 256
+    "radius" : 192
   },
   "groupBonus" : "1 + 0.05 * (areaPlayerCount - 1)",
   "groupBonusRadius" : 128,

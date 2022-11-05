@@ -1,4 +1,4 @@
-//priority: 1001
+//priority: 1000
 const blacklist = [
     //Mekanism
     'mekanism:ultimate_crushing_factory',
@@ -109,5 +109,15 @@ const blacklist = [
     'nethersdelight:netherite_machete',
     
     //progressive bosses
-    'progressivebosses:nether_star_shard'
+    'progressivebosses:nether_star_shard',
+
+    //gobber2
+    'gobber2:gobber2_ore',
+    'gobber2:gobber2_ore_deepslate',
+    'gobber2:gobber2_ore_nether',
+    'gobber2:gobber2_ore_end',
+    'gobber2:gobber2_lucky_block',
+    'gobber2:gobber2_lucky_block_deepslate',
+    'gobber2:gobber2_lucky_block_nether',
+    'gobber2:gobber2_lucky_block_end',
 ]

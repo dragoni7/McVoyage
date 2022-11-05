@@ -1,7 +1,7 @@
 {
   "startingHealth" : 20,
   "minHealth" : 2,
-  "maxHealth" : 100,
+  "maxHealth" : 70,
   "setOnDeath": "maxHealth",
   "levelsPerHp": 10,
   "hpPerLevel":  1,

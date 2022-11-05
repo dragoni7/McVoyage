@@ -54,6 +54,22 @@ ServerEvents.recipes(event => {
         },
 
         {
+            output: Item.of('mekanism:osmium_compressor', 1),
+            old_id: 'mekanism:osmium_compressor',
+            pattern: 
+            ['ACA',
+             'OMO', 
+             'ACA'],
+            key: {
+                O: 'kubejs:infused_mechanism',
+                A: '#mekanism:alloys/infused',
+                C: 'mekanism:advanced_control_circuit',
+                M: 'kubejs:steel_casing'
+            },
+            id:  `${id_prefix}purification_chamber`
+        },
+
+        {
             output: Item.of('mekanism:pressurized_reaction_chamber', 1),
             old_id: 'mekanism:pressurized_reaction_chamber',
             pattern: 
@@ -65,7 +81,7 @@ ServerEvents.recipes(event => {
                 A: '#mekanism:alloys/reinforced',
                 C: 'mekanism:elite_control_circuit',
                 B: 'mekanism:basic_chemical_tank',
-                D: 'mekanism:dynamic_tank',
+                D: 'kubejs:infused_mechanism',
                 M: 'kubejs:obsidian_casing'
             },
             id:  `${id_prefix}pressurized_reaction_chamber`
@@ -111,7 +127,7 @@ ServerEvents.recipes(event => {
              'TST', 
              'ACA'],
             key: {
-                A: '#forge:ingots/steel',
+                A: '#forge:ingots/plasteel',
                 C: 'mekanism:basic_chemical_tank',
                 T: 'mekanism:ultimate_control_circuit',
                 S: 'kubejs:obsidian_casing'
@@ -178,7 +194,7 @@ ServerEvents.recipes(event => {
              'ASD', 
              'AE '],
             key: {
-                A: '#mekanism:alloys/reinforced',
+                A: '#forge:ingots/plasteel',
                 S: 'kubejs:steel_casing',
                 E: 'mekanism:energy_tablet',
                 D: 'minecraft:diamond'
@@ -229,7 +245,7 @@ ServerEvents.recipes(event => {
                 C: 'mekanism:energy_tablet',
                 S: 'kubejs:steel_casing',
                 A: 'minecraft:redstone',
-                R: '#forge:ingots/copper'
+                R: '#forge:ingots/plasteel'
             },
             id:  `${id_prefix}basic_energy_cube`
         },
@@ -244,7 +260,7 @@ ServerEvents.recipes(event => {
             key: {
                 C: 'minecraft:lapis_lazuli',
                 S: 'kubejs:steel_casing',
-                A: '#forge:ingots/tin',
+                A: '#forge:ingots/plasteel',
                 R: 'mekanism:basic_control_circuit'
             },
             id:  `${id_prefix}seismic_vibrator`
@@ -419,7 +435,7 @@ ServerEvents.recipes(event => {
              'MSM', 
              'APA'],
             key: {
-                A: '#mekanism:alloys/reinforced',
+                A: '#forge:ingots/plasteel',
                 P: 'create:precision_mechanism',
                 M: 'kubejs:infused_mechanism',
                 S: 'kubejs:obsidian_casing'
@@ -435,7 +451,7 @@ ServerEvents.recipes(event => {
              'PSP', 
              'APA'],
             key: {
-                A: '#mekanism:alloys/reinforced',
+                A: '#forge:ingots/plasteel',
                 P: '#forge:plates/copper',
                 S: 'kubejs:obsidian_casing'
             },
@@ -450,7 +466,7 @@ ServerEvents.recipes(event => {
              'ACF', 
              'IGI'],
             key: {
-                I: '#forge:ingots/refined_obsidian',
+                I: '#forge:ingots/plasteel',
                 C: 'mekanism:elite_control_circuit',
                 G: 'ae2:quartz_glass',
                 A: 'ae2:annihilation_core',
@@ -468,7 +484,7 @@ ServerEvents.recipes(event => {
              'IGI'],
             key: {
                 I: '#forge:ingots/tyrian_steel',
-                D: '#forge:dusts/ender_pearl',
+                D: 'kubejs:infused_mechanism',
                 G: 'kubejs:azure_casing'
             },
             id:  `${id_prefix}condenser`
@@ -482,7 +498,7 @@ ServerEvents.recipes(event => {
              'ACF', 
              'IGI'],
             key: {
-                I: '#forge:ingots/iron',
+                I: '#forge:ingots/plasteel',
                 C: 'mekanism:basic_control_circuit',
                 G: 'ae2:quartz_glass',
                 A: 'ae2:annihilation_core',
@@ -572,7 +588,7 @@ ServerEvents.recipes(event => {
         },
 
         {
-            output: Item.of('ae2:fluix_glass_cable', 5),
+            output: Item.of('ae2:fluix_glass_cable', 6),
             old_id: 'ae2:network/cables/glass_fluix',
             pattern: 
             [' F ',
@@ -942,6 +958,229 @@ ServerEvents.recipes(event => {
             id:  `${id_prefix}sifter`
         },
 
+        {
+            output: 'silentgear:metal_alloyer',
+            old_id: 'silentgear:metal_alloyer',
+            pattern: 
+            ['ICI',
+             'ICI', 
+             ' A '],
+            key: {
+                I: '#forge:ingots/crimson_steel',
+                A: 'create:andesite_casing',
+                C: '#forge:ingots/cast_iron',
+            },
+            id:  `${id_prefix}metal_alloyer`
+        },
+
+        {
+            output: 'silentgear:recrystallizer',
+            old_id: 'silentgear:recrystallizer',
+            pattern: 
+            ['DED',
+             'DGD', 
+             ' A '],
+            key: {
+                E: '#forge:gems/emerald',
+                D: '#forge:gems/diamond',
+                G: 'minecraft:gold_block',
+                A: 'kubejs:obsidian_casing',
+            },
+            id:  `${id_prefix}recrystallizer`
+        },
+
+        {
+            output: 'silentgear:refabricator',
+            old_id: 'silentgear:refabricator',
+            pattern: 
+            ['I I',
+             'DBD', 
+             'WAW'],
+            key: {
+                I: '#forge:ingots/iron',
+                D: '#forge:gems/diamond',
+                B: '#forge:gems/bort',
+                A: 'create:andesite_casing',
+                W: '#minecraft:planks'
+            },
+            id:  `${id_prefix}refabricator`
+        },
+
+        {
+            output: 'silentgear:metal_press',
+            old_id: 'silentgear:metal_press',
+            pattern: 
+            ['IPI',
+             'ICI', 
+             ' A '],
+            key: {
+                P: 'create:mechanical_press',
+                I: '#forge:ingots/crimson_steel',
+                C: '#forge:storage_blocks/cast_iron',
+                A: 'kubejs:steel_casing'
+            },
+            id:  `${id_prefix}metal_press`
+        },
+
+        {
+            output: 'mekanism:energy_tablet',
+            old_id: 'mekanism:energy_tablet',
+            pattern: 
+            ['RGR',
+             'APA', 
+             'RGR'],
+            key: {
+                P: 'create:electron_tube',
+                R: 'minecraft:redstone',
+                G: '#forge:ingots/gold',
+                A: '#mekanism:alloys/infused'
+            },
+            id:  `${id_prefix}energy_tablet`
+        },
+
+        {
+            output: 'mekanism:electrolytic_core',
+            old_id: 'mekanism:electrolytic_core',
+            pattern: 
+            ['AZA',
+             'IAG', 
+             'AOA'],
+            key: {
+                O: '#forge:dusts/osmium',
+                I: '#forge:dusts/iron',
+                Z: '#forge:dusts/bronze',
+                G: '#forge:dusts/gold',
+                A: '#mekanism:alloys/infused'
+            },
+            id:  `${id_prefix}electrolytic_core`
+        },
+
+        {
+            output: 'mekanism:basic_chemical_tank',
+            old_id: 'mekanism:chemical_tank/basic',
+            pattern: 
+            ['POP',
+             'ORO',
+             'POP'],
+            key: {
+                O: '#forge:ingots/osmium',
+                P: '#forge:plates/zinc',
+                R: 'minecraft:redstone'
+            },
+            id:  `${id_prefix}basic_chemical_tank`
+        },
+
+        {
+            output: 'ironchests:copper_chest',
+            old_id: 'ironchests:copper_chest',
+            pattern: 
+            ['III',
+             'ICI',
+             'III'],
+            key: {
+                I: '#forge:ingots/copper',
+                C: '#forge:chests'
+            },
+            id:  `${id_prefix}copper_chest`
+        },
+
+        {
+            output: Item.of('silentgear:blazing_dust', 4),
+            old_id: 'silentgear:blazing_dust',
+            pattern: 
+            ['DG ',
+             'GF ',
+             '   '],
+            key: {
+                D: '#forge:dusts/blaze_gold',
+                G: '#forge:dusts/glowstone',
+                F: '#forge:gems/fluorite'
+            },
+            id:  `${id_prefix}blazing_dust`
+        },
+
+        {
+            output: 'the_bumblezone:sugar_water_bucket',
+            old_id: 'the_bumblezone:sugar_water_bucket',
+            pattern: 
+            ['SSS',
+             'SBS',
+             'SSS'],
+            key: {
+                B: 'minecraft:water_bucket',
+                S: '#forge:sugar'
+            },
+            id:  `${id_prefix}sugar_water_bucket`
+        },
+
+        {
+            output: 'mekanism:mekasuit_helmet',
+            old_id: 'mekanism:mekasuit_helmet',
+            pattern: 
+            ['PCP',
+             'PHP',
+             'AIA'],
+            key: {
+                P: '#forge:ingots/plasteel',
+                C: '#forge:circuits/ultimate',
+                H: 'minecraft:netherite_helmet',
+                A: '#forge:pellets/polonium',
+                I: 'mekanism:basic_induction_cell'
+            },
+            id:  `${id_prefix}mekasuit_helmet`
+        },
+
+        {
+            output: 'mekanism:mekasuit_bodyarmor',
+            old_id: 'mekanism:mekasuit_bodyarmor',
+            pattern: 
+            ['PCP',
+             'PHP',
+             'AIA'],
+            key: {
+                P: '#forge:ingots/plasteel',
+                C: '#forge:circuits/ultimate',
+                H: 'minecraft:netherite_chestplate',
+                A: '#forge:pellets/polonium',
+                I: 'mekanism:basic_induction_cell'
+            },
+            id:  `${id_prefix}mekasuit_bodyarmor`
+        },
+
+        {
+            output: 'mekanism:mekasuit_pants',
+            old_id: 'mekanism:mekasuit_pants',
+            pattern: 
+            ['PCP',
+             'PHP',
+             'AIA'],
+            key: {
+                P: '#forge:ingots/plasteel',
+                C: '#forge:circuits/ultimate',
+                H: 'minecraft:netherite_leggings',
+                A: '#forge:pellets/polonium',
+                I: 'mekanism:basic_induction_cell'
+            },
+            id:  `${id_prefix}mekasuit_pants`
+        },
+
+        {
+            output: 'mekanism:mekasuit_boots',
+            old_id: 'mekanism:mekasuit_boots',
+            pattern: 
+            ['PCP',
+             'PHP',
+             'AIA'],
+            key: {
+                P: '#forge:ingots/plasteel',
+                C: '#forge:circuits/ultimate',
+                H: 'minecraft:netherite_boots',
+                A: '#forge:pellets/polonium',
+                I: 'mekanism:basic_induction_cell'
+            },
+            id:  `${id_prefix}mekasuit_boots`
+        },
+
         // NEW RECIPES
 
         {
@@ -970,6 +1209,33 @@ ServerEvents.recipes(event => {
                 U: 'undergarden:utherium_crystal'
             },
             id:  `${id_prefix}masticator_bait`
+        },
+
+        {
+            output: 'minecraft:soul_sand',
+            pattern: 
+            [' B ',
+             'BSB', 
+             ' B '],
+            key: {
+                B: 'quark:soul_bead',
+                S: '#forge:sand'
+            },
+            id:  `${id_prefix}soul_sand_from_bead`
+        },
+
+        {
+            output: 'kubejs:control_circuit_base',
+            pattern: 
+            ['SBS',
+             'OSO', 
+             'SBS'],
+            key: {
+                B: 'minecraft:clay',
+                S: '#forge:silicon',
+                O: '#forge:ingots/osmium'
+            },
+            id:  `${id_prefix}control_circuit_base`
         }
     ];
 

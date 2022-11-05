@@ -9,6 +9,13 @@ ItemEvents.tooltip((event) => {
 
         {
             items: [
+                'silentgear:azure_silver_ingot'
+            ],
+            text: [Text.of('Found in the End').lightPurple()]
+        },
+
+        {
+            items: [
                 'ars_nouveau:novice_spell_book',
                 'ars_nouveau:apprentice_spell_book',
                 'ars_nouveau:archmage_spell_book'

@@ -33,7 +33,7 @@
         "armor_toughness": 10.0,
         "magic_armor": 10.0,
         "ranged_damage": 3.0,
-        "ranged_speed": -0.1,
+        "ranged_speed": -0.2,
         "projectile_speed": 1.0,
         "projectile_accuracy": 1.3,
         "rarity": 73.0,

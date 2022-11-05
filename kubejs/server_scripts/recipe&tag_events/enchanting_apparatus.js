@@ -3,6 +3,16 @@ ServerEvents.recipes(event => {
     const recipes = [
         {
             pedestalItems: [
+                {'item': {'item':'ars_nouveau:earth_essence'}}
+            ],
+            reagent: [{'item': 'minecraft:mangrove_roots'}],
+            output: {'item': 'twilightforest:liveroot'},
+            sourceCost: 10,
+            id: `${id_prefix}liveroot`
+        },
+        
+        {
+            pedestalItems: [
                 {'item': {'item':'spirit:soul_powder'}},
                 {'item': {'item':'spirit:soul_powder'}},
                 {'item': {'item':'spirit:soul_powder'}}
@@ -47,7 +57,8 @@ ServerEvents.recipes(event => {
                 {'item': {'item': 'ars_nouveau:abjuration_essence'}},
                 {'item': {'item': 'ars_nouveau:mendosteen_pod'}},
                 {'item': {'item': 'minecraft:sculk_catalyst'}},
-                {'item': {'item': 'spirit:soul_powder_block'}}
+                {'item': {'item': 'spirit:soul_powder_block'}},
+                {'item': {'item': 'quark:soul_bead'}}
             ],
             reagent: [{'item': 'ars_nouveau:blank_thread'}],
             output: {'item': 'ars_nouveau:thread_life_drain'},
@@ -58,7 +69,7 @@ ServerEvents.recipes(event => {
 
         {
             pedestalItems: [
-                {'item': {'item': 'minecraft:dragon_breath'}},
+                {'item': {'item': 'twilightforest:carminite'}},
                 {'item': {'item': 'meetyourfight:mossy_tooth'}},
                 {'item': {'item': 'meetyourfight:fortunes_favor'}},
                 {'item': {'item': 'minecraft:nether_star'}},
@@ -66,7 +77,7 @@ ServerEvents.recipes(event => {
             ],
             reagent: [{'item': 'ars_nouveau:wilden_tribute'}],
             output: {'item': 'ars_instrumentum:fake_wilden_tribute'},
-            sourceCost: 5000,
+            sourceCost: 2000,
             old_id: 'ars_instrumentum:imbuement/imbuement_fake_wilden_tribute',
             id: `${id_prefix}fake_wilden_tribute`
         },
@@ -131,6 +142,18 @@ ServerEvents.recipes(event => {
             id: `${id_prefix}disenchanter`
         },
 
+        {
+            pedestalItems: [
+                {'item': {'item': 'deeperdarker:soul_dust'}},
+                {'item': {'item': 'minecraft:nether_star'}}
+            ],
+            reagent: [{'item': 'constructionwand:diamond_wand'}],
+            output: {'item': 'constructionwand:infinity_wand'},
+            sourceCost: 0,
+            old_id: 'constructionwand:infinity_wand',
+            id: `${id_prefix}infinity_wand`
+        },
+
         // NEW RECIPES
 
         {
@@ -163,29 +186,27 @@ ServerEvents.recipes(event => {
         {
             pedestalItems: [
                 {'item': {'item': 'kubejs:infernal_essence'}},
-                {'item': {'item': 'twilightforest:carminite'}},
+                {'item': {'item': 'alexsmobs:blood_sac'}},
                 {'item': {'item': 'kubejs:infernal_essence'}},
                 {'item': {'item': 'minecraft:ghast_tear'}},
-                {'item': {'item': 'kubejs:infernal_essence'}},
+                {'item': {'item': 'twilightforest:borer_essence'}},
             ],
             reagent: [{'item': 'minecraft:glass_bottle'}],
             output: {'item': 'twilightforest:fiery_tears'},
-            sourceCost: 200,
+            sourceCost: 0,
             id: `${id_prefix}fiery_tears`
         },
 
         {
             pedestalItems: [
                 {'item': {'item': 'kubejs:infernal_essence'}},
-                {'item': {'item': 'undergarden:regalium_crystal'}},
-                {'item': {'item': 'kubejs:infernal_essence'}},
-                {'item': {'item': 'twilightforest:carminite'}},
-                {'item': {'item': 'kubejs:infernal_essence'}},
+                {'item': {'item': 'jaopca:nuggets.regalium'}},
+                {'item': {'item': 'twilightforest:borer_essence'}},
             ],
             reagent: [{'item': 'minecraft:amethyst_shard'}],
-            output: {'item': 'undergarden:utherium_crystal'},
-            sourceCost: 200,
-            id: `${id_prefix}utherium_crystal`
+            output: {'item': 'undergarden:utheric_shard'},
+            sourceCost: 20,
+            id: `${id_prefix}utheric_shard`
         },
 
         {
@@ -197,10 +218,68 @@ ServerEvents.recipes(event => {
                 {'item': {'item': 'kubejs:infernal_essence'}},
                 {'item': {'item': 'alexsmobs:mimicream'}},
             ],
-            reagent: [{'item': 'minecraft:sculk_sensor'}],
+            reagent: [{'item': 'alexsmobs:skreecher_soul'}],
             output: {'item': 'minecraft:echo_shard'},
             sourceCost: 200,
             id: `${id_prefix}echo_shard`
+        },
+
+        {
+            pedestalItems: [
+                {'item': {'item': 'quark:soul_bead'}},
+                {'item': {'item': 'quark:soul_bead'}},
+                {'item': {'item': 'quark:soul_bead'}}
+            ],
+            reagent: [{'item': 'minecraft:gunpowder'}],
+            output: {'item': 'ars_nouveau:experience_gem'},
+            sourceCost: 0,
+            id: `${id_prefix}experience_gem1`
+        },
+
+        {
+            pedestalItems: [
+                {'item': {'item': 'alexsmobs:skreecher_soul'}},
+                {'item': {'item': 'alexsmobs:skreecher_soul'}},
+                {'item': {'item': 'alexsmobs:skreecher_soul'}}
+            ],
+            reagent: [{'item': 'minecraft:gunpowder'}],
+            output: {'item': 'ars_nouveau:experience_gem'},
+            sourceCost: 0,
+            id: `${id_prefix}experience_gem2`
+        },
+
+        {
+            pedestalItems: [
+                {'item': {'item': 'alexsmobs:blood_sac'}},
+                {'item': {'item': 'alexsmobs:blood_sac'}},
+                {'item': {'item': 'alexsmobs:blood_sac'}}
+            ],
+            reagent: [{'item': 'minecraft:gunpowder'}],
+            output: {'item': 'ars_nouveau:experience_gem'},
+            sourceCost: 0,
+            id: `${id_prefix}experience_gem3`
+        },
+
+        {
+            pedestalItems: [
+                {'item': {'item': 'minecraft:rotten_flesh'}},
+                {'item': {'item': 'minecraft:rotten_flesh'}},
+                {'item': {'item': 'minecraft:rotten_flesh'}}
+            ],
+            reagent: [{'item': 'minecraft:gunpowder'}],
+            output: {'item': 'ars_nouveau:experience_gem'},
+            sourceCost: 0,
+            id: `${id_prefix}experience_gem4`
+        },
+
+        {
+            pedestalItems: [
+                {'item': {'item': 'silentgear:blaze_gold_ingot'}}
+            ],
+            reagent: [{'item': 'minecraft:gunpowder'}],
+            output: {'item': 'silentgear:blaze_gold_dust'},
+            sourceCost: 5,
+            id: `${id_prefix}blaze_gold_dust`
         }
     ];
 

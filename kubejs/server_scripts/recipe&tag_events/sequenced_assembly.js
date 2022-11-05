@@ -17,11 +17,20 @@ ServerEvents.recipes(event => {
                 'results': [
                     {'item': 'mekanism:basic_control_circuit'}
                 ]},
-                { 
+                {
                     'type': 'create:deploying',
                     'ingredients': [
                         {'item': 'mekanism:basic_control_circuit'},
                         {'item': 'create:electron_tube'}
+                    ],
+                    'results': [
+                        {'item': 'mekanism:basic_control_circuit'}
+                ]},
+                {
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'mekanism:basic_control_circuit'},
+                        {'tag': 'forge:ingots/iron'}
                     ],
                     'results': [
                         {'item': 'mekanism:basic_control_circuit'}
@@ -56,6 +65,15 @@ ServerEvents.recipes(event => {
                     'results': [
                         {'item': 'mekanism:advanced_control_circuit'}
                 ]},
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'mekanism:advanced_control_circuit'},
+                        {'tag': 'forge:ingots/iron'}
+                    ],
+                    'results': [
+                        {'item': 'mekanism:advanced_control_circuit'}
+                ]},
                 ],
             transitionalItem: {'item': 'mekanism:advanced_control_circuit'},
             old_id: 'mekanism:control_circuit/elite',
@@ -82,6 +100,15 @@ ServerEvents.recipes(event => {
                     'ingredients': [
                         {'item': 'mekanism:elite_control_circuit'},
                         {'tag': 'forge:ingots/azure_silver'}
+                    ],
+                    'results': [
+                        {'item': 'mekanism:elite_control_circuit'}
+                ]},
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'mekanism:elite_control_circuit'},
+                        {'tag': 'forge:ingots/iron'}
                     ],
                     'results': [
                         {'item': 'mekanism:elite_control_circuit'}
@@ -168,7 +195,7 @@ ServerEvents.recipes(event => {
                     'type': 'create:deploying',
                     'ingredients': [
                         {'item': 'kubejs:azure_casing'},
-                        {'item': 'ae2:smooth_sky_stone_block'}
+                        {'tag': 'forge:ingots/plasteel'}
                     ],
                     'results': [
                         {'item': 'kubejs:azure_casing'}
@@ -274,15 +301,7 @@ ServerEvents.recipes(event => {
             ],
             loops: 5,
             results: [{'item': 'kubejs:infused_mechanism'}],
-            sequence: [{ 
-                'type': 'create:deploying',
-                'ingredients': [
-                    {'item': 'kubejs:boss_essence'},
-                    {'item': 'spirit:soul_steel_ingot'}
-                ],
-                'results': [
-                    {'item': 'kubejs:boss_essence'}
-                ]},
+            sequence: [
                 { 
                     'type': 'create:deploying',
                     'ingredients': [
@@ -296,11 +315,20 @@ ServerEvents.recipes(event => {
                     'type': 'create:deploying',
                     'ingredients': [
                         {'item': 'kubejs:boss_essence'},
+                        {'item': 'create:large_cogwheel'}
+                    ],
+                    'results': [
+                        {'item': 'kubejs:boss_essence'}
+                ]},
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'kubejs:boss_essence'},
                         {'item': 'spirit:soul_steel_ingot'}
                     ],
                     'results': [
                         {'item': 'kubejs:boss_essence'}
-                    ]},
+                ]},
                 ],
             transitionalItem: {'item': 'kubejs:boss_essence'},
             id: `${id_prefix}infused_mechanism`
@@ -320,6 +348,15 @@ ServerEvents.recipes(event => {
                 ],
                 'results': [
                     {'item': 'ae2:silicon'}
+                ]},
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'ae2:silicon'},
+                        {'item': 'minecraft:clay_ball'}
+                    ],
+                    'results': [
+                        {'item': 'ae2:silicon'}
                 ]},
                 { 
                     'type': 'create:pressing',
@@ -390,6 +427,15 @@ ServerEvents.recipes(event => {
                     'results': [
                         {'item': 'create:brass_casing'}
                 ]},
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'create:brass_casing'},
+                        {'tag': 'forge:ingots/iron'}
+                    ],
+                    'results': [
+                        {'item': 'create:brass_casing'}
+                ]}
                 ],
             transitionalItem: {'item': 'create:brass_casing'},
             id: `${id_prefix}steel_casing`
@@ -419,6 +465,15 @@ ServerEvents.recipes(event => {
                     'results': [
                         {'item': 'kubejs:steel_casing'}
                 ]},
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'kubejs:steel_casing'},
+                        {'tag': 'forge:ingots/iron'}
+                    ],
+                    'results': [
+                        {'item': 'kubejs:steel_casing'}
+                ]}
                 ],
             transitionalItem: {'item': 'kubejs:steel_casing'},
             id: `${id_prefix}obsidian_casing`
@@ -448,6 +503,15 @@ ServerEvents.recipes(event => {
                     'results': [
                         {'item': 'kubejs:obsidian_casing'}
                 ]},
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'kubejs:obsidian_casing'},
+                        {'tag': 'forge:ingots/iron'}
+                    ],
+                    'results': [
+                        {'item': 'kubejs:obsidian_casing'}
+                ]}
                 ],
             transitionalItem: {'item': 'kubejs:obsidian_casing'},
             id: `${id_prefix}azure_casing`

@@ -1,25 +1,75 @@
 [
     {
-        "mob": ["twilightforest:alpha_yeti", "twilightforest:armored_giant", "twilightforest:hydra", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:naga", "twilightforest:quest_ram", "twilightforest:snow_queen", "twilightforest:knight_phantom"],
+        "mob": ["minecraft:pillager", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:piglin", "ars_nouveau:wilden_stalker", "ars_nouveau:wilden_hunter", "rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "rottencreatures:frostbitten"],
+        "result": "default",
+        "random": "0.1",
+        "armorboots": ["immersive_armors:wooden_boots"]
+    },
+
+    {
+        "mod": ["twilightforest", "undergarden"],
+        "result": "default",
+        "random": "0.5",
+        "armorboots": ["immersive_armors:wooden_boots"]
+    },
+
+    {
+        "mob": ["minecraft:wither", "twilightforest:alpha_yeti", "twilightforest:armored_giant", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:naga", "twilightforest:quest_ram", "twilightforest:snow_queen", "twilightforest:knight_phantom"],
         "onjoin": true,
         "result": "default",
-        "healthadd": 100
+        "armorboots": ["immersive_armors:wooden_boots"],
+        "armorhelmet": ["immersive_armors:wooden_helmet"],
+        "healthadd": 150
     },
+
+    {
+        "mob": ["minecraft:ender_dragon", "twilightforest:hydra", "alexsmobs:void_worm"],
+        "onjoin": true,
+        "result": "default",
+        "armorboots": ["immersive_armors:wooden_boots"],
+        "armorhelmet": ["immersive_armors:wooden_helmet"],
+        "healthadd": 500
+    },
+
     {
         "mob": ["minecraft:elder_guardian", "meetyourfight:swampjaw"],
         "onjoin": true,
         "result": "default",
+        "armorboots": ["immersive_armors:wooden_boots"],
+        "armorhelmet": ["immersive_armors:wooden_helmet"],
         "healthadd": 200
+    },
+
+    {
+        "mob": ["undergarden:masticator"],
+        "onjoin": true,
+        "result": "default",
+        "healthadd": 500,
+        "potion": ["minecraft:regeneration,50000,1", "minecraft:jump_boost,50000,2"],
+        "armorboots": ["immersive_armors:wooden_boots"],
+        "armorhelmet": ["immersive_armors:wooden_helmet"],
+        "speedmultiply": 2
+    },
+
+    {
+        "mob": ["deeperdarker:stalker"],
+        "onjoin": true,
+        "result": "default",
+        "healthadd": 300,
+        "potion": ["minecraft:regeneration,50000,1", "minecraft:jump_boost,50000,2"],
+        "armorboots": ["immersive_armors:wooden_boots"],
+        "armorhelmet": ["immersive_armors:wooden_helmet"],
+        "speedmultiply": 2
     },
 
     {
         "mob": [ "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "minecraft:warden"],
         "onjoin": true,
         "result": "default",
-        "healthadd": 100
+        "healthadd": 300
     },
     {
-        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "twilightforest:skeleton_druid"],
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "twilightforest:skeleton_druid", "minecraft:zombie", "minecraft:slime", "rottencreatures:frostbitten", "minecraft:skeleton", "minecraft:spider"],
         "dimension": "minecraft:overworld",
         "phase": "nighttime",
         "minlight": 0,
@@ -28,10 +78,10 @@
         "result": "allow"
     },
     {
-        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "twilightforest:skeleton_druid"],
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "twilightforest:skeleton_druid", "minecraft:zombie", "minecraft:slime", "rottencreatures:frostbitten", "minecraft:skeleton", "minecraft:spider"],
         "dimension": "minecraft:overworld",
         "incontrol": true,
-        "minlight": 6,
+        "minlight": 5,
         "result": "deny"
     },
 
@@ -53,6 +103,7 @@
         "mob": ["quark:wraith"],
         "dimension": "minecraft:overworld",
         "structure": "dungeoncrawl:dungeon",
+        "block": ["minecraft:stone_bricks", "minecraft:deepslate_bricks", "minecraft:bricks", "minecraft:sandstone"],
         "result": "allow"
     },
     {
@@ -66,6 +117,7 @@
         "mob": ["alexsmobs:farseer"],
         "dimension": "minecraft:overworld",
         "structure": "betterstrongholds:stronghold",
+        "armorboots": ["immersive_armors:wooden_boots"],
         "result": "allow"
     },
     {
@@ -89,13 +141,14 @@
     },
 
     {
-        "mob": ["alexsmobs:guster", "twilightforest:pinch_beetle"],
+        "mob": ["alexsmobs:guster"],
         "dimension": "minecraft:overworld",
         "structure": "betterdeserttemples:desert_temple",
+        "block": ["minecraft:cut_sandstone", "minecraft:sandstone"],
         "result": "allow"
     },
     {
-        "mob": ["alexsmobs:guster", "twilightforest:pinch_beetle"],
+        "mob": ["alexsmobs:guster"],
         "dimension": "minecraft:overworld",
         "incontrol": true,
         "result": "deny"
@@ -154,22 +207,10 @@
     },
 
     {
-        "mob": ["twilightforest:slime_beetle"],
-        "dimension": "minecraft:overworld",
-        "structure": "ae2:meteorite",
-        "result": "allow"
-    },
-    {
-        "mob": ["twilightforest:slime_beetle"],
-        "dimension": "minecraft:overworld",
-        "incontrol": true,
-        "result": "deny"
-    },
-
-    {
         "mob": ["alexsmobs:skreecher", "deeperdarker:shattered"],
         "dimension": "minecraft:overworld",
         "structure": "minecraft:ancient_city",
+        "block": ["minecraft:sculk", "minecraft:deepslate_bricks", "minecraft:deepslate"],
         "result": "allow"
     },
     {
@@ -206,20 +247,6 @@
     },
 
     {
-        "mob": ["twilightforest:death_tome"],
-        "dimension": "minecraft:overworld",
-        "structure": "idas:enchanting_tower",
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
-        "mob": ["twilightforest:death_tome"],
-        "dimension": "minecraft:overworld",
-        "incontrol": true,
-        "result": "deny"
-    },
-
-    {
         "mob": ["neapolitan:plantain_spider"],
         "dimension": "minecraft:overworld",
         "structure": "idas:treetop_tavern",
@@ -236,13 +263,14 @@
     {
         "mob": ["dreamland:larva"],
         "dimension": "minecraft:overworld",
-        "biome": "dreamland:hive",
+        "block": ["dreamland:hive_block"],
         "onjoin": true,
         "result": "allow"
     },
+
     {
         "mob": ["dreamland:larva"],
-        "biome": "dreamland:hive",
+        "dimension": "minecraft:overworld",
         "incontrol": true,
         "result": "deny"
     }

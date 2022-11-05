@@ -2,7 +2,7 @@
     "type": "silentgear:standard",
     "simple": true,
     "availability": {
-      "tier": 4,
+      "tier": 5,
       "categories": [
         "metal"
       ],
@@ -99,6 +99,16 @@
             {
               "type": "silentgear:material_ratio",
               "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "name": "silentgear:spell_damage",
+          "level": 15,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.35
             }
           ]
         }

@@ -203,10 +203,17 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
-					team_reward: true
+					team_reward: false
 					auto: "enabled"
 					command: "/sh_difficulty add @p 10"
-					player_command: true
+					player_command: false
+				}
+				{
+					id: "7D7AE52508ACF5F9"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
@@ -230,22 +237,26 @@
 				{
 					id: "75053EAF30205D52"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:allay_spawn_egg"
 				}
 				{
 					id: "07A75A4D903ED2D8"
 					type: "item"
+					auto: "enabled"
 					item: "meetyourfight:aether_glazed_cupcake"
 					count: 3
 				}
 				{
 					id: "6FD6416E185D1A00"
 					type: "xp_levels"
+					auto: "enabled"
 					xp_levels: 10
 				}
 				{
 					id: "717294214418951E"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 				{
@@ -253,10 +264,18 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 30"
+					player_command: false
+				}
+				{
+					id: "60068C8B5D8F4FCF"
+					type: "item"
 					team_reward: true
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
@@ -280,17 +299,20 @@
 				{
 					id: "50C1C835A1E1BBD2"
 					type: "xp_levels"
+					auto: "enabled"
 					xp_levels: 10
 				}
 				{
 					id: "31CA71C0B2254B9E"
 					type: "item"
+					auto: "enabled"
 					item: "meetyourfight:velvet_fortune"
 					count: 3
 				}
 				{
 					id: "566CF9B03AD37D7F"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "minecraft:potion"
 						Count: 1b
@@ -317,6 +339,7 @@
 				{
 					id: "4A8625D69E5A9B02"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 				{
@@ -324,20 +347,27 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
-					team_reward: true
+					team_reward: false
 					auto: "enabled"
 					command: "/sh_difficulty add @p 30"
-					player_command: true
+					player_command: false
+				}
+				{
+					id: "1FC41A2A08FFC2A0"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
 		{
 			title: "Elder Guardian"
-			x: -14.5d
-			y: 0.5d
+			x: -11.0d
+			y: 2.0d
 			subtitle: "Old Fish"
 			description: ["Find an ocean monument to take on the elder guardian and retrieve it's eye"]
-			dependencies: ["48692E734D5E7526"]
 			id: "62C787D36CD80C8E"
 			tasks: [{
 				id: "67CC3CB5282CAA52"
@@ -351,6 +381,7 @@
 				{
 					id: "55F2EF00167DB6B9"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "endrem:guardian_eye"
 						Count: 1b
@@ -362,11 +393,13 @@
 				{
 					id: "5422107103D0FCCF"
 					type: "xp_levels"
+					auto: "enabled"
 					xp_levels: 5
 				}
 				{
 					id: "3693156657489C91"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "minecraft:trident"
 						Count: 1b
@@ -378,6 +411,7 @@
 				{
 					id: "2821BF3C44CA9700"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "aquaculture:neptunium_fishing_rod"
 						Count: 1b
@@ -389,6 +423,7 @@
 				{
 					id: "4DCAC7CD8C35CEDF"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 				{
@@ -396,10 +431,18 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 20"
+					player_command: false
+				}
+				{
+					id: "019B75636AEEC7C7"
+					type: "item"
 					team_reward: true
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
@@ -425,6 +468,7 @@
 				{
 					id: "6264364EC7D77894"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "endrem:wither_eye"
 						Count: 1b
@@ -436,17 +480,20 @@
 				{
 					id: "36FC6AECF6E5F7AC"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:golden_apple"
 					count: 3
 				}
 				{
 					id: "6CBBAD95F5F984FA"
 					type: "xp_levels"
+					auto: "enabled"
 					xp_levels: 5
 				}
 				{
 					id: "3F31F5812BEC1D3F"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "majruszsdifficulty:wither_sword"
 						Count: 1b
@@ -470,22 +517,29 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 15"
+					player_command: false
+				}
+				{
+					id: "64E1BC2DEC152B11"
+					type: "item"
 					team_reward: true
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
 		{
-			x: -14.5d
-			y: -3.5d
+			x: -9.0d
+			y: 2.0d
 			subtitle: "The warden of..."
 			description: [
 				"Although difficult, defeating the warden in the deep dark will reward enriching treasure"
 				"*The deep dark biome can be found more often under mountains"
 			]
-			dependencies: ["48692E734D5E7526"]
 			id: "54030C143E159728"
 			tasks: [{
 				id: "39A1C7AEF50CFCDA"
@@ -499,6 +553,7 @@
 				{
 					id: "37A514E910BE535D"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "delightful:warden_knife"
 						Count: 1b
@@ -510,11 +565,13 @@
 				{
 					id: "5C0489D901565233"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:echo_shard"
 				}
 				{
 					id: "1CA159B87F40D102"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 				{
@@ -522,17 +579,17 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
-					team_reward: true
+					team_reward: false
 					auto: "enabled"
 					command: "/sh_difficulty add @p 10"
-					player_command: true
+					player_command: false
 				}
 			]
 		}
 		{
 			title: "Portal to the Otherside"
-			x: -12.5d
-			y: -3.5d
+			x: -7.0d
+			y: 2.0d
 			shape: "diamond"
 			subtitle: "Still beating..."
 			description: [
@@ -551,11 +608,13 @@
 				{
 					id: "0945EAF7CEBFEB82"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:sculk_sensor"
 				}
 				{
 					id: "1C1288A8F222C807"
 					type: "xp"
+					auto: "enabled"
 					xp: 100
 				}
 			]
@@ -582,21 +641,25 @@
 				{
 					id: "3687F8F20E78F91D"
 					type: "item"
+					auto: "enabled"
 					item: "twilightforest:firefly_jar"
 				}
 				{
 					id: "217C323417E61164"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:netherite_ingot"
 				}
 				{
 					id: "01CE0411963785BF"
 					type: "item"
+					auto: "enabled"
 					item: "neapolitan:vanilla_cake"
 				}
 				{
 					id: "634BADA632C3D0D5"
 					type: "item"
+					auto: "enabled"
 					item: "twilightforest:magic_map"
 				}
 			]
@@ -618,6 +681,7 @@
 				{
 					id: "479C2028FB5F6F62"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:naga_chestplate"
 						Count: 1b
@@ -633,6 +697,7 @@
 				{
 					id: "7E50CFE6C92828AC"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:naga_leggings"
 						Count: 1b
@@ -648,11 +713,13 @@
 				{
 					id: "20AA0987CB59F5F4"
 					type: "xp"
+					auto: "enabled"
 					xp: 100
 				}
 				{
 					id: "0FD72B97CA5A72BB"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 				{
@@ -660,10 +727,18 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 20"
+					player_command: false
+				}
+				{
+					id: "23B0C77E2EE09B60"
+					type: "item"
 					team_reward: true
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
@@ -684,11 +759,13 @@
 				{
 					id: "6302377682BD6615"
 					type: "xp"
+					auto: "enabled"
 					xp: 100
 				}
 				{
 					id: "680B56568EA7834C"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 				{
@@ -696,14 +773,15 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
-					team_reward: true
+					team_reward: false
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					command: "/sh_difficulty add @p 20"
+					player_command: false
 				}
 				{
 					id: "11266D35FDC008B4"
 					type: "item"
+					auto: "enabled"
 					item: "scalinghealth:heart_crystal"
 				}
 			]
@@ -725,23 +803,27 @@
 				{
 					id: "5909FEDB3AB1F153"
 					type: "item"
+					auto: "enabled"
 					item: "twilightforest:carminite"
 					count: 3
 				}
 				{
 					id: "4E55CD076321BE31"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:ghast_tear"
 					count: 3
 				}
 				{
 					id: "2EA9A8A23242DC78"
 					type: "xp"
+					auto: "enabled"
 					xp: 100
 				}
 				{
 					id: "42CA987E7920B624"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:unique_lootcrate"
 				}
 				{
@@ -749,10 +831,18 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 20"
+					player_command: false
+				}
+				{
+					id: "609BAEF5888C919C"
+					type: "item"
 					team_reward: true
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
@@ -773,6 +863,7 @@
 				{
 					id: "342B63DD754FCDFF"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:diamond_minotaur_axe"
 						Count: 1b
@@ -784,16 +875,19 @@
 				{
 					id: "722F87947DDE4549"
 					type: "item"
+					auto: "enabled"
 					item: "farmersdelight:mushroom_rice"
 				}
 				{
 					id: "279B84A0A29004FD"
 					type: "xp"
+					auto: "enabled"
 					xp: 100
 				}
 				{
 					id: "7CF7787CB4445F89"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 				{
@@ -801,10 +895,18 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 20"
+					player_command: false
+				}
+				{
+					id: "77D6C8F3D544D51A"
+					type: "item"
 					team_reward: true
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
@@ -825,12 +927,14 @@
 				{
 					id: "3BE4F9C666ADB427"
 					type: "item"
+					auto: "enabled"
 					item: "twilightforest:hydra_chop"
 					count: 3
 				}
 				{
 					id: "15DF11E7023306A9"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:seeker_bow"
 						Count: 1b
@@ -842,16 +946,19 @@
 				{
 					id: "3D47C693AAD55FD1"
 					type: "xp"
+					auto: "enabled"
 					xp: 100
 				}
 				{
 					id: "2CF76A016F90530F"
 					type: "item"
+					auto: "enabled"
 					item: "undergarden:catalyst"
 				}
 				{
 					id: "0381590804711491"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:unique_lootcrate"
 				}
 				{
@@ -859,15 +966,24 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
-					team_reward: true
+					team_reward: false
 					auto: "enabled"
 					command: "/sh_difficulty add @p 30"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "15859B5C9E7A525C"
 					type: "item"
+					auto: "enabled"
 					item: "scalinghealth:heart_crystal"
+				}
+				{
+					id: "1F9B70FC88675EFD"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
@@ -888,11 +1004,13 @@
 				{
 					id: "4280EB1C30ACCF44"
 					type: "item"
+					auto: "enabled"
 					item: "twilightforest:knightmetal_ingot"
 				}
 				{
 					id: "576E0F3F79385D69"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:knightmetal_helmet"
 						Count: 1b
@@ -904,6 +1022,7 @@
 				{
 					id: "196D894003F05C2E"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:knightmetal_chestplate"
 						Count: 1b
@@ -915,6 +1034,7 @@
 				{
 					id: "037A93D992A2B4F5"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:knightmetal_leggings"
 						Count: 1b
@@ -926,6 +1046,7 @@
 				{
 					id: "62C6E89160B2276A"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:knightmetal_boots"
 						Count: 1b
@@ -937,11 +1058,13 @@
 				{
 					id: "14AFD750B1FDE82E"
 					type: "xp"
+					auto: "enabled"
 					xp: 100
 				}
 				{
 					id: "2B834B09036A976E"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 				{
@@ -949,10 +1072,18 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 20"
+					player_command: false
+				}
+				{
+					id: "27B9D3AB9F615DD1"
+					type: "item"
 					team_reward: true
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
@@ -973,12 +1104,14 @@
 				{
 					id: "7B133157E4E6941C"
 					type: "item"
+					auto: "enabled"
 					item: "twilightforest:alpha_yeti_fur"
 					count: 3
 				}
 				{
 					id: "66F04261F02B11CF"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:yeti_helmet"
 						Count: 1b
@@ -994,6 +1127,7 @@
 				{
 					id: "25FBE6CB3904D186"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:yeti_chestplate"
 						Count: 1b
@@ -1009,6 +1143,7 @@
 				{
 					id: "0B418D22D4E2E9FF"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:yeti_leggings"
 						Count: 1b
@@ -1024,6 +1159,7 @@
 				{
 					id: "66C1E93C32CEB191"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "twilightforest:yeti_boots"
 						Count: 1b
@@ -1045,11 +1181,13 @@
 				{
 					id: "35C3F2E10D627757"
 					type: "item"
+					auto: "enabled"
 					item: "neapolitan:vanilla_ice_cream"
 				}
 				{
 					id: "478BB66715EA6E5E"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 				{
@@ -1057,10 +1195,18 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 20"
+					player_command: false
+				}
+				{
+					id: "692F9765C066181F"
+					type: "item"
 					team_reward: true
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
@@ -1120,10 +1266,17 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
-					team_reward: true
+					team_reward: false
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					command: "/sh_difficulty add @p 20"
+					player_command: false
+				}
+				{
+					id: "40A2C732E3794DAC"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
@@ -1242,21 +1395,25 @@
 				{
 					id: "41988B2FE060B15C"
 					type: "item"
+					auto: "enabled"
 					item: "undergarden:raw_cloggrum"
 				}
 				{
 					id: "7EE70F5E0BED7674"
 					type: "item"
+					auto: "enabled"
 					item: "undergarden:gloomgourd_pie"
 				}
 				{
 					id: "6163B6DD90B42F4B"
 					type: "xp"
+					auto: "enabled"
 					xp: 100
 				}
 				{
 					id: "04A667F2C89AF0CB"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:unique_lootcrate"
 				}
 			]
@@ -1318,17 +1475,24 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
-					team_reward: true
+					team_reward: false
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					command: "/sh_difficulty add @p 15"
+					player_command: false
+				}
+				{
+					id: "0118E3AEE614982C"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
 		{
 			title: "The Bumblezone"
-			x: -16.0d
-			y: 1.5d
+			x: -15.0d
+			y: 0.5d
 			shape: "diamond"
 			subtitle: "Sticky place"
 			description: ["Visit the Bumblezone by throwing an ender pearl into a bee nest"]
@@ -1391,42 +1555,32 @@
 				{
 					id: "6831345D59CA99EE"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:ender_eye"
 					count: 5
 				}
 				{
 					id: "5C895FDC1C0FC92D"
 					type: "xp_levels"
+					auto: "enabled"
 					xp_levels: 5
 				}
 				{
 					id: "0B59CBD78A03AB9B"
 					type: "item"
-					item: "minecraft:enchanted_golden_apple"
-				}
-				{
-					id: "4057297040704926"
-					type: "gamestage"
-					title: "Master Mode"
-					icon: {
-						id: "majruszsdifficulty:enderium_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					team_reward: true
 					auto: "enabled"
-					stage: "master_mode"
+					item: "minecraft:enchanted_golden_apple"
 				}
 				{
 					id: "31DA9413D0DBD9D7"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 				{
 					id: "5EBB5ECF660B090E"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "explorerscompass:explorerscompass"
 						Count: 1b
@@ -1436,6 +1590,7 @@
 				{
 					id: "123B69692D850858"
 					type: "item"
+					auto: "enabled"
 					item: "scalinghealth:heart_crystal"
 				}
 			]
@@ -1459,6 +1614,7 @@
 				{
 					id: "06F8BC07815BD226"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "mekanism:electric_bow"
 						Count: 1b
@@ -1475,12 +1631,14 @@
 				{
 					id: "2CC4AE2009E46D89"
 					type: "item"
+					auto: "enabled"
 					item: "xtraarrows:netherite_slime_arrow"
 					count: 10
 				}
 				{
 					id: "0A1266A0F7A42005"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "minecraft:splash_potion"
 						Count: 1b
@@ -1492,15 +1650,17 @@
 				{
 					id: "3B7B596B3C027436"
 					type: "xp_levels"
+					auto: "enabled"
 					xp_levels: 5
 				}
 				{
 					id: "45E8FCAC29F2286B"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 				{
-					id: "13D45B1E2A6A1521"
+					id: "7BEA15407C29F451"
 					type: "gamestage"
 					title: "Master Mode"
 					icon: {
@@ -1510,6 +1670,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: true
 					auto: "enabled"
 					stage: "master_mode"
 				}
@@ -1533,21 +1694,25 @@
 				{
 					id: "5753DF4D91F7E164"
 					type: "item"
+					auto: "enabled"
 					item: "quark:dragon_scale"
 				}
 				{
 					id: "4AB7042183E474C3"
 					type: "item"
+					auto: "enabled"
 					item: "silentgear:elytra_blueprint"
 				}
 				{
 					id: "632A56B00E512747"
 					type: "xp_levels"
+					auto: "enabled"
 					xp_levels: 10
 				}
 				{
 					id: "579D6D30FA096C00"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:premium_lootcrate"
 				}
 				{
@@ -1555,10 +1720,17 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
+					auto: "enabled"
+					command: "/sh_difficulty add @p 60"
+					player_command: false
+				}
+				{
+					id: "662A15DC88D97576"
+					type: "item"
 					team_reward: true
 					auto: "enabled"
-					command: "/sh_difficulty add @p 30"
-					player_command: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
@@ -1581,32 +1753,38 @@
 				{
 					id: "66F70423D7425CED"
 					type: "item"
+					auto: "enabled"
 					item: "alexsmobs:void_worm_mandible"
 				}
 				{
 					id: "0A9202F0B3B48845"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:bedrock"
 				}
 				{
 					id: "30840B614D2CC9E3"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:cake"
 				}
 				{
 					id: "7EC011756B7C52D0"
 					type: "xp_levels"
+					auto: "enabled"
 					xp_levels: 20
 				}
 				{
 					id: "6B726B352B86685A"
 					type: "item"
+					auto: "enabled"
 					item: "majruszsdifficulty:enderium_shard"
 					count: 3
 				}
 				{
 					id: "19D9F5A0852CDC51"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:premium_lootcrate"
 				}
 				{
@@ -1614,21 +1792,28 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 60"
+					player_command: false
+				}
+				{
+					id: "09669AE2E6892A0A"
+					type: "item"
 					team_reward: true
 					auto: "enabled"
-					command: "/sh_difficulty add @p 10"
-					player_command: true
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
+			x: -11.0d
+			y: 3.5d
 			description: [
 				"Craft the wilden summon tablet to summon the Wilden Chimera"
 				"*Requires expert mode"
 			]
-			dependencies: ["081007A512D0D5A4"]
 			id: "21B93F2515332FF5"
 			tasks: [{
 				id: "2739218BA53F9CE3"
@@ -1642,16 +1827,19 @@
 				{
 					id: "70FE8FFA1995EB81"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:unique_lootcrate"
 				}
 				{
 					id: "2DDAB6AFE93E293A"
 					type: "xp_levels"
+					auto: "enabled"
 					xp_levels: 5
 				}
 				{
 					id: "5DC77FAFC08718F8"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:infernal_essence"
 					count: 6
 				}
@@ -1660,16 +1848,24 @@
 					type: "command"
 					title: "Difficulty Increase"
 					icon: "scalinghealth:cursed_heart"
-					team_reward: true
+					team_reward: false
 					auto: "enabled"
 					command: "/sh_difficulty add @p 10"
-					player_command: true
+					player_command: false
+				}
+				{
+					id: "36DF34BF5653DBB3"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}
 		{
-			x: -14.5d
-			y: 3.0d
+			x: -13.5d
+			y: 2.0d
 			subtitle: "Sweet Gems"
 			description: ["Honey crystals are important components for crafting eyes of ender"]
 			dependencies: ["1B00DEB159267CCB"]
@@ -1731,11 +1927,13 @@
 				{
 					id: "7624F8C5BB5F0A2C"
 					type: "xp"
+					auto: "enabled"
 					xp: 100
 				}
 				{
 					id: "0D4381F1A5A40FF0"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:generic_lootcrate"
 				}
 			]
@@ -1953,6 +2151,52 @@
 					id: "09180DE77C251846"
 					type: "item"
 					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			title: "Stalker"
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["6DD6D6AD5F81497E"]
+			id: "7BE910BA30F954CF"
+			tasks: [{
+				id: "7845260ABD575CAF"
+				type: "kill"
+				title: "Stalker"
+				icon: "deeperdarker:soul_crystal"
+				entity: "deeperdarker:stalker"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "22B79CDF620B2AED"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "1997759864D0BA47"
+					type: "xp"
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "305A5AAC86696874"
+					type: "command"
+					title: "Difficulty Increase"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 30"
+					player_command: false
+				}
+				{
+					id: "4DEA92FE11FEA323"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:boss_essence"
+					only_one: true
 				}
 			]
 		}

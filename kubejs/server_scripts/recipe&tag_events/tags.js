@@ -1,6 +1,23 @@
+//priority: 997
 ServerEvents.tags('item', event => {
     event.add('neapolitan:dried_vanilla_pods', 'neapolitan:dried_vanilla_pods')
     event.add('forge:fruits/pineapple', 'pineapple_delight:pineapple')
+    event.add('forge:fruits/blueberry', 'byg:blueberries')
+    event.add('forge:fruits/lime', 'minecraft:slime_ball')
+    event.add('forge:fruits/blackberry', 'ars_nouveau:source_berry')
     event.add('forge:shards/nether_star', 'silentgear:nether_star_fragment')
     event.add('forge:shards/nether_star', 'progressivebosses:nether_star_shard')
+    event.add('forge:storage_blocks/cast_iron', 'createdeco:cast_iron_block')
+    event.add('forge:storage_blocks/opal', 'dreamland:opal_block')
+    event.add('forge:storage_blocks/precious_opal', 'dreamland:precious_opal_block')
+    event.add('forge:storage_blocks/soul_steel', 'spirit:soul_steel_block')
+    event.add('c:white_sand', 'byg:white_sand')
+    event.add('c:purple_sand', 'byg:purple_sand')
+    event.add('c:blue_sand', 'byg:blue_sand')
+    event.add('forge:storage_blocks/gobber', 'gobber2:gobber2_block')
+    event.add('forge:storage_blocks/gobber_nether', 'gobber2:gobber2_block_nether')
+    event.add('forge:storage_blocks/gobber_end', 'gobber2:gobber2_block_end')
+    
+    event.remove('supplementaries:chocolate_bars', 'neapolitan:chocolate_bar')
+    event.remove('forge:chocolate', 'neapolitan:chocolate_bar')
 })
