@@ -19,10 +19,7 @@ ServerEvents.recipes(event => {
 		'ae2:inscriber/sky_stone_dust',
 		'mekanism:processing/steel/enriched_iron_to_dust',
 		'ae2:misc/tank_sky_stone',
-		'productivebees:bottler/milk_bottle',
 		'silentgear:elytra_blueprint',
-		'a_man_with_plushies:plush_box_recipe',
-		'a_man_with_plushies:plush_box_recipe_2',
 		'ars_nouveau:wilden_summon_alt',
 		'productivebees:centrifuge/ingots/honeycomb_steel_dust',
 		'productivebees:centrifuge/ingots/honeycomb_netherite',
@@ -40,6 +37,7 @@ ServerEvents.recipes(event => {
 		'silentgear:bronze_ingot',
 		'ae2:blasting/silicon_from_certus_quartz_dust',
 		'mekanism:enriching/hdpe_sheet',
+		'mekanism:steel_casing',
 		'jaopca:mekanism.ore_to_dust.crimson_iron',
 		'jaopca:mekanism.raw_storage_block_to_dust.crimson_iron',
 		'jaopca:mekanism.raw_material_to_dust.crimson_iron',
@@ -60,27 +58,40 @@ ServerEvents.recipes(event => {
 		'jaopca:mekanism.ore_to_dust.pendorite',
 		'jaopca:mekanism.ore_to_dust.regalium',
 		'jaopca:mekanism.ore_to_dust.utherium',
+		'gobber2:gobber2_ore_deepslate_blasting',
 		'gobber2:gobber2_ore_gobber_blasting',
 		'gobber2:gobber2_ore_gobber_smelting',
 		'gobber2:gobber2_ore_deepslate_gobber_blasting',
 		'gobber2:gobber2_ore_deepslate_gobber_smelting',
+		'gobber2:gobber2_ore_deepslate_smelting',
 		'gobber2:gobber2_ore_nether_blasting',
 		'gobber2:gobber2_ore_nether_smelting',
 		'gobber2:gobber2_ore_end_blasting',
 		'gobber2:gobber2_ore_end_smelting',
-		'jaopca:storage_blocks.to_storage_block.gobber',
-		'jaopca:storage_blocks.to_storage_block.gobber_nether',
-		'jaopca:storage_blocks.to_storage_block.gobber_end',
-		'neapolitan:mixed:neapolitan_ice_cream_from_vanilla'
+		'silentgear:bracelet_blueprint_alt',
+		'industrialforegoing:laser_drill_fluid/ether_gas',
+
+		'neapolitan:mixed:neapolitan_ice_cream_from_vanilla',
+		'croptopia:hashed_brown',
+		'croptopia:chocolate',
+		'croptopia:melon_juice',
+		'croptopia:cheeseburger',
+		'farmersdelight:wheat_dough_from_water',
+		'croptopia:dough',
+		'farmersdelight:wheat_dough_from_eggs',
+		'createcafe:crafting/oreo_dough_shapless',
+		'croptopia:shaped_bacon',
+		'farmersdelight:bacon_sandwhich',
+		'croptopia:soy_milk',
+		'croptopia:shaped_milk_bottle',
+		'croptopia:pineapple_juice',
+		'croptopia:apple_pie',
+		'croptopia:shaped_chocolate_ice_cream',
+		'croptopia:chocolate_milkshake',
+		'croptopia:strawberry_ice_cream',
+		'croptopia:vanilla_ice_cream',
+		'croptopia:hamburger'
 	]
-
-	event.remove({mod: 'immersive_armors'});
-
-	materials.forEach((material) => {
-		event.remove({id: `mekanism:processing/${material.name}/dust/from_ore`})
-		event.remove({id: `mekanism:processing/${material.name}/dust/from_raw_block`})
-		event.remove({id: `mekanism:processing/${material.name}/dust/from_raw_ore`})
-	});
 
 	recipes.forEach((recipe) => {
 		event.remove({id: recipe})
@@ -88,5 +99,13 @@ ServerEvents.recipes(event => {
 	
 	blacklist.forEach((item) => {
 		event.remove({output: item});
+	});
+
+	event.remove({mod: 'immersive_armors'});
+
+	materials.forEach((material) => {
+		event.remove({id: `mekanism:processing/${material.name}/dust/from_ore`})
+		event.remove({id: `mekanism:processing/${material.name}/dust/from_raw_block`})
+		event.remove({id: `mekanism:processing/${material.name}/dust/from_raw_ore`})
 	});
 })

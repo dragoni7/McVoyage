@@ -28,18 +28,17 @@
         "chargeability": 1.1,
         "harvest_level": 5.0,
         "harvest_speed": 18.0,
-        "melee_damage": 13.0,
+        "melee_damage": 20.0,
         "magic_damage": 8.0,
         "attack_speed": 0.0,
         "ranged_damage": 4.0,
         "ranged_speed": 0.0,
-        "armor": 43.0,
-        "armor/helmet": 9.0,
-        "armor/chestplate": 13.0,
-        "armor/leggings": 12.0,
-        "armor/boots": 9.0,
+        "armor": 50.0,
         "armor_toughness": 16.0,
         "magic_armor": 20.0,
+        "knockback_resistance": {
+          "add": 2.0
+        },
         "projectile_speed": 1.1,
         "projectile_accuracy": 1.1
       },

@@ -1,0 +1,324 @@
+{
+	id: "3883C205530E2591"
+	group: ""
+	order_index: 6
+	filename: "coin_exchange"
+	title: "Bit Exchange"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "kubejs:generic_lootcrate"
+			x: -4.5d
+			y: -1.5d
+			id: "6C47FE729C9A07D6"
+			tasks: [{
+				id: "6570AC084D0DDB89"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:bit"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0A52C618B2974801"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "5F02B3F3D992AFF8"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 6C47FE729C9A07D6"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "a_man_with_plushies:plush_box"
+			x: -3.0d
+			y: -1.5d
+			id: "0D5AA223B66F7B24"
+			tasks: [{
+				id: "0C7FC7256208D3A9"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:bit"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "48A93FC4F277E788"
+					type: "item"
+					auto: "enabled"
+					item: "a_man_with_plushies:plush_box"
+				}
+				{
+					id: "5F02B3F3D992AF66"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 0D5AA223B66F7B24"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "minecraft:experience_bottle"
+			x: -1.5d
+			y: -1.5d
+			id: "617968A9B674A52F"
+			tasks: [{
+				id: "0AE602646D1B1E7E"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:bit"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "70A4445A6D19352C"
+					type: "xp"
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "5F02B343D992AF66"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 0AE602646D1B1E7E"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "scalinghealth:bandages"
+			x: 0.0d
+			y: -1.5d
+			id: "796AD521124E2742"
+			tasks: [{
+				id: "2877BD41292FBA1B"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:bit"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "685FD4DED3B3DBA6"
+					type: "item"
+					auto: "enabled"
+					item: "scalinghealth:bandages"
+					count: 3
+				}
+				{
+					id: "5F52B343D992AF66"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 2877BD41292FBA1B"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "scalinghealth:medkit"
+			x: -4.5d
+			y: 0.0d
+			id: "08E8D7D1D1BEE1EB"
+			tasks: [{
+				id: "000CA4F5595AEEC8"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:bit"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "106A6AF6CB08C6F5"
+					type: "item"
+					item: "scalinghealth:medkit"
+					count: 3
+				}
+				{
+					id: "5F52B343DFB2AF66"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 000CA4F5595AEEC8"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "minecraft:andesite"
+			x: -3.0d
+			y: 0.0d
+			id: "4B488032819173F4"
+			tasks: [{
+				id: "159ED9A044648914"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:bit"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7F68DC085B3B9CAF"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:andesite"
+					count: 16
+				}
+				{
+					id: "5F52B34ADFB2AF66"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 4B488032819173F4"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "silentgear:bort"
+			x: -1.5d
+			y: 0.0d
+			id: "0717C2BF08AE6EA8"
+			tasks: [{
+				id: "5540E8F62751C639"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:bit"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7D654C1A719199FC"
+					type: "item"
+					auto: "enabled"
+					item: "silentgear:bort"
+				}
+				{
+					id: "1F12B34ADFB2AF66"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 5540E8F62751C639"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "ars_nouveau:source_berry"
+			x: 0.0d
+			y: 0.0d
+			id: "02EC877E3F0A3191"
+			tasks: [{
+				id: "772D6B7461AE932C"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:bit"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "73155D12D3D70173"
+					type: "item"
+					auto: "enabled"
+					item: "ars_nouveau:source_berry"
+				}
+				{
+					id: "1F1AB34ADFB2AF66"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 772D6B7461AE932C"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "scalinghealth:heart_crystal_shard"
+			x: -3.0d
+			y: 1.5d
+			id: "259FAD1EEF4C8C7E"
+			tasks: [{
+				id: "2AE46F546EF18EBD"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:bit"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "158E7F866A53943F"
+					type: "item"
+					auto: "enabled"
+					item: "scalinghealth:heart_crystal_shard"
+					count: 2
+				}
+				{
+					id: "1C1AB34ADFB2AF66"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 2AE46F546EF18EBD"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "kubejs:infernal_essence"
+			x: -1.5d
+			y: 1.5d
+			id: "298CF4320A144E03"
+			tasks: [{
+				id: "7E59690F2EC92ED2"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:bit"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4342EB46D5E7F4CE"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:infernal_essence"
+				}
+				{
+					id: "1C1AB34BBFB2AF66"
+					type: "command"
+					title: "."
+					team_reward: false
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 7E59690F2EC92ED2"
+					player_command: false
+				}
+			]
+		}
+	]
+}

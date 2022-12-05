@@ -1,14 +1,14 @@
 {
   "startingValue" : 0,
   "minValue" : 0,
-  "maxValue" : 460,
+  "maxValue" : 500,
   "changePerSecond" : 0.0,
   "mode" : {
     "type" : "average",
-    "radius" : 192
+    "radius" : 128
   },
-  "groupBonus" : "1 + 0.05 * (areaPlayerCount - 1)",
-  "groupBonusRadius" : 128,
+  "groupBonus" : "1 + 0.50 * (areaPlayerCount - 1)",
+  "groupBonusRadius" : 64,
   "idleMultiplier" : 0.0,
   "afkMessage" : false,
   "timeBeforeAfk" : 120,

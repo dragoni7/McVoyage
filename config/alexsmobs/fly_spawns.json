@@ -16,6 +16,13 @@
         "negate": true,
         "value": "minecraft:is_ocean"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "dreamland:toxic_jungle"
+      }
     ]
   ]
 }

@@ -88,7 +88,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 6
+              "count": 3
             }
           ]
         },
@@ -117,6 +117,17 @@
         {
           "type": "minecraft:item",
           "weight": 1,
+          "name": "kubejs:infernal_essence",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "mekanismgenerators:solar_generator",
           "functions": [
             {
@@ -132,7 +143,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 13
             }
           ]
         },
@@ -205,86 +216,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "immersive_armors:robe_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:robe_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:robe_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:robe_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:steampunk_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:steampunk_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:steampunk_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:steampunk_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:prismarine_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:prismarine_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:prismarine_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:prismarine_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:heavy_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:heavy_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:heavy_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:heavy_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "ars_nouveau:wixie_shards"
         },
         {
@@ -345,26 +276,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "savage_and_ravage:griefer_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "savage_and_ravage:griefer_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "savage_and_ravage:griefer_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "savage_and_ravage:griefer_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "supplementaries:bubble_blower"
         },
         {
@@ -390,36 +301,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "farmersdelight:roast_chicken"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "farmersdelight:grilled_salmon"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:wither_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:wither_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:wither_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:wither_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "twilightforest:twilight_scepter"
         },
         {
@@ -436,6 +317,11 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "byg:pendorite_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:netherite_ingot"
         }
       ]
     }

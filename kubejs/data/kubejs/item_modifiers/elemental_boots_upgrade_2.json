@@ -1,0 +1,61 @@
+[
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+          "name": "",
+          "amount": 1,
+          "operation": "addition",
+          "slot": "feet"
+        },
+        {
+          "attribute": "ars_nouveau:ars_nouveau.perk.flat_max_mana",
+          "name": "",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "feet"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "name": "",
+          "amount": 0.1,
+          "operation": "addition",
+          "slot": "feet"
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "",
+          "amount": 2,
+          "operation": "addition",
+          "slot": "feet"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "",
+          "amount": 4,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "feet": {
+                "items": [
+                  "ars_elemental:fire_boots",
+                  "ars_elemental:aqua_boots",
+                  "ars_elemental:air_boots",
+                  "ars_elemental:earth_boots"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

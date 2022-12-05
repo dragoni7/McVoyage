@@ -56,6 +56,21 @@ ServerEvents.recipes(event => {
             exp: 5,
             id: `${id_prefix}glyph_chaining`,
             old_id: 'toomanyglyphs:glyph_chaining'
+        },
+
+        {
+            output: 'toomanyglyphs:glyph_amplify_three',
+            count: 1,
+            input: [
+                {'item': {'item': 'minecraft:diamond_block'}},
+                {'item': {'item': 'minecraft:diamond_block'}},
+                {'item': {'item': 'minecraft:diamond_block'}},
+                {'item': {'item': 'silentgear:blaze_gold_block'}},
+                {'item': {'item': 'kubejs:boss_essence'}},
+            ],
+            exp: 10,
+            id: `${id_prefix}glyph_amplify_three`,
+            old_id: 'toomanyglyphs:glyph_amplify_three'
         }
     ]
 

@@ -20,7 +20,7 @@
 	#Mobs will gain bonus damage with difficulty.
 	mobDamageIncrease = true
 	#Enable player damage scaling.
-	playerDamageScaling = false
+	playerDamageScaling = true
 	#Enable mob damage scaling.
 	mobDamageScaling = false
 	#Enable difficulty system. If disabled, everything will have 0 difficulty.

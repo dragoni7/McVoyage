@@ -7,26 +7,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "immersive_armors:divine_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:divine_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:divine_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "immersive_armors:divine_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "majruszsdifficulty:enderium_shard",
           "functions": [
             {
@@ -71,6 +51,17 @@
         {
           "type": "minecraft:item",
           "weight": 1,
+          "name": "silentcompat:plasteel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "quark:dragon_scale"
         },
         {
@@ -102,6 +93,11 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:totem_of_undying"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "scalinghealth:heart_crystal"
         }
       ]
     }

@@ -2,9 +2,76 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
+    "tarantula:tbook": {
+      "viewedEntries": [
+        "tarantula:info/noold"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "littlelogistics:guide": {
+      "viewedEntries": [
+        "littlelogistics:steam_locomotive"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "dreamland:dreamland_guide_book": {
       "viewedEntries": [
         "dreamland:mobs/larva"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "industrialforegoing:industrial_foregoing": {
+      "viewedEntries": [
+        "industrialforegoing:transport/fluid_transporter",
+        "industrialforegoing:generators/bioreactor",
+        "industrialforegoing:generators/biofuel_generator",
+        "industrialforegoing:basics/fluid_extractor",
+        "industrialforegoing:basics/latex_processing_unit",
+        "industrialforegoing:basics/latex",
+        "industrialforegoing:basics/plastic",
+        "industrialforegoing:basics/addons",
+        "industrialforegoing:basics/dissolution_chamber",
+        "industrialforegoing:agr_hus/animal_rancher",
+        "industrialforegoing:agr_hus/mob_duplicator",
+        "industrialforegoing:agr_hus/wither_builder",
+        "industrialforegoing:agr_hus/plant_gatherer",
+        "industrialforegoing:agr_hus/sludge",
+        "industrialforegoing:agr_hus/plant_sower",
+        "industrialforegoing:agr_hus/mob_crusher",
+        "industrialforegoing:agr_hus/animal_feeder",
+        "industrialforegoing:agr_hus/mob_slaughter_factory",
+        "industrialforegoing:agr_hus/sewer",
+        "industrialforegoing:agr_hus/sewage_composter",
+        "industrialforegoing:agr_hus/fertilizer",
+        "industrialforegoing:agr_hus/animal_baby_separator",
+        "industrialforegoing:agr_hus/hydroponic_bed",
+        "industrialforegoing:resource_production/mechanical_dirt",
+        "industrialforegoing:resource_production/fluid_collector",
+        "industrialforegoing:resource_production/spores_recreator",
+        "industrialforegoing:resource_production/sludge_refiner",
+        "industrialforegoing:resource_production/marine_fisher",
+        "industrialforegoing:resource_production/water_condensator",
+        "industrialforegoing:resource_production/dye_mixer",
+        "industrialforegoing:resource_production/fluid_laser_base",
+        "industrialforegoing:resource_production/fluid_sieving_machine",
+        "industrialforegoing:misc/enchantment_sorter",
+        "industrialforegoing:misc/infinity_charger",
+        "industrialforegoing:misc/mob_detector",
+        "industrialforegoing:tools/mib",
+        "industrialforegoing:tools/meat_feeder",
+        "industrialforegoing:tools/infinity_tools",
+        "industrialforegoing:tools/infinity_backpack",
+        "industrialforegoing:tools/infinity_drill",
+        "industrialforegoing:tools/infinity_hammer",
+        "industrialforegoing:tools/infinity_launcher",
+        "industrialforegoing:tools/infinity_nuke",
+        "industrialforegoing:tools/infinity_saw",
+        "industrialforegoing:tools/infinity_trident",
+        "industrialforegoing:generators/mycelial_reactor",
+        "industrialforegoing:generators/biofuel"
       ],
       "bookmarks": [],
       "completedManualQuests": []

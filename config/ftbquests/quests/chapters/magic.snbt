@@ -355,6 +355,11 @@
 					type: "item"
 					item: "kubejs:unique_lootcrate"
 				}
+				{
+					id: "53CBBFC4890363B8"
+					type: "item"
+					item: "scalinghealth:heart_crystal"
+				}
 			]
 		}
 		{
@@ -410,6 +415,451 @@
 					xp: 100
 				}
 			]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			description: ["Amplify your spells with this series of glyphs! Useful as difficulty increases"]
+			id: "28E02B7B57694B0F"
+			tasks: [{
+				id: "1638DC0DF4A97FFE"
+				type: "item"
+				item: "ars_nouveau:glyph_amplify"
+			}]
+			rewards: [{
+				id: "45B8BB9CF0199C80"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			dependencies: ["28E02B7B57694B0F"]
+			id: "022A5FD9AEBE4060"
+			tasks: [{
+				id: "3E81C8324743C1F4"
+				type: "item"
+				item: "toomanyglyphs:glyph_amplify_two"
+			}]
+			rewards: [
+				{
+					id: "7018072079388197"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "3EDF42C39A688DB8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["022A5FD9AEBE4060"]
+			id: "0E08CC506FE114FE"
+			tasks: [{
+				id: "61623A9E68B9CFCF"
+				type: "item"
+				item: "toomanyglyphs:glyph_amplify_three"
+			}]
+			rewards: [
+				{
+					id: "42A2CAD6D82CE154"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 2
+				}
+				{
+					id: "4AE26A63961062D8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C2C8742D7815A49"
+					type: "item"
+					item: "scalinghealth:heart_crystal"
+				}
+			]
+		}
+		{
+			icon: "kubejs:tier_1_arcanist_upgrade"
+			x: 10.0d
+			y: -4.0d
+			description: ["Powerful upgrade for your robes. To use, equip a full set of selected magic armor, then right click the upgrade thread"]
+			dependencies: ["493DCFEB7233FD0D"]
+			id: "7576987220A01996"
+			tasks: [
+				{
+					id: "216B8FBD4473EDEE"
+					type: "item"
+					icon: "twilightforest:fiery_ingot"
+					item: "twilightforest:fiery_ingot"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "1663AD97874E4AF4"
+					type: "xp"
+					value: 15L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "15AC924F6DD8599C"
+					type: "item"
+					item: "kubejs:tier_1_arcanist_upgrade"
+				}
+				{
+					id: "382DB4F3208C31B0"
+					type: "item"
+					item: "kubejs:tier_1_sorceror_upgrade"
+				}
+				{
+					id: "47419D098BFC4B54"
+					type: "item"
+					item: "kubejs:tier_1_battlemage_upgrade"
+				}
+				{
+					id: "37C0583AA4891545"
+					type: "item"
+					item: "kubejs:tier_1_elementalist_upgrade"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			description: [
+				"Magic armor can be upgraded with blaze rods"
+				"Consult your book for the ritual recipe"
+			]
+			id: "6855A6CBCD2328E9"
+			tasks: [{
+				id: "4BBE9D0B222AA65A"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 2L
+			}]
+			rewards: [{
+				id: "6EBC750D1132DC61"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			description: [
+				"Armor can further be upgraded with naga scale"
+				"Consult your book for the ritual recipe"
+			]
+			dependencies: ["6855A6CBCD2328E9"]
+			id: "493DCFEB7233FD0D"
+			tasks: [{
+				id: "2F21BB65BBE02C27"
+				type: "item"
+				item: "twilightforest:naga_scale"
+			}]
+			rewards: [{
+				id: "13B8639FCD33FA66"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "kubejs:tier_2_arcanist_upgrade"
+			x: 11.5d
+			y: -4.0d
+			description: ["Even stronger upgrade for your robes. To use, equip a full set of selected magic armor, then right click the upgrade thread"]
+			dependencies: ["7576987220A01996"]
+			id: "583362A06F388020"
+			tasks: [
+				{
+					id: "042CE73926067848"
+					type: "item"
+					item: "undergarden:forgotten_ingot"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "499D853086CDF47F"
+					type: "xp"
+					value: 20L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "0AE95CB9A92EB515"
+					type: "item"
+					item: "kubejs:tier_2_arcanist_upgrade"
+				}
+				{
+					id: "4D509A380001415A"
+					type: "item"
+					item: "kubejs:tier_2_sorceror_upgrade"
+				}
+				{
+					id: "0AF0C5261055A77D"
+					type: "item"
+					item: "kubejs:tier_2_battlemage_upgrade"
+				}
+				{
+					id: "7F6F8D3476C8D4C7"
+					type: "item"
+					item: "kubejs:tier_2_elementalist_upgrade"
+				}
+			]
+		}
+		{
+			icon: "kubejs:tier_3_arcanist_upgrade"
+			x: 13.0d
+			y: -4.0d
+			description: ["Ultimate upgrade for your robes. To use, equip a full set of selected magic armor, then right click the upgrade thread"]
+			dependencies: ["583362A06F388020"]
+			id: "6AC3EAA7FB6DC2DD"
+			tasks: [
+				{
+					id: "52A1F540A01FC1E5"
+					type: "item"
+					item: "silentgear:tyrian_steel_ingot"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "457550BB4D2358BC"
+					type: "xp"
+					value: 30L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "3B5DC419B854D156"
+					type: "item"
+					item: "kubejs:tier_3_arcanist_upgrade"
+				}
+				{
+					id: "6BFD06F6EF5630E4"
+					type: "item"
+					item: "kubejs:tier_3_sorceror_upgrade"
+				}
+				{
+					id: "7260C336B752B6A2"
+					type: "item"
+					item: "kubejs:tier_3_battlemage_upgrade"
+				}
+				{
+					id: "2086D69A61959E28"
+					type: "item"
+					item: "kubejs:tier_3_elementalist_upgrade"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -5.5d
+			id: "406B0FDF9D0FB8B0"
+			tasks: [
+				{
+					id: "5BF8DB658D889B63"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C50A88E5464D1E0"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3FA92DED1E20D870"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "18EE1FBFE9717F4B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "29210E417BCABF3B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			id: "17ECB843D5997849"
+			tasks: [
+				{
+					id: "4877B4E4E328D435"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63161EA210E756D6"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "155C98021D2DBDF6"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04A1168BB58EC9D0"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "77B34AB7EB709455"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.5d
+			id: "2DD05918AA2DDCF5"
+			tasks: [
+				{
+					id: "5F35E945E8462DE3"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2271C586EC05A03D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1385C52B724635AF"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "74B7B7AD1DD20649"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4C6A2D32B59DA9C5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.5d
+			y: -5.5d
+			description: ["The mark of mastery can be used to craft elemental robes"]
+			id: "376582461CA3AD1A"
+			tasks: [{
+				id: "2697432D39E2E8DE"
+				type: "item"
+				item: "ars_elemental:mark_of_mastery"
+			}]
+			rewards: [{
+				id: "04AF5791F703A5D2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["Full of mana"]
+			dependencies: ["721D05C0ED2C8B49"]
+			id: "0B6E4DC9B1E5E52A"
+			tasks: [{
+				id: "5E8F66CE338C7F94"
+				type: "item"
+				item: "ars_nouveau:magebloom_crop"
+			}]
+			rewards: [{
+				id: "391D5A5B535C50CD"
+				type: "xp"
+				xp: 100
+			}]
 		}
 	]
 }

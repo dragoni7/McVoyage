@@ -4,51 +4,51 @@
     "scaling_reduction" : 0.5
   },
   "general" : {
-    "passiveMultiplier" : 0.375,
-    "hostileMultiplier" : 0.375,
-    "hostilePotionChance" : 0.15,
+    "passiveMultiplier" : 0.34,
+    "hostileMultiplier" : 0.315,
+    "hostilePotionChance" : 0.2,
     "peacefulPotionChance" : 0.0,
-    "damageBoostScale" : 0.13,
-    "maxDamageBoost" : 42,
+    "damageBoostScale" : 0.1,
+    "maxDamageBoost" : 50,
     "spawnerModifier" : 0.3,
-    "xpBoost" : 0.00
+    "xpBoost" : 0.005
   },
   "effects" :
   [
     {
       "effect" : "minecraft:speed",
       "level" : 1,
-      "minDifficulty" : 70,
+      "minDifficulty" : 200,
       "durationInMinutes" : 5.0
     },
     {
       "effect" : "minecraft:fire_resistance",
       "level" : 3,
-      "minDifficulty" : 70,
+      "minDifficulty" : 200,
       "durationInMinutes" : 50.0
     },
     {
       "effect" : "minecraft:resistance",
       "level" : 1,
-      "minDifficulty" : 70,
+      "minDifficulty" : 200,
       "durationInMinutes" : 5.0
     },
     {
       "effect" : "minecraft:speed",
       "level" : 4,
-      "minDifficulty" : 200,
+      "minDifficulty" : 400,
       "durationInMinutes" : 5.0
     },
     {
       "effect" : "minecraft:fire_resistance",
       "level" : 5,
-      "minDifficulty" : 200,
+      "minDifficulty" : 400,
       "durationInMinutes" : 50.0
     },
     {
       "effect" : "minecraft:resistance",
       "level" : 2,
-      "minDifficulty" : 200,
+      "minDifficulty" : 400,
       "durationInMinutes" : 5.0
     }
   ],

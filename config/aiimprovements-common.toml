@@ -57,12 +57,12 @@
 		#Remove the squid's flee pathfinder. This will cause squid to not run away.
 		remove_flee = false
 		#Remove the squid's random movement pathfinder. This will cause squid to swim around randomly.
-		remove_random_move = false
+		remove_random_move = true
 
 	#Cow
 	[entity.cow]
 		#Remove the cow's float AI task. This causes cows to no longer swim in water.
-		remove_float = false
+		remove_float = true
 		#Remove the cow's panic AI task. This causes cows to no longer run around after being hit, or search water to extinguish themselves.
 		remove_panic = false
 		#Remove the cow's breed AI task. This causes cows to be unable to breed to create offspring.
@@ -92,7 +92,7 @@
 	#Pig
 	[entity.pig]
 		#Remove the pig's float AI task. This causes pigs to no longer swim in water.
-		remove_float = false
+		remove_float = true
 		#Remove the pig's panic AI task. This causes pigs to no longer run around after being hit, or search water to extinguish themselves.
 		remove_panic = false
 		#Remove the pig's breed AI task. This causes pigs to be unable to breed to create offspring.
@@ -107,7 +107,7 @@
 	#Sheep
 	[entity.sheep]
 		#Remove the sheep's float AI task. This causes sheep to no longer swim in water.
-		remove_float = false
+		remove_float = true
 		#Remove the sheep's panic AI task. This causes sheep to no longer run around after being hit, or search water to extinguish themselves.
 		remove_panic = false
 		#Remove the sheep's breed AI task. This causes sheep to be unable to breed to create offspring.

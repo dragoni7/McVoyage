@@ -4,13 +4,13 @@
 	#Gives a chance to completely avoid any kind of damage.
 	[Enchantments.Dodge]
 		#Makes this enchantment obtainable in survival mode.
-		is_enabled = true
+		is_enabled = false
 		#Chance to completely ignore the damage per enchantment level.
 		#Range: 0.01 ~ 0.4
-		chance = 0.125
+		chance = 0.05
 		#Percent of damage transferred to pants.
 		#Range: 0.0 ~ 10.0
-		pants_damage_multiplier = 0.5
+		pants_damage_multiplier = 0.8
 
 	#Increases damage dealt equal to the percentage of health lost.
 	[Enchantments.DeathWish]
@@ -18,7 +18,7 @@
 		is_enabled = true
 		#Maximum damage multiplier obtainable at low health.
 		#Range: 1.0 ~ 10.0
-		damage_multiplier = 2.0
+		damage_multiplier = 1.5
 		#Whenever the owner takes damage, the damage is multiplied by this value.
 		#Range: 1.0 ~ 10.0
 		vulnerability_multiplier = 1.25
@@ -29,7 +29,7 @@
 		is_enabled = true
 		#Extra percent of experience acquired from all sources per enchantment level.
 		#Range: 0.01 ~ 10.0
-		experience_extra_multiplier = 0.25
+		experience_extra_multiplier = 0.10
 
 	#Gives a chance to catch additional items from fishing.
 	[Enchantments.FishingFanatic]
@@ -37,13 +37,13 @@
 		is_enabled = true
 		#Independent chance for extra loot per enchantment level.
 		#Range: 0.0 ~ 1.0
-		extra_loot_chance = 0.33333
+		extra_loot_chance = 0.15
 		#Multiplier for 'LevelUpChances' when it is raining.
 		#Range: 1.0 ~ 10.0
 		rain_multiplier = 2.0
 		#Amount of extra damage dealt by the fishing rod per enchantment level.
 		#Range: 0.0 ~ 5.0
-		damage_bonus = 1.0
+		damage_bonus = 2.0
 
 		#Chances to acquire enchantment level when an item is fished out.
 		[Enchantments.FishingFanatic.LevelUpChances]
@@ -86,7 +86,7 @@
 	#Cancels all nearby explosions whenever the player is blocking with a shield.
 	[Enchantments.FuseCutter]
 		#Makes this enchantment obtainable in survival mode.
-		is_enabled = true
+		is_enabled = false
 		#Maximum distance in blocks from the explosion.
 		#Range: 1.0 ~ 100.0
 		maximum_distance = 6.0
@@ -116,7 +116,7 @@
 		is_enabled = true
 		#Durability penalty per each successful increase of nearby crops.
 		#Range: 0.0 ~ 10.0
-		durability_penalty = 1.0
+		durability_penalty = 1.5
 		#Chance to increase an age of nearby crops.
 		#Range: 0.0 ~ 1.0
 		extra_grow_chance = 0.04
@@ -132,7 +132,7 @@
 		is_enabled = true
 		#Armor bonus per enchantment level.
 		#Range: 1.0 ~ 10.0
-		armor_bonus = 2.0
+		armor_bonus = 4.0
 
 	#Increases the horse's movement speed.
 	[Enchantments.HorseSwiftness]
@@ -145,7 +145,7 @@
 	#Cheats death on a fatal hit at the cost of a shield.
 	[Enchantments.Immortality]
 		#Makes this enchantment obtainable in survival mode.
-		is_enabled = true
+		is_enabled = false
 
 	#Gives a chance to steal positive effects, health and hunger points from enemies.
 	[Enchantments.Leech]
@@ -156,10 +156,10 @@
 		[Enchantments.Leech.HealthChance]
 			#Base chance of this to happen.
 			#Range: 0.0 ~ 1.0
-			base_chance = 0.1
+			base_chance = 0.02
 			#Bonus chance of this to happen per Curse of Vampirism level.
 			#Range: 0.0 ~ 1.0
-			bonus_chance = 0.1
+			bonus_chance = 0.15
 
 		#Chance to steal 1 hunger point from the target.
 		[Enchantments.Leech.HungerChance]
@@ -168,21 +168,21 @@
 			base_chance = 0.1
 			#Bonus chance of this to happen per Curse of Vampirism level.
 			#Range: 0.0 ~ 1.0
-			bonus_chance = 0.1
+			bonus_chance = 0.15
 
 		#Chance to steal 1 random positive effect from the target.
 		[Enchantments.Leech.EffectChance]
 			#Base chance of this to happen.
 			#Range: 0.0 ~ 1.0
-			base_chance = 0.1
+			base_chance = 0.05
 			#Bonus chance of this to happen per Curse of Vampirism level.
 			#Range: 0.0 ~ 1.0
-			bonus_chance = 0.1
+			bonus_chance = 0.15
 
 	#Protects against magical damage like Evoker Fangs, Guardians and Instant Damage potions.
 	[Enchantments.MagicProtection]
 		#Makes this enchantment obtainable in survival mode.
-		is_enabled = true
+		is_enabled = false
 
 	#Increases the damage against villagers, pillagers, witches and other players.
 	[Enchantments.Misanthropy]
@@ -190,12 +190,12 @@
 		is_enabled = true
 		#Extra damage dealt to humans per enchantment level.
 		#Range: 1.0 ~ 10.0
-		damage_bonus = 2.5
+		damage_bonus = 1.5
 
 	#Destroyed blocks are automatically smelted.
 	[Enchantments.Smelter]
 		#Makes this enchantment obtainable in survival mode.
-		is_enabled = true
+		is_enabled = false
 
 	#Adds acquired items directly to player's inventory.
 	[Enchantments.Telekinesis]
@@ -274,7 +274,7 @@
 			[Curses.Vampirism.Debuffs.Weakness]
 				#Level of the effect to apply.
 				#Range: 1 ~ 10
-				amplifier = 1
+				amplifier = 2
 				#Duration in seconds.
 				#Range: 1.0 ~ 999.0
 				duration = 20.0

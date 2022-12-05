@@ -2,11 +2,14 @@
   "modPriorities": [
     "minecraft",
     "kubejs",
-    "crafttweaker",
     "create",
-    "thermal",
-    "immersiveengineering",
-    "mekanism"
+    "mekanism",
+    "farmersdelight",
+    "neapolitan",
+    "delightful",
+    "alexsmobs",
+    "byg",
+    "croptopia"
   ],
   "stoneStrata": [
     "stone",
@@ -17,6 +20,8 @@
     "andesite"
   ],
   "tags": [
+    "forge:steel_casings",
+    
     "forge:nuggets/{material}",
     "forge:dusts/{material}",
     "forge:gears/{material}",
@@ -28,7 +33,33 @@
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}"
+    "forge:storage_blocks/raw_{material}",
+
+    "forge:fruits/banana",
+    "forge:fruits/strawberry",
+    "forge:chocolate",
+    "forge:chocolates",
+    "forge:chocolate_milkshakes",
+    "forge:chocolate_icecreams",
+    "forge:vanilla_ice_creams",
+    "forge:strawberry_ice_creams",
+    "forge:fruits/pineapple",
+    "forge:crops/cabbage",
+    "forge:crops/tomato",
+    "forge:crops/onion",
+    "forge:crops/vanilla",
+    "forge:juices/melon_juice",
+    "forge:cheeseburgers",
+    "forge:hamburgers",
+    "forge:dough/wheat",
+    "forge:doughs",
+    "forge:noodles",
+    "forge:raw_bacon",
+    "forge:cooked_bacon",
+    "forge:blts",
+    "forge:milk/milk_bottle",
+    "forge:juices/pineapple_juice",
+    "forge:apple_pies"
   ],
   "materials": [
     "aeternium",
@@ -81,12 +112,13 @@
   ],
   "priorityOverrides": {},
   "ignoredTags": [],
+  "ignoredItems": [],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],
   "ignoredRecipes": [
-    "create:crushing/copper_ore",
-    "create:crushing/deepslate_copper_ore"
+    "create:crushing/deepslate_copper_ore",
+    "create:crushing/copper_ore"
   ],
   "itemsHidingJeiRei": true
 }

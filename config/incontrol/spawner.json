@@ -1,5 +1,18 @@
 [
     {
+      "mob": ["minecraft:guardian"],
+      "amount": {
+        "minimum": 1,
+        "maximum": 3
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "inwater": true,
+        "maxthis": 16
+      }
+    },
+    
+    {
       "mob": ["deeperdarker:sculk_leech", "alexsmobs:skreecher", "deeperdarker:sculk_snapper", "deeperdarker:shattered"],
       "persecond": 0.4,
       "attempts": 10,
@@ -9,7 +22,7 @@
       },
       "conditions": {
         "dimension": "deeperdarker:otherside",
-        "mindist": 25,
+        "mindist": 55,
         "maxdist": 100,
         "minheight": -60,
         "maxheight": 200,
@@ -27,7 +40,7 @@
       },
       "conditions": {
         "dimension": "minecraft:overworld",
-        "mindist": 25,
+        "mindist": 35,
         "maxdist": 100,
         "minheight": -60,
         "maxheight": 35,
@@ -45,7 +58,7 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 25,
+          "mindist": 45,
           "maxdist": 100,
           "minheight": -60,
           "maxheight": 0,
@@ -63,7 +76,7 @@
         },
         "conditions": {
           "dimension": "deeperdarker:otherside",
-          "mindist": 25,
+          "mindist": 55,
           "maxdist": 100,
           "minheight": -60,
           "maxheight": 200,
@@ -81,8 +94,8 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 15,
-          "maxdist": 45,
+          "mindist": 35,
+          "maxdist": 65,
           "minheight": -60,
           "maxheight": 200,
           "maxthis": 8
@@ -99,7 +112,7 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 10,
+          "mindist": 20,
           "maxdist": 45,
           "minheight": -60,
           "maxheight": 30,
@@ -117,11 +130,29 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 25,
-          "maxdist": 50,
+          "mindist": 35,
+          "maxdist": 70,
           "minheight": -60,
           "maxheight": 30,
           "maxthis": 8
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:farseer", "blue_skies:artificial_golem"],
+        "persecond": 0.6,
+        "attempts": 20,
+        "amount": {
+          "minimum": 1,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "twilightforest:twilight_forest",
+          "mindist": 25,
+          "maxdist": 70,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 24
         }
       },
 
@@ -135,8 +166,8 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 25,
-          "maxdist": 50,
+          "mindist": 45,
+          "maxdist": 70,
           "minheight": -60,
           "maxheight": 200,
           "maxthis": 8
@@ -144,7 +175,7 @@
       },
 
       {
-        "mob": ["alexsmobs:guster"],
+        "mob": ["alexsmobs:guster", "rottencreatures:mummy"],
         "persecond": 0.2,
         "attempts": 10,
         "amount": {
@@ -153,8 +184,8 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 10,
-          "maxdist": 25,
+          "mindist": 20,
+          "maxdist": 65,
           "minheight": 0,
           "maxheight": 200,
           "maxthis": 6
@@ -171,8 +202,8 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 10,
-          "maxdist": 25,
+          "mindist": 20,
+          "maxdist": 55,
           "minheight": -60,
           "maxheight": 30,
           "maxthis": 6
@@ -189,8 +220,8 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 25,
-          "maxdist": 50,
+          "mindist": 35,
+          "maxdist": 60,
           "minheight": 50,
           "maxheight": 200,
           "maxthis": 8
@@ -198,7 +229,7 @@
       },
 
       {
-        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "twilightforest:skeleton_druid", "minecraft:zombie", "minecraft:slime", "rottencreatures:frostbitten", "minecraft:skeleton", "minecraft:spider"],
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:zombie", "minecraft:slime", "rottencreatures:frostbitten", "rottencreatures:zap", "minecraft:skeleton", "minecraft:spider", "peat_mummy:peat_zombie"],
         "persecond": 0.5,
         "attempts": 15,
         "amount": {
@@ -207,7 +238,7 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 35,
+          "mindist": 45,
           "maxdist": 90,
           "minheight": -60,
           "maxheight": 200,
@@ -225,7 +256,7 @@
         },
         "conditions": {
           "dimension": "minecraft:the_nether",
-          "mindist": 25,
+          "mindist": 45,
           "maxdist": 100,
           "minheight": -60,
           "maxheight": 200,
@@ -243,8 +274,8 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 10,
-          "maxdist": 30,
+          "mindist": 25,
+          "maxdist": 60,
           "minheight": -60,
           "maxheight": 0,
           "maxthis": 14
@@ -261,8 +292,8 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 10,
-          "maxdist": 25,
+          "mindist": 25,
+          "maxdist": 55,
           "minheight": 30,
           "maxheight": 200,
           "maxthis": 6
@@ -279,8 +310,8 @@
         },
         "conditions": {
           "dimension": "minecraft:the_nether",
-          "mindist": 10,
-          "maxdist": 25,
+          "mindist": 45,
+          "maxdist": 60,
           "minheight": 0,
           "maxheight": 200,
           "maxthis": 5
@@ -297,8 +328,8 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 10,
-          "maxdist": 25,
+          "mindist": 25,
+          "maxdist": 55,
           "minheight": 40,
           "maxheight": 200,
           "maxthis": 8
@@ -315,8 +346,8 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 10,
-          "maxdist": 25,
+          "mindist": 25,
+          "maxdist": 55,
           "minheight": 40,
           "maxheight": 200,
           "maxthis": 8

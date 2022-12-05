@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
                     'item': 'minecraft:cobbled_deepslate'
                 },
                 {
-                    'chance': 0.1,
+                    'chance': 0.05,
                     'item': 'silentgear:bort'
                 }],
             id: `${id_prefix}bort_from_deepslate`
@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
                     'item': 'minecraft:purple_dye'
                 },
                 {
-                    'chance': 0.05,
+                    'chance': 0.03,
                     'item': 'majruszsdifficulty:enderium_shard'
                 }],
             id: `${id_prefix}enderium_from_capsid`

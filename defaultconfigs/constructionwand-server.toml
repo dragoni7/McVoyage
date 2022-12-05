@@ -8,7 +8,7 @@
 [stone_wand]
 	#Wand durability
 	#Range: > 1
-	durability = 531
+	durability = 831
 	#Wand block limit
 	#Range: > 1
 	limit = 9
@@ -24,7 +24,7 @@
 [iron_wand]
 	#Wand durability
 	#Range: > 1
-	durability = 650
+	durability = 950
 	#Wand block limit
 	#Range: > 1
 	limit = 27
@@ -40,7 +40,7 @@
 [diamond_wand]
 	#Wand durability
 	#Range: > 1
-	durability = 1961
+	durability = 2961
 	#Wand block limit
 	#Range: > 1
 	limit = 128

@@ -5,4 +5,5 @@ Vera,
 Gush,
 Sariel,
 Cee,
-Soarin
+Soarin,
+Thoot

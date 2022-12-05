@@ -2,49 +2,49 @@
 # Let's Configure Delightful
 [Knives]
 	black_opal_knife = false
-	bone_knife = true
+	bone_knife = false
 	brass_knife = false
-	bronze_knife = true
+	bronze_knife = false
 	constantan_knife = false
-	copper_knife = true
+	copper_knife = false
 	deorum_knife = false
 	draco_arcanus_knife = false
 	electrum_knife = false
 	enderite_knife = false
-	fiery_knife = true
+	fiery_knife = false
 	invar_knife = false
-	ironwood_knife = true
-	knightmetal_knife = true
+	ironwood_knife = false
+	knightmetal_knife = false
 	lapis_lazuli_knife = false
-	large_amethyst_knife = true
+	large_amethyst_knife = false
 	lead_knife = false
-	living_knife = true
+	living_knife = false
 	netherite_opal_knife = false
 	nickel_knife = false
 	obsidian_infused_enderite_knife = false
-	osmium_knife = true
+	osmium_knife = false
 	refined_glowstone_knife = false
 	refined_obsidian_knife = false
 	reinforced_deorum_knife = false
-	silver_knife = true
-	steel_knife = true
-	steeleaf_knife = true
+	silver_knife = false
+	steel_knife = false
+	steeleaf_knife = false
 	tin_knife = false
-	adamantium_knife = true
+	adamantium_knife = false
 	amethyst_knife = false
 	emerald_knife = false
-	mythril_knife = true
-	onyx_knife = true
-	sinisite_knife = true
-	thyrium_knife = true
-	allthemodium_knife = true
-	pendorite_knife = true
-	warden_knife = true
-	experience_knife = true
-	gilded_quartz_knife = true
-	kiwano_knife = true
-	leaf_knife = true
-	zinc_knife = true
+	mythril_knife = false
+	onyx_knife = false
+	sinisite_knife = false
+	thyrium_knife = false
+	allthemodium_knife = false
+	pendorite_knife = false
+	warden_knife = false
+	experience_knife = false
+	gilded_quartz_knife = false
+	kiwano_knife = false
+	leaf_knife = false
+	zinc_knife = false
 
 [Cabinets]
 	basalt_cabinet = true
@@ -113,13 +113,13 @@
 	nightshade_berry_pie_slice = true
 
 [Generation]
-	#Chance of generating clusters. Smaller value = more frequent (once every ...).
+	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Salmonberries to false above.
 	#Range: > 0
-	chance_wild_salmonberries = 25
-	#Chance of generating clusters. Smaller value = more frequent (once every ...).
+	chance_wild_salmonberries = 20
+	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Mini Melon to false above.
 	#Range: > 0
 	chance_mini_melon = 30
-	#Chance of generating clusters. Smaller value = more frequent (once every ...).
+	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Cantaloupe to false above.
 	#Range: > 0
-	chance_cantaloupe = 50
+	chance_cantaloupe = 40
 

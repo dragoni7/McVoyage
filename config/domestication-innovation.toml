@@ -55,7 +55,7 @@
 
 [enchantments]
 	#true if health boost enchant is enabled, false if disabled
-	health_boost_enabled = true
+	health_boost_enabled = false
 	#true if fireproof enchant is enabled, false if disabled
 	fireproof_enabled = true
 	#true if immunity frame enchant is enabled, false if disabled
@@ -95,7 +95,7 @@
 	#true if disc jockey enchant is enabled, false if disabled
 	disc_jockey_enabled = true
 	#true if defusal enchant is enabled, false if disabled
-	defusal_enabled = true
+	defusal_enabled = false
 	#true if warping bite enchant is enabled, false if disabled
 	warping_bite_enabled = true
 	#true if ore scenting enchant is enabled, false if disabled

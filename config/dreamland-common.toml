@@ -3,7 +3,7 @@
 [general]
 	#dreamland region weight (smaller values means more common). Default = 2
 	#Range: > 0
-	weight = 2
+	weight = 1
 
 #Effects
 [misc]
@@ -22,5 +22,5 @@
 
 ["Mold block spreading"]
 	#Should mold blocks spread to blocks in the mold_spreadables tag?
-	"mold block spreads" = true
+	"mold block spreads" = false
 

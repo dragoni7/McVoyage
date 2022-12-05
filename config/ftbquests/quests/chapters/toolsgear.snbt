@@ -1168,8 +1168,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 5.5d
+			x: -6.0d
+			y: 7.0d
 			description: ["Sculk coated"]
 			id: "523FF565B9291FD3"
 			tasks: [{
@@ -1808,8 +1808,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
+			x: -4.5d
+			y: 7.0d
 			description: ["Protective skeleton"]
 			id: "4C9F99E65B77147C"
 			tasks: [{
@@ -2011,8 +2011,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 4.0d
+			x: -7.5d
+			y: 7.0d
 			description: ["Power armor"]
 			id: "32217717BB20D713"
 			tasks: [
@@ -2056,8 +2056,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 5.5d
+			x: -9.0d
+			y: 7.0d
 			description: ["Pack leader"]
 			id: "14E93B5AA318930A"
 			tasks: [{
@@ -2091,8 +2091,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 4.0d
+			x: -10.5d
+			y: 7.0d
 			description: ["Sweet shield"]
 			id: "1CA212A85C5668A2"
 			tasks: [{
@@ -2126,8 +2126,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 5.5d
+			x: -12.0d
+			y: 7.0d
 			description: ["Fly like a bee"]
 			id: "26393C57BE15A564"
 			tasks: [{
@@ -2204,8 +2204,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.0d
+			x: -13.5d
+			y: 7.0d
 			description: ["Craft a bed for you special friend"]
 			id: "414FE2B993FD26AF"
 			tasks: [{
@@ -2220,8 +2220,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 5.5d
+			x: -15.0d
+			y: 7.0d
 			subtitle: "Radical"
 			description: ["Get some skateboard wheels to craft a skateboard"]
 			id: "7B0F20093F1D1782"
@@ -2235,6 +2235,93 @@
 				type: "xp"
 				xp: 100
 			}]
+		}
+		{
+			x: -16.5d
+			y: 7.0d
+			description: ["Obtain the powerful dragon armor"]
+			id: "1AD7215238F44CE3"
+			tasks: [
+				{
+					id: "1AFB74D95420AB37"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B06C1E73C0E90F1"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "544C2B1B26109069"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23082E16AC265ED7"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7C6C5BFDA39B0BF8"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "0158A7E94F04C32E"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			description: ["Find a totem of undying!"]
+			id: "00E66F74FECD1DC1"
+			tasks: [{
+				id: "6683E1CE36023F4A"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+			rewards: [
+				{
+					id: "6D3497CCC56BE63D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "563717CCCCFB8D5B"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
 		}
 	]
 }

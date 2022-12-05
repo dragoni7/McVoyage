@@ -28,6 +28,8 @@
 	"Use Fast Worldgen" = false
 	#Enables quark network profiling features. Do not enable this unless requested to.
 	"Enable Network Profiling" = false
+	#Used for terrablender integration
+	"Terrablender Region Weight" = 1
 
 [categories]
 	Automation = true
@@ -363,7 +365,7 @@
 		"Enable Special Awesome Parrot" = true
 
 	[tools.endermosh_music_disc]
-		"Play Endermosh During Enderdragon Fight" = true
+		"Play Endermosh During Enderdragon Fight" = false
 		"Add To End City Loot" = true
 		"Loot Weight" = 5
 		"Loot Quality" = 1
@@ -384,7 +386,7 @@
 		#Format is lootTable,weight. i.e. "minecraft:chests/stronghold_library,30"
 		"Loot Tables" = ["minecraft:chests/stronghold_library,30", "minecraft:chests/simple_dungeon,20", "minecraft:chests/bastion_treasure,25", "minecraft:chests/woodland_mansion,15", "minecraft:chests/nether_bridge,0", "minecraft:chests/underwater_ruin_big,0", "minecraft:chests/underwater_ruin_small,0", "quark:misc/monster_box,5"]
 		"Item Quality" = 2
-		"Normal Upgrade Cost" = 10
+		"Normal Upgrade Cost" = 20
 		"Limit Break Upgrade Cost" = 30
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
 		"Overleveled Books Glow Rainbow" = true
@@ -431,6 +433,9 @@
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
 	"Skull Pikes" = true
+	"Zombie Villagers On Normal" = true
+	"Safe Rabbits" = true
+	"Renewable Spore Blossoms" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -569,6 +574,13 @@
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
 
+	[tweaks.safe_rabbits]
+		#How many blocks should be subtracted from the rabbit fall height when calculating fall damage. 5 is the same value as vanilla frogs
+		"Height Reduction" = 5.0
+
+	[tweaks.renewable_spore_blossoms]
+		"Bone Meal Chance" = 0.2
+
 [world]
 	"Spiral Spires" = true
 	Permafrost = true
@@ -638,7 +650,7 @@
 					"Is Blacklist" = false
 
 	[world.new_stone_types]
-		"Enable Limestone" = true
+		"Enable Limestone" = false
 		"Enable Jasper" = true
 		"Enable Shale" = true
 		"Enable Myalite" = true
@@ -771,7 +783,7 @@
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.2
+		"Chance Per Chunk" = 0.35
 		"Min Y" = -50
 		"Max Y" = 0
 		"Min Mob Count" = 5
@@ -850,7 +862,7 @@
 
 			[world.blossom_trees.blue.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "twilightforest:twilight_forest"]
 
 			[world.blossom_trees.blue.biome_config]
 
@@ -971,7 +983,7 @@
 
 			[world.big_stone_clusters.calcite.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "twilightforest:twilight_forest"]
 
 			[world.big_stone_clusters.calcite.biomes]
 
@@ -984,7 +996,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.limestone]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [-64,320]
@@ -1033,7 +1045,7 @@
 
 			[world.big_stone_clusters.jasper.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "twilightforest:twilight_forest"]
 
 			[world.big_stone_clusters.jasper.biomes]
 
@@ -1064,7 +1076,7 @@
 
 			[world.big_stone_clusters.shale.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "twilightforest:twilight_forest"]
 
 			[world.big_stone_clusters.shale.biomes]
 
@@ -1122,7 +1134,7 @@
 	Shiba = true
 	Foxhound = true
 	Forgotten = true
-	Crabs = false
+	Crabs = true
 
 	[mobs.wraith]
 		#List of sound sets to use with wraiths.
@@ -1160,7 +1172,7 @@
 
 		[mobs.toretoise.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "twilightforest:twilight_forest"]
 
 		[mobs.toretoise.spawn_config]
 			#Allowed values: (0,)
@@ -1191,7 +1203,7 @@
 
 		[mobs.stonelings.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "twilightforest:twilight_forest"]
 
 		[mobs.stonelings.spawn_config]
 			#Allowed values: (0,)
@@ -1341,8 +1353,8 @@
 		"Enable Armor" = true
 
 	[client.improved_tooltips]
-		"Attribute Tooltips" = true
-		"Food Tooltips" = false
+		"Attribute Tooltips" = false
+		"Food Tooltips" = true
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
@@ -1386,7 +1398,6 @@
 		"Hud Height" = 10
 
 [experimental]
-	"Zombie Villagers On Normal" = false
 	"Spawner Replacer" = false
 	Saw = false
 	"Overlay Shader" = false
@@ -1419,9 +1430,9 @@
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = true
 		#Makes Iron Golems not drop Iron Ingots
-		"Disable Iron Farms" = false
+		"Disable Iron Farms" = true
 		#Makes Boats not glide on ice
-		"Disable Ice Roads" = false
+		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
 		"Disable Wool Drops" = false
 
@@ -1438,7 +1449,7 @@
 	Pipes = false
 	"Matrix Enchanting" = true
 	Magnets = true
-	Crate = true
+	Crate = false
 	Backpack = false
 
 	[oddities.totem_of_holding]
@@ -1449,7 +1460,7 @@
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
-		"Allow Anyone To Collect" = true
+		"Allow Anyone To Collect" = false
 		"Enable Soul Compass" = true
 
 	[oddities.tiny_potato]
@@ -1469,6 +1480,7 @@
 		#When items eject or are absorbed by pipes, should they make sounds?
 		"Do Pipes Whoosh" = true
 		"Enable Encased Pipes" = true
+		"Render Pipe Items" = true
 
 	[oddities.matrix_enchanting]
 		#The maximum enchanting power the matrix enchanter can accept

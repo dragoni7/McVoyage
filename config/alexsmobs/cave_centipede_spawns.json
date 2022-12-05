@@ -105,6 +105,13 @@
         "negate": false,
         "value": "terralith:cave/tuff_caves"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "dreamland:toxic_jungle"
+      }
     ]
   ]
 }

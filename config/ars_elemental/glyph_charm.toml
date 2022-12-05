@@ -5,7 +5,7 @@
 	enabled = true
 	#Cost
 	#Range: > -2147483648
-	cost = 30
+	cost = 60
 	#Is Starter Glyph?
 	starter = false
 	#The maximum number of times this glyph may appear in a single spell
@@ -22,5 +22,5 @@
 	extend_time = 8
 	#Set the max hp limit for Charm, mobs with more max hp will be immune.
 	#Range: > 0
-	charm_hp_limit = 150
+	charm_hp_limit = 200
 

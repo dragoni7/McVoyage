@@ -165,7 +165,10 @@
 			x: -14.5d
 			y: -1.5d
 			subtitle: "Bony Fish"
-			description: ["Craft a fossil bait to summon the first boss, swamp jaw"]
+			description: [
+				"Craft a fossil bait to summon the first boss, swamp jaw"
+				"Boss fights will become more difficult as you progress. Make sure your gear is up to date! Enchantments, curios, and magic will help!"
+			]
 			dependencies: ["48692E734D5E7526"]
 			id: "3FEFAA19984ED7D1"
 			tasks: [{
@@ -454,6 +457,7 @@
 			description: [
 				"Defeat the wither and steal it's eye"
 				"*You must be in expert mode to summon the wither"
+				"Tip: If stuck, try enchanting armor, material grading, starlight charging, and equipping curios!"
 			]
 			dependencies: ["041F219F0682205B"]
 			id: "5A171948B45D8755"
@@ -968,7 +972,7 @@
 					icon: "scalinghealth:cursed_heart"
 					team_reward: false
 					auto: "enabled"
-					command: "/sh_difficulty add @p 30"
+					command: "/sh_difficulty add @p 20"
 					player_command: false
 				}
 				{
@@ -1913,7 +1917,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: 1.0d
 			y: 0.0d
 			description: ["Obtain utherium crystals for advanced crafting recipes"]
 			dependencies: ["081007A512D0D5A4"]
@@ -2002,7 +2006,7 @@
 		}
 		{
 			title: "Eyes of the End"
-			x: 4.5d
+			x: 3.5d
 			y: -3.0d
 			subtitle: "Eye spies"
 			description: ["Collect all 12 special eyes to active the end portal frame"]
@@ -2197,6 +2201,112 @@
 					auto: "enabled"
 					item: "kubejs:boss_essence"
 					only_one: true
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			description: ["Find some regalium in the undergarden. Shiny!"]
+			dependencies: ["081007A512D0D5A4"]
+			id: "3CCB76D20F7D07E6"
+			tasks: [{
+				id: "5AB25CB9AB6B90FE"
+				type: "item"
+				item: "undergarden:regalium_crystal"
+			}]
+			rewards: [
+				{
+					id: "37B792090CC48A32"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5ED3D5B2777A3700"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			description: ["Obtain a forgotton ingot, powerful material for gear"]
+			dependencies: ["081007A512D0D5A4"]
+			id: "3C559B16BF843841"
+			tasks: [{
+				id: "0E77B3C324E32DBF"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+			}]
+			rewards: [
+				{
+					id: "2BAEC84089825D01"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6474B6699249A96A"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			description: ["Chilling steel. Useful for gear!"]
+			dependencies: ["081007A512D0D5A4"]
+			id: "1F33D3E4FE76AE30"
+			tasks: [{
+				id: "045209B09110577A"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+			}]
+			rewards: [
+				{
+					id: "3719497E3B307E24"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7E9FF7A46E186C96"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			description: ["Defeat a warped mosco by allowing a crimson mosquito to drink the blood of a mungus full of warped fungus"]
+			id: "7CE471F57AA632D3"
+			tasks: [{
+				id: "2B406C029D125CC2"
+				type: "kill"
+				title: "Warped Mosco"
+				icon: "alexsmobs:warped_muscle"
+				entity: "alexsmobs:warped_mosco"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "29CF4DEEDF420F6E"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "18E96A9F85AFD84E"
+					type: "xp"
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "68C62E894C59185A"
+					type: "item"
+					auto: "enabled"
+					item: "alexsmobs:warped_muscle"
 				}
 			]
 		}

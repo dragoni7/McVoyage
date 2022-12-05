@@ -1,0 +1,24 @@
+
+[General]
+	#Drop Sharp Rib from skeletons
+	dropSharpRib = true
+
+[Factions]
+
+	#You can customize the list of creatures for each faction.
+	#It is not recommended to add one creature to several factions at once.
+	[Factions.Ravagers]
+		Members = ["minecraft:pillager", "minecraft:vindicator", "minecraft:ravager", "minecraft:vex", "minecraft:witch", "savage_and_ravage:executioner", "savage_and_ravage:griefer", "savage_and_ravage:iceologer", "savage_and_ravage:skeleton_villager", "savage_and_ravage:trickster", "friendsandfoes:illusioner", "majruszsdifficulty:illusioner", "blue_skies:alchemist", "blue_skies:summoner"]
+		Elites = ["minecraft:evoker"]
+		Bosses = ["ob_aquamirae:captain_cornelia"]
+
+	[Factions.Abyss]
+		Members = ["minecraft:enderman", "minecraft:endermite", "minecraft:phantom", "minecraft:shulker", "alexsmobs:enderiophage", "cataclysm:ender_golem", "cataclysm:ender_guardian", "cataclysm:endermaptera", "alexsmobs:void_worm"]
+		Elites = ["none"]
+		Bosses = ["minecraft:ender_dragon"]
+
+	[Factions.SmolderingLegion]
+		Members = ["minecraft:wither_skeleton", "minecraft:blaze", "rottencreatures:burned", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "cataclysm:ignited_revenant"]
+		Elites = ["none"]
+		Bosses = ["minecraft:wither"]
+

@@ -63,6 +63,13 @@
         "negate": false,
         "value": "terralith:red_oasis"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "dreamland:toxic_jungle"
+      }
     ]
   ]
 }

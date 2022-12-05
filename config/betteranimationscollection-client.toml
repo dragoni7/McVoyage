@@ -21,7 +21,7 @@
 	#This one makes llamas open their mouth when spitting. How have they been doing that before?!
 	spitful_llama = true
 	#A truly stunning visual addition. Spiders now finally have the knees they've always dreamed of.
-	spider_knees = true
+	spider_knees = false
 	#Gives a jellyfish-like effect to the swimming animation of squids; generally just makes their tentacles flow more while moving.
 	squiggly_squid_tentacles = true
 	#A pleasing visual change; this makes the insides of slimes flow around like liquid.

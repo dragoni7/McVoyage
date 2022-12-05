@@ -1,6 +1,26 @@
 ServerEvents.recipes(event => {
     const id_prefix = 'kubejs:/enchanting_apparatus/';
     const recipes = [
+
+        {
+            pedestalItems: [
+                {'item': {'item':'scalinghealth:heart_crystal_shard'}},
+                {'item': {'item':'scalinghealth:heart_crystal_shard'}},
+                {'item': {'item':'scalinghealth:heart_crystal_shard'}},
+                {'item': {'item':'scalinghealth:heart_crystal_shard'}},
+                {'item': {'item':'scalinghealth:heart_crystal_shard'}},
+                {'item': {'item':'scalinghealth:heart_crystal_shard'}},
+                {'item': {'item':'scalinghealth:heart_crystal_shard'}},
+                {'item': {'item':'scalinghealth:heart_crystal_shard'}},
+                {'item': {'item':'minecraft:netherite_ingot'}}
+            ],
+            reagent: [{'item': 'ars_nouveau:abjuration_essence'}],
+            output: {'item': 'scalinghealth:heart_crystal'},
+            sourceCost: 100,
+            old_id: 'scalinghealth:heart_crystal',
+            id: `${id_prefix}heart_crystal`
+        },
+
         {
             pedestalItems: [
                 {'item': {'item':'ars_nouveau:earth_essence'}}
@@ -9,6 +29,28 @@ ServerEvents.recipes(event => {
             output: {'item': 'twilightforest:liveroot'},
             sourceCost: 10,
             id: `${id_prefix}liveroot`
+        },
+
+        {
+            pedestalItems: [
+                {'item': {'item':'mekanism:nugget_lead'}}
+            ],
+            reagent: [{'item': 'minecraft:ink_sac'}],
+            output: {'item': 'supplementaries:antique_ink'},
+            sourceCost: 0,
+            id: `${id_prefix}antique_ink`
+        },
+
+        {
+            pedestalItems: [
+                {'item': {'item':'minecraft:gold_ingot'}},
+                {'item': {'item':'minecraft:gold_ingot'}},
+                {'item': {'item':'minecraft:gold_ingot'}}
+            ],
+            reagent: [{'item': 'minecraft:stick'}],
+            output: {'item': 'minecraft:bell'},
+            sourceCost: 0,
+            id: `${id_prefix}bell`
         },
         
         {
@@ -116,12 +158,30 @@ ServerEvents.recipes(event => {
                 {'item': {'item': 'silentgear:blaze_gold_ingot'}},
                 {'item': {'item': 'silentgear:blaze_gold_ingot'}},
                 {'item': {'item': 'silentgear:blaze_gold_ingot'}},
+                {'item': {'item': 'kubejs:boss_essence'}},
+                {'item': {'item': 'ars_nouveau:air_essence'}},
+                {'item': {'item': 'ars_nouveau:air_essence'}},
+                {'item': {'item': 'silentgear:azure_silver_block'}},
+            ],
+            reagent: [{'item': 'ars_nouveau:mundane_belt'}],
+            output: {'item': 'ars_nouveau:belt_of_levitation'},
+            sourceCost: 1000,
+            old_id: 'ars_nouveau:belt_of_levitation',
+            id: `${id_prefix}belt_of_levitation`
+        },
+
+        {
+            pedestalItems: [
+                {'item': {'item': 'silentgear:blaze_gold_ingot'}},
+                {'item': {'item': 'silentgear:blaze_gold_ingot'}},
+                {'item': {'item': 'silentgear:blaze_gold_ingot'}},
+                {'item': {'item': 'silentgear:blaze_gold_ingot'}},
                 {'item': {'item': 'twilightforest:ironwood_ingot'}},
                 {'item': {'item': 'twilightforest:knightmetal_ingot'}},
                 {'item': {'item': 'twilightforest:knightmetal_ingot'}},
                 {'item': {'item': 'twilightforest:ironwood_ingot'}}
             ],
-            reagent: [{'item': 'minecraft:diamond'}],
+            reagent: [{'item': 'twilightforest:hydra_trophy'}],
             output: {'item': 'undergarden:catalyst'},
             sourceCost: 0,
             old_id: 'undergarden:catalyst',
@@ -189,6 +249,7 @@ ServerEvents.recipes(event => {
                 {'item': {'item': 'alexsmobs:blood_sac'}},
                 {'item': {'item': 'kubejs:infernal_essence'}},
                 {'item': {'item': 'minecraft:ghast_tear'}},
+                {'item': {'item': 'minecraft:diamond'}},
                 {'item': {'item': 'twilightforest:borer_essence'}},
             ],
             reagent: [{'item': 'minecraft:glass_bottle'}],

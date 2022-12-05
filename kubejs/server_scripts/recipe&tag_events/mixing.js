@@ -16,16 +16,52 @@ ServerEvents.recipes(event => {
         },
 
         {
+            heatRequirement: 'heated',
+            ingredients: [
+                {'tag': 'forge:fuels/bio'},
+                {'tag': 'forge:fuels/bio'},
+                {'tag': 'forge:fuels/bio'},
+                {'tag': 'forge:fuels/bio'},
+                {
+                    'amount': 250,
+                    'fluid': 'minecraft:water',
+                    'nbt': {}
+                }
+            ],
+            
+            results: [{'amount': 1000, 'fluid': 'industrialforegoing:biofuel'}],
+            old_id: 'industrialforegoing:biofuel',
+            id: `${id_prefix}biofuel_liquid`
+        },
+
+        {
+            heatRequirement: 'superheated',
+            ingredients: [
+                {'item': 'minecraft:nether_star'},
+                {
+                    'amount': 250,
+                    'fluid': 'mekanism:chlorine',
+                    'nbt': {}
+                }
+            ],
+            
+            results: [{'amount': 1000, 'fluid': 'industrialforegoing:ether_gas'}],
+            old_id: 'industrialforegoing:laser_drill_fluid/ether_gas',
+            id: `${id_prefix}ether_gas`
+        },
+
+        {
             heatRequirement: 'superheated',
             ingredients: [
                 {'tag': 'forge:ingots/crimson_steel'},
+                {'tag': 'forge:ingots/capsid_alloy'},
+                {'tag': 'forge:ingots/azure_electrum'},
                 {'tag': 'forge:shards/nether_star'},
                 {'tag': 'forge:shards/nether_star'},
                 {'tag': 'forge:shards/nether_star'},
                 {'item': 'silentgear:crushed_shulker_shell'},
                 {'item': 'kubejs:infernal_essence'},
-                {'item': 'kubejs:infernal_essence'},
-                {'item': 'minecraft:echo_shard'}
+                {'item': 'kubejs:infernal_essence'}
             ],
             
             results: [{'item': 'silentgear:tyrian_steel_ingot'}],
@@ -40,7 +76,7 @@ ServerEvents.recipes(event => {
                 {'tag': 'forge:ingots/fiery'},
                 {'tag': 'forge:ingots/crimson_iron'},
                 {'item': 'minecraft:magma_cream'},
-                {'tag': 'create:polished_rose_quartz'},
+                {'item': 'minecraft:crimson_fungus'},
             ],
             
             results: [{'item': 'silentgear:crimson_steel_ingot'}],
@@ -51,12 +87,15 @@ ServerEvents.recipes(event => {
         {
             heatRequirement: 'superheated',
             ingredients: [
-                {'tag': 'forge:ingots/netherite'},
+                {'item': 'minecraft:netherite_scrap'},
+                {'item': 'minecraft:netherite_scrap'},
+                {'item': 'minecraft:netherite_scrap'},
                 {'tag': 'forge:ingots/azure_silver'},
                 {'item': 'undergarden:utheric_shard'},
                 {'item': 'undergarden:utheric_shard'},
                 {'item': 'undergarden:utheric_shard'},
-                {'tag': 'forge:ingots/gold'},
+                {'tag': 'forge:nuggets/plasteel'},
+                {'tag': 'forge:ingots/copper'},
             ],
             
             results: [{'item': 'silentgear:azure_electrum_ingot'}],
@@ -87,7 +126,7 @@ ServerEvents.recipes(event => {
             heatRequirement: 'superheated',
             ingredients: [
                 {'item': 'ae2:matter_ball'},
-                {'item': 'kubejs:infernal_essence'},
+                {'tag': 'forge:storage_blocks/tyrian_steel'},
                 {'item': 'kubejs:boss_essence'},
                 {'item': 'ae2:quantum_entangled_singularity'},
                 {'item': 'deeperdarker:heart_of_the_deep'},
@@ -282,6 +321,22 @@ ServerEvents.recipes(event => {
             results: [{'item': 'gobber2:gobber2_globette_end'}, {'item': 'gobber2:gobber2_globette_end'}, {'item': 'gobber2:gobber2_globette_end'}],
             id: `${id_prefix}gobber2_globette_end`
         },
+
+        {
+            heatRequirement: 'heated',
+            ingredients: [
+                {'tag': 'forge:dusts/salt'},
+                {'tag': 'forge:dusts/salt'},
+                {
+                    'amount': 100,
+                    'fluid': 'minecraft:milk',
+                    'nbt': {}
+                }
+            ],
+            
+            results: [{'item': 'croptopia:butter'}],
+            id: `${id_prefix}butter`
+        }
     ];
 
     recipes.forEach((recipe) => {

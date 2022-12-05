@@ -7,7 +7,7 @@
 	disableChunkManagement = false
 	#Maximum number of vehicles (barges/cars don't count, only Tugs/Locos) the player is able to register. Lowering this number will not de-register vehicles but will prevent the player from registering more.
 	#Range: 0 ~ 1000
-	maxVehiclesPerPlayer = 100
+	maxVehiclesPerPlayer = 10
 	#Load vehicles even when the player is offline
 	offlineLoading = false
 

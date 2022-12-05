@@ -6,7 +6,7 @@
 		"quests": true
 	},
 	"ftblibrary": {
-		"toggle.gamemode": false,
+		"toggle.gamemode": true,
 		"toggle.rain": true,
 		"toggle.day": true,
 		"toggle.night": true

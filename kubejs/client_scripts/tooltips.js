@@ -4,7 +4,7 @@ ItemEvents.tooltip((event) => {
             items: [
                 'kubejs:boss_essence'
             ],
-            text: [Text.of('Dropped by slain bosses').lightPurple()]
+            text: [Text.of('Rewarded by slaining bosses').lightPurple()]
         },
 
         {
@@ -16,18 +16,9 @@ ItemEvents.tooltip((event) => {
 
         {
             items: [
-                'ars_nouveau:novice_spell_book',
-                'ars_nouveau:apprentice_spell_book',
-                'ars_nouveau:archmage_spell_book'
-            ],
-            text: [Text.of('Press c to open').yellow()]
-        },
-
-        {
-            items: [
                 'kubejs:infused_component'
             ],
-            text: [Text.of('Essence empowered mechanism').darkPurple()]
+            text: [Text.of('Living mechanism').darkPurple()]
         },
 
         {

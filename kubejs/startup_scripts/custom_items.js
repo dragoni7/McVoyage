@@ -9,7 +9,20 @@ StartupEvents.registry('item', event => {
 		'generic_lootcrate',
 		'unique_lootcrate',
 		'premium_lootcrate',
-		'masticator_bait'
+		'masticator_bait',
+		'bit',
+		'tier_1_arcanist_upgrade',
+		'tier_1_sorceror_upgrade',
+		'tier_1_battlemage_upgrade',
+		'tier_1_elementalist_upgrade',
+		'tier_2_arcanist_upgrade',
+		'tier_2_sorceror_upgrade',
+		'tier_2_battlemage_upgrade',
+		'tier_2_elementalist_upgrade',
+		'tier_3_arcanist_upgrade',
+		'tier_3_sorceror_upgrade',
+		'tier_3_battlemage_upgrade',
+		'tier_3_elementalist_upgrade',
 	];
 
 	items.forEach((item) => {

@@ -29,7 +29,7 @@
           }
         ],
         "armor": {
-          "add": 4.0
+          "add": 6.0
         },
         "armor_durability": {
           "mul2": 0.121212125

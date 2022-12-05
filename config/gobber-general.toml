@@ -9,7 +9,7 @@
 	gobberToolsSpeed = 9.0
 	#Gobber tool attack damage [default: 9.0]
 	#Range: 1.0 ~ 100.0
-	gobberToolsDamage = 9.0
+	gobberToolsDamage = 15.0
 	#Gobber tool enchantability [default: 20]
 	#Range: 1 ~ 50
 	gobberToolsEnchantability = 20
@@ -24,7 +24,7 @@
 	netherGobberToolsSpeed = 12.0
 	#Nether Gobber tool attack damage [default: 9.0]
 	#Range: 1.0 ~ 100.0
-	netherGobberToolsDamage = 9.0
+	netherGobberToolsDamage = 17.0
 	#Nether Gobber tool enchantability [default: 25]
 	#Range: 1 ~ 50
 	netherGobberToolsEnchantability = 25
@@ -39,7 +39,7 @@
 	endGobberToolsSpeed = 14.0
 	#End Gobber tool attack damage [default: 9.0]
 	#Range: 1.0 ~ 100.0
-	endGobberToolsDamage = 9.0
+	endGobberToolsDamage = 19.0
 	#End Gobber tool enchantability [default: 30]
 	#Range: 1 ~ 50
 	endGobberToolsEnchantability = 30
@@ -139,24 +139,24 @@
 	dragonArmorEnchantability = 30
 	#Dragon armor toughness [default: 3.0]
 	#Range: 0.0 ~ 20.0
-	dragonArmorToughness = 3.0
+	dragonArmorToughness = 20.0
 	#Dragon armor knockback [default: 0.3]
 	#Range: 0.0 ~ 5.0
-	dragonArmorKnockback = 0.3
+	dragonArmorKnockback = 0.9
 	#Should Armor be unbreakable when crafted? [true / false, default: true]
 	dragonArmorUnbreakable = true
 	#Dragon armor head protection [default: 8]
 	#Range: 1 ~ 30
-	dragonHeadProtection = 8
+	dragonHeadProtection = 16
 	#Dragon armor chest protection [default: 13]
 	#Range: 1 ~ 30
-	dragonChestProtection = 13
+	dragonChestProtection = 20
 	#Dragon armor leggings protection [default: 11]
 	#Range: 1 ~ 30
-	dragonLeggingsProtection = 11
+	dragonLeggingsProtection = 18
 	#Dragon armor boots protection [default: 8]
 	#Range: 1 ~ 30
-	dragonBootsProtection = 8
+	dragonBootsProtection = 16
 
 #Armor Health Perks Settings
 [armor_health_perk_settings]
@@ -183,11 +183,11 @@
 	#Enable/disable Gobber Dragon Armor auto feeding [true / false, default: true]
 	gobberDragonArmorAutofeed = true
 	#Enable/disable Gobber Dragon Armor flight [true / false, default: true]
-	gobberDragonArmorFlight = false
+	gobberDragonArmorFlight = true
 	#Enable/disable Gobber Nether Armor yellow hearts perks [true / false, default: true]
 	gobberNetherArmorYellowHeartsPerks = false
 	#Enable/disable Gobber End Armor yellow hearts perks [true / false, default: true]
-	gobberEndArmorYellowHeartsPerks = false
+	gobberEndArmorYellowHeartsPerks = true
 	#Enable/disable Gobber Dragon Armor yellow hearts perks [true / false, default: true]
 	gobberDragonArmorYellowHeartsPerks = true
 
@@ -417,7 +417,7 @@
 #Dragon Armor Fly in Any Dimension
 [dragon_armo_fly_anywhere]
 	#Enable Dragon Armor flight in any dimension [true / false, default: false]
-	enableDragonArmorFlyAnywhere = false
+	enableDragonArmorFlyAnywhere = true
 
 #Bow Zoom Value
 [bow_zoom]

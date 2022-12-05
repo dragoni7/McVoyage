@@ -1,5 +1,5 @@
 
 [general]
 	#The material blacklist of this module.
-	materialBlacklist = []
+	materialBlacklist = ["opal", "precious_opal", "brick", "cast_iron", "gobber", "gobber_nether", "gobber_end", "salt", "soul_steel"]
 

@@ -1,8 +1,23 @@
 ServerEvents.recipes(event => {
 
     const id_prefix = 'kubejs:/shaped/';
-
     const recipes = [
+
+        {
+            output: 'gobber2:dragon_elytra',
+            old_id: 'gobber2:dragon_elytra',
+            pattern: 
+            ['IEI',
+             'ECE', 
+             'IEI'],
+            key: {
+                I: '#forge:ingots/gobber_end',
+                E: 'minecraft:dragon_egg',
+                C: 'kubejs:impossible_compound'
+            },
+            id:  `${id_prefix}dragon_elytra`
+        },
+
         {
             output: Item.of('mekanism:metallurgic_infuser', 1),
             old_id: 'mekanism:metallurgic_infuser',
@@ -857,25 +872,11 @@ ServerEvents.recipes(event => {
              'WLW', 
              'IWI'],
             key: {
-                I: '#forge:ingots/cloggrum',
+                I: '#forge:ingots/ironwood',
                 L: 'ars_nouveau:purple_archwood_log',
                 W: '#ars_nouveau:wilden_drop'
             },
             id:  `${id_prefix}ritual_wilden_summon`
-        },
-
-        {
-            output: 'scalinghealth:heart_crystal',
-            old_id: 'scalinghealth:heart_crystal',
-            pattern: 
-            ['SSS',
-             'SIS', 
-             'SSS'],
-            key: {
-                S: 'scalinghealth:heart_crystal_shard',
-                I: '#forge:ingots/netherite'
-            },
-            id:  `${id_prefix}heart_crystal`
         },
 
         {
@@ -886,7 +887,7 @@ ServerEvents.recipes(event => {
              'GGG', 
              ' I '],
             key: {
-                G: 'minecraft:glistering_melon_slice',
+                G: 'scalinghealth:heart_crystal_shard',
                 P: '#forge:paper',
                 I: 'kubejs:infernal_essence'
             },
@@ -1181,6 +1182,91 @@ ServerEvents.recipes(event => {
             id:  `${id_prefix}mekasuit_boots`
         },
 
+        {
+            output: 'silentgear:crossbow_blueprint',
+            old_id: 'silentgear:crossbow_blueprint',
+            pattern: 
+            ['IBI',
+             'BBB',
+             ' I '],
+            key: {
+                I: '#forge:ingots/utherium',
+                B: 'silentgear:blueprint_paper'
+            },
+            id:  `${id_prefix}crossbow_blueprint`
+        },
+
+        {
+            output: 'silentgear:bow_blueprint',
+            old_id: 'silentgear:bow_blueprint',
+            pattern: 
+            [' BI',
+             'B I',
+             ' BI'],
+            key: {
+                I: '#forge:ingots/utherium',
+                B: 'silentgear:blueprint_paper'
+            },
+            id:  `${id_prefix}bow_blueprint`
+        },
+
+        {
+            output: 'silentgear:bracelet_blueprint',
+            old_id: 'silentgear:bracelet_blueprint',
+            pattern: 
+            ['BBB',
+             'B B',
+             'IBI'],
+            key: {
+                I: '#forge:ingots/regalium',
+                B: 'silentgear:blueprint_paper'
+            },
+            id:  `${id_prefix}bracelet_blueprint`
+        },
+
+        {
+            output: 'silentgear:tip_blueprint',
+            old_id: 'silentgear:tip_blueprint',
+            pattern: 
+            ['BB ',
+             'BI ',
+             '   '],
+            key: {
+                I: '#forge:ingots/knightmetal',
+                B: 'silentgear:blueprint_paper'
+            },
+            id:  `${id_prefix}tip_blueprint`
+        },
+
+        {
+            output: 'silentgear:grip_blueprint',
+            old_id: 'silentgear:grip_blueprint',
+            pattern: 
+            ['BB ',
+             'IL ',
+             '   '],
+            key: {
+                I: '#forge:gems/quartz',
+                B: 'silentgear:blueprint_paper',
+                L: 'minecraft:leather'
+            },
+            id:  `${id_prefix}grip_blueprint`
+        },
+
+        {
+            output: 'silentgear:shield_blueprint',
+            old_id: 'silentgear:shield_blueprint',
+            pattern: 
+            ['B B',
+             'III',
+             ' B '],
+            key: {
+                I: '#forge:ingots/ironwood',
+                B: 'silentgear:blueprint_paper'
+            },
+            id:  `${id_prefix}shield_blueprint`
+        },
+
         // NEW RECIPES
 
         {
@@ -1204,7 +1290,7 @@ ServerEvents.recipes(event => {
              'UBU', 
              'VUV'],
             key: {
-                B: 'farmersdelight:minced_beef',
+                B: 'alexsmobs:warped_muscle',
                 V: 'deeperdarker:sculk_vines',
                 U: 'undergarden:utherium_crystal'
             },
@@ -1236,6 +1322,58 @@ ServerEvents.recipes(event => {
                 O: '#forge:ingots/osmium'
             },
             id:  `${id_prefix}control_circuit_base`
+        },
+
+        {
+            output: 'gobber2:gobber2_helmet_dragon',
+            pattern: 
+            ['   ',
+             'CCC', 
+             'CSC'],
+            key: {
+                C: 'gobber2:gobber2_links_end',
+                S: 'gobber2:dragon_star'
+            },
+            id:  `${id_prefix}gobber2_helmet_dragon`
+        },
+
+        {
+            output: 'gobber2:gobber2_chestplate_dragon',
+            pattern: 
+            ['CSC',
+             'CCC', 
+             'CCC'],
+            key: {
+                C: 'gobber2:gobber2_links_end',
+                S: 'gobber2:dragon_elytra'
+            },
+            id:  `${id_prefix}gobber2_chestplate_dragon`
+        },
+        
+        {
+            output: 'gobber2:gobber2_leggings_dragon',
+            pattern: 
+            ['CCC',
+             'CSC', 
+             'C C'],
+            key: {
+                C: 'gobber2:gobber2_links_end',
+                S: 'gobber2:dragon_star'
+            },
+            id:  `${id_prefix}gobber2_leggings_dragon`
+        },
+        
+        {
+            output: 'gobber2:gobber2_boots_dragon',
+            pattern: 
+            ['   ',
+             'CSC', 
+             'C C'],
+            key: {
+                C: 'gobber2:gobber2_links_end',
+                S: 'gobber2:dragon_star'
+            },
+            id:  `${id_prefix}gobber2_boots_dragon`
         }
     ];
 

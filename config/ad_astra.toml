@@ -1,0 +1,177 @@
+#If true, entities will be affected by gravity.
+doEntityGravity = true
+#Do gravity for mobs, players etc.
+doLivingEntityGravity = true
+acidRainBurns = true
+doOxygen = true
+#Do sound suppression in orbit dimensions. If it gets annoying, you can turn it off.
+doSpaceMuffler = true
+#Range: -9223372036854775808 ~ 9223372036854775807
+oxygenTankSize = 500
+#Range: > -2147483648
+hammerDurability = 64
+giveAstroduxAtSpawn = false
+#Range: > -2147483648
+oxygenBarXOffset = 0
+#Range: > -2147483648
+oxygenBarYOffset = 0
+#Range: > -2147483648
+energyBarXOffset = 0
+#Range: > -2147483648
+energyBarYOffset = 0
+#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+orbitGravity = 3.259999990463257
+#Range: > -2147483648
+oxygenDamage = 1
+#Range: > -2147483648
+freezeDamage = 1
+#Range: > -2147483648
+heatDamage = 2
+#Range: > -2147483648
+acidRainDamage = 3
+allowFlagImages = true
+#A list of planets that should be disabled. This is a comma-separated list of planet ids.
+disabledPlanets = ""
+
+[spawning]
+	spawnCorruptedLunarians = true
+	spawnStarCrawlers = true
+	spawnMartianRaptors = true
+	spawnMoglers = true
+	spawnSulfurCreepers = true
+	spawnLunarianWanderingTrader = true
+
+[spaceSuit]
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	spaceSuitTankSize = 1000
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	netheriteSpaceSuitTankSize = 2000
+	netheriteSpaceSuitHasFireResistance = true
+	#The speed when flying forward.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	jetSuitSpeed = 0.8
+	#The speed when idle flying up.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	jetSuitUpwardsSpeed = 0.5
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	jetSuitEnergyPerTick = 60
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	jetSuitTankSize = 4000
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	jetSuitMaxEnergy = 1000000
+	enableJetSuitFlight = true
+	#Range: > -2147483648
+	jetSuitProtectionMultiplier = 1
+	#Range: > -2147483648
+	jetSuitArmorToughness = 5
+	spawnJetSuitParticles = true
+
+[vehicles]
+	#The velocity to trigger a vehicle explosion while falling.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	fallingExplosionThreshold = 4.9E-324
+	#How much the explosion should be multiplied by when the vehicle has fallen.
+	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	fallingExplosionMultiplier = 0.699999988079071
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	gravity = 4.9E-324
+	#Should the camera move in 3rd person in the rocket and lander for a better view?
+	moveCameraInVehicle = true
+
+	[vehicles.lander]
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		boosterThreshold = 4.9E-324
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		boosterSpeed = 0.1
+
+	[vehicles.rover]
+		explodeRoverInLava = true
+		#Range: -9223372036854775808 ~ 9223372036854775807
+		fuelPerSecond = 10
+		#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+		turnSpeed = 3.0
+		#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+		maxTurnSpeed = 6.0
+		#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+		deceleration = 0.8999999761581421
+		#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+		minSpeed = 1.401298464324817E-45
+		#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+		maxSpeed = 0.30000001192092896
+		#Range: -9223372036854775808 ~ 9223372036854775807
+		tankSize = 3000
+
+	[vehicles.rocket]
+		#Range: > -2147483648
+		atmosphereLeave = 600
+		#Range: > -2147483648
+		countDownTicks = 200
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		acceleration = 0.005
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		maxSpeed = 0.5
+		entitiesBurnUnderRocket = true
+		#Range: -9223372036854775808 ~ 9223372036854775807
+		tankSize = 3000
+		#Range: -9223372036854775808 ~ 9223372036854775807
+		fuelLaunchCost = 3000
+		#Range: -9223372036854775808 ~ 9223372036854775807
+		efficientFuelLaunchCost = 1000
+
+[coalGenerator]
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	maxEnergy = 9000
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	energyPerTick = 10
+
+[compressor]
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	maxEnergy = 9000
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	energyPerTick = 10
+
+[fuelRefinery]
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	maxEnergy = 9000
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	energyPerTick = 30
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	tankSize = 3000
+
+[oxygenLoader]
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	maxEnergy = 9000
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	energyPerTick = 10
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	tankSize = 3000
+
+[solarPanel]
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	maxEnergy = 18000
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	energyMultiplier = 1.0
+
+[waterPump]
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	maxEnergy = 9000
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	energyPerTick = 10
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	tankSize = 6000
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	transferPerTick = 100
+	deleteWaterBelowWaterPump = true
+
+[energizer]
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	maxEnergy = 2000000
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	energyPerTick = 170
+
+[cryoFreezer]
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	maxEnergy = 30000
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	energyPerTick = 3000
+

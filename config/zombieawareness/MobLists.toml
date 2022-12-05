@@ -2,5 +2,5 @@
 #General mod settings
 [general]
 	#Mobs enhanced by zombie awareness
-	enhancedMobs = ["minecraft:zombie", "minecraft:husk", "minecraft:zombie_villager", "rottencreatures:burned", "rottencreatures:swampy", "rottencreatures:undead_miner", "rottencreatures:frostbitten"]
+	enhancedMobs = ["minecraft:zombie", "minecraft:husk", "minecraft:zombie_villager", "rottencreatures:burned", "rottencreatures:swampy", "rottencreatures:undead_miner", "rottencreatures:frostbitten", "peat_mummy:peat_zombie", "rottencreatures:immortal", "rottencreatures:zap"]
 

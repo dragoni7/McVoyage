@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
                 'SMMS'
             ],
             result: {'item': 'createsifter:string_mesh'},
-            old_id: 'createsifer:string_mesh',
+            old_id: 'createsifter:string_mesh',
             id: `${id_prefix}string_mesh`
         },
 
@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
                 'SMMS'
             ],
             result: {'item': 'createsifter:andesite_mesh'},
-            old_id: 'createsifer:andesite_mesh',
+            old_id: 'createsifter:andesite_mesh',
             id: `${id_prefix}andesite_mesh`
         },
 
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
                 'SMMS'
             ],
             result: {'item': 'createsifter:zinc_mesh'},
-            old_id: 'createsifer:zinc_mesh',
+            old_id: 'createsifter:zinc_mesh',
             id: `${id_prefix}zinc_mesh`
         },
 
@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
                 'I',
                 'G'
             ],
-            result: {'item': 'mekanism:basic_universal_cable'},
+            result: {'count': 4, 'item': 'mekanism:basic_universal_cable'},
             old_id: 'mekanism:transmitter/universal_cable/basic',
             id: `${id_prefix}basic_universal_cable`
         },
@@ -241,7 +241,7 @@ ServerEvents.recipes(event => {
                 'I',
                 'G'
             ],
-            result: {'item': 'mekanism:basic_pressurized_tube'},
+            result: {'count': 4, 'item': 'mekanism:basic_pressurized_tube'},
             old_id: 'mekanism:transmitter/pressurized_tube/basic',
             id: `${id_prefix}basic_pressurized_tube`
         },
@@ -266,7 +266,7 @@ ServerEvents.recipes(event => {
                 'I',
                 'G'
             ],
-            result: {'item': 'mekanism:basic_thermodynamic_conductor'},
+            result: {'count': 4, 'item': 'mekanism:basic_thermodynamic_conductor'},
             old_id: 'mekanism:transmitter/thermodynamic_conductor/basic',
             id: `${id_prefix}basic_thermodynamic_conductor`
         },

@@ -17,6 +17,19 @@ ServerEvents.recipes(event => {
 
         {
             ingredients: [
+                {'tag': 'forge:dusts/salt'},
+                {
+                    'amount': 200,
+                    'fluid': 'minecraft:milk',
+                    'nbt': {}
+                }
+            ],
+            results: [{'item': 'croptopia:cheese'}],
+            id: `${id_prefix}cheese`
+        },
+
+        {
+            ingredients: [
                 {'item': 'mekanism:hdpe_pellet'},
                 {'item': 'mekanism:hdpe_pellet'},
                 {'item': 'mekanism:hdpe_pellet'},

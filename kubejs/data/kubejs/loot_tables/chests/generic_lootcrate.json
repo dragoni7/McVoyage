@@ -7,7 +7,192 @@
           {
             "type": "minecraft:item",
             "weight": 1,
+            "name": "gobber2:gobber2_gooey_beef"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:artichoke_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:pepper_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:olive_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:asparagus_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:barley_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:basil_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:bellpepper_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:blackbean_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:blueberry_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:broccoli_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:cantaloupe_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:chile_pepper_seed"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:almond_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:starfruit_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:apple_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:apricot_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:avocado_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:cashew_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:cherry_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:coconut_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:date_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:dragonfruit_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:fig_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:kumquat_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:lime_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:mango_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:persimmon_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:peach_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "spirit:soul_powder_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "silentcompat:bunny_steel_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "silentcompat:midnight_iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "silentcompat:dark_chocolate_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "the_bumblezone:bee_cannon"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
             "name": "minecraft:pumpkin_pie"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "productivebees:advanced_bop_mahogany_beehive"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "productivebees:advanced_bop_magic_beehive"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "productivebees:upgrade_simulator"
           },
           {
             "type": "minecraft:item",
@@ -28,6 +213,11 @@
             "type": "minecraft:item",
             "weight": 1,
             "name": "alexsmobs:boiled_emu_egg"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:precision_mechanism"
           },
           {
             "type": "minecraft:item",
@@ -62,7 +252,100 @@
           {
             "type": "minecraft:item",
             "weight": 1,
+            "name": "ars_nouveau:source_gem_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
             "name": "minecraft:diamond",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "glassential:glass_ethereal",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "glassential:glass_ethereal_reverse",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "glassential:glass_ghostly",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "glassential:glass_light",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "glassential:glass_redstone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:rainbow_glass",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "twilightforest:armor_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ars_nouveau:source_gem",
             "functions": [
               {
                 "function": "minecraft:set_count",
@@ -83,6 +366,28 @@
               {
                 "function": "minecraft:set_count",
                 "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:blaze_rod",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kubejs:infernal_essence",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
               }
             ]
           },
@@ -117,6 +422,11 @@
             "type": "minecraft:item",
             "weight": 1,
             "name": "alexsmobs:comb_jelly_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:medium_catfish_bucket"
           },
           {
             "type": "minecraft:item",
@@ -346,7 +656,40 @@
           {
             "type": "minecraft:item",
             "weight": 1,
+            "name": "minecraft:sculk",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
             "name": "minecraft:bundle",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "scalinghealth:bandages",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "scalinghealth:medkit",
             "functions": [
               {
                 "function": "minecraft:set_count",
@@ -498,6 +841,106 @@
             "type": "minecraft:item",
             "weight": 1,
             "name": "byg:pendorite_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:divine_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:divine_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:divine_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:divine_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:robe_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:robe_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:robe_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:robe_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:steampunk_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:steampunk_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:steampunk_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:steampunk_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:prismarine_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:prismarine_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:prismarine_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:prismarine_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:heavy_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:heavy_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:heavy_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "immersive_armors:heavy_boots"
           }
         ]
       }

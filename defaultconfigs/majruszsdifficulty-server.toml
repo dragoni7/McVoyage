@@ -204,7 +204,7 @@
 	#When the Creeper explode it may spawn a few Creeperlings.
 	[GameModifiers.CreeperSplitIntoCreeperlings]
 		#Specifies whether this game modifier is enabled.
-		is_enabled = false
+		is_enabled = true
 		#Chance of this to happen.
 		#Range: 0.0 ~ 1.0
 		chance = 0.666
@@ -212,7 +212,7 @@
 		scaled_by_crd = false
 		#Minimum game stage required for that to happen.
 		#Allowed Values: NORMAL, EXPERT, MASTER
-		minimum_stage = "NORMAL"
+		minimum_stage = "MASTER"
 
 		#Maximum amount of Creeperlings to spawn.
 		[GameModifiers.CreeperSplitIntoCreeperlings.MaxCreeperlings]
@@ -271,7 +271,7 @@
 		[GameModifiers.DrownDebuffs.Nausea]
 			#Maximum duration in seconds it can reach.
 			#Range: 5.0 ~ 999.0
-			maximum_duration = 60.0
+			maximum_duration = 5.0
 
 			#Level of the effect to apply.
 			[GameModifiers.DrownDebuffs.Nausea.Amplifier]
@@ -289,13 +289,13 @@
 			[GameModifiers.DrownDebuffs.Nausea.Duration]
 				#Normal Mode
 				#Range: 1.0 ~ 999.0
-				normal = 2.0
+				normal = 4.0
 				#Expert Mode
 				#Range: 1.0 ~ 999.0
-				expert = 2.0
+				expert = 4.0
 				#Master Mode
 				#Range: 1.0 ~ 999.0
-				master = 2.0
+				master = 4.0
 
 		[GameModifiers.DrownDebuffs.Weakness]
 			#Maximum duration in seconds it can reach.
@@ -309,10 +309,10 @@
 				normal = 1
 				#Expert Mode
 				#Range: 1 ~ 10
-				expert = 1
+				expert = 2
 				#Master Mode
 				#Range: 1 ~ 10
-				master = 1
+				master = 2
 
 			#Duration in seconds.
 			[GameModifiers.DrownDebuffs.Weakness.Duration]
@@ -358,12 +358,12 @@
 		scaled_by_crd = true
 		#Minimum game stage required for that to happen.
 		#Allowed Values: NORMAL, EXPERT, MASTER
-		minimum_stage = "NORMAL"
+		minimum_stage = "EXPERT"
 
 	#Gives extra experience as the difficulty increases.
 	[GameModifiers.ExperienceBonus]
 		#Specifies whether this game modifier is enabled.
-		is_enabled = true
+		is_enabled = false
 
 		#Extra bonus multiplier to experience gathered from any source.
 		[GameModifiers.ExperienceBonus.BonusMultiplier]
@@ -408,13 +408,13 @@
 			[GameModifiers.FallDebuffs.Nausea.Duration]
 				#Normal Mode
 				#Range: 1.0 ~ 999.0
-				normal = 8.0
+				normal = 1.0
 				#Expert Mode
 				#Range: 1.0 ~ 999.0
-				expert = 8.0
+				expert = 1.0
 				#Master Mode
 				#Range: 1.0 ~ 999.0
-				master = 8.0
+				master = 1.0
 
 		[GameModifiers.FallDebuffs.Slowness]
 
@@ -462,20 +462,9 @@
 		#List of dimensions where health and damage bonuses should not be applied. (for instance minecraft:overworld)
 		excluded_dimensions = []
 		#Specifies whether this game modifier is enabled.
-		is_enabled = true
+		is_enabled = false
 
 		[GameModifiers.MobsSpawnStronger.HealthBonusMultiplier]
-			#Normal Mode
-			#Range: 0.0 ~ 10.0
-			normal = 0.0
-			#Expert Mode
-			#Range: 0.0 ~ 10.0
-			expert = 0.1
-			#Master Mode
-			#Range: 0.0 ~ 10.0
-			master = 0.1
-
-		[GameModifiers.MobsSpawnStronger.DamageBonusMultiplier]
 			#Normal Mode
 			#Range: 0.0 ~ 10.0
 			normal = 0.0
@@ -485,6 +474,17 @@
 			#Master Mode
 			#Range: 0.0 ~ 10.0
 			master = 0.0
+
+		[GameModifiers.MobsSpawnStronger.DamageBonusMultiplier]
+			#Normal Mode
+			#Range: 0.0 ~ 10.0
+			normal = 0.0
+			#Expert Mode
+			#Range: 0.0 ~ 10.0
+			expert = 0.05
+			#Master Mode
+			#Range: 0.0 ~ 10.0
+			master = 0.1
 
 		#Multiplies health and damage bonuses at night.
 		[GameModifiers.MobsSpawnStronger.NightMultiplier]
@@ -502,12 +502,12 @@
 	[GameModifiers.PhantomLevitationAttack]
 		#Maximum duration in seconds it can reach.
 		#Range: 5.0 ~ 999.0
-		maximum_duration = 60.0
+		maximum_duration = 30.0
 		#Specifies whether this game modifier is enabled.
-		is_enabled = false
+		is_enabled = true
 		#Chance of this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.5
+		chance = 0.1
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Minimum game stage required for that to happen.
@@ -713,7 +713,7 @@
 		is_enabled = true
 		#Chance of this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.25
+		chance = 0.5
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Minimum game stage required for that to happen.
@@ -724,34 +724,34 @@
 		[GameModifiers.SkeletonsInGroup.SidekickWoodenSword]
 			#Chance that a mob will get the item.
 			#Range: 0.0 ~ 1.0
-			chance = 0.5
+			chance = 0.9
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
-			enchant_chance = 0.2
+			enchant_chance = 1.0
 
 		#Chance for a sidekick to have the Stone Sword.
 		[GameModifiers.SkeletonsInGroup.SidekickStoneSword]
 			#Chance that a mob will get the item.
 			#Range: 0.0 ~ 1.0
-			chance = 0.25
+			chance = 0.75
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
-			enchant_chance = 0.2
+			enchant_chance = 1.0
 
 		#Chance for a leader to have the Leather Helmet.
 		[GameModifiers.SkeletonsInGroup.LeaderLeatherHelmet]
 			#Chance that a mob will get the item.
 			#Range: 0.0 ~ 1.0
-			chance = 0.8
+			chance = 1.0
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
 			enchant_chance = 0.75
@@ -760,10 +760,10 @@
 		[GameModifiers.SkeletonsInGroup.LeaderLeatherChestplate]
 			#Chance that a mob will get the item.
 			#Range: 0.0 ~ 1.0
-			chance = 0.67
+			chance = 1.0
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.00
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
 			enchant_chance = 0.75
@@ -772,10 +772,10 @@
 		[GameModifiers.SkeletonsInGroup.LeaderLeatherLeggings]
 			#Chance that a mob will get the item.
 			#Range: 0.0 ~ 1.0
-			chance = 0.67
+			chance = 1.0
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.00
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
 			enchant_chance = 0.75
@@ -784,10 +784,10 @@
 		[GameModifiers.SkeletonsInGroup.LeaderLeatherBoots]
 			#Chance that a mob will get the item.
 			#Range: 0.0 ~ 1.0
-			chance = 0.67
+			chance = 1.0
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
 			enchant_chance = 0.75
@@ -795,10 +795,10 @@
 		[GameModifiers.SkeletonsInGroup.Skeletons]
 			#Minimum amount of mobs to spawn (leader is not considered).
 			#Range: 1 ~ 9
-			min_count = 1
+			min_count = 2
 			#Maximum amount of mobs to spawn (leader is not considered).
 			#Range: 1 ~ 9
-			max_count = 3
+			max_count = 6
 
 	#Shulker attack may inflict stackable blindness effect.
 	[GameModifiers.SlimeSlownessAttack]
@@ -823,13 +823,13 @@
 			expert = 1
 			#Master Mode
 			#Range: 1 ~ 10
-			master = 1
+			master = 2
 
 		#Duration in seconds.
 		[GameModifiers.SlimeSlownessAttack.Duration]
 			#Normal Mode
 			#Range: 1.0 ~ 999.0
-			normal = 1.0
+			normal = 2.0
 			#Expert Mode
 			#Range: 1.0 ~ 999.0
 			expert = 3.0
@@ -858,7 +858,7 @@
 		is_enabled = true
 		#Chance of this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.5
+		chance = 0.9
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = false
 		#Minimum game stage required for that to happen.
@@ -871,7 +871,7 @@
 		is_enabled = true
 		#Chance of this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.25
+		chance = 0.1
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Minimum game stage required for that to happen.
@@ -888,7 +888,7 @@
 			expert = 1
 			#Master Mode
 			#Range: 1 ~ 10
-			master = 1
+			master = 2
 
 		#Duration in seconds.
 		[GameModifiers.SpiderPoisonAttack.Duration]
@@ -900,7 +900,7 @@
 			expert = 4.0
 			#Master Mode
 			#Range: 1.0 ~ 999.0
-			master = 7.0
+			master = 8.0
 
 	#All throwable sharp items (arrows, trident etc.) may inflict bleeding.
 	[GameModifiers.ThrowableWeaponsBleeding]
@@ -950,19 +950,19 @@
 		[GameModifiers.WitherSkeletonWithSword.WitherSword]
 			#Chance that a mob will get the item.
 			#Range: 0.0 ~ 1.0
-			chance = 0.5
+			chance = 1.0
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.01
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
-			enchant_chance = 0.2
+			enchant_chance = 0.8
 
 	#Wither Sword inflicts wither effect.
 	[GameModifiers.WitherSwordEffect]
 		#Level of the effect to apply.
 		#Range: 1 ~ 10
-		amplifier = 2
+		amplifier = 1
 		#Duration in seconds.
 		#Range: 1.0 ~ 999.0
 		duration = 4.0
@@ -984,37 +984,37 @@
 		[GameModifiers.ZombiesInGroup.SidekickWoodenPickaxe]
 			#Chance that a mob will get the item.
 			#Range: 0.0 ~ 1.0
-			chance = 0.75
+			chance = 1.0
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
-			enchant_chance = 0.1
+			enchant_chance = 1.0
 
 		#Chance for a sidekick to have the Stone Pickaxe (main hand).
 		[GameModifiers.ZombiesInGroup.SidekickStonePickaxe]
 			#Chance that a mob will get the item.
 			#Range: 0.0 ~ 1.0
-			chance = 0.5
+			chance = 0.8
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
-			enchant_chance = 0.1
+			enchant_chance = 0.5
 
 		#Chance for a sidekick to have the Iron Pickaxe (main hand).
 		[GameModifiers.ZombiesInGroup.SidekickIronPickaxe]
 			#Chance that a mob will get the item.
 			#Range: 0.0 ~ 1.0
-			chance = 0.1
+			chance = 0.75
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
-			enchant_chance = 0.2
+			enchant_chance = 0.5
 
 		#Chance for a sidekick to have a Coal (offhand).
 		[GameModifiers.ZombiesInGroup.SidekickCoal]
@@ -1056,10 +1056,10 @@
 		[GameModifiers.ZombiesInGroup.LeaderIronHelmet]
 			#Chance that a mob will get the item.
 			#Range: 0.0 ~ 1.0
-			chance = 0.8
+			chance = 1.0
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
 			enchant_chance = 0.75
@@ -1071,7 +1071,7 @@
 			chance = 0.67
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
 			enchant_chance = 0.75
@@ -1083,7 +1083,7 @@
 			chance = 0.67
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
 			enchant_chance = 0.75
@@ -1095,7 +1095,7 @@
 			chance = 0.67
 			#Chance for item to drop.
 			#Range: 0.0 ~ 1.0
-			drop_chance = 0.05
+			drop_chance = 0.0
 			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
 			#Range: 0.0 ~ 1.0
 			enchant_chance = 0.75
@@ -1103,29 +1103,29 @@
 		[GameModifiers.ZombiesInGroup.Zombies]
 			#Minimum amount of mobs to spawn (leader is not considered).
 			#Range: 1 ~ 9
-			min_count = 1
+			min_count = 2
 			#Maximum amount of mobs to spawn (leader is not considered).
 			#Range: 1 ~ 9
-			max_count = 3
+			max_count = 6
 
 [UndeadArmy]
 	#Can the Undead Army spawn?
 	is_enabled = true
 	#Required amount of killed undead to start the Undead Army. (set to 0 if you want to disable this)
 	#Range: 0 ~ 1000
-	kill_requirement = 110
+	kill_requirement = 150
 	#Extra size multiplier for each extra player participating in the Undead Army.
 	#Range: 0.1 ~ 1.0
 	player_scale = 0.5
 	#Chance for all Skeletons to spawn on Skeleton Horse.
 	#Range: 0.1 ~ 1.0
-	horse_chance = 0.15
+	horse_chance = 0.2
 	#Time in seconds between waves (requires world/game restart).
 	#Range: 3.0 ~ 60.0
 	time_between_waves = 10.0
 	#Duration in seconds after which the Undead Army will end if there is no player nearby (requires world/game restart).
 	#Range: 300.0 ~ 3200.0
-	inactive_duration = 900.0
+	inactive_duration = 600.0
 
 	#Experience reward for each player after defeating the Undead Army.
 	[UndeadArmy.ExperienceReward]
@@ -1143,33 +1143,33 @@
 	[UndeadArmy.EnchantedItemChance]
 		#Normal Mode
 		#Range: 0.0 ~ 1.0
-		normal = 0.125
-		#Expert Mode
-		#Range: 0.0 ~ 1.0
-		expert = 0.25
-		#Master Mode
-		#Range: 0.0 ~ 1.0
-		master = 0.5
-
-	#Chance for the undead to have armor piece (separate for each armor piece).
-	[UndeadArmy.ArmorChance]
-		#Normal Mode
-		#Range: 0.0 ~ 1.0
 		normal = 0.25
 		#Expert Mode
 		#Range: 0.0 ~ 1.0
 		expert = 0.5
 		#Master Mode
 		#Range: 0.0 ~ 1.0
-		master = 0.75
+		master = 1.0
+
+	#Chance for the undead to have armor piece (separate for each armor piece).
+	[UndeadArmy.ArmorChance]
+		#Normal Mode
+		#Range: 0.0 ~ 1.0
+		normal = 0.5
+		#Expert Mode
+		#Range: 0.0 ~ 1.0
+		expert = 0.75
+		#Master Mode
+		#Range: 0.0 ~ 1.0
+		master = 1.0
 
 	#Amount of enemies in each wave (format: {minimal amount}-{maximal amount} {entity}).
 	[UndeadArmy.WaveMembers]
-		wave_1 = ["4-6 minecraft:zombie", "1-2 rottencreatures:undead_miner", "1-2 rottencreatures:burned", "1-2 minecraft:husk", "2-4 minecraft:skeleton", "1-2 minecraft:stray"]
-		wave_2 = ["3-5 minecraft:zombie", "1-3 rottencreatures:undead_miner", "1-3 rottencreatures:burned", "1-2 minecraft:husk", "2-4 minecraft:skeleton", "1-2 minecraft:stray", "1-2 twilightforest:skeleton_druid", "1-2 savage_and_ravage:skeleton_villager"]
-		wave_3 = ["2-4 minecraft:zombie", "1-4 rottencreatures:undead_miner", "1-4 rottencreatures:burned", "1-3 minecraft:husk", "1-3 minecraft:skeleton", "1-3 minecraft:stray", "1-2 twilightforest:skeleton_druid", "1-2 savage_and_ravage:skeleton_villager", "1-1 majruszsdifficulty:tank"]
-		wave_4 = ["1-3 minecraft:zombie", "1-5 rottencreatures:undead_miner", "1-5 rottencreatures:burned", "3-5 minecraft:husk", "1-3 minecraft:skeleton", "2-4 minecraft:stray", "2-3 twilightforest:skeleton_druid", "2-4 savage_and_ravage:skeleton_villager", "2-2 majruszsdifficulty:tank"]
-		wave_5 = ["1-3 minecraft:zombie", "1-5 rottencreatures:undead_miner", "1-5 rottencreatures:burned", "4-6 minecraft:husk", "1-3 minecraft:skeleton", "3-5 minecraft:stray", "2-4 twilightforest:skeleton_druid", "3-5 savage_and_ravage:skeleton_villager", "3-3 majruszsdifficulty:tank", "1-2 alexsmobs:murmur"]
+		wave_1 = ["4-6 minecraft:zombie", "1-2 rottencreatures:undead_miner", "1-2 rottencreatures:burned", "1-2 minecraft:husk", "2-4 minecraft:skeleton", "1-2 minecraft:stray", "1-2 peat_mummy:peat_zombie"]
+		wave_2 = ["3-5 minecraft:zombie", "1-3 rottencreatures:undead_miner", "1-3 rottencreatures:burned", "1-2 minecraft:husk", "2-4 minecraft:skeleton", "1-2 minecraft:stray", "1-3 peat_mummy:peat_zombie", "1-2 twilightforest:skeleton_druid", "1-2 savage_and_ravage:skeleton_villager"]
+		wave_3 = ["2-4 minecraft:zombie", "1-4 rottencreatures:undead_miner", "1-4 rottencreatures:burned", "1-3 minecraft:husk", "1-3 minecraft:skeleton", "1-3 minecraft:stray", "1-4 peat_mummy:peat_zombie", "1-2 twilightforest:skeleton_druid", "1-2 savage_and_ravage:skeleton_villager", "1-1 majruszsdifficulty:tank", "1-1 rottencreatures:immortal"]
+		wave_4 = ["2-6 minecraft:zombie", "1-5 rottencreatures:undead_miner", "1-5 rottencreatures:burned", "3-5 minecraft:husk", "1-3 minecraft:skeleton", "2-4 minecraft:stray", "2-5 peat_mummy:peat_zombie", "2-3 twilightforest:skeleton_druid", "2-4 savage_and_ravage:skeleton_villager", "2-2 majruszsdifficulty:tank"]
+		wave_5 = ["2-6 minecraft:zombie", "1-5 rottencreatures:undead_miner", "1-5 rottencreatures:burned", "4-6 minecraft:husk", "1-3 minecraft:skeleton", "3-5 minecraft:stray", "2-6 peat_mummy:peat_zombie", "2-4 twilightforest:skeleton_druid", "3-5 savage_and_ravage:skeleton_villager", "3-3 majruszsdifficulty:tank", "1-2 alexsmobs:murmur", "1-3 rottencreatures:immortal"]
 
 [GameStage]
 	#Game stage set at the beginning of a new world.
@@ -1218,10 +1218,10 @@
 		[TreasureBag.Fishing.RequiredFishCount]
 			#Normal Mode
 			#Range: 3 ~ 100
-			normal = 20
+			normal = 40
 			#Expert Mode
 			#Range: 3 ~ 100
-			expert = 15
+			expert = 20
 			#Master Mode
 			#Range: 3 ~ 100
 			master = 10

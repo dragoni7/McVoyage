@@ -11,6 +11,13 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
+        "value": "dreamland:toxic_jungle"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
         "value": "byg:crimson_gardens"
       }
     ],

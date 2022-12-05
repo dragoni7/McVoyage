@@ -1,0 +1,291 @@
+[
+    {
+        "type": "document:class",
+        "className": "net.minecraft.advancements.Advancement",
+        "fields": [],
+        "methods": [
+            {
+                "type": "document:method",
+                "name": "getCriteria",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:parameterized",
+                    "params": [
+                        {
+                            "type": "type:class",
+                            "name": "java.lang.String"
+                        },
+                        {
+                            "type": "type:class",
+                            "name": "net.minecraft.advancements.Criterion"
+                        }
+                    ],
+                    "base": {
+                        "type": "type:class",
+                        "name": "java.util.Map"
+                    }
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "toString",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:class",
+                    "name": "java.lang.String"
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "addChild",
+                "static": false,
+                "abstract": false,
+                "params": [
+                    {
+                        "type": "property:param",
+                        "name": "arg0",
+                        "paramType": {
+                            "type": "type:class",
+                            "name": "net.minecraft.advancements.Advancement"
+                        },
+                        "varArg": false
+                    }
+                ],
+                "returns": {
+                    "type": "type:class",
+                    "name": "void"
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "getParent",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:class",
+                    "name": "net.minecraft.advancements.Advancement"
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "hashCode",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:class",
+                    "name": "int"
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "getDisplay",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:class",
+                    "name": "net.minecraft.advancements.DisplayInfo"
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "getId",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:class",
+                    "name": "net.minecraft.resources.ResourceLocation"
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "getRewards",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:class",
+                    "name": "net.minecraft.advancements.AdvancementRewards"
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "getRequirements",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:array",
+                    "component": {
+                        "type": "type:array",
+                        "component": {
+                            "type": "type:class",
+                            "name": "java.lang.String"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "deconstruct",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:class",
+                    "name": "net.minecraft.advancements.Advancement$Builder"
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "getChatComponent",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:class",
+                    "name": "net.minecraft.network.chat.Component"
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "equals",
+                "static": false,
+                "abstract": false,
+                "params": [
+                    {
+                        "type": "property:param",
+                        "name": "arg0",
+                        "paramType": {
+                            "type": "type:class",
+                            "name": "java.lang.Object"
+                        },
+                        "varArg": false
+                    }
+                ],
+                "returns": {
+                    "type": "type:class",
+                    "name": "boolean"
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "getMaxCriteraRequired",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:class",
+                    "name": "int"
+                }
+            },
+            {
+                "type": "document:method",
+                "name": "getChildren",
+                "static": false,
+                "abstract": false,
+                "params": [],
+                "returns": {
+                    "type": "type:parameterized",
+                    "params": [
+                        {
+                            "type": "type:class",
+                            "name": "net.minecraft.advancements.Advancement"
+                        }
+                    ],
+                    "base": {
+                        "type": "type:class",
+                        "name": "java.lang.Iterable"
+                    }
+                }
+            }
+        ],
+        "constructors": [
+            {
+                "type": "document:constructor",
+                "params": [
+                    {
+                        "type": "property:param",
+                        "name": "arg0",
+                        "paramType": {
+                            "type": "type:class",
+                            "name": "net.minecraft.resources.ResourceLocation"
+                        },
+                        "varArg": false
+                    },
+                    {
+                        "type": "property:param",
+                        "name": "arg1",
+                        "paramType": {
+                            "type": "type:class",
+                            "name": "net.minecraft.advancements.Advancement"
+                        },
+                        "varArg": false
+                    },
+                    {
+                        "type": "property:param",
+                        "name": "arg2",
+                        "paramType": {
+                            "type": "type:class",
+                            "name": "net.minecraft.advancements.DisplayInfo"
+                        },
+                        "varArg": false
+                    },
+                    {
+                        "type": "property:param",
+                        "name": "arg3",
+                        "paramType": {
+                            "type": "type:class",
+                            "name": "net.minecraft.advancements.AdvancementRewards"
+                        },
+                        "varArg": false
+                    },
+                    {
+                        "type": "property:param",
+                        "name": "arg4",
+                        "paramType": {
+                            "type": "type:parameterized",
+                            "params": [
+                                {
+                                    "type": "type:class",
+                                    "name": "java.lang.String"
+                                },
+                                {
+                                    "type": "type:class",
+                                    "name": "net.minecraft.advancements.Criterion"
+                                }
+                            ],
+                            "base": {
+                                "type": "type:class",
+                                "name": "java.util.Map"
+                            }
+                        },
+                        "varArg": false
+                    },
+                    {
+                        "type": "property:param",
+                        "name": "arg5",
+                        "paramType": {
+                            "type": "type:array",
+                            "component": {
+                                "type": "type:array",
+                                "component": {
+                                    "type": "type:class",
+                                    "name": "java.lang.String"
+                                }
+                            }
+                        },
+                        "varArg": false
+                    }
+                ]
+            }
+        ]
+    }
+]
